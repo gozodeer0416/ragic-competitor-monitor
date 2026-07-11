@@ -13,13 +13,13 @@
 |---|---|---|
 | Airtable | Global | no-code 資料庫直接競品，已轉向 AI-native 定位 |
 | Notion | Global | 工作空間＋資料庫混合型，agent 平台化聲量最大 |
-| monday.com | Global | work OS 龍頭，AI 變現策略最激進，定價比較基準 |
+| monday.com | Global | 主打 work OS，AI 變現策略最激進，定價比較基準 |
 | Smartsheet | Global | 表格型工作平台，MCP／AI 入口分發策略參考案例 |
-| Kintone | JP / TW | 與 Ragic 客群（日台中小企業、製造業）重疊度最高 |
+| Kintone | JP / TW | 日本龍頭，近年積極進入台灣市場 |
 | Odoo | Global / TW | 開源 ERP 套件，內建 Odoo Studio 無程式碼工具，與 Ragic no-code 核心重疊，台灣代理商網絡活躍 |
 | LLM 平台（Claude／ChatGPT／Gemini） | Global | **窄篩選、非全面追蹤**：只收應用層動作中被市場明確視為威脅 Notion／Airtable／傳統 ERP 的訊號，見下方說明 |
 
-觀測市場：Global / JP / TW。競品清單與各家來源 URL 以 `config/monitor-config.json` 為準（本表為說明用途）。
+觀測市場：Global / TW（Kintone 個別追蹤延伸至 JP）。競品清單與各家來源 URL 以 `config/monitor-config.json` 為準（本表為說明用途）。
 
 ## 2. 資料來源與抓取方式
 
@@ -40,7 +40,7 @@
 
 ### 3.1 訊號篩選
 
-只收「對 Ragic 有判讀價值」的更新，每週至多 8 筆；純 bug fix、細瑣 UI 調整不收。判讀價值 = 涉及 Ragic 核心戰場：AI agent 功能與定價、MCP 整合與分發、no-code 資料庫核心能力、中小企業（台灣、日本）市場動作。
+只收「對 Ragic 有判讀價值」的更新，每週至多 8 筆；純 bug fix、細瑣 UI 調整不收。判讀價值 = 涉及 Ragic 核心戰場（與 `config/monitor-config.json` 的 `ragic_context.battlegrounds` 保持一致）：AI agent 功能與定價、AI agent 部署模式與治理、AI 建立系統／App、MCP 整合與分發、no-code 資料庫核心、全球市場（特別著重台灣與歐美）。
 
 **LLM 平台（Claude／ChatGPT／Gemini）另套用更窄的收錄量尺**：不追蹤模型能力發布、定價、API 更新等一般動態，只收「應用層動作，且市場（媒體、社群、分析師）明確視為威脅 Notion、Airtable 或傳統 ERP」的訊號，例如可直接用自然語言生成試算表／資料庫應用、agent 自主建置完整工作流程與資料結構的新功能。三家當週都沒有通過此量尺的動作是正常情況，報告中不會勉強湊數。
 
