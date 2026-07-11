@@ -1,6 +1,6 @@
 {
   "_readme": "競品觀測的設定檔。每週排程 agent 執行時會重新讀取本檔；要新增/移除競品、調整來源或指標參數，改這裡即可，不需要動排程本身。判讀規則在 prompts/weekly-update.md，原則說明在 docs/METHODOLOGY.md。",
-  "markets": ["Global", "JP", "TW"],
+  "markets": ["Global", "TW"],
   "report": {
     "lookback_days": 7,
     "max_signals_per_week": 8,
