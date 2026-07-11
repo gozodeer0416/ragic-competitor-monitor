@@ -1,0 +1,76 @@
+{
+  "_readme": "競品觀測的設定檔。每週排程 agent 執行時會重新讀取本檔；要新增/移除競品、調整來源或指標參數，改這裡即可，不需要動排程本身。判讀規則在 prompts/weekly-update.md，原則說明在 docs/METHODOLOGY.md。",
+  "markets": ["Global", "JP", "TW"],
+  "report": {
+    "lookback_days": 7,
+    "max_signals_per_week": 8,
+    "min_signals_per_competitor": 0,
+    "language": "zh-Hant（繁體中文，台灣用語）"
+  },
+  "priority_levels": {
+    "P0": "需要 Ragic 在 1–2 週內回應：直接衝擊重疊客群、定價比較基準改變、或撞到 Ragic 核心敘事",
+    "P1": "需要納入當季規劃或內容排程：策略方向訊號、值得研究的做法",
+    "P2": "持續觀察即可：一般功能更新、與 Ragic 戰場重疊度低"
+  },
+  "momentum": {
+    "scale": "1–5",
+    "formula": "更新頻率 × 訊號強度 × 與 Ragic 核心戰場（no-code 資料庫、AI agent、MCP、中小企業）的重疊度",
+    "note": "判讀性指標，非業務絕對值"
+  },
+  "ragic_context": {
+    "positioning": "no-code 資料庫／表單平台，主打中小企業、繁中與日文市場在地化、零部署導入",
+    "key_narrative": "AI Agent 的上限，就是它能看到的數據",
+    "battlegrounds": ["AI agent 功能與定價", "MCP 整合與分發", "no-code 資料庫核心", "中小企業（台灣、日本）市場"]
+  },
+  "competitors": [
+    {
+      "name": "Airtable",
+      "markets": ["Global"],
+      "why_tracked": "no-code 資料庫直接競品，已轉向 AI-native 定位",
+      "sources": [
+        { "type": "newsroom", "url": "https://www.airtable.com/newsroom" },
+        { "type": "changelog", "url": "https://community.airtable.com/announcements-6" },
+        { "type": "pricing", "url": "https://www.airtable.com/pricing" }
+      ]
+    },
+    {
+      "name": "Notion",
+      "markets": ["Global"],
+      "why_tracked": "工作空間＋資料庫混合型，agent 平台化聲量最大",
+      "sources": [
+        { "type": "changelog", "url": "https://www.notion.com/releases" },
+        { "type": "blog", "url": "https://www.notion.com/blog" },
+        { "type": "pricing", "url": "https://www.notion.com/pricing" }
+      ]
+    },
+    {
+      "name": "monday.com",
+      "markets": ["Global"],
+      "why_tracked": "work OS 龍頭，AI 變現策略最激進，定價比較基準",
+      "sources": [
+        { "type": "changelog", "url": "https://monday.com/whats-new" },
+        { "type": "help", "url": "https://support.monday.com/hc/en-us/sections/360003078779" },
+        { "type": "pricing", "url": "https://monday.com/pricing" }
+      ]
+    },
+    {
+      "name": "Smartsheet",
+      "markets": ["Global"],
+      "why_tracked": "表格型工作平台，MCP／AI 入口分發策略的參考案例",
+      "sources": [
+        { "type": "changelog", "url": "https://www.smartsheet.com/content-center/product-news/release-notes" },
+        { "type": "newsroom", "url": "https://www.smartsheet.com/content-center/product-news" }
+      ]
+    },
+    {
+      "name": "Kintone",
+      "markets": ["JP", "TW"],
+      "why_tracked": "與 Ragic 客群（日本、台灣中小企業/製造業）重疊度最高的競品",
+      "sources": [
+        { "type": "changelog", "url": "https://jp.kintone.help/k/ja/update/main" },
+        { "type": "newsroom", "url": "https://prtimes.jp/main/action.php?run=html&page=searchkey&search_word=kintone" },
+        { "type": "blog", "url": "https://kintone-blog.cybozu.co.jp/" }
+      ]
+    }
+  ]
+}
