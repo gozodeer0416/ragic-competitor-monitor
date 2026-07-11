@@ -53,7 +53,10 @@
 - **read（市場解讀）**：這代表競品在想什麼、市場往哪走——分析師判讀。
 - **impact（對 Ragic 影響）**：對 Ragic 的具體影響與建議動作。
 
-寫 read／impact 時須對照 `config/monitor-config.json` 的 `ragic_context`（`positioning`、`key_narrative`、`ai_agent_differentiators`、`battlegrounds`）。尤其 AI agent 相關訊號，會檢查是否踩中 Ragic 的四個 AI Agent 差異化重點：原生資料庫整合、零部署、一人配置全公司用、內建護欄／治理。競品若走「需安裝」或「個人助理」路線，屬於與 Ragic 不同賽道；若走「零部署、多人共用、或治理／稽核」路線，才是真正貼近戰場、該拉高關注指數的訊號。
+寫 read／impact 時須對照 `config/monitor-config.json` 的 `ragic_context`（`positioning`、`key_narrative`、`ai_agent_differentiators`、`battlegrounds`），分兩類判讀：
+
+- **AI agent 操作類訊號**：檢查是否踩中 Ragic 的四個 AI Agent 差異化重點——原生資料庫整合、零部署、一人配置全公司用、內建護欄／治理。競品若走「需安裝」或「個人助理」路線，屬於與 Ragic 不同賽道；若走「零部署、多人共用、或治理／稽核」路線，才是真正貼近戰場、該拉高關注指數的訊號。
+- **AI 建系統類訊號**（同等重要）：競品若推出用 AI 直接生成資料庫結構、表單、workflow 的功能（取代手動建構本身，而非只操作既有資料），屬於挑戰 Ragic no-code 建構方式的替代性威脅，關注指數不應低於 AI agent 操作類訊號。
 
 不確定的推測必須用「可能」「待確認」明確標示。
 

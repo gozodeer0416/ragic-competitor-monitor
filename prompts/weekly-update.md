@@ -30,7 +30,9 @@
 - **篩選**：只收「對 Ragic 有判讀價值」的訊號，每週至多 `max_signals_per_week` 筆。純 bug fix、細瑣 UI 調整不收。
 - **關注指數**：依 config 的 `attention_index.formula` 給 1–5 分（JSON 欄位名為 `attention_index`）。這是本報告唯一的量化排序依據；不做 P0/P1/P2 這類優先級分類，判讀留給讀者人工決定。
 - **每筆訊號必填**：`signal`（客觀事實，含日期與具體內容）、`read`（市場解讀——這代表競品在想什麼）、`impact`（對 Ragic 的具體影響與建議動作）。事實與判讀分開寫，不確定的推測要用「可能」「待確認」標示。
-- **寫 read／impact 時要對照 `ragic_context`**：尤其是 AI agent 相關訊號，逐一檢查該訊號是否踩中 `ai_agent_differentiators` 列的四個差異點（原生資料庫整合／零部署／一人配置全公司用／內建護欄）——例如競品推出需要安裝或走個人助理模式的 agent，屬於與 Ragic 路線不同、非直接威脅；競品推出免部署、多人共用、或治理／稽核功能，才是真正貼近 Ragic 戰場、該拉高關注指數的訊號。
+- **寫 read／impact 時要對照 `ragic_context`**：
+  - **AI agent 操作類訊號**：逐一檢查是否踩中 `ai_agent_differentiators` 列的四個差異點（原生資料庫整合／零部署／一人配置全公司用／內建護欄）——競品推出需要安裝或走個人助理模式的 agent，屬於與 Ragic 路線不同、非直接威脅；競品推出免部署、多人共用、或治理／稽核功能，才是真正貼近 Ragic 戰場、該拉高關注指數的訊號。
+  - **AI 建系統類訊號**（同等重要，不可忽略）：競品若推出「用 AI 直接生成資料庫結構、表單、workflow」的功能（不只是操作既有資料的 agent，而是用 AI 取代手動建構這件事本身），屬於 `battlegrounds` 裡的「AI 建立系統／App」，對 Ragic no-code 建構方式是替代性威脅，優先級不低於 AI agent 操作類訊號，關注指數應對應拉高。
 - **conclusion**：從本週所有訊號歸納一個跨競品的主軸敘事，不是流水帳。
 - **implications**：分 Marketing / PR、Product / R&D 提問、Content 排程建議三組，每組 2–3 條可執行的具體建議。
 - **deepdives**：挑本週最值得深入的 2–3 個訊號寫背景脈絡與後續判讀點。
