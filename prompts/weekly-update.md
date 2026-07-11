@@ -27,8 +27,7 @@
 ### 3. 判讀（規則詳見 docs/METHODOLOGY.md，此處為操作摘要）
 
 - **篩選**：只收「對 Ragic 有判讀價值」的訊號，每週至多 `max_signals_per_week` 筆。純 bug fix、細瑣 UI 調整不收。
-- **優先級**：依 config 的 `priority_levels` 定義給 P0/P1/P2。
-- **動能**：依 config 的 `momentum.formula` 給 1–5 分。
+- **關注指數**：依 config 的 `attention_index.formula` 給 1–5 分（JSON 欄位名為 `attention_index`）。這是本報告唯一的量化排序依據；不做 P0/P1/P2 這類優先級分類，判讀留給讀者人工決定。
 - **每筆訊號必填**：`signal`（客觀事實，含日期與具體內容）、`read`（市場解讀——這代表競品在想什麼）、`impact`（對 Ragic 的具體影響與建議動作）。事實與判讀分開寫，不確定的推測要用「可能」「待確認」標示。
 - **conclusion**：從本週所有訊號歸納一個跨競品的主軸敘事，不是流水帳。
 - **implications**：分 Marketing / PR、Product / R&D 提問、Content 排程建議三組，每組 2–3 條可執行的具體建議。
@@ -57,8 +56,7 @@
       "theme": "2–6 字主題標籤（可用「・」串兩個）",
       "read": "市場解讀…",
       "impact": "對 Ragic 影響與建議…",
-      "priority": "P0",                    // P0 | P1 | P2
-      "momentum": 4                         // 1–5 整數
+      "attention_index": 4                 // 1–5 整數
     }
   ],
   "implications": [

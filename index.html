@@ -18,9 +18,7 @@
   --accent:#E87A00;
   --accent-deep:#B85F00;
   --accent-wash:#FDF1E3;
-  --p0-fg:#B93A17;  --p0-bg:#FBE7DF;
-  --p1-fg:#8F6400;  --p1-bg:#FBF2D6;
-  --p2-fg:#5B6B75;  --p2-bg:#ECF1F3;
+  --p2-bg:#ECF1F3;
   --mono:'IBM Plex Mono',ui-monospace,monospace;
   --sans:'Noto Sans TC',-apple-system,'PingFang TC','Microsoft JhengHei',sans-serif;
 }
@@ -78,10 +76,6 @@ td.c-name{font-weight:700;white-space:nowrap}
 td.c-name .date{display:block;font-family:var(--mono);font-size:10.5px;font-weight:400;color:var(--label);margin-top:3px}
 td.c-signal{min-width:210px;font-weight:500}
 td.c-read,td.c-impact{color:var(--ink-soft);min-width:200px}
-.chip{display:inline-block;font-family:var(--mono);font-size:11px;font-weight:600;border-radius:3px;padding:2px 8px;white-space:nowrap}
-.chip.p0{color:var(--p0-fg);background:var(--p0-bg)}
-.chip.p1{color:var(--p1-fg);background:var(--p1-bg)}
-.chip.p2{color:var(--p2-fg);background:var(--p2-bg)}
 .theme{display:inline-block;font-size:12px;color:var(--accent-deep);background:var(--accent-wash);border-radius:3px;padding:2px 8px;white-space:nowrap}
 .meter{display:flex;gap:3px;align-items:center;margin-top:2px}
 .meter i{width:9px;height:14px;border-radius:2px;background:var(--line)}
@@ -165,7 +159,7 @@ footer p{font-family:var(--mono);font-size:11px;color:var(--label);line-height:1
   <section id="scoreboard">
     <div class="field"><span class="fname">Signal Scoreboard</span><span class="fcount" id="sigCount"></span></div>
     <h2>競品訊號記分板</h2>
-    <p class="lede">快速對照各競品本周的重要更新、主題分類、市場解讀與對 Ragic 的影響。依優先級排序。</p>
+    <p class="lede">快速對照各競品本周的重要更新、主題分類、市場解讀與對 Ragic 的影響。依關注指數排序。</p>
     <div class="sheet">
       <table>
         <thead>
@@ -175,8 +169,7 @@ footer p{font-family:var(--mono);font-size:11px;color:var(--label);line-height:1
             <th scope="col">主題</th>
             <th scope="col">市場解讀</th>
             <th scope="col">對 Ragic 影響</th>
-            <th scope="col">優先級</th>
-            <th scope="col">動能</th>
+            <th scope="col">關注指數</th>
           </tr>
         </thead>
         <tbody id="sigBody"></tbody>
@@ -206,7 +199,7 @@ footer p{font-family:var(--mono);font-size:11px;color:var(--label);line-height:1
   </section>
 
   <footer>
-    <p>動能分數（1–5）＝ 更新頻率 × 訊號強度 × 與 Ragic 核心戰場的重疊度，屬判讀性指標，非業務絕對值。<br>
+    <p>關注指數（1–5）＝ 更新頻率 × 訊號強度 × 與 Ragic 核心戰場的重疊度，屬判讀性指標，非業務絕對值。<br>
     資料每週一 08:00（台北時間）由排程 agent 自動更新；資料來源、抓取與判斷原則見 <a href="https://github.com/gozodeer0416/ragic-competitor-monitor/blob/main/docs/METHODOLOGY.md">METHODOLOGY.md</a>。</p>
   </footer>
 
@@ -240,7 +233,7 @@ async function loadWeek(key){
 function meterHTML(n){
   let seg = "";
   for(let i=1;i<=5;i++) seg += `<i class="${i<=n?'on':''}"></i>`;
-  return `<div class="meter" role="img" aria-label="動能 ${n} / 5">${seg}<span class="m-num">${n}/5</span></div>`;
+  return `<div class="meter" role="img" aria-label="關注指數 ${n} / 5">${seg}<span class="m-num">${n}/5</span></div>`;
 }
 
 function render(weekKey, w){
@@ -262,9 +255,8 @@ function render(weekKey, w){
       <span class="k-note">${esc(k.note)}</span>
     </div>`).join('');
 
-  // signals（依優先級排序：P0 > P1 > P2，再依動能）
-  const order = {P0:0,P1:1,P2:2};
-  const sigs = [...w.signals].sort((a,b)=> order[a.priority]-order[b.priority] || b.momentum-a.momentum);
+  // signals（依關注指數排序，高到低）
+  const sigs = [...w.signals].sort((a,b)=> b.attention_index-a.attention_index);
   $('sigCount').textContent = `${sigs.length} records`;
   $('sigBody').innerHTML = sigs.map(s => `
     <tr>
@@ -273,8 +265,7 @@ function render(weekKey, w){
       <td><span class="theme">${esc(s.theme)}</span></td>
       <td class="c-read">${esc(s.read)}</td>
       <td class="c-impact">${esc(s.impact)}</td>
-      <td><span class="chip ${s.priority.toLowerCase()}">${esc(s.priority)}</span></td>
-      <td>${meterHTML(s.momentum)}</td>
+      <td>${meterHTML(s.attention_index)}</td>
     </tr>`).join('');
 
   // implications

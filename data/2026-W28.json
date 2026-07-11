@@ -20,7 +20,7 @@
       "theme": "AI GA・日系市場",
       "read": "最貼近 Ragic 定位的競品完成 AI 正式化，且刻意走「不加價、內含 credits」路線，與 monday 的收費路線形成對照。搭配 5 月推出的 Microsoft 365 連携コネクタ，Kintone 正在補齊整合面短板。",
       "impact": "對 Ragic 在日文市場與台灣製造業、中小企業客群的衝擊最直接。競品比較頁需要更新 AI 功能對照表；銷售端可能開始被問到「Kintone 也有 AI 了，差在哪」。",
-      "priority": "P0", "momentum": 5
+      "attention_index": 5
     },
     {
       "comp": "Notion", "date": "2026/07/01",
@@ -28,7 +28,7 @@
       "theme": "Agent 平台化",
       "read": "Notion 把 agent 從「功能」升級成「平台」：開放外部 agent、用 Workers 收編開發者自動化、用稽核紀錄回應企業治理需求。MCP 資料庫操作 token 效率宣稱提升 91%，明顯在為 agent 流量鋪路。",
       "impact": "Notion 的 agent 敘事會持續佔據媒體聲量，Ragic 的差異化要更用力講「資料庫原生、權限即治理」。Workers 開始計費是重要變現訊號，可納入定價研究。",
-      "priority": "P0", "momentum": 5
+      "attention_index": 5
     },
     {
       "comp": "monday.com", "date": "2026/05/06 起・07/27 生效",
@@ -36,7 +36,7 @@
       "theme": "AI 定價・變現",
       "read": "monday 是這一輪把 AI 變現推得最激進的玩家：seats 付人、credits 付 AI，且把原本免費的入口（Sidekick）也納入計費。市場正在測試用戶對「credit 疲勞」的容忍度。",
       "impact": "Ragic AI Agent 的定價比較基準需要更新。若 Ragic 的計價方式相對單純透明，這是很好的行銷切角——但先跟內部確認實際計價設計再定 messaging。",
-      "priority": "P0", "momentum": 4
+      "attention_index": 4
     },
     {
       "comp": "Smartsheet", "date": "2026/06/11–07/09",
@@ -44,7 +44,7 @@
       "theme": "MCP・AI 入口分發",
       "read": "Smartsheet 的策略與其他家相反：不搶自建 chat 入口，而是把自己接進使用者已經在用的每一個 AI 助理。以 MCP 為底層，用「pre-built connector」降低導入門檻。",
       "impact": "直接驗證 Ragic 的 MCP 產品方向。值得研究其 connector 在各 AI 平台目錄的上架與曝光方式，作為 Ragic MCP 分發策略的參考案例。",
-      "priority": "P1", "momentum": 4
+      "attention_index": 4
     },
     {
       "comp": "Airtable", "date": "2026/01/27 起持續",
@@ -52,7 +52,7 @@
       "theme": "多代理・企業定位",
       "read": "Airtable 已從 no-code database 重新定位為 AI-native 平台，甚至推出獨立的多代理產品搶研究與分析場景。「連接的資料決定 agent 上限」是它的核心論述。",
       "impact": "與 Ragic 的「AI Agent 的上限，就是它能看到的數據」敘事正面重疊。差異化重點：中小企業可負擔的價格、繁中在地化、零部署導入。持續監測其是否下探中小企業市場。",
-      "priority": "P1", "momentum": 3
+      "attention_index": 3
     }
   ],
   "implications": [

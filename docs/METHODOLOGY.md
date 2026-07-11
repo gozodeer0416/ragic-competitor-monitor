@@ -39,19 +39,11 @@
 
 只收「對 Ragic 有判讀價值」的更新，每週至多 8 筆；純 bug fix、細瑣 UI 調整不收。判讀價值 = 涉及 Ragic 核心戰場：AI agent 功能與定價、MCP 整合與分發、no-code 資料庫核心能力、中小企業（台灣、日本）市場動作。
 
-### 3.2 優先級（P0 / P1 / P2）
+### 3.2 關注指數（1–5）
 
-| 級別 | 定義 |
-|---|---|
-| **P0** | 需要 Ragic 在 1–2 週內回應：直接衝擊重疊客群、定價比較基準改變、或撞到 Ragic 核心敘事 |
-| **P1** | 需要納入當季規劃或內容排程：策略方向訊號、值得研究的做法 |
-| **P2** | 持續觀察即可：一般功能更新、與 Ragic 戰場重疊度低 |
+關注指數 ＝ 更新頻率 × 訊號強度 × 與 Ragic 核心戰場的重疊度。屬**判讀性指標**，反映「這家競品此刻對 Ragic 施加的壓力」，非業務絕對值。（JSON 資料欄位名為 `attention_index`。）這是報告目前唯一的量化排序依據——不做 P0/P1/P2 這類優先級分類，「這則訊號要不要現在回應」留給讀者人工判讀。
 
-### 3.3 動能分數（1–5）
-
-動能 ＝ 更新頻率 × 訊號強度 × 與 Ragic 核心戰場的重疊度。屬**判讀性指標**，反映「這家競品此刻對 Ragic 施加的壓力」，非業務絕對值。
-
-### 3.4 事實與判讀分離
+### 3.3 事實與判讀分離
 
 每筆訊號拆成三層，事實與意見不混寫：
 
@@ -61,7 +53,7 @@
 
 不確定的推測必須用「可能」「待確認」明確標示。
 
-### 3.5 週報固定產出
+### 3.4 週報固定產出
 
 每週必產出：跨競品主軸結論（conclusion）、4 張 KPI 卡、訊號記分板（signals）、三組團隊行動建議（Marketing / PR、Product / R&D 提問、Content 排程建議）、2–3 張深讀卡（deepdives）、來源清單（sources）。沒有重大訊號的平靜週也照常出報告並如實註明。
 
@@ -73,7 +65,7 @@
 |---|---|
 | 新增/移除競品、調整來源 URL、觀測市場 | `config/monitor-config.json` 的 `competitors` |
 | 每週訊號上限、回溯天數 | `config/monitor-config.json` 的 `report` |
-| 優先級定義、動能公式 | `config/monitor-config.json` 的 `priority_levels`、`momentum`（並同步更新本文件） |
+| 關注指數公式 | `config/monitor-config.json` 的 `attention_index`（並同步更新本文件） |
 | 判讀邏輯、產出格式、篩選標準 | `prompts/weekly-update.md` |
 | 頁面版型與欄位 | `index.html`（新增資料欄位時需同步改 schema 與 render） |
 | 執行時間、頻率 | Claude 排程 routine 設定（https://claude.ai/code/routines） |

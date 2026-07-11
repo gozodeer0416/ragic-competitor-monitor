@@ -7,12 +7,7 @@
     "min_signals_per_competitor": 0,
     "language": "zh-Hant（繁體中文，台灣用語）"
   },
-  "priority_levels": {
-    "P0": "需要 Ragic 在 1–2 週內回應：直接衝擊重疊客群、定價比較基準改變、或撞到 Ragic 核心敘事",
-    "P1": "需要納入當季規劃或內容排程：策略方向訊號、值得研究的做法",
-    "P2": "持續觀察即可：一般功能更新、與 Ragic 戰場重疊度低"
-  },
-  "momentum": {
+  "attention_index": {
     "scale": "1–5",
     "formula": "更新頻率 × 訊號強度 × 與 Ragic 核心戰場（no-code 資料庫、AI agent、MCP、中小企業）的重疊度",
     "note": "判讀性指標，非業務絕對值"
