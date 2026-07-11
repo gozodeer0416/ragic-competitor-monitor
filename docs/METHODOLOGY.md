@@ -40,7 +40,7 @@
 
 ### 3.1 訊號篩選
 
-只收「對 Ragic 有判讀價值」的更新，每週至多 8 筆；純 bug fix、細瑣 UI 調整不收。判讀價值 = 涉及 Ragic 核心戰場（與 `config/monitor-config.json` 的 `ragic_context.battlegrounds` 保持一致）：AI agent 功能與定價、AI agent 部署模式與治理、AI 建立系統／App、MCP 整合與分發、no-code 資料庫核心、全球市場（特別著重台灣與歐美）。
+只收「對 Ragic 有判讀價值」的更新，每週至多 10 筆；純 bug fix、細瑣 UI 調整不收。判讀價值 = 涉及 Ragic 核心戰場（與 `config/monitor-config.json` 的 `ragic_context.battlegrounds` 保持一致）：AI agent 功能與定價、AI agent 部署模式與治理、AI 建立系統／App、MCP 整合與分發、no-code 資料庫核心、全球市場（特別著重台灣與歐美）。
 
 **LLM 平台（Claude／ChatGPT／Gemini）另套用更窄的收錄量尺**：不追蹤模型能力發布、定價、API 更新等一般動態，只收「應用層動作，且市場（媒體、社群、分析師）明確視為威脅 Notion、Airtable 或傳統 ERP」的訊號，例如可直接用自然語言生成試算表／資料庫應用、agent 自主建置完整工作流程與資料結構的新功能。三家當週都沒有通過此量尺的動作是正常情況，報告中不會勉強湊數。
 

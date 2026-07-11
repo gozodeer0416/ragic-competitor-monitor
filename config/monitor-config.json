@@ -3,7 +3,7 @@
   "markets": ["Global", "TW"],
   "report": {
     "lookback_days": 7,
-    "max_signals_per_week": 8,
+    "max_signals_per_week": 10,
     "min_signals_per_competitor": 0,
     "language": "zh-Hant（繁體中文，台灣用語）"
   },
