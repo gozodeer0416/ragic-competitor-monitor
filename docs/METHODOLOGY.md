@@ -16,6 +16,7 @@
 | monday.com | Global | work OS 龍頭，AI 變現策略最激進，定價比較基準 |
 | Smartsheet | Global | 表格型工作平台，MCP／AI 入口分發策略參考案例 |
 | Kintone | JP / TW | 與 Ragic 客群（日台中小企業、製造業）重疊度最高 |
+| Odoo | Global / TW | 開源 ERP 套件，內建 Odoo Studio 無程式碼工具，與 Ragic no-code 核心重疊，台灣代理商網絡活躍 |
 
 觀測市場：Global / JP / TW。競品清單與各家來源 URL 以 `config/monitor-config.json` 為準（本表為說明用途）。
 

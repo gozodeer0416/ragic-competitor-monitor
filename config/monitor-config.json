@@ -66,6 +66,17 @@
         { "type": "newsroom", "url": "https://prtimes.jp/main/action.php?run=html&page=searchkey&search_word=kintone" },
         { "type": "blog", "url": "https://kintone-blog.cybozu.co.jp/" }
       ]
+    },
+    {
+      "name": "Odoo",
+      "markets": ["Global", "TW"],
+      "why_tracked": "開源 ERP／全方位企業應用套件（CRM、進銷存、會計、官網等），提供免費 Community 版＋付費 Enterprise 版；內建「Odoo Studio」無程式碼客製化工具（拖拉式建立欄位、表單、自動化流程），直接與 Ragic 的 no-code 資料庫核心定位重疊，且台灣在地代理商網絡活躍，是中小企業客群真實會比較的選項。核心是 ERP 套件而非單純 no-code 資料庫，判讀時應聚焦「哪些功能模組往 AI／no-code 靠攏」，而非逐項功能對比。",
+      "sources": [
+        { "type": "changelog", "url": "https://www.odoo.com/page/release-notes" },
+        { "type": "blog", "url": "https://www.odoo.com/blog" },
+        { "type": "pricing", "url": "https://www.odoo.com/pricing" },
+        { "type": "product", "url": "https://www.odoo.com/app/studio" }
+      ]
     }
   ]
 }
