@@ -5,7 +5,7 @@
   "competitors": ["Airtable", "Notion", "monday.com", "Smartsheet", "Kintone", "Odoo", "LLM"],
   "conclusion": {
     "title": "本周市場結論：AI 功能競賽進入「定價與分發」階段",
-    "body": "五家競品的 AI agent 功能面已大致到位，這一輪的競爭焦點明顯轉向兩件事：怎麼收錢（credit 制成為主流，但路線分歧——monday 強制隨座位購買、Kintone 免費內含、Notion Workers 八月起改計費），以及怎麼被看見（Smartsheet 選擇把自己接進 ChatGPT / Gemini / Copilot，而不是自建對話入口）。對 Ragic 來說，「AI Agent 的上限是它能看到的數據」這條敘事仍然成立，但差異化的重心需要從功能比較，移往定價透明度與 MCP 分發策略。（7/12 追蹤查核：本次 WebFetch 環境不可用，改以 WebSearch 交叉查證各競品來源；除 Kintone 一項例行版本更新外，五家競品皆未出現超出上述分析範疇的新戰略訊號，本周結論維持不變。）"
+    "body": "五家競品的 AI agent 功能面已大致到位，這一輪的競爭焦點明顯轉向兩件事：怎麼收錢（credit 制成為主流，但路線分歧——monday 強制隨座位購買、Kintone 免費內含、Notion Workers 八月起改計費），以及怎麼被看見（Smartsheet 選擇把自己接進 ChatGPT / Gemini / Copilot，而不是自建對話入口）。對 Ragic 來說，「AI Agent 的上限是它能看到的數據」這條敘事仍然成立，但差異化的重心需要從功能比較，移往定價透明度與 MCP 分發策略。（7/12 追蹤查核：本次 WebFetch 環境不可用，改以 WebSearch 交叉查證各競品來源；除 Kintone 一項例行版本更新外，五家競品皆未出現超出上述分析範疇的新戰略訊號，本周結論維持不變。monday.com 另於 7/6 下架新帳號一次性試用 credits，改為依功能個別提供試用額度，屬既有定價緊縮敘事的延伸細節，不影響本周整體結論。）"
   },
   "kpis": [
     { "label": "本周主軸", "value": "Agent 平台化 4/5", "note": "五家競品中有四家釋出 agent 相關更新，僅 Smartsheet 走「接入外部 AI」路線" },
@@ -32,7 +32,7 @@
     },
     {
       "comp": "monday.com", "date": "2026/05/06 起・07/27 生效",
-      "signal": "AI 定價模式收緊：5/6 起新客戶購買方案時必須同時購買 AI credits（Basic 最低 1,000 / Standard 2,000 / Pro 3,000 點每月）；7/27 起連 Sidekick 對話都開始依複雜度消耗 credits。",
+      "signal": "AI 定價模式收緊：5/6 起新客戶購買方案時必須同時購買 AI credits（Basic 最低 1,000 / Standard 2,000 / Pro 3,000 點每月）；7/27 起連 Sidekick 對話都開始依複雜度消耗 credits；7/6 起原本供未購買過 AI add-on 新帳號使用的 6,000／12,000 點一次性試用 credits 已下架，改為依個別 AI 功能各自提供試用額度。",
       "theme": "AI 定價・變現",
       "read": "monday 是這一輪把 AI 變現推得最激進的玩家：seats 付人、credits 付 AI，且把原本免費的入口（Sidekick）也納入計費。市場正在測試用戶對「credit 疲勞」的容忍度。",
       "impact": "Ragic AI Agent 的定價比較基準需要更新。若 Ragic 的計價方式相對單純透明，這是很好的行銷切角——但先跟內部確認實際計價設計再定 messaging。",
@@ -111,6 +111,7 @@
     { "comp": "Smartsheet", "title": "Smartsheet Release Notes", "url": "https://www.smartsheet.com/content-center/product-news/release-notes", "note": "6–7 月 AI connector 與 API 更新" },
     { "comp": "Airtable", "title": "Introducing Superagent（Airtable Newsroom）", "url": "https://www.airtable.com/newsroom/introducing-superagent", "note": "多代理產品發布" },
     { "comp": "Airtable", "title": "Airtable Community Announcements", "url": "https://community.airtable.com/announcements-6", "note": "Field Agents 連接器與排程觸發" },
-    { "comp": "Kintone", "title": "2026年7月版 主なアップデート（kintone ヘルプ）", "url": "https://jp.kintone.help/k/ja/update/main/2026-07", "note": "7/12 記錄更新提醒、新通知畫面預設化、搜尋關聯度排序、App 分析規則偵測（WebSearch 交叉查證，WebFetch 本次不可用）" }
+    { "comp": "Kintone", "title": "2026年7月版 主なアップデート（kintone ヘルプ）", "url": "https://jp.kintone.help/k/ja/update/main/2026-07", "note": "7/12 記錄更新提醒、新通知畫面預設化、搜尋關聯度排序、App 分析規則偵測（WebSearch 交叉查證，WebFetch 本次不可用）" },
+    { "comp": "monday.com", "title": "AI Credits – monday.com Support", "url": "https://support.monday.com/hc/en-us/articles/29544502265746-AI-Credits", "note": "7/6 一次性試用 credits（6,000／12,000 點）下架，改為依功能個別提供試用額度（WebSearch 交叉查證，WebFetch 本次不可用）" }
   ]
 }
