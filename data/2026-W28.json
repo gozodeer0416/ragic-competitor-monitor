@@ -1,11 +1,11 @@
 {
   "week": "2026-W28",
-  "range": "2026/06/14–2026/07/11（首期報告，涵蓋近四周訊號）",
+  "range": "2026/06/14–2026/07/12（首期報告，涵蓋近四周訊號；7/12 追蹤查核）",
   "markets": "Global / JP / TW",
   "competitors": ["Airtable", "Notion", "monday.com", "Smartsheet", "Kintone"],
   "conclusion": {
     "title": "本周市場結論：AI 功能競賽進入「定價與分發」階段",
-    "body": "五家競品的 AI agent 功能面已大致到位，這一輪的競爭焦點明顯轉向兩件事：怎麼收錢（credit 制成為主流，但路線分歧——monday 強制隨座位購買、Kintone 免費內含、Notion Workers 八月起改計費），以及怎麼被看見（Smartsheet 選擇把自己接進 ChatGPT / Gemini / Copilot，而不是自建對話入口）。對 Ragic 來說，「AI Agent 的上限是它能看到的數據」這條敘事仍然成立，但差異化的重心需要從功能比較，移往定價透明度與 MCP 分發策略。"
+    "body": "五家競品的 AI agent 功能面已大致到位，這一輪的競爭焦點明顯轉向兩件事：怎麼收錢（credit 制成為主流，但路線分歧——monday 強制隨座位購買、Kintone 免費內含、Notion Workers 八月起改計費），以及怎麼被看見（Smartsheet 選擇把自己接進 ChatGPT / Gemini / Copilot，而不是自建對話入口）。對 Ragic 來說，「AI Agent 的上限是它能看到的數據」這條敘事仍然成立，但差異化的重心需要從功能比較，移往定價透明度與 MCP 分發策略。（7/12 追蹤查核：本次 WebFetch 環境不可用，改以 WebSearch 交叉查證各競品來源；除 Kintone 一項例行版本更新外，五家競品皆未出現超出上述分析範疇的新戰略訊號，本周結論維持不變。）"
   },
   "kpis": [
     { "label": "本周主軸", "value": "Agent 平台化 4/5", "note": "五家競品中有四家釋出 agent 相關更新，僅 Smartsheet 走「接入外部 AI」路線", "hot": true },
@@ -53,6 +53,14 @@
       "read": "Airtable 已從 no-code database 重新定位為 AI-native 平台，甚至推出獨立的多代理產品搶研究與分析場景。「連接的資料決定 agent 上限」是它的核心論述。",
       "impact": "與 Ragic 的「AI Agent 的上限，就是它能看到的數據」敘事正面重疊。差異化重點：中小企業可負擔的價格、繁中在地化、零部署導入。持續監測其是否下探中小企業市場。",
       "attention_index": 3
+    },
+    {
+      "comp": "Kintone", "date": "2026/07/12",
+      "signal": "kintone 7月版例行更新上線：新增「記錄更新提醒」（他人已更新同一筆記錄時畫面上方顯示提示）；新版通知畫面（含站內搜尋、批次已讀）成為月例頻道預設；全域與 App 內搜尋新增「依關聯度排序」；Wide 方案限定的「App 分析」擴充功能新增可依企業自訂規則偵測並通知不合規 App。",
+      "theme": "例行更新・治理",
+      "read": "6月 AI GA 之後的第一次例行版本，多數項目屬協作與搜尋體驗的漸進優化；唯一有判讀價值的是 Wide 方案「App 分析」新增自訂規則合規偵測，顯示 Kintone 在企業規模化導入後持續往 IT 治理方向補強，呼應日本企業客戶對「野生 App 氾濫」風險控管的需求。",
+      "impact": "多數項目屬 UI/UX 微調，對 Ragic 無直接衝擊；但「依自訂規則偵測不合規 App」的治理功能，是 no-code 平台規模化後常見的下一步，可留意 Ragic 是否需要對應的表單／App 治理機制，作為中大型客戶導入的賣點之一。",
+      "attention_index": 2
     }
   ],
   "implications": [
@@ -110,6 +118,7 @@
     { "comp": "Kintone", "title": "2026年6月版 主なアップデート（kintone ヘルプ）", "url": "https://jp.kintone.help/k/ja/update/main/2026-06", "note": "6/14 更新明細" },
     { "comp": "Smartsheet", "title": "Smartsheet Release Notes", "url": "https://www.smartsheet.com/content-center/product-news/release-notes", "note": "6–7 月 AI connector 與 API 更新" },
     { "comp": "Airtable", "title": "Introducing Superagent（Airtable Newsroom）", "url": "https://www.airtable.com/newsroom/introducing-superagent", "note": "多代理產品發布" },
-    { "comp": "Airtable", "title": "Airtable Community Announcements", "url": "https://community.airtable.com/announcements-6", "note": "Field Agents 連接器與排程觸發" }
+    { "comp": "Airtable", "title": "Airtable Community Announcements", "url": "https://community.airtable.com/announcements-6", "note": "Field Agents 連接器與排程觸發" },
+    { "comp": "Kintone", "title": "2026年7月版 主なアップデート（kintone ヘルプ）", "url": "https://jp.kintone.help/k/ja/update/main/2026-07", "note": "7/12 記錄更新提醒、新通知畫面預設化、搜尋關聯度排序、App 分析規則偵測（WebSearch 交叉查證，WebFetch 本次不可用）" }
   ]
 }
