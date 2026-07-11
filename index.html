@@ -63,7 +63,6 @@ section .lede{color:var(--ink-soft);max-width:64ch;margin-bottom:18px}
 .kpi .k-label{font-family:var(--mono);font-size:11px;letter-spacing:.06em;color:var(--label);text-transform:uppercase}
 .kpi .k-value{font-size:17px;font-weight:900;line-height:1.4}
 .kpi .k-note{font-size:12.5px;color:var(--ink-soft)}
-.kpi.hot{border-top:3px solid var(--accent)}
 
 /* ---------- scoreboard table ---------- */
 .sheet{background:var(--card);border:1px solid var(--line-strong);border-radius:6px;overflow-x:auto;margin-top:12px}
@@ -249,7 +248,7 @@ function render(weekKey, w){
   // KPI
   $('kpiCount').textContent = `${w.kpis.length} cards`;
   $('kpiGrid').innerHTML = w.kpis.map(k => `
-    <div class="kpi ${k.hot?'hot':''}">
+    <div class="kpi">
       <span class="k-label">${esc(k.label)}</span>
       <span class="k-value">${esc(k.value)}</span>
       <span class="k-note">${esc(k.note)}</span>

@@ -35,6 +35,11 @@
   - **AI agent 操作類訊號**：逐一檢查是否踩中 `ai_agent_differentiators` 列的四個差異點（原生資料庫整合／零部署／一人配置全公司用／內建護欄）——競品推出需要安裝或走個人助理模式的 agent，屬於與 Ragic 路線不同、非直接威脅；競品推出免部署、多人共用、或治理／稽核功能，才是真正貼近 Ragic 戰場、該拉高關注指數的訊號。
   - **AI 建系統類訊號**（同等重要，不可忽略）：競品若推出「用 AI 直接生成資料庫結構、表單、workflow」的功能（不只是操作既有資料的 agent，而是用 AI 取代手動建構這件事本身），屬於 `battlegrounds` 裡的「AI 建立系統／App」，對 Ragic no-code 建構方式是替代性威脅，優先級不低於 AI agent 操作類訊號，關注指數應對應拉高。
 - **conclusion**：從本週所有訊號歸納一個跨競品的主軸敘事，不是流水帳。
+- **KPI 卡固定模板**：4 張卡的 `label` 與順序每週固定不變，只換 `value`／`note`：
+  1. **本周主軸**：本週所有訊號歸納出的跨競品主要趨勢／方向。`value` 用短語＋強度標示（如「Agent 平台化 4/5」）；若訊號分散、無明顯共同主軸，如實寫「訊號分散，無明顯共同主軸」。
+  2. **定價風向**：本週競品在 AI／訂閱定價模式上的共同動向或代表性個案（credit 制走向、方案調整、免費額度變化等）。若本週沒有任何競品有定價相關動作，如實寫「本週無明顯定價動向」，不要硬找。
+  3. **最高優先訊號**：本次 `signals` 中 `attention_index` 最高的一則（同分時選對 Ragic 核心戰場重疊度最高者）；`value` 是該訊號的簡短標題。
+  4. **Ragic 應對焦點**：綜合以上三張卡，Ragic 這週最該優先思考或行動的方向，`value` 可用「×」串多個焦點，應與 `implications` 呼應但更凝練。
 - **implications**：分 Marketing / PR、Product / R&D 提問、Content 排程建議三組，每組 2–3 條可執行的具體建議。
 - **deepdives**：挑本週最值得深入的 2–3 個訊號寫背景脈絡與後續判讀點。
 - **平靜週**：即使沒有重大訊號也要產出當週檔，conclusion 註明「本週市場相對平靜」，signals 可少於競品數，KPI 反映實況。
@@ -50,8 +55,11 @@
   "markets": "Global / JP / TW",           // 取自 config
   "competitors": ["Airtable", "Notion", "monday.com", "Smartsheet", "Kintone"],  // 取自 config 順序
   "conclusion": { "title": "本周市場結論：…", "body": "…" },
-  "kpis": [                                 // 固定 4 張卡
-    { "label": "…", "value": "…", "note": "…", "hot": true }   // hot 選填，最多 2 張
+  "kpis": [                                 // 固定 4 張卡，順序與 label 固定，定義見下方「KPI 卡固定模板」
+    { "label": "本周主軸", "value": "…", "note": "…" },
+    { "label": "定價風向", "value": "…", "note": "…" },
+    { "label": "最高優先訊號", "value": "…", "note": "…" },
+    { "label": "Ragic 應對焦點", "value": "…", "note": "…" }
   ],
   "signals": [
     {

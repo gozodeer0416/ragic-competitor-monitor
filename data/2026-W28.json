@@ -8,9 +8,9 @@
     "body": "五家競品的 AI agent 功能面已大致到位，這一輪的競爭焦點明顯轉向兩件事：怎麼收錢（credit 制成為主流，但路線分歧——monday 強制隨座位購買、Kintone 免費內含、Notion Workers 八月起改計費），以及怎麼被看見（Smartsheet 選擇把自己接進 ChatGPT / Gemini / Copilot，而不是自建對話入口）。對 Ragic 來說，「AI Agent 的上限是它能看到的數據」這條敘事仍然成立，但差異化的重心需要從功能比較，移往定價透明度與 MCP 分發策略。（7/12 追蹤查核：本次 WebFetch 環境不可用，改以 WebSearch 交叉查證各競品來源；除 Kintone 一項例行版本更新外，五家競品皆未出現超出上述分析範疇的新戰略訊號，本周結論維持不變。）"
   },
   "kpis": [
-    { "label": "本周主軸", "value": "Agent 平台化 4/5", "note": "五家競品中有四家釋出 agent 相關更新，僅 Smartsheet 走「接入外部 AI」路線", "hot": true },
+    { "label": "本周主軸", "value": "Agent 平台化 4/5", "note": "五家競品中有四家釋出 agent 相關更新，僅 Smartsheet 走「接入外部 AI」路線" },
     { "label": "定價風向", "value": "Credit 制成主流", "note": "monday 強制購買、Kintone 免費內含、Notion Workers 8/11 起計費，三種路線並存" },
-    { "label": "最高優先訊號", "value": "Kintone AI 正式版", "note": "6/14 GA，與 Ragic 客群重疊度最高的競品完成 AI 正式化", "hot": true },
+    { "label": "最高優先訊號", "value": "Kintone AI 正式版", "note": "6/14 GA，與 Ragic 客群重疊度最高的競品完成 AI 正式化" },
     { "label": "Ragic 應對焦點", "value": "MCP 分發 × 定價敘事", "note": "評估 connector 上架各 AI 平台目錄；準備 credit 疲勞的內容角度" }
   ],
   "signals": [
