@@ -13,9 +13,9 @@
     "note": "判讀性指標，非業務絕對值"
   },
   "ragic_context": {
-    "positioning": "no-code 資料庫／表單平台，主打中小企業、繁中與日文市場在地化、零部署導入",
+    "positioning": "no-code 資料庫／表單平台，主打 Excel 式介面、中小企業與大型企業皆可用、比競品更深入的產業/企業端應用情境，簽核、客製列印報表等單據整合、子表格等均為特色，支援英文與繁中市場、零部署導入",
     "key_narrative": "AI Agent 的上限，就是它能看到的數據",
-    "battlegrounds": ["AI agent 功能與定價", "MCP 整合與分發", "no-code 資料庫核心", "中小企業（台灣、日本）市場"]
+    "battlegrounds": ["AI agent 功能與定價", "MCP 整合與分發", "no-code 資料庫核心", "全球市場，特別著重台灣與歐美"]
   },
   "competitors": [
     {
@@ -41,7 +41,7 @@
     {
       "name": "monday.com",
       "markets": ["Global"],
-      "why_tracked": "work OS 龍頭，AI 變現策略最激進，定價比較基準",
+      "why_tracked": "主打 work OS，AI 變現策略最激進，定價比較基準",
       "sources": [
         { "type": "changelog", "url": "https://monday.com/whats-new" },
         { "type": "help", "url": "https://support.monday.com/hc/en-us/sections/360003078779" },
@@ -60,7 +60,7 @@
     {
       "name": "Kintone",
       "markets": ["JP", "TW"],
-      "why_tracked": "與 Ragic 客群（日本、台灣中小企業/製造業）重疊度最高的競品",
+      "why_tracked": "日本龍頭，近年積極進入台灣市場",
       "sources": [
         { "type": "changelog", "url": "https://jp.kintone.help/k/ja/update/main" },
         { "type": "newsroom", "url": "https://prtimes.jp/main/action.php?run=html&page=searchkey&search_word=kintone" },
