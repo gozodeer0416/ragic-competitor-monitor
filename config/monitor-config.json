@@ -90,6 +90,20 @@
         { "type": "pricing", "url": "https://www.odoo.com/pricing" },
         { "type": "product", "url": "https://www.odoo.com/app/studio" }
       ]
+    },
+    {
+      "name": "LLM 平台（Claude／ChatGPT／Gemini）",
+      "markets": ["Global"],
+      "scope": "narrow_filter",
+      "why_tracked": "非傳統 no-code 資料庫競品，觀測範圍刻意限縮，不比照其他競品全面追蹤。不收模型能力發布、定價、API 更新等一般 LLM 動態；只收『應用層動作，且市場論述明確視為威脅 Notion、Airtable 或傳統 ERP』的訊號（例如：用自然語言直接生成試算表／資料庫應用、agent 自主建置完整工作流程與資料結構）。收錄量尺：市場（媒體、社群、分析師評論）有沒有明確把這個動作拿來跟 no-code 平台或傳統 ERP 比較、視為取代威脅——沒有就不收，即使功能本身重大。三家當週都沒有通過此量尺的動作是正常情況，不用勉強湊數。",
+      "sources": [
+        { "type": "newsroom", "url": "https://www.anthropic.com/news" },
+        { "type": "blog", "url": "https://claude.com/blog" },
+        { "type": "blog", "url": "https://openai.com/news/" },
+        { "type": "changelog", "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes" },
+        { "type": "blog", "url": "https://blog.google/products-and-platforms/products/gemini/" },
+        { "type": "blog", "url": "https://workspace.google.com/blog/product-announcements" }
+      ]
     }
   ]
 }

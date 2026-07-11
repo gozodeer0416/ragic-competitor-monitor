@@ -24,10 +24,11 @@
 3. **若執行環境當次完全無法使用 WebFetch**（例如網路政策封鎖所有外部連線，連測試網域都連不上）：不要因此中斷任務，改以 WebSearch 為主要蒐集與查證工具，同一則訊號至少用兩個獨立搜尋結果交叉比對再採用；在該次報告的 conclusion 中如實註明「本期 WebFetch 不可用，來源以 WebSearch 交叉查證」。
 4. 個別來源頁打不開（改版、擋爬蟲）但 WebFetch 本身可用時：改用 WebSearch 找替代來源，並在該筆訊號的 read 中註明資料缺口。
 5. 每一筆訊號都必須有**可查證的公開來源 URL**；能用 WebFetch 驗證就驗證，不能時依規則 3 交叉查證。禁止編造來源或日期。
+6. **「LLM 平台（Claude／ChatGPT／Gemini）」這個項目套用窄篩選**（config 中該項目 `"scope": "narrow_filter"`）：不比照其他競品全面追蹤。蒐集到的動作要先過一道量尺才能收錄——**市場（媒體、社群、分析師評論）有沒有明確把這個動作視為威脅 Notion、Airtable 或傳統 ERP**。模型能力提升、定價、API 更新、與 no-code database 無直接關聯的一般功能更新，即使報導量大也不收錄；只收「應用層動作，且被市場拿來跟 no-code 平台／ERP 比較」的訊號。三家當週都沒有通過量尺的動作是正常情況，不用勉強湊數、不用為此項目硬找一則訊號。
 
 ### 3. 判讀（規則詳見 docs/METHODOLOGY.md，此處為操作摘要）
 
-- **篩選**：只收「對 Ragic 有判讀價值」的訊號，每週至多 `max_signals_per_week` 筆。純 bug fix、細瑣 UI 調整不收。
+- **篩選**：只收「對 Ragic 有判讀價值」的訊號，每週至多 `max_signals_per_week` 筆。純 bug fix、細瑣 UI 調整不收。LLM 平台項目另套用第 2 節第 6 點的窄篩選量尺。
 - **關注指數**：依 config 的 `attention_index.formula` 給 1–5 分（JSON 欄位名為 `attention_index`）。這是本報告唯一的量化排序依據；不做 P0/P1/P2 這類優先級分類，判讀留給讀者人工決定。
 - **每筆訊號必填**：`signal`（客觀事實，含日期與具體內容）、`read`（市場解讀——這代表競品在想什麼）、`impact`（對 Ragic 的具體影響與建議動作）。事實與判讀分開寫，不確定的推測要用「可能」「待確認」標示。
 - **寫 read／impact 時要對照 `ragic_context`**：
