@@ -40,7 +40,7 @@
   2. **定價風向**：本週競品在 AI／訂閱定價模式上的共同動向或代表性個案（credit 制走向、方案調整、免費額度變化等）。若本週沒有任何競品有定價相關動作，如實寫「本週無明顯定價動向」，不要硬找。
   3. **最高優先訊號**：本次 `signals` 中 `attention_index` 最高的一則（同分時選對 Ragic 核心戰場重疊度最高者）；`value` 是該訊號的簡短標題。
   4. **Ragic 應對焦點**：綜合以上三張卡，Ragic 這週最該優先思考或行動的方向，`value` 可用「×」串多個焦點，應與 `implications` 呼應但更凝練。
-- **implications**：分 Marketing / PR、Product / R&D 提問、Content 排程建議三組，每組 2–3 條可執行的具體建議。
+- **implications**：分 Marketing / PR、Product / R&D 提問兩組，每組 2–3 條可執行的具體建議。
 - **deepdives**：挑本週最值得深入的 2–3 個訊號寫背景脈絡與後續判讀點。
 - **平靜週**：即使沒有重大訊號也要產出當週檔，conclusion 註明「本週市場相對平靜」，signals 可少於競品數，KPI 反映實況。
 
@@ -74,8 +74,7 @@
   ],
   "implications": [
     { "team": "Marketing / PR", "items": ["<b>標題：</b>內容…"] },
-    { "team": "Product / R&D 提問", "items": ["…"] },
-    { "team": "Content 排程建議", "items": ["…"] }
+    { "team": "Product / R&D 提問", "items": ["…"] }
   ],
   "deepdives": [
     { "tag": "DEEP DIVE ▸ 01", "title": "…", "body": "…", "watch": "後續觀察：…" }

@@ -79,14 +79,6 @@
         "<b>Agent 稽核：</b>Notion 3.6 把 agent 活動納入 audit log，Ragic AI Agent 的操作紀錄目前的顆粒度是否足以回應企業客戶詢問？",
         "<b>Office 檔案支援：</b>Notion agent 已可讀寫 PPTX / XLSX / DOCX，評估 Ragic AI Agent 對附件檔案的處理範圍。"
       ]
-    },
-    {
-      "team": "Content 排程建議",
-      "items": [
-        "<b>比較文：</b>「Kintone AI vs Ragic AI Agent」繁中文章，趁 GA 討論熱度（建議 30–40 小時的明確範疇稿）。",
-        "<b>觀點文：</b>「AI credits 三種收法：monday、Kintone、Notion 怎麼選擇不同的路」。",
-        "<b>案例角度：</b>沿用谷慕慕 Ragic × Claude 整合角度，對照 Smartsheet 的 AI 助理接入敘事。"
-      ]
     }
   ],
   "deepdives": [

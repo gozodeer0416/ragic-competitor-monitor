@@ -65,7 +65,7 @@
 
 ### 3.4 週報固定產出
 
-每週必產出：跨競品主軸結論（conclusion）、4 張 KPI 卡、訊號記分板（signals）、三組團隊行動建議（Marketing / PR、Product / R&D 提問、Content 排程建議）、2–3 張深讀卡（deepdives）、來源清單（sources）。沒有重大訊號的平靜週也照常出報告並如實註明。
+每週必產出：跨競品主軸結論（conclusion）、4 張 KPI 卡、訊號記分板（signals）、兩組團隊行動建議（Marketing / PR、Product / R&D 提問）、2–3 張深讀卡（deepdives）、來源清單（sources）。沒有重大訊號的平靜週也照常出報告並如實註明。
 
 **KPI 卡為固定模板**，4 張的標題與順序每週不變，只換內容：
 
