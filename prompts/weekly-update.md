@@ -19,10 +19,11 @@
 
 對 config 中每一家競品：
 
-1. 用 WebFetch 逐一檢查該競品的每個 `sources` URL，找出**過去 `lookback_days` 天內**的更新（release notes、公告、定價變動）。
+1. 優先用 WebFetch 逐一檢查該競品的每個 `sources` URL，找出**過去 `lookback_days` 天內**的更新（release notes、公告、定價變動）。
 2. 用 WebSearch 補漏：搜尋「{競品名} + 新功能／pricing／announcement／AI」等組合，涵蓋官方來源沒列到的重大新聞（募資、併購、重大改版、市場動作）。Kintone 需額外用日文關鍵字搜尋。
-3. 來源頁抓不到（改版、擋爬蟲）時：改用 WebSearch 找替代來源，並在該筆訊號的 read 或當週 conclusion 中註明資料缺口。
-4. 每一筆訊號都必須有**可查證的公開來源 URL**，並用 WebFetch 確認該 URL 真實可及、內容確實支持你的描述。禁止編造來源或日期。
+3. **若執行環境當次完全無法使用 WebFetch**（例如網路政策封鎖所有外部連線，連測試網域都連不上）：不要因此中斷任務，改以 WebSearch 為主要蒐集與查證工具，同一則訊號至少用兩個獨立搜尋結果交叉比對再採用；在該次報告的 conclusion 中如實註明「本期 WebFetch 不可用，來源以 WebSearch 交叉查證」。
+4. 個別來源頁打不開（改版、擋爬蟲）但 WebFetch 本身可用時：改用 WebSearch 找替代來源，並在該筆訊號的 read 中註明資料缺口。
+5. 每一筆訊號都必須有**可查證的公開來源 URL**；能用 WebFetch 驗證就驗證，不能時依規則 3 交叉查證。禁止編造來源或日期。
 
 ### 3. 判讀（規則詳見 docs/METHODOLOGY.md，此處為操作摘要）
 
