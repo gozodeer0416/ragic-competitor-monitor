@@ -29,6 +29,7 @@
 
 1. **官方一手來源**：各競品的 release notes / changelog、官方 newsroom / blog、定價頁、help center 更新頁——config 中每家競品的 `sources` 清單。
 2. **搜尋補漏**：官方來源沒涵蓋的重大新聞（募資、併購、市場動作、社群反應），以 web 搜尋補足；Kintone 額外用日文關鍵字。
+   - **指定關鍵字監測**：部分競品在 `config` 設有 `watch_keywords`——特定產品線／功能名稱，每次執行會額外主動搜尋這些字詞有無變動，不只是靠通用搜尋帶到。目前設定：Airtable（Hyperagent、Omni、Field Agents、AI automation）、monday.com（Vibe、Agent Factory、Sidekick、AI workflow）。
 3. 來源頁抓取失敗（改版、擋爬蟲）時改用搜尋找替代來源，並在報告中註明資料缺口。
 4. 若執行環境當次完全無法使用 WebFetch（曾發生過雲端環境的網路政策封鎖所有外部連線，連測試網域都連不上）：改以 WebSearch 為主，用兩個以上獨立結果交叉查證，報告中會如實註明此狀況。
 

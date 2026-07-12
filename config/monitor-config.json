@@ -35,6 +35,7 @@
       "name": "Airtable",
       "markets": ["Global"],
       "why_tracked": "no-code 資料庫直接競品，已轉向 AI-native 定位",
+      "watch_keywords": ["Hyperagent", "Omni", "Field Agents", "AI automation"],
       "sources": [
         { "type": "newsroom", "url": "https://www.airtable.com/newsroom" },
         { "type": "changelog", "url": "https://community.airtable.com/announcements-6" },
@@ -55,6 +56,7 @@
       "name": "monday.com",
       "markets": ["Global"],
       "why_tracked": "主打 work OS，AI 變現策略最激進，定價比較基準",
+      "watch_keywords": ["Vibe", "Agent Factory", "Sidekick", "AI workflow"],
       "sources": [
         { "type": "changelog", "url": "https://monday.com/whats-new" },
         { "type": "help", "url": "https://support.monday.com/hc/en-us/sections/360003078779" },
