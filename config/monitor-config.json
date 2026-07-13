@@ -39,7 +39,8 @@
       "sources": [
         { "type": "newsroom", "url": "https://www.airtable.com/newsroom" },
         { "type": "changelog", "url": "https://community.airtable.com/announcements-6" },
-        { "type": "pricing", "url": "https://www.airtable.com/pricing" }
+        { "type": "pricing", "url": "https://www.airtable.com/pricing" },
+        { "type": "homepage", "url": "https://www.airtable.com" }
       ]
     },
     {
@@ -49,7 +50,8 @@
       "sources": [
         { "type": "changelog", "url": "https://www.notion.com/releases" },
         { "type": "blog", "url": "https://www.notion.com/blog" },
-        { "type": "pricing", "url": "https://www.notion.com/pricing" }
+        { "type": "pricing", "url": "https://www.notion.com/pricing" },
+        { "type": "homepage", "url": "https://www.notion.com" }
       ]
     },
     {
@@ -60,7 +62,8 @@
       "sources": [
         { "type": "changelog", "url": "https://monday.com/whats-new" },
         { "type": "help", "url": "https://support.monday.com/hc/en-us/sections/360003078779" },
-        { "type": "pricing", "url": "https://monday.com/pricing" }
+        { "type": "pricing", "url": "https://monday.com/pricing" },
+        { "type": "homepage", "url": "https://monday.com" }
       ]
     },
     {
@@ -69,7 +72,8 @@
       "why_tracked": "表格型工作平台，MCP／AI 入口分發策略的參考案例",
       "sources": [
         { "type": "changelog", "url": "https://www.smartsheet.com/content-center/product-news/release-notes" },
-        { "type": "newsroom", "url": "https://www.smartsheet.com/content-center/product-news" }
+        { "type": "newsroom", "url": "https://www.smartsheet.com/content-center/product-news" },
+        { "type": "homepage", "url": "https://www.smartsheet.com" }
       ]
     },
     {
@@ -79,7 +83,8 @@
       "sources": [
         { "type": "changelog", "url": "https://jp.kintone.help/k/ja/update/main" },
         { "type": "newsroom", "url": "https://prtimes.jp/main/action.php?run=html&page=searchkey&search_word=kintone" },
-        { "type": "blog", "url": "https://kintone-blog.cybozu.co.jp/" }
+        { "type": "blog", "url": "https://kintone-blog.cybozu.co.jp/" },
+        { "type": "homepage", "url": "https://kintone.cybozu.co.jp/" }
       ]
     },
     {
@@ -90,7 +95,8 @@
         { "type": "changelog", "url": "https://www.odoo.com/page/release-notes" },
         { "type": "blog", "url": "https://www.odoo.com/blog" },
         { "type": "pricing", "url": "https://www.odoo.com/pricing" },
-        { "type": "product", "url": "https://www.odoo.com/app/studio" }
+        { "type": "product", "url": "https://www.odoo.com/app/studio" },
+        { "type": "homepage", "url": "https://www.odoo.com" }
       ]
     },
     {

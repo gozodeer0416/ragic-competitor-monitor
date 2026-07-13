@@ -26,6 +26,13 @@
 4. 個別來源頁打不開（改版、擋爬蟲）但 WebFetch 本身可用時：改用 WebSearch 找替代來源，並在該筆訊號的 read 中註明資料缺口。
 5. 每一筆訊號都必須有**可查證的公開來源 URL**；能用 WebFetch 驗證就驗證，不能時依規則 3 交叉查證。禁止編造來源或日期。
 6. **「LLM 平台（Claude／ChatGPT／Gemini）」這個項目套用窄篩選**（config 中該項目 `"scope": "narrow_filter"`）：不比照其他競品全面追蹤。蒐集到的動作要先過一道量尺才能收錄——**市場（媒體、社群、分析師評論）有沒有明確把這個動作視為威脅 Notion、Airtable 或傳統 ERP**。模型能力提升、定價、API 更新、與 no-code database 無直接關聯的一般功能更新，即使報導量大也不收錄；只收「應用層動作，且被市場拿來跟 no-code 平台／ERP 比較」的訊號。三家當週都沒有通過量尺的動作是正常情況，不用勉強湊數、不用為此項目硬找一則訊號。
+7. **定位觀察（Positioning Watch）**：對每一個在 `sources` 有 `homepage` 類型 URL 的競品（目前：Airtable、Notion、monday.com、Smartsheet、Kintone、Odoo；LLM 平台項目不追蹤）：
+   - 用 WebFetch 抓該競品的 `homepage` URL，摘出目前首頁最主要的標語（headline）與主要 CTA 按鈕文字。這**只追蹤文字內容**，不追蹤視覺／版面改版（工具限制，無法截圖比對）。
+   - 讀取 `data/homepage-snapshots.json`，比對這次抓到的 headline／cta 跟上次存的版本是否不同：
+     - 不同 → `status: "changed"`，`note` 簡短說明差異（例如「標語從 A 改為 B」）
+     - 相同 → `status: "unchanged"`，`note` 寫「本週無變動」——**沒有變動也要照樣列出這個競品，不要省略**
+     - 該競品的網域封鎖 WebFetch（例如遇到 403）→ 改用 WebSearch 嘗試找目前文案，找得到就照樣比對；完全找不到 → `status: "unavailable"`，`note` 註明原因
+   - 每次執行完，把這次抓到的最新 headline／cta 寫回 `data/homepage-snapshots.json`（連同 `last_checked` 更新為當天日期；只有 `status: "changed"` 時才更新 `last_changed`），供下次比對用。
 
 ### 3. 判讀（規則詳見 docs/METHODOLOGY.md，此處為操作摘要）
 
@@ -80,6 +87,10 @@
   "deepdives": [
     { "tag": "DEEP DIVE ▸ 01", "title": "…", "body": "…", "watch": "後續觀察：…" }
   ],
+  "positioning_watch": [           // 對照 data/homepage-snapshots.json 產生，見第 2 節第 7 點
+    { "comp": "Airtable", "status": "changed", "headline": "目前首頁標語…", "cta": "主要 CTA 文字…", "note": "與上次差異說明，或「本週無變動」" }
+    // status: "changed" | "unchanged" | "unavailable"（baseline 僅用於首次建立時，之後不會再出現）
+  ],
   "sources": [
     { "comp": "競品名", "title": "來源標題", "url": "https://…", "note": "這個來源支持哪些訊號" }
   ]
@@ -96,5 +107,6 @@
 
 1. 用 `python3 -m json.tool` 或同等方式驗證新 JSON 語法合法。
 2. 更新 `data/index.json`：把新週次加入 `weeks` 陣列（保持新→舊排序），更新 `updated` 為當天日期。
-3. commit 訊息：`data: add {週次} weekly report`（更新既有週次則用 `data: update {週次} weekly report`）。
-4. **直接 push 到 `main` branch**。這是自動化資料更新，不要開 PR、不要開新 branch。
+3. 更新 `data/homepage-snapshots.json`：寫入本次抓到的最新 headline／cta／last_checked（見第 2 節第 7 點）。
+4. commit 訊息：`data: add {週次} weekly report`（更新既有週次則用 `data: update {週次} weekly report`）。
+5. **直接 push 到 `main` branch**。這是自動化資料更新，不要開 PR、不要開新 branch。

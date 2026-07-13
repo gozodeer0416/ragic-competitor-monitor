@@ -99,6 +99,19 @@ td.c-read,td.c-impact{color:var(--ink-soft);min-width:200px}
 .dive .watch{font-size:12.5px;border-top:1px dashed var(--line-strong);padding-top:10px;margin-top:auto}
 .dive .watch b{color:var(--accent-deep)}
 
+/* ---------- positioning watch ---------- */
+.pos-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:14px}
+.pos{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:16px 18px;display:flex;flex-direction:column;gap:6px}
+.pos .p-top{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.pos .p-comp{font-family:var(--mono);font-size:12px;font-weight:700;color:var(--ink)}
+.pos .p-status{font-family:var(--mono);font-size:10.5px;font-weight:600;border-radius:3px;padding:2px 7px;white-space:nowrap;text-transform:uppercase}
+.pos .p-status.changed{color:var(--accent-deep);background:var(--accent-wash)}
+.pos .p-status.unchanged,.pos .p-status.baseline{color:var(--label);background:var(--p2-bg)}
+.pos .p-status.unavailable{color:var(--p0-fg,#B93A17);background:var(--p0-bg,#FBE7DF)}
+.pos .p-headline{font-size:14px;font-weight:700;line-height:1.5;color:var(--ink)}
+.pos .p-cta{font-size:12px;color:var(--ink-soft)}
+.pos .p-note{font-size:11.5px;color:var(--label);border-top:1px dashed var(--line-strong);padding-top:8px;margin-top:2px}
+
 /* ---------- sources ---------- */
 .src-list{background:var(--card);border:1px solid var(--line);border-radius:6px;margin-top:12px;padding:8px 0}
 .src{display:flex;flex-wrap:wrap;gap:4px 14px;align-items:baseline;padding:10px 22px;border-bottom:1px solid var(--line)}
@@ -113,7 +126,7 @@ footer p{font-family:var(--mono);font-size:11px;color:var(--label);line-height:1
 
 @media (max-width:900px){
   .kpis{grid-template-columns:repeat(2,1fr)}
-  .impl-grid,.dives{grid-template-columns:1fr}
+  .impl-grid,.dives,.pos-grid{grid-template-columns:1fr}
 }
 @media (max-width:560px){
   .kpis{grid-template-columns:1fr}
@@ -137,6 +150,7 @@ footer p{font-family:var(--mono);font-size:11px;color:var(--label);line-height:1
         <a href="#scoreboard">Signal Scoreboard</a>
         <a href="#implications">Ragic Implications</a>
         <a href="#deepdive">Deep Dive</a>
+        <a href="#positioning">Positioning Watch</a>
         <a href="#sources">Sources</a>
       </nav>
     </div>
@@ -187,6 +201,13 @@ footer p{font-family:var(--mono);font-size:11px;color:var(--label);line-height:1
     <h2>本週重點</h2>
     <p class="lede">補充重要訊號的背景脈絡、延伸觀察與後續判讀點。</p>
     <div class="dives" id="diveGrid"></div>
+  </section>
+
+  <section id="positioning">
+    <div class="field"><span class="fname">Positioning Watch</span><span class="fcount" id="posCount"></span></div>
+    <h2>定位觀察</h2>
+    <p class="lede">追蹤各競品官網首頁的主標語與 CTA 文案，比對每週有無變動；本身無變動也會列出，僅供追蹤，不主動判讀優先級。</p>
+    <div class="pos-grid" id="posGrid"></div>
   </section>
 
   <section id="sources">
@@ -282,6 +303,21 @@ function render(weekKey, w){
       <h3>${esc(d.title)}</h3>
       <p>${esc(d.body)}</p>
       <div class="watch"><b>Watch ▸ </b>${esc(d.watch)}</div>
+    </div>`).join('');
+
+  // positioning watch
+  const posStatusLabel = { baseline: '基準', changed: '有變動', unchanged: '無變動', unavailable: '暫無法查證' };
+  const posItems = w.positioning_watch || [];
+  $('posCount').textContent = `${posItems.length} tracked`;
+  $('posGrid').innerHTML = posItems.map(p => `
+    <div class="pos">
+      <div class="p-top">
+        <span class="p-comp">${esc(p.comp)}</span>
+        <span class="p-status ${esc(p.status)}">${esc(posStatusLabel[p.status] || p.status)}</span>
+      </div>
+      <div class="p-headline">${esc(p.headline)}</div>
+      <div class="p-cta">${esc(p.cta)}</div>
+      <div class="p-note">${esc(p.note)}</div>
     </div>`).join('');
 
   // sources

@@ -4,6 +4,7 @@
 
 - 觀測頁面：`index.html`（GitHub Pages 公開發布）
 - 資料檔：`data/` 目錄，每週一檔 JSON
+- 首頁文案快照：`data/homepage-snapshots.json`（非週次歸檔，持續更新的最新狀態，供「定位觀察」比對用，見 §2、§3.5）
 - 機器設定：`config/monitor-config.json`（競品、來源、參數）
 - 判讀規則（agent 工作說明書）：`prompts/weekly-update.md`
 
@@ -37,6 +38,8 @@
 
 **查證要求**：每筆訊號必須附可公開查證的來源 URL；能用 WebFetch 直接存取驗證就驗證，環境限制無法使用時以多來源交叉查證取代；禁止編造來源或日期。所有引用來源列在頁面的 Sources 區。
 
+**首頁定位追蹤**：部分競品在 `sources` 設有 `homepage` 類型來源（目前：Airtable、Notion、monday.com、Smartsheet、Kintone、Odoo；LLM 平台項目不追蹤），每次執行會抓取首頁主標語與 CTA 文案，跟 `data/homepage-snapshots.json` 存的上次版本比對，寫入當週報告的「定位觀察」區塊，並更新快照檔供下次比對。**只追蹤文字內容，不追蹤視覺／版面改版**（工具限制，無截圖比對能力）。
+
 ## 3. 判斷原則
 
 ### 3.1 訊號篩選
@@ -66,7 +69,7 @@
 
 ### 3.4 週報固定產出
 
-每週必產出：跨競品主軸結論（conclusion）、4 張 KPI 卡、訊號記分板（signals）、兩組團隊行動建議（Marketing / PR、Product / R&D 提問）、2–3 張深讀卡（deepdives）、來源清單（sources）。沒有重大訊號的平靜週也照常出報告並如實註明。
+每週必產出：跨競品主軸結論（conclusion）、4 張 KPI 卡、訊號記分板（signals）、兩組團隊行動建議（Marketing / PR、Product / R&D 提問）、2–3 張深讀卡（deepdives）、定位觀察（positioning_watch）、來源清單（sources）。沒有重大訊號的平靜週也照常出報告並如實註明。
 
 **KPI 卡為固定模板**，4 張的標題與順序每週不變，只換內容：
 
@@ -77,6 +80,16 @@
 
 沒有對應內容時（例如本週無明顯定價動向）如實註明，不硬湊。
 
+### 3.5 定位觀察（Positioning Watch）
+
+每週列出所有有追蹤首頁的競品，狀態分三種：
+
+- **changed**（有變動）——本週抓到的標語／CTA 跟上次不同，`note` 說明差異
+- **unchanged**（無變動）——跟上次相同，`note` 寫「本週無變動」；**即使沒變動也照樣列出，不會省略**
+- **unavailable**（暫無法查證）——來源網域封鎖存取，`note` 註明原因
+
+這是純粹的「有沒有變」追蹤，不做優先級判讀；標語／CTA 變了不代表一定重大，但長期累積能看出各家定位敘事怎麼演變。
+
 ## 4. 如何修改指標、競品、邏輯
 
 排程 agent 每次執行時都會**重新讀取** repo 內的設定與規則檔，所以修改以下檔案並 push 到 `main`，下週起自動生效，排程本身不用動：
@@ -84,6 +97,7 @@
 | 想改什麼 | 改哪個檔案 |
 |---|---|
 | 新增/移除競品、調整來源 URL、觀測市場 | `config/monitor-config.json` 的 `competitors` |
+| 新增/移除首頁定位追蹤 | 在該競品的 `sources` 加入或移除 `{"type": "homepage", "url": "..."}`；新增後首次執行會自動建立基準 |
 | 每週訊號上限、回溯天數 | `config/monitor-config.json` 的 `report` |
 | 關注指數公式 | `config/monitor-config.json` 的 `attention_index`（並同步更新本文件） |
 | 判讀邏輯、產出格式、篩選標準 | `prompts/weekly-update.md` |
@@ -95,6 +109,7 @@
 ## 5. 已知限制
 
 - 來源頁改版或擋爬蟲時可能漏抓，agent 會以搜尋補漏並註明缺口，但無法保證 100% 涵蓋。
+- 定位觀察只抓文字（標語、CTA），抓不到版面、配色、圖片這類視覺改版；部分官網網域會封鎖 WebFetch（例如已知 openai.com 系列網域會回 403），該情況會標記為 `unavailable` 並註明原因。
 - 執行環境偶爾會整體封鎖 WebFetch（雲端網路政策問題），此時報告改以 WebSearch 交叉查證產生，查證嚴謹度略低於直接存取原始頁面；報告中若有此註記，重大決策前建議自行查證來源。
 - read / impact 為 AI 分析師判讀，供內部討論起點，重大決策前請回到原始來源查證。
 - 資料與判讀內容存於公開 repo，任何人可見；請勿在 config 或 prompts 中加入內部機密資訊。

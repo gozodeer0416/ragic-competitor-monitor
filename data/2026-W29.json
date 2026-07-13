@@ -81,5 +81,13 @@
     { "comp": "Notion", "title": "Understand pricing for Workers (beta) – Notion Help Center", "url": "https://www.notion.com/help/understand-pricing-for-workers", "note": "Workers 計費開始日順延至 10/15、credits 定價（WebSearch 交叉查證）" },
     { "comp": "Kintone", "title": "自然言語でデータ連携を自動化、kintone向け新連携サービスを提供開始（ソフトクリエイト プレスリリース）", "url": "https://prtimes.jp/main/html/rd/p/000000083.000012489.html", "note": "「Safe AI Insights for kintone」服務內容、定價（WebFetch 本次對所有網域回傳 403，已用多家獨立媒體報導交叉查證，含 ASCII、MONOist、Yahoo News）" },
     { "comp": "Kintone", "title": "2026年7月版 主なアップデート（kintone ヘルプ）", "url": "https://jp.kintone.help/k/ja/update/main/2026/07", "note": "「App 管理」畫面新增篩選／盤點功能（WebSearch 交叉查證，官方頁面標題直接命中）" }
+  ],
+  "positioning_watch": [
+    { "comp": "Airtable", "status": "baseline", "headline": "All your teams, all their workflows—connected in one workspace", "cta": "Get started for free / Book demo", "note": "本週建立追蹤基準，尚無歷史可比對" },
+    { "comp": "Notion", "status": "baseline", "headline": "Where teams and agents Think together.", "cta": "Get Notion free / Request a demo", "note": "本週建立追蹤基準，尚無歷史可比對" },
+    { "comp": "monday.com", "status": "baseline", "headline": "You lead. Agents act.", "cta": "Get Started / Contact sales", "note": "本週建立追蹤基準，尚無歷史可比對" },
+    { "comp": "Smartsheet", "status": "baseline", "headline": "Intelligent Work Management with AI at its core", "cta": "Watch a demo / Try Smartsheet for free", "note": "本週建立追蹤基準，尚無歷史可比對" },
+    { "comp": "Kintone", "status": "baseline", "headline": "みんな、つくれる。", "cta": "アプリ作成体験 / 30日間無料お試し / 導入相談", "note": "本週建立追蹤基準，尚無歷史可比對" },
+    { "comp": "Odoo", "status": "baseline", "headline": "All your business on one platform.", "cta": "Start now - It's free / Meet an advisor", "note": "本週建立追蹤基準，尚無歷史可比對" }
   ]
 }

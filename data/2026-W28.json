@@ -113,5 +113,13 @@
     { "comp": "Airtable", "title": "Airtable Community Announcements", "url": "https://community.airtable.com/announcements-6", "note": "Field Agents 連接器與排程觸發" },
     { "comp": "Kintone", "title": "2026年7月版 主なアップデート（kintone ヘルプ）", "url": "https://jp.kintone.help/k/ja/update/main/2026-07", "note": "7/12 記錄更新提醒、新通知畫面預設化、搜尋關聯度排序、App 分析規則偵測（WebSearch 交叉查證，WebFetch 本次不可用）" },
     { "comp": "monday.com", "title": "AI Credits – monday.com Support", "url": "https://support.monday.com/hc/en-us/articles/29544502265746-AI-Credits", "note": "7/6 一次性試用 credits（6,000／12,000 點）下架，改為依功能個別提供試用額度（WebSearch 交叉查證，WebFetch 本次不可用）" }
+  ],
+  "positioning_watch": [
+    { "comp": "Airtable", "status": "baseline", "headline": "All your teams, all their workflows—connected in one workspace", "cta": "Get started for free / Book demo", "note": "本週建立追蹤基準，尚無歷史可比對" },
+    { "comp": "Notion", "status": "baseline", "headline": "Where teams and agents Think together.", "cta": "Get Notion free / Request a demo", "note": "本週建立追蹤基準，尚無歷史可比對" },
+    { "comp": "monday.com", "status": "baseline", "headline": "You lead. Agents act.", "cta": "Get Started / Contact sales", "note": "本週建立追蹤基準，尚無歷史可比對" },
+    { "comp": "Smartsheet", "status": "baseline", "headline": "Intelligent Work Management with AI at its core", "cta": "Watch a demo / Try Smartsheet for free", "note": "本週建立追蹤基準，尚無歷史可比對" },
+    { "comp": "Kintone", "status": "baseline", "headline": "みんな、つくれる。", "cta": "アプリ作成体験 / 30日間無料お試し / 導入相談", "note": "本週建立追蹤基準，尚無歷史可比對" },
+    { "comp": "Odoo", "status": "baseline", "headline": "All your business on one platform.", "cta": "Start now - It's free / Meet an advisor", "note": "本週建立追蹤基準，尚無歷史可比對" }
   ]
 }
