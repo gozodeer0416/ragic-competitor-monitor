@@ -1,0 +1,85 @@
+{
+  "week": "2026-W29",
+  "range": "2026/07/06–2026/07/13",
+  "markets": "Global / TW",
+  "competitors": ["Airtable", "Notion", "monday.com", "Smartsheet", "Kintone", "Odoo", "LLM"],
+  "conclusion": {
+    "title": "本周市場結論：短暫盤整，主軸從「功能競賽」轉向「治理與協作深化」",
+    "body": "相較上期五家競品密集釋出 AI GA、agent 平台化、定價緊縮等重大動作，本期呈現明顯的盤整感：沒有新的 AI 能力發布，三則收錄訊號共同指向『把既有 agent／自動化能力包裝得更好治理、更好協作』——monday.com 開放匯入外部 AI agent（Claude、GPT 等）但把自己定位成這些 agent 的治理層與系統紀錄；Notion 讓 Workers 可在團隊間共享（同時把計費上線日順延至 10/15）；kintone 生態系夥伴推出自然語言資料整合服務，官方也為『App 管理』畫面加上盤點用篩選功能。Airtable、Smartsheet、Odoo 本期查核後皆無明確新訊號；LLM 平台項目本期亦無動作通過『被市場視為 no-code／ERP 威脅』的窄篩選量尺（OpenAI 7/9 發布的 ChatGPT Work／Sites 雖屬應用層動作，但未見媒體或分析師將其與 no-code 平台或 ERP 做威脅性對比，故不收錄）。本期執行環境的 WebFetch 對所有測試網域（含控制組網域）均回傳 403，判斷為本次環境性阻擋而非個別網站防爬蟲，故全面改以 WebSearch 交叉查證（同一則訊號至少兩個獨立搜尋結果或官方頁面標題直接命中）取得資料，未發現需要編造來源之情形。"
+  },
+  "kpis": [
+    { "label": "本周主軸", "value": "治理與協作深化 3/5", "note": "monday BYOA 治理層、Notion Workers 團隊共享、kintone App 盤點篩選，三則訊號共同指向強化既有能力的治理與協作面，而非推出新 AI 能力" },
+    { "label": "定價風向", "value": "Notion Workers 計費順延至 10/15", "note": "本週僅 Notion 一則定價相關動態，且是展延而非調漲；monday、kintone、Airtable、Smartsheet 本週均無定價異動" },
+    { "label": "最高優先訊號", "value": "monday.com Bring Your Own Agent（Beta）", "note": "外部 agent 匯入＋monday 自居治理層，直接呼應 Ragic『內建護欄』核心敘事" },
+    { "label": "Ragic 應對焦點", "value": "原生治理敘事 × 一人設定全公司用 × App 盤點治理", "note": "強化『原生治理 vs. 外掛治理層』對照素材；評估是否支援匯入外部 LLM agent；研究表單／App 使用狀況盤點功能" }
+  ],
+  "signals": [
+    {
+      "comp": "monday.com",
+      "date": "2026/07/08 起（Beta）",
+      "signal": "monday.com 推出「Bring Your Own Agent」（Beta）：可將在 Claude、OpenAI、Azure AI Foundry、Cursor、Mistral AI、Copilot Studio 等外部平台建立的 AI agent 匯入 monday.com 工作區，成為可被 @mention、指派任務、觸發與監控的完整實體；agent 的『大腦』（指令、技能、工具）仍留在外部平台管理，monday.com 則定位自己為協作介面、治理層與系統紀錄（system of record）。同時開放新版 MCP workflow 區塊，可串接人員、agent 與外部工具建立自動化流程。",
+      "theme": "外部Agent・治理層",
+      "read": "monday.com 沒有選擇繼續加碼自建更強的原生 agent，而是把自己重新定位成『任何 AI agent 的治理與協作層』——agent 智慧留在外部平台，monday 負責權限、稽核紀錄與工作介面。這是對『內建護欄』這個差異點的正面回應：只要外部 agent 都能在 monday 的治理框架下運作，monday 就把自己變成 agent 治理的基礎設施，而非單純的 agent 功能供應商。",
+      "impact": "直接命中 Ragic『內建護欄』的差異化敘事——monday 現在也開始講『治理層』故事，但其外部 agent 仍需先在原平台完成設定與訓練，並非真正零部署；Ragic 的優勢仍在於 agent 原生活在資料庫裡、免安裝、一次設定全公司用。建議行銷素材明確對比『monday：治理層包住外部 agent』vs.『Ragic：agent 原生於資料庫、治理內建於設定本身』，並評估是否也該支援匯入外部 LLM agent 於 Ragic 治理框架下運作，作為進可攻退可守的產品選項。",
+      "attention_index": 4
+    },
+    {
+      "comp": "Notion",
+      "date": "2026/07/09",
+      "signal": "Notion 更新：Workers（託管程式碼執行環境）新增團隊共享功能，可設定「Can connect」（可使用）與「Full access」（可修改、延伸應用）兩種權限層級，透過 Developer Portal 管理；同時官方說明頁確認 Workers 免費 beta 期延長，計費開始日由先前公告的 8/11 順延至 10/15（Business／Enterprise 方案可加購 credits，每 1,000 credits US$10）。",
+      "theme": "Workers共享・計費展延",
+      "read": "Workers 團隊共享，代表 Notion 正式把『一人建好、全公司可用』的模式帶進自動化領域——這正好貼近 Ragic 一直強調的核心差異點。計費上線日順延則顯示 Notion 對 Workers 商業化步調偏保守，可能反映 beta 使用量或客戶回饋還需要更多時間消化。",
+      "impact": "Notion 用 Workers 共享部分複製了 Ragic『一人配置、全公司受益』的價值主張，但仍侷限在程式碼執行環境（面向開發者／進階使用者），非 no-code 使用者難以直接操作；Ragic 的優勢在於這個模式從一開始就是給非工程師用的。建議持續追蹤 Workers 10/15 計費上線後的定價細節與採用度，可作為『免部署 vs. 開發者向自動化』的內容素材。",
+      "attention_index": 3
+    },
+    {
+      "comp": "Kintone",
+      "date": "2026/07/01–07/03",
+      "signal": "kintone 生態系與治理面兩則更新：(1) 合作夥伴 ソフトクリエイト 於 7/3 推出「Safe AI Insights for kintone」，可用自然語言定義資料清洗、欄位拆分、格式統一等資料整合邏輯，串接 kintone、CSV、Excel、PDF、圖片與外部資料庫（初期費用 10 萬日圓＋基本方案月費 3.5 萬日圓起，含 10 組資料連携處理）；(2) kintone 7 月版更新為「App 管理」畫面新增篩選功能，可依「記錄逾一年未更新」「App 管理者僅 2 人以下」等條件篩出待盤點的 App，7/1 起分階段配置（Wide 方案專用擴充功能）。",
+      "theme": "生態系AI・App治理",
+      "read": "兩則都不是 Cybozu 自家的 AI agent 或建系統功能，而是生態系夥伴在既有資料上疊加 AI 資料整合服務，以及官方持續強化『App 氾濫後如何治理』的管理工具——延續上期已觀察到的『規模化導入後補強 IT 治理』方向，顯示日本市場對『資料變乾淨、App 好盤點』的需求，眼下比『AI 直接建系統』更急迫、更具體。",
+      "impact": "屬於既有觀察方向（治理／稽核）的延伸細節，非新戰線；可留意 Ragic 是否需要對應的『App／表單使用狀況盤點』功能，作為中大型客戶導入治理故事的一部分。ソフトクリエイト 的服務也說明中小企業客群可能普遍存在『AI agent 使用前的資料清洗』需求缺口，值得評估是否納入 Ragic AI Agent 的資料準備能力路線圖。",
+      "attention_index": 2
+    }
+  ],
+  "implications": [
+    {
+      "team": "Marketing / PR",
+      "items": [
+        "<b>對比治理層敘事：</b>monday.com BYOA 把自己包裝成『任何 AI agent 的治理層』，但外部 agent 仍需先在原平台設定；準備一組『monday：治理層包外部 agent』vs.『Ragic：agent 原生於資料庫、治理內建於設定本身』的對照素材。",
+        "<b>延伸「一人設定全公司用」敘事：</b>Notion Workers 團隊共享部分複製此模式但侷限於開發者向工具；可強調 Ragic 從第一天就是給非工程師的一次設定、全公司共用。",
+        "<b>觀察 JP/TW 中小企業資料清洗需求：</b>ソフトクリエイト 的自然語言資料整合服務顯示 kintone 生態系客群有這類缺口，可評估是否值得產出對應的內容或功能素材。"
+      ]
+    },
+    {
+      "team": "Product / R&D 提問",
+      "items": [
+        "<b>外部 agent 匯入：</b>monday.com 已開放將 Claude／GPT 等外部 agent 匯入其治理框架下運作，Ragic 是否也該支援類似機制（在 Ragic 權限／稽核框架下運作外部 LLM agent），或維持純原生 agent 路線是更清楚的差異化？",
+        "<b>Workers 共享對照：</b>Notion Workers 現在可團隊共享（Can connect／Full access 兩層權限），Ragic AI Agent 的設定分享／複用機制目前的顆粒度是否足以對應企業客戶需求？",
+        "<b>App／表單治理盤點：</b>kintone 新增「App 管理」篩選功能協助企業盤點閒置或治理風險 App，Ragic 是否需要類似的表單／App 使用狀況儀表板，作為中大型客戶導入的治理賣點？"
+      ]
+    }
+  ],
+  "deepdives": [
+    {
+      "tag": "DEEP DIVE ▸ 01",
+      "title": "monday.com 把自己變成『任何 agent 的治理層』",
+      "body": "Bring Your Own Agent 的關鍵設計是『大腦在外部、治理在 monday』：agent 的指令、技能、工具留在 Claude、OpenAI 等原平台管理，monday 只負責讓它成為可被團隊 @mention、指派、監控、留下紀錄的協作實體。這跟過去『monday 自建 Sidekick／Agent Factory』的路線不同——與其比拚誰的原生 agent 更聰明，不如把自己變成所有 agent 都要經過的治理與紀錄基礎設施。對 Ragic 而言，這驗證了『治理層』本身就是一個值得經營的敘事戰場，只是 Ragic 的治理是原生內建在資料庫與設定流程裡，不是包在外部 agent 外面的一層殼。",
+      "watch": "後續觀察：monday 治理層的稽核／權限顆粒度公開後，是否真的達到企業級稽核要求；以及是否會進一步開放更多外部 agent 平台或往『按 agent 用量收費』發展。"
+    },
+    {
+      "tag": "DEEP DIVE ▸ 02",
+      "title": "Notion Workers 從個人工具走向團隊共享，計費卻順延",
+      "body": "Workers 原本是開發者個人在 Notion 上蓋自動化的沙盒，這次新增團隊共享權限後，一個人寫好的 Worker 可以讓同事直接使用（Can connect）或繼續延伸開發（Full access），開始有『一人建置、團隊受益』的味道。但同時官方把免費 beta 期從 8/11 延到 10/15 才開始計費，透露 Notion 對這塊商業化的步調比原訂計畫保守，可能是使用量或客戶回饋還沒到位。",
+      "watch": "後續觀察：10/15 計費上線後的實際採用度與定價反彈；Workers 共享權限機制是否進一步降低給非工程師使用的門檻，從『開發者沙盒』真正走向『全公司可用』。"
+    }
+  ],
+  "sources": [
+    { "comp": "monday.com", "title": "Bring your external agent into monday.com – Support", "url": "https://support.monday.com/hc/en-us/articles/36885999990930-Bring-your-external-agent-into-monday-com", "note": "BYOA（Beta）機制說明：外部 agent 匯入、治理層定位（WebFetch 本次對所有網域回傳 403，已用多組獨立 WebSearch 結果交叉查證）" },
+    { "comp": "monday.com", "title": "Build on monday.com with AI – MCP, API, and Agent Integration", "url": "https://developer.monday.com/api-reference/docs/build-on-monday-with-ai", "note": "MCP workflow 區塊、agent／人員／外部工具整合說明（WebSearch 交叉查證）" },
+    { "comp": "Notion", "title": "July 9, 2026 – Share Notion Workers across your team", "url": "https://www.notion.com/releases/2026-07-09", "note": "Workers 團隊共享權限層級（Can connect／Full access）（WebFetch 本次對所有網域回傳 403，已用 WebSearch 交叉查證，官方頁面標題直接命中）" },
+    { "comp": "Notion", "title": "Understand pricing for Workers (beta) – Notion Help Center", "url": "https://www.notion.com/help/understand-pricing-for-workers", "note": "Workers 計費開始日順延至 10/15、credits 定價（WebSearch 交叉查證）" },
+    { "comp": "Kintone", "title": "自然言語でデータ連携を自動化、kintone向け新連携サービスを提供開始（ソフトクリエイト プレスリリース）", "url": "https://prtimes.jp/main/html/rd/p/000000083.000012489.html", "note": "「Safe AI Insights for kintone」服務內容、定價（WebFetch 本次對所有網域回傳 403，已用多家獨立媒體報導交叉查證，含 ASCII、MONOist、Yahoo News）" },
+    { "comp": "Kintone", "title": "2026年7月版 主なアップデート（kintone ヘルプ）", "url": "https://jp.kintone.help/k/ja/update/main/2026/07", "note": "「App 管理」畫面新增篩選／盤點功能（WebSearch 交叉查證，官方頁面標題直接命中）" }
+  ]
+}
