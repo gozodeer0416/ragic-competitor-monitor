@@ -103,7 +103,12 @@ td.c-read,td.c-impact{color:var(--ink-soft);min-width:200px}
 .dive .watch{font-size:12.5px;border-top:1px dashed var(--line-strong);padding-top:10px;margin-top:auto}
 .dive .watch b{color:var(--accent-deep)}
 
-/* ---------- positioning watch ---------- */
+/* ---------- positioning watch（參考追蹤區：冷色內嵌面板，與分析區塊區隔） ---------- */
+#positioning{background:var(--p2-bg);border:1px solid var(--line-strong);border-radius:8px;padding:26px 28px 24px;margin-top:40px}
+#positioning .field .fname{color:var(--label)}
+#positioning .field .fcount{background:#fff}
+#positioning h2{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.pos-zone-tag{font-family:var(--mono);font-size:11px;font-weight:600;letter-spacing:.06em;color:var(--label);background:#fff;border:1px dashed var(--line-strong);border-radius:3px;padding:2px 8px}
 .pos-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:14px}
 .pos{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:16px 18px;display:flex;flex-direction:column;gap:6px}
 .pos .p-top{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
@@ -212,7 +217,7 @@ footer p{font-family:var(--mono);font-size:11px;color:var(--label);line-height:1
 
   <section id="positioning">
     <div class="field"><span class="fname">Positioning Watch</span><span class="fcount" id="posCount"></span></div>
-    <h2>定位觀察</h2>
+    <h2>定位觀察 <span class="pos-zone-tag">參考追蹤區・不判讀優先級</span></h2>
     <p class="lede">追蹤各競品官網首頁的主標語與 CTA 文案，比對每週有無變動；本身無變動也會列出，僅供追蹤，不主動判讀優先級。</p>
     <div class="pos-grid" id="posGrid"></div>
   </section>
