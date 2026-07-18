@@ -2,16 +2,40 @@
   "week": "2026-W29",
   "range": "2026/07/06–2026/07/13",
   "markets": "Global / TW",
-  "competitors": ["Airtable", "Notion", "monday.com", "Smartsheet", "Kintone", "Odoo", "LLM"],
+  "competitors": [
+    "Airtable",
+    "Notion",
+    "monday.com",
+    "Smartsheet",
+    "Kintone",
+    "Odoo",
+    "LLM"
+  ],
   "conclusion": {
     "title": "本周市場結論：短暫盤整，主軸從「功能競賽」轉向「治理與協作深化」",
-    "body": "相較上期五家競品密集釋出 AI GA、agent 平台化、定價緊縮等重大動作，本期呈現明顯的盤整感：沒有新的 AI 能力發布，三則收錄訊號共同指向『把既有 agent／自動化能力包裝得更好治理、更好協作』——monday.com 開放匯入外部 AI agent（Claude、GPT 等）但把自己定位成這些 agent 的治理層與系統紀錄；Notion 讓 Workers 可在團隊間共享（同時把計費上線日順延至 10/15）；kintone 生態系夥伴推出自然語言資料整合服務，官方也為『App 管理』畫面加上盤點用篩選功能。Airtable、Smartsheet、Odoo 本期查核後皆無明確新訊號；LLM 平台項目本期亦無動作通過『被市場視為 no-code／ERP 威脅』的窄篩選量尺（OpenAI 7/9 發布的 ChatGPT Work／Sites 雖屬應用層動作，但未見媒體或分析師將其與 no-code 平台或 ERP 做威脅性對比，故不收錄）。本期執行環境的 WebFetch 對所有測試網域（含控制組網域）均回傳 403，判斷為本次環境性阻擋而非個別網站防爬蟲，故全面改以 WebSearch 交叉查證（同一則訊號至少兩個獨立搜尋結果或官方頁面標題直接命中）取得資料，未發現需要編造來源之情形。"
+    "body": "相較上期五家競品密集釋出 AI GA、agent 平台化、定價緊縮等重大動作，本期呈現明顯的盤整感：沒有新的 AI 能力發布，三則收錄訊號共同指向『把既有 agent／自動化能力包裝得更好治理、更好協作』：\n- monday.com 開放匯入外部 AI agent（Claude、GPT 等），但把自己定位成這些 agent 的治理層與系統紀錄\n- Notion 讓 Workers 可在團隊間共享，同時把計費上線日順延至 10/15\n- kintone 生態系夥伴推出自然語言資料整合服務，官方也為『App 管理』畫面加上盤點用篩選功能\n\nAirtable、Smartsheet、Odoo 本期查核後皆無明確新訊號；LLM 平台項目本期亦無動作通過『被市場視為 no-code／ERP 威脅』的窄篩選量尺（OpenAI 7/9 發布的 ChatGPT Work／Sites 雖屬應用層動作，但未見媒體或分析師將其與 no-code 平台或 ERP 做威脅性對比，故不收錄）。\n\n方法註記：本期執行環境的 WebFetch 對所有測試網域（含控制組網域）均回傳 403，判斷為環境性阻擋而非個別網站防爬蟲，故全面改以 WebSearch 交叉查證（同一則訊號至少兩個獨立搜尋結果或官方頁面標題直接命中）取得資料，未發現需要編造來源之情形。"
   },
   "kpis": [
-    { "label": "本周主軸", "value": "治理與協作深化 3/5", "note": "monday BYOA 治理層、Notion Workers 團隊共享、kintone App 盤點篩選，三則訊號共同指向強化既有能力的治理與協作面，而非推出新 AI 能力" },
-    { "label": "定價風向", "value": "Notion Workers 計費順延至 10/15", "note": "本週僅 Notion 一則定價相關動態，且是展延而非調漲；monday、kintone、Airtable、Smartsheet 本週均無定價異動" },
-    { "label": "最高優先訊號", "value": "monday.com Bring Your Own Agent（Beta）", "note": "外部 agent 匯入＋monday 自居治理層，直接呼應 Ragic『內建護欄』核心敘事" },
-    { "label": "Ragic 應對焦點", "value": "原生治理敘事 × 一人設定全公司用 × App 盤點治理", "note": "強化『原生治理 vs. 外掛治理層』對照素材；評估是否支援匯入外部 LLM agent；研究表單／App 使用狀況盤點功能" }
+    {
+      "label": "本周主軸",
+      "value": "治理與協作深化 3/5",
+      "note": "monday BYOA 治理層、Notion Workers 團隊共享、kintone App 盤點篩選，三則訊號共同指向強化既有能力的治理與協作面，而非推出新 AI 能力"
+    },
+    {
+      "label": "定價風向",
+      "value": "Notion Workers 計費順延至 10/15",
+      "note": "本週僅 Notion 一則定價相關動態，且是展延而非調漲；monday、kintone、Airtable、Smartsheet 本週均無定價異動"
+    },
+    {
+      "label": "最高優先訊號",
+      "value": "monday.com Bring Your Own Agent（Beta）",
+      "note": "外部 agent 匯入＋monday 自居治理層，直接呼應 Ragic『內建護欄』核心敘事"
+    },
+    {
+      "label": "Ragic 應對焦點",
+      "value": "原生治理敘事 × 一人設定全公司用 × App 盤點治理",
+      "note": "強化『原生治理 vs. 外掛治理層』對照素材；評估是否支援匯入外部 LLM agent；研究表單／App 使用狀況盤點功能"
+    }
   ],
   "signals": [
     {
@@ -75,19 +99,85 @@
     }
   ],
   "sources": [
-    { "comp": "monday.com", "title": "Bring your external agent into monday.com – Support", "url": "https://support.monday.com/hc/en-us/articles/36885999990930-Bring-your-external-agent-into-monday-com", "note": "BYOA（Beta）機制說明：外部 agent 匯入、治理層定位（WebFetch 本次對所有網域回傳 403，已用多組獨立 WebSearch 結果交叉查證）" },
-    { "comp": "monday.com", "title": "Build on monday.com with AI – MCP, API, and Agent Integration", "url": "https://developer.monday.com/api-reference/docs/build-on-monday-with-ai", "note": "MCP workflow 區塊、agent／人員／外部工具整合說明（WebSearch 交叉查證）" },
-    { "comp": "Notion", "title": "July 9, 2026 – Share Notion Workers across your team", "url": "https://www.notion.com/releases/2026-07-09", "note": "Workers 團隊共享權限層級（Can connect／Full access）（WebFetch 本次對所有網域回傳 403，已用 WebSearch 交叉查證，官方頁面標題直接命中）" },
-    { "comp": "Notion", "title": "Understand pricing for Workers (beta) – Notion Help Center", "url": "https://www.notion.com/help/understand-pricing-for-workers", "note": "Workers 計費開始日順延至 10/15、credits 定價（WebSearch 交叉查證）" },
-    { "comp": "Kintone", "title": "自然言語でデータ連携を自動化、kintone向け新連携サービスを提供開始（ソフトクリエイト プレスリリース）", "url": "https://prtimes.jp/main/html/rd/p/000000083.000012489.html", "note": "「Safe AI Insights for kintone」服務內容、定價（WebFetch 本次對所有網域回傳 403，已用多家獨立媒體報導交叉查證，含 ASCII、MONOist、Yahoo News）" },
-    { "comp": "Kintone", "title": "2026年7月版 主なアップデート（kintone ヘルプ）", "url": "https://jp.kintone.help/k/ja/update/main/2026/07", "note": "「App 管理」畫面新增篩選／盤點功能（WebSearch 交叉查證，官方頁面標題直接命中）" }
+    {
+      "comp": "monday.com",
+      "title": "Bring your external agent into monday.com – Support",
+      "url": "https://support.monday.com/hc/en-us/articles/36885999990930-Bring-your-external-agent-into-monday-com",
+      "note": "BYOA（Beta）機制說明：外部 agent 匯入、治理層定位（WebFetch 本次對所有網域回傳 403，已用多組獨立 WebSearch 結果交叉查證）"
+    },
+    {
+      "comp": "monday.com",
+      "title": "Build on monday.com with AI – MCP, API, and Agent Integration",
+      "url": "https://developer.monday.com/api-reference/docs/build-on-monday-with-ai",
+      "note": "MCP workflow 區塊、agent／人員／外部工具整合說明（WebSearch 交叉查證）"
+    },
+    {
+      "comp": "Notion",
+      "title": "July 9, 2026 – Share Notion Workers across your team",
+      "url": "https://www.notion.com/releases/2026-07-09",
+      "note": "Workers 團隊共享權限層級（Can connect／Full access）（WebFetch 本次對所有網域回傳 403，已用 WebSearch 交叉查證，官方頁面標題直接命中）"
+    },
+    {
+      "comp": "Notion",
+      "title": "Understand pricing for Workers (beta) – Notion Help Center",
+      "url": "https://www.notion.com/help/understand-pricing-for-workers",
+      "note": "Workers 計費開始日順延至 10/15、credits 定價（WebSearch 交叉查證）"
+    },
+    {
+      "comp": "Kintone",
+      "title": "自然言語でデータ連携を自動化、kintone向け新連携サービスを提供開始（ソフトクリエイト プレスリリース）",
+      "url": "https://prtimes.jp/main/html/rd/p/000000083.000012489.html",
+      "note": "「Safe AI Insights for kintone」服務內容、定價（WebFetch 本次對所有網域回傳 403，已用多家獨立媒體報導交叉查證，含 ASCII、MONOist、Yahoo News）"
+    },
+    {
+      "comp": "Kintone",
+      "title": "2026年7月版 主なアップデート（kintone ヘルプ）",
+      "url": "https://jp.kintone.help/k/ja/update/main/2026/07",
+      "note": "「App 管理」畫面新增篩選／盤點功能（WebSearch 交叉查證，官方頁面標題直接命中）"
+    }
   ],
   "positioning_watch": [
-    { "comp": "Airtable", "status": "baseline", "headline": "All your teams, all their workflows—connected in one workspace", "cta": "Get started for free / Book demo", "note": "本週建立追蹤基準，尚無歷史可比對" },
-    { "comp": "Notion", "status": "baseline", "headline": "Where teams and agents Think together.", "cta": "Get Notion free / Request a demo", "note": "本週建立追蹤基準，尚無歷史可比對" },
-    { "comp": "monday.com", "status": "baseline", "headline": "You lead. Agents act.", "cta": "Get Started / Contact sales", "note": "本週建立追蹤基準，尚無歷史可比對" },
-    { "comp": "Smartsheet", "status": "baseline", "headline": "Intelligent Work Management with AI at its core", "cta": "Watch a demo / Try Smartsheet for free", "note": "本週建立追蹤基準，尚無歷史可比對" },
-    { "comp": "Kintone", "status": "baseline", "headline": "みんな、つくれる。", "cta": "アプリ作成体験 / 30日間無料お試し / 導入相談", "note": "本週建立追蹤基準，尚無歷史可比對" },
-    { "comp": "Odoo", "status": "baseline", "headline": "All your business on one platform.", "cta": "Start now - It's free / Meet an advisor", "note": "本週建立追蹤基準，尚無歷史可比對" }
+    {
+      "comp": "Airtable",
+      "status": "baseline",
+      "headline": "All your teams, all their workflows—connected in one workspace",
+      "cta": "Get started for free / Book demo",
+      "note": "本週建立追蹤基準，尚無歷史可比對"
+    },
+    {
+      "comp": "Notion",
+      "status": "baseline",
+      "headline": "Where teams and agents Think together.",
+      "cta": "Get Notion free / Request a demo",
+      "note": "本週建立追蹤基準，尚無歷史可比對"
+    },
+    {
+      "comp": "monday.com",
+      "status": "baseline",
+      "headline": "You lead. Agents act.",
+      "cta": "Get Started / Contact sales",
+      "note": "本週建立追蹤基準，尚無歷史可比對"
+    },
+    {
+      "comp": "Smartsheet",
+      "status": "baseline",
+      "headline": "Intelligent Work Management with AI at its core",
+      "cta": "Watch a demo / Try Smartsheet for free",
+      "note": "本週建立追蹤基準，尚無歷史可比對"
+    },
+    {
+      "comp": "Kintone",
+      "status": "baseline",
+      "headline": "みんな、つくれる。",
+      "cta": "アプリ作成体験 / 30日間無料お試し / 導入相談",
+      "note": "本週建立追蹤基準，尚無歷史可比對"
+    },
+    {
+      "comp": "Odoo",
+      "status": "baseline",
+      "headline": "All your business on one platform.",
+      "cta": "Start now - It's free / Meet an advisor",
+      "note": "本週建立追蹤基準，尚無歷史可比對"
+    }
   ]
 }

@@ -55,7 +55,11 @@ section .lede{color:var(--ink-soft);margin-bottom:18px}
 /* ---------- conclusion band ---------- */
 .conclusion{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:22px 26px;margin-top:16px}
 .conclusion h3{font-size:19px;font-weight:900;margin-bottom:8px}
-.conclusion p{color:var(--ink-soft)}
+.conclusion .c-body{color:var(--ink-soft)}
+.conclusion .c-body p{margin:0 0 10px}
+.conclusion .c-body p:last-child{margin-bottom:0}
+.conclusion .c-body ul{margin:0 0 10px;padding-left:22px}
+.conclusion .c-body li{margin-bottom:4px}
 
 /* ---------- KPI ---------- */
 .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:14px}
@@ -166,7 +170,7 @@ footer p{font-family:var(--mono);font-size:11px;color:var(--label);line-height:1
     <div class="field"><span class="fname">Overview</span><span class="fcount" id="kpiCount"></span></div>
     <div class="conclusion">
       <h3 id="conclTitle"></h3>
-      <p id="conclBody"></p>
+      <div id="conclBody" class="c-body"></div>
     </div>
     <div class="kpis" id="kpiGrid"></div>
   </section>
@@ -253,6 +257,24 @@ async function loadWeek(key){
   return weekCache[key];
 }
 
+// 純文字 → 段落與列點：空行分段，連續「- 」開頭的行變成 <ul>
+function formatBody(text){
+  const blocks = [];
+  let list = [];
+  const flush = () => {
+    if(list.length){ blocks.push(`<ul>${list.map(li=>`<li>${esc(li)}</li>`).join('')}</ul>`); list = []; }
+  };
+  String(text || '').split('\n').forEach(raw => {
+    const line = raw.trim();
+    if(!line){ flush(); return; }
+    if(line.startsWith('- ')){ list.push(line.slice(2)); return; }
+    flush();
+    blocks.push(`<p>${esc(line)}</p>`);
+  });
+  flush();
+  return blocks.join('');
+}
+
 function meterHTML(n){
   let seg = "";
   for(let i=1;i<=5;i++) seg += `<i class="${i<=n?'on':''}"></i>`;
@@ -265,9 +287,9 @@ function render(weekKey, w){
   const comps = (w.competitors || []).join(' / ');
   $('metaLine').textContent = `${weekKey.replace('-',' 周報 ｜ ')} ｜ 資料範圍：${w.range} ｜ 觀測市場：${w.markets}${comps ? ` ｜ 追蹤競品：${comps}` : ''}`;
 
-  // conclusion
+  // conclusion（body 支援換行分段；以「- 」開頭的連續行呈現為列點）
   $('conclTitle').textContent = w.conclusion.title;
-  $('conclBody').textContent = w.conclusion.body;
+  $('conclBody').innerHTML = formatBody(w.conclusion.body);
 
   // KPI
   $('kpiCount').textContent = `${w.kpis.length} cards`;
