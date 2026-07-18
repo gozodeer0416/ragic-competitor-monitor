@@ -44,7 +44,15 @@
 - **已否決：行動建議的網頁端回饋按鈕（localStorage）**——因為標記只存單一瀏覽器，她不要。不要再提這個方案。
 - **待辦（她說未來考慮）：行動建議逐條經 Ragic API 寫入她自建的 Ragic 表單做追蹤**（欄位構想：週次/組別/內容/狀態；API key 走 GitHub secret；需去重防重跑重複寫入）。她開口時再做。
 
-## 5. 維護操作備忘
+## 5. 金鑰與權限
+
+**這個 repo 本身不持有任何金鑰**——沒有 GitHub Actions、沒有 repo secret。前端是純靜態頁，不呼叫任何需要認證的 API。
+
+- **每週資料的產生與 push**：由使用者 Claude 帳號下的排程雲端 agent 執行（設定位置在 claude.ai 的排程任務，不在本 repo）。它的 Anthropic 端憑證由該排程環境自帶；push 到本 repo 的 GitHub 授權也是在建立排程時綁定的。若排程失效需重建，需要：(1) 使用者登入 claude.ai 重新建立/修復排程，(2) 排程環境具備此 repo 的 push 權限（repo 擁有者 gozodeer0416 授權）。
+- **維護者本機 push**：需要 repo 寫入權（目前為 gozodeer0416 的 gh CLI 登入）。本 repo 沒有 workflows 目錄，不需要 workflow scope。
+- **未來若做「行動建議寫入 Ragic」**（見 §4）：屆時需要 Ragic API key——由使用者在她的 Ragic 帳號產生（Ragic 的 API key 在個人帳號設定內），存放方式屆時再定（若走 GitHub Actions 就存 repo secret，不可寫進前端——前端是公開頁面，任何寫在 `index.html` 或 JSON 裡的金鑰等同公開）。
+
+## 6. 維護操作備忘
 
 - **本機預覽**：`python3 -m http.server`（直接開檔案會因 fetch 失敗白頁，前端有錯誤提示）。
 - **截圖驗證**：headless Chrome 加 `--virtual-time-budget=8000`，否則 async fetch 未完成就拍到空區塊。
