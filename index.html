@@ -108,6 +108,9 @@ td.c-read,td.c-impact{color:var(--ink-soft);min-width:200px}
 .pos .p-status.changed{color:var(--accent-deep);background:var(--accent-wash)}
 .pos .p-status.unchanged,.pos .p-status.baseline{color:var(--label);background:var(--p2-bg)}
 .pos .p-status.unavailable{color:var(--p0-fg,#B93A17);background:var(--p0-bg,#FBE7DF)}
+.pos .p-url{font-family:var(--mono);font-size:11.5px}
+.pos .p-url a{color:var(--accent-deep);text-decoration:none}
+.pos .p-url a:hover{text-decoration:underline}
 .pos .p-headline{font-size:14px;font-weight:700;line-height:1.5;color:var(--ink)}
 .pos .p-cta{font-size:12px;color:var(--ink-soft)}
 .pos .p-note{font-size:11.5px;color:var(--label);border-top:1px dashed var(--line-strong);padding-top:8px;margin-top:2px}
@@ -239,6 +242,7 @@ const esc = s => String(s ?? '')
 const escB = s => esc(s).replace(/&lt;(\/?b)&gt;/g,'<$1>');
 
 const weekCache = {};
+let homepageByComp = {};   // 公司名 → 官網首頁網址（讀自 config/monitor-config.json）
 async function fetchJSON(path){
   const res = await fetch(path, {cache:'no-cache'});
   if(!res.ok) throw new Error(`${path} → HTTP ${res.status}`);
@@ -309,16 +313,26 @@ function render(weekKey, w){
   const posStatusLabel = { baseline: '基準', changed: '有變動', unchanged: '無變動', unavailable: '暫無法查證' };
   const posItems = w.positioning_watch || [];
   $('posCount').textContent = `${posItems.length} tracked`;
-  $('posGrid').innerHTML = posItems.map(p => `
+  $('posGrid').innerHTML = posItems.map(p => {
+    const url = homepageByComp[p.comp];
+    const compHTML = url
+      ? `<a class="p-comp" href="${esc(url)}" target="_blank" rel="noopener" style="text-decoration:none">${esc(p.comp)}</a>`
+      : `<span class="p-comp">${esc(p.comp)}</span>`;
+    const urlHTML = url
+      ? `<div class="p-url"><a href="${esc(url)}" target="_blank" rel="noopener">${esc(url.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, ''))} ↗</a></div>`
+      : '';
+    return `
     <div class="pos">
       <div class="p-top">
-        <span class="p-comp">${esc(p.comp)}</span>
+        ${compHTML}
         <span class="p-status ${esc(p.status)}">${esc(posStatusLabel[p.status] || p.status)}</span>
       </div>
+      ${urlHTML}
       <div class="p-headline">${esc(p.headline)}</div>
       <div class="p-cta">${esc(p.cta)}</div>
       <div class="p-note">${esc(p.note)}</div>
-    </div>`).join('');
+    </div>`;
+  }).join('');
 
   // sources
   $('srcCount').textContent = `${w.sources.length} entries`;
@@ -342,6 +356,15 @@ async function show(key){
 (async function init(){
   const sel = $('weekSelect');
   try{
+    // 讀 config 建「公司名 → 官網首頁」對照；讀不到也不影響其餘功能
+    try{
+      const cfg = await fetchJSON('config/monitor-config.json');
+      (cfg.competitors || []).forEach(c => {
+        const home = (c.sources || []).find(s => s.type === 'homepage');
+        if(home) homepageByComp[c.name] = home.url;
+      });
+    }catch(_){ /* 無 config 時定位卡片單純不顯示連結 */ }
+
     const idx = await fetchJSON('data/index.json');
     const weeks = [...idx.weeks].sort().reverse(); // 新 → 舊
     weeks.forEach(k=>{
