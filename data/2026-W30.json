@@ -1,0 +1,232 @@
+{
+  "week": "2026-W30",
+  "range": "2026/07/14–2026/07/20",
+  "markets": "Global / TW",
+  "competitors": ["Airtable", "Notion", "monday.com", "Smartsheet", "Kintone", "Odoo", "LLM"],
+  "conclusion": {
+    "title": "本周市場結論：MCP 從選配走向多家競品同步搶進的基礎設施戰場",
+    "body": "本期（2026/07/14–2026/07/20）最明顯的跨競品現象是 MCP 整合同週三線並進：\n\n- Airtable 推出可下載的 MCP「Agent Skills」技能檔，讓外部 AI 用戶端更準確操作 Airtable\n- monday.com 在 AI Workflow 建構器新增「MCP Block」，把上期 BYOA／MCP 預告正式產品化為可拖拉的工作流程積木\n- Odoo 揭露 Odoo 20（Enterprise）將內建原生 MCP server，且預設唯讀、寫入需管理員手動開啟，同時踩中「MCP」與「內建護欄」兩項 Ragic 核心差異化敘事\n\n三者的邏輯並不完全一致：Airtable、monday.com 仍是「外部 AI 用戶端／外部服務透過 MCP 橋接」的分發模式，本質上仍在 Ragic「原生整合、零外部 API 層」的差異化敘事之外；Odoo 的做法則已是「第一方原生內建 MCP＋預設安全」，是本週對 Ragic 敘事威脅度最高的單一訊號，但其治理深度目前僅止於「唯讀預設」的開關式防線，尚未做到逐模型權限、速率限制或稽核軌跡。\n\n其餘動態相對零星：Notion 為既有 agent 擴充行事曆操作、MCP 存取權杖有效期延長，屬個人助理型與開發體驗的漸進調整；kintone 進一步把 App 治理從「篩選盤點」推進到「依規則自動監控警示」；Smartsheet 本期查核後無新訊號；LLM 平台項目連續第二週沒有動作通過「被市場視為 no-code／ERP 威脅」的窄篩選量尺，屬窄篩選下的正常安靜狀態。\n\n定位觀察方面，Airtable 與 monday.com 首頁標語本次偵測與上次快照相比均有變動，兩者不約而同把首頁主打訊息轉向「AI workflow／App／Agent 建構」的敘事框架（Airtable：「Build Enterprise-ready AI Workflows, Apps & Agents」；monday.com：聚焦「AI work platform」的敘事），惟部分變動可能早於本週、僅為本次偵測到與快照不同，非必然本週新發生，已於 positioning_watch 逐項註記信心程度。"
+  },
+  "kpis": [
+    {
+      "label": "本周主軸",
+      "value": "MCP基礎設施競賽 4/5",
+      "note": "Airtable（MCP Agent Skills）、monday.com（MCP Block）、Odoo（原生 MCP server）三家同週推出 MCP 相關動作，MCP 已從『選配整合』變成多家競品共同搶進的基礎設施戰場；Notion、Kintone 以既有能力漸進強化為主，Smartsheet 與 LLM 平台項目本週均無訊號"
+    },
+    {
+      "label": "定價風向",
+      "value": "本週無明顯定價動向",
+      "note": "六家追蹤競品本週均無新的定價／方案調整訊號（monday.com Sidekick credit 收費雖有 7/27 生效日，但公告時間點與是否屬本週新發布無法可靠確認，故不列為本週定價訊號）"
+    },
+    {
+      "label": "最高優先訊號",
+      "value": "Odoo Enterprise 內建原生 MCP Server（Odoo 20）",
+      "note": "唯一同時踩中『MCP 整合』與『內建護欄』兩大 Ragic 核心戰場的訊號，且來自 ERP 陣營第一方直接投入，本週威脅度最高"
+    },
+    {
+      "label": "Ragic 應對焦點",
+      "value": "原生MCP盤點 × 內建護欄對照 × App治理監控",
+      "note": "優先盤點 Ragic 現有 MCP／AI 介接的權限顆粒度是否對得上（甚至超越）Odoo 的『預設唯讀、寫入需授權』標準；準備『原生 vs. 外部橋接』的 MCP 對照素材；評估是否需要 App／表單使用狀況的治理監控功能"
+    }
+  ],
+  "signals": [
+    {
+      "comp": "Airtable",
+      "date": "2026/07 中旬起（確切發布日待確認，7/23 另有官方說明會）",
+      "signal": "Airtable 釋出 7 月產品更新組合：(1) Airtable Mobile 更新；(2) Omni in Slack——可在任何 Slack 頻道 @mention Airtable，直接查詢 base、彙整記錄、建立／更新資料，不需離開 Slack；(3) 新推出 MCP「Agent Skills」——可下載的技能檔（如 airtable-overview、airtable-filters），讓支援 MCP 的 AI 用戶端更準確理解 Airtable 的資料模型與篩選邏輯；(4) 介面／表單建立速度優化。官方另訂 7/23 舉辦線上說明會展示這波更新。",
+      "theme": "MCP技能・Slack分發",
+      "read": "這波更新的共同邏輯是把 AI 存取管道鋪到使用者已經在的地方——Slack 對話與 MCP client 都是外部管道，而非把 agent 直接內建進 Airtable 本身的操作介面。MCP Agent Skills 把「如何正確操作 Airtable」包裝成可攜式知識檔案，讓任何支援 MCP 的 AI 用戶端更容易「學會」操作 Airtable，本質上是在對外開放、降低外部 agent 使用門檻，而非強化原生 agent 能力。",
+      "impact": "Omni in Slack 需要使用者先在 Slack 完成串接與授權，MCP Agent Skills 也需要外部 AI 用戶端自行載入技能檔——兩者都仍是透過外部管道存取，未踩中 Ragic「原生資料庫整合、零外部 API 層」的核心差異。但 Airtable 積極把 MCP 技能包裝成標準化、可散布的資產，顯示 MCP 生態的分發策略正在成熟；建議評估 Ragic 是否也該規劃對外的 MCP skill／說明包，降低外部 AI 工具存取 Ragic 資料時的學習成本，同時持續強調「Ragic agent 原生活在資料庫裡」與「需透過外部管道串接」的本質差異。",
+      "attention_index": 3
+    },
+    {
+      "comp": "Notion",
+      "date": "2026/07/16",
+      "signal": "Notion 官方發布：Notion Agents 新增行事曆操作能力，可透過自然語言對話查詢／管理行程、加入會議、傳送邀請、尋找會議時間（例如「把我跟 Sandra 的會議改到下午 1 點」），桌面版先行開放，行動版稍後跟進。",
+      "theme": "Agent行程操作",
+      "read": "這是把既有 agent 能力延伸進行事曆這個新資料類型，屬於「個人助理」模式的功能擴充——agent 幫「你」管行程、代「你」發邀請，操作對象仍是使用者個人的行程與會議，而非跨部門共用、一次設定全公司受益的服務型 agent。",
+      "impact": "未踩中 Ragic 任何一項差異點；性質上更接近強化個人助理型 agent，反而凸顯 Ragic「一人配置、全公司 24/7 共用」模式與 Notion 個人助理路線的差異。可作為行銷素材裡「個人助理 vs. 企業級共用 agent」對照的補充案例，不需列為優先行動項目。",
+      "attention_index": 2
+    },
+    {
+      "comp": "Notion",
+      "date": "2026/07/15 前後",
+      "signal": "Notion 將 MCP 存取權杖（access token）有效期由約 1 小時延長至約 8 小時，降低 MCP client 連線需要頻繁重新驗證／換發權杖的頻率；refresh token 仍維持最長 180 天（30 天無活動即失效）的既有上限。",
+      "theme": "MCP穩定性",
+      "read": "屬於開發者體驗層級的可靠性調整，顯示 Notion 持續投入讓自己的 MCP 介接更順手好用，是 MCP 分發策略的漸進強化，而非新戰略動作。",
+      "impact": "與 Ragic 核心戰場關聯度低，但可作為「競品持續投資 MCP 基礎體驗」的持續觀察項；建議留意 Ragic 自身 MCP（若有）介接的權杖有效期與重新驗證體驗是否具競爭力。",
+      "attention_index": 2
+    },
+    {
+      "comp": "monday.com",
+      "date": "2026/07/16",
+      "signal": "monday.com 在 AI Workflow 建構器新增「MCP Block」：可連接任何有公開 MCP server 的第三方應用程式，讓使用者在 no-code workflow 中加入一個步驟即可觸發外部動作（例如建立 GitHub issue、更新 Salesforce 記錄），每次動作消耗 AI credit；同期並開放讓已連接的 AI agent 直接建立、讀取、停用、刪除自動化流程，不需使用者開啟介面操作。此為上期「Bring Your Own Agent」與「新版 MCP workflow 區塊」預告後，正式落地的具體功能。",
+      "theme": "MCP工作流程積木",
+      "read": "延續上期「monday 把自己定位成任何 agent／工具的治理與協作層」的路線，這次是把 MCP 變成 workflow 建構器裡「可拖拉的一個積木」，讓非工程師也能在既有 no-code workflow 中串接外部 MCP 服務——是把 MCP 整合「產品化、UI 化」的具體一步，而非只是概念預告。",
+      "impact": "MCP Block 仍是「monday workflow 呼叫外部 MCP server」的外部整合模式，agent／工具的實際執行邏輯在 monday 之外，未直接複製 Ragic「agent 原生活在資料庫裡、無外部 API 層」的路線；但這是 monday.com 連續兩週在 MCP 整合上加碼的訊號，顯示 MCP 已成為其 AI workflow 敘事的核心一環。建議持續追蹤 MCP Block 的實際可靠度／延遲表現，並評估 Ragic 是否該在 workflow 設定介面中提供類似「一鍵串接外部 MCP 服務」的積木式體驗，同時維持「原生資料庫內建、免額外配置」的差異化敘事。",
+      "attention_index": 4
+    },
+    {
+      "comp": "Kintone",
+      "date": "2026/07/12",
+      "signal": "kintone 7 月更新的完整範圍本週經釐清：除上期已報導的「App 管理」篩選功能外，還包含 (1) 記錄更新即時通知橫幅、(2) App Analysis（僅 Wide 方案）新增「監控功能」，可依企業自訂的內部治理規則偵測並警示違規 App、(3) 通知畫面重新設計（含通知內搜尋與批次已讀）全面開放。",
+      "theme": "App治理監控",
+      "read": "延續上期已觀察到的「App 氾濫後強化治理」方向，這次新增的「依自訂規則偵測違規 App 並警示」機制，把治理從「被動篩選盤點」推進到「主動規則式監控」，顯示 Cybozu 持續把治理／稽核能力當作大型客戶導入 kintone 規模化後的核心賣點。",
+      "impact": "屬既有觀察方向（治理／稽核）的深化，非新戰線，但「依自訂規則自動監控違規」的顆粒度已超越單純篩選——建議評估 Ragic 是否需要類似的「依治理規則自動監控 App／表單使用狀況並主動警示」機制，作為中大型客戶導入時的治理賣點，呼應 Ragic「內建護欄」差異化敘事的規模化版本。",
+      "attention_index": 3
+    },
+    {
+      "comp": "Odoo",
+      "date": "2026/07/15",
+      "signal": "Odoo 揭露 Odoo 20（Enterprise 版）將內建原生 MCP server（模組 ai_mcp）：透過單一 /mcp 端點提供符合 MCP 2025-11-25 規格的 JSON-RPC 2.0 服務，不需外部 Python gateway 轉譯協定即可讓 Claude、ChatGPT、Copilot 等 AI 助理直接串接 Odoo 資料；工具以 Odoo 既有 ai.tool 框架建置，非寫死清單。目前僅開放唯讀工具（情境查詢、模型清單、欄位檢視、記錄搜尋、分組分析），寫入工具（建立／更新記錄）雖已存在於底層 ai 模組，但預設完全不透過 MCP 開放，需管理員手動決定是否開放；模組目前僅記錄請求，未提供逐模型 CRUD 權限、速率限制、稽核軌跡或全域緊急關閉機制。另有 7/15 前後發布的案例說明如何透過此機制以 AI 助理管理業務／CRM。",
+      "theme": "原生MCP・唯讀預設",
+      "read": "Odoo 這步棋同時踩中兩個 Ragic 核心戰場：把 MCP server 做成「第一方原生內建」而非透過外部橋接器，直接對標 Ragic「agent 原生活在資料庫裡、不透過外部 API 層」的差異化主張；而「預設唯讀、寫入需管理員手動開啟」的設計，把最基本的存取風險擋在預設值之外。但這仍只是一道「開關式」護欄——模組本身尚未做到逐模型顆粒度管控、速率限制或稽核軌跡，治理深度有限，還不到 Ragic「內建護欄」敘事所指的完整治理機制。",
+      "impact": "這是本週對 Ragic 差異化敘事威脅度最高的訊號：Odoo 用原生、預設安全的方式做 MCP，正是 Ragic 一直主打的路線，只是 Odoo 從 ERP／全模組角度切入。建議 (1) 盤點 Ragic 現有 MCP／AI 介接能力是否已有等同（或更完整）的「預設唯讀、寫入需授權」防線；(2) 由於 Odoo 目前僅做到「唯讀預設」但缺乏稽核軌跡、速率限制、逐模型權限等進階治理，可準備「不只預設安全、更有完整稽核與細顆粒度權限」的對照素材，凸顯 Ragic 內建護欄是完整治理機制而非單一開關；(3) 持續追蹤 Odoo 20 正式發布後此功能的實際採用度、是否補強稽核／速率限制能力，以及是否擴大到其他版本或模組。",
+      "attention_index": 5
+    }
+  ],
+  "implications": [
+    {
+      "team": "Marketing / PR",
+      "items": [
+        "<b>MCP對照素材：</b>本週三家競品同步推進 MCP，建議整理「原生內建 vs. 外部橋接」的 MCP 比較素材，凸顯 Ragic agent 原生活在資料庫裡、無需額外橋接層的優勢，尤其針對 Odoo 的原生 MCP＋預設安全做法準備正面對照，同時點出 Odoo 目前治理深度仍止於開關式防線、缺乏稽核與速率限制。",
+        "<b>個人助理 vs. 企業級共用：</b>Notion 這週把 agent 能力延伸進行事曆操作，仍屬個人助理模式；可持續在內容素材中強化 Ragic「一人配置、全公司 24/7 共用」與此類個人助理型 agent 的差異對照。",
+        "<b>首頁定位觀察：</b>Airtable、monday.com 本週首頁標語皆偵測到變動、雙雙轉向「AI 建構應用／工作流程」框架，建議下週持續驗證變動是否為新訊息（而非既有快照的偵測延遲），並評估是否需要更新 Ragic 自身對外定位素材以呼應這波「AI 建構」論述競賽。"
+      ]
+    },
+    {
+      "team": "Product / R&D 提問",
+      "items": [
+        "<b>MCP 護欄顆粒度：</b>Odoo 新 MCP server 預設唯讀、寫入需管理員手動開啟，但缺乏逐模型權限、速率限制與稽核軌跡——Ragic 現有 MCP／AI 介接（若有）的治理機制是否已達到同等或更完整的標準？",
+        "<b>MCP 技能／文件包：</b>Airtable 推出可攜式 MCP Agent Skills 技能檔，Ragic 是否也該規劃對外的 MCP skill／操作說明包，降低外部 AI 用戶端存取 Ragic 資料的學習門檻？",
+        "<b>App／表單治理監控：</b>kintone 這週把治理從篩選盤點推進到「依規則自動監控警示」，這是連續第二週出現的治理強化訊號，Ragic 是否需要規劃對應的表單／App 使用狀況監控與自動警示功能，作為中大型客戶導入賣點？"
+      ]
+    }
+  ],
+  "deepdives": [
+    {
+      "tag": "DEEP DIVE ▸ 01",
+      "title": "Odoo 把 MCP 做成「原生內建＋預設安全」——ERP 陣營首次觸及 Ragic 核心敘事",
+      "body": "Odoo 20 的 ai_mcp 模組把 MCP server 直接內建進 Enterprise 版核心，而非像常見做法透過外部 Python gateway 橋接；同時把「唯讀為預設、寫入需管理員手動開啟」做成架構層級的預設值，而非交給使用者自行設定風險。這個組合——原生整合＋預設安全——正好貼近 Ragic「agent 原生於資料庫、內建護欄」差異化敘事的表層結構，只是 Odoo 是從 ERP／全模組管理的角度切入，鎖定需要串接 AI 助理管理 CRM、進銷存等既有 ERP 資料的企業客戶；而且目前模組僅記錄請求，未提供逐模型 CRUD 管控、速率限制、稽核軌跡或全域緊急關閉機制，治理深度仍與 Ragic「內建護欄」所指的完整治理機制有落差。",
+      "watch": "後續觀察：Odoo 20 正式發布後此 MCP 功能是否擴大到 Community（免費）版或僅限 Enterprise；寫入工具實際開放後的權限管理介面是否補上稽核軌跡與速率限制；以及是否有媒體／分析師開始把 Odoo 的 AI 存取能力拿來跟 no-code 平台做比較。"
+    },
+    {
+      "tag": "DEEP DIVE ▸ 02",
+      "title": "monday.com 連兩週加碼 MCP，把「治理層」敘事落地成可拖拉積木",
+      "body": "上期 monday.com 用 Bring Your Own Agent 把自己定位成「任何 AI agent 的治理與協作層」，這週的 MCP Block 則是把這個定位落地成 workflow 建構器裡具體可用的一個積木：使用者不需要理解 MCP 協定細節，只要拖拉一個 MCP Block 就能觸發外部服務的動作，AI agent 甚至可直接建立、修改、刪除自動化流程。這種「把複雜整合包裝成無程式碼積木」的手法，跟 Ragic 一直以來把技術複雜度藏在拖拉介面之後的做法邏輯一致，只是 monday 目前串接的「大腦」仍在外部平台。",
+      "watch": "後續觀察：MCP Block 的實際延遲與可靠度表現、支援的第三方 MCP server 清單是否快速擴張，以及 monday 是否會進一步把治理／稽核功能做到跟 Odoo 一樣的「預設安全」顆粒度。"
+    },
+    {
+      "tag": "DEEP DIVE ▸ 03",
+      "title": "Airtable、monday.com 同週首頁轉向「AI 建構應用／工作流程」敘事",
+      "body": "本次定位觀察偵測到 Airtable 與 monday.com 的首頁標語都與上次快照不同：Airtable 從偏向「團隊協作工作區」的標語，改為直接主打「Build Enterprise-ready AI Workflows, Apps & Agents」；monday.com 也從「You lead. Agents act.」的人機協作框架，轉向聚焦「AI work platform」的敘事。兩者是否為同一週的協調行動仍待確認（部分變動可能早於本次執行區間、只是本次才被偵測到），但方向一致地把「用 AI 建構應用／工作流程」放上第一線訊息，呼應本檔案追蹤的「AI 建立系統／App」戰場。",
+      "watch": "後續觀察：下次執行時重新驗證這兩個標語是否持續穩定（排除單次快取或 A/B 測試雜訊），並留意其他競品（Notion、Smartsheet、Kintone、Odoo）首頁是否跟進同樣的「AI 建構」敘事轉向。"
+    }
+  ],
+  "positioning_watch": [
+    {
+      "comp": "Airtable",
+      "status": "changed",
+      "headline": "Build Enterprise-ready AI Workflows, Apps & Agents",
+      "cta": "Get started for free / Book demo",
+      "note": "標語從偏向「團隊協作工作區」的「All your teams, all their workflows—connected in one workspace」改為直接主打「Build Enterprise-ready AI Workflows, Apps & Agents」，呼應本週 Omni-in-Slack／MCP Agent Skills 的產品動作。WebFetch 本次對 airtable.com 全域回傳 403，已用多組獨立 WebSearch 交叉查證；Book demo 部分本次未獨立重新驗證，暫維持原值。"
+    },
+    {
+      "comp": "Notion",
+      "status": "changed",
+      "headline": "The AI workspace that works for you.",
+      "cta": "Get Notion free / Request a demo",
+      "note": "標語疑似從「Where teams and agents Think together.」改為「The AI workspace that works for you.」，多組獨立搜尋結果指向新標語，但部分子網域仍顯示舊版文案，信心中等；CTA 是否變動未能可靠確認，暫維持原值。WebFetch 本次對 notion.com 全域回傳 403，已用 WebSearch 交叉查證。"
+    },
+    {
+      "comp": "monday.com",
+      "status": "changed",
+      "headline": "The AI workspace where people and agents get more done across every department, faster.",
+      "cta": "Get Started / Contact sales",
+      "note": "標語疑似從「You lead. Agents act.」轉向聚焦「AI work platform」的敘事，但此變動亦可能早於本週（或與 5/6 的 AI Work Platform 改版有關），本次僅為偵測到與上次快照不同，非必然本週新發生；CTA 未能確認，暫維持原值。WebFetch 本次對 monday.com 全域回傳 403，已用 WebSearch 交叉查證。"
+    },
+    {
+      "comp": "Smartsheet",
+      "status": "unavailable",
+      "headline": "Intelligent Work Management with AI at its core",
+      "cta": "Watch a demo / Try Smartsheet for free",
+      "note": "WebFetch 本次對 smartsheet.com 全域回傳 403；WebSearch 僅找到頁面 <title> 標籤「Intelligent Work Management Platform | Smartsheet」（可能與首頁主要標語 H1 不同），信心不足以判定為變動，CTA 亦未能獨立確認，故標記為 unavailable，維持上次快照數值待下次重試。"
+    },
+    {
+      "comp": "Kintone",
+      "status": "unchanged",
+      "headline": "みんな、つくれる。",
+      "cta": "アプリ作成体験 / 30日間無料お試し / 導入相談",
+      "note": "本週無變動。補充：頁面 meta 描述新增「AI とノーコードで業務にフィットするアプリをつくれて、進めるほど AI 活用の土台となるデータがたまる」的敘事，呼應 Ragic「AI agent 的上限就是它能看到的數據」核心敘事，但無法確認是否為本週新增，僅供參考。WebFetch 本次對 kintone.cybozu.co.jp 回傳 403，已用 WebSearch 交叉查證。"
+    },
+    {
+      "comp": "Odoo",
+      "status": "unavailable",
+      "headline": "All your business on one platform.",
+      "cta": "Start now - It's free / Meet an advisor",
+      "note": "WebFetch 本次對 odoo.com 全域回傳 403；WebSearch 僅找到語意相近但非逐字相符的敘述，無法可靠確認是否為原文變動，故標記為 unavailable，維持上次快照數值待下次重試。"
+    }
+  ],
+  "sources": [
+    {
+      "comp": "Airtable",
+      "title": "Airtable Unveils July Product Updates With Slack Integration and New AI Skills",
+      "url": "https://www.createwith.com/tool/airtable/updates/airtable-unveils-july-product-updates-with-slack-integration-and-new-ai-skills",
+      "note": "Omni in Slack、MCP Agent Skills 等 7 月更新內容（WebFetch 本次對 airtable.com 全域回傳 403，已用多組獨立 WebSearch 交叉查證）"
+    },
+    {
+      "comp": "Airtable",
+      "title": "Airtable Community：July Product Updates 公告串",
+      "url": "https://community.airtable.com/t5/announcements/july-product-updates/ba-p/56340",
+      "note": "官方社群公告串，交叉佐證同一波更新內容"
+    },
+    {
+      "comp": "Notion",
+      "title": "July 16, 2026 – Notion Agents can now manage your calendar",
+      "url": "https://www.notion.com/releases/2026-07-16",
+      "note": "Agent 行事曆操作能力（WebFetch 本次對 notion.com 回傳 403，已用 WebSearch 交叉查證）"
+    },
+    {
+      "comp": "Notion",
+      "title": "Notion API Changelog",
+      "url": "https://developers.notion.com/page/changelog",
+      "note": "MCP 存取權杖有效期由 1 小時延長至 8 小時（WebSearch 交叉查證）"
+    },
+    {
+      "comp": "monday.com",
+      "title": "What's New at monday.com",
+      "url": "https://monday.com/whats-new",
+      "note": "MCP Block 加入 AI Workflow 建構器、AI agent 可直接管理自動化流程（WebFetch 本次對 monday.com 全域回傳 403，已用多組獨立 WebSearch 交叉查證，含 developer.monday.com 開發文件佐證）"
+    },
+    {
+      "comp": "Kintone",
+      "title": "2026年7月版 主なアップデート",
+      "url": "https://jp.kintone.help/k/ja/update/main/2026/07",
+      "note": "App Analysis 監控功能、通知畫面改版等 7 月更新完整範圍（WebFetch 本次回傳 403，已用 WebSearch 交叉查證）"
+    },
+    {
+      "comp": "Kintone",
+      "title": "kintone 2026年7月アップデートまとめ",
+      "url": "https://kin.ait-labo.com/kintone-basic/23980/",
+      "note": "第三方部落格對官方 7 月更新內容的整理，交叉佐證官方頁面"
+    },
+    {
+      "comp": "Odoo",
+      "title": "Odoo 20 MCP Server | Features, Security & Limitations",
+      "url": "https://muchconsulting.com/blog/odoo-2/odoo-20-mcp-server-166",
+      "note": "Odoo 20 原生 MCP server（ai_mcp 模組）技術細節：端點、規格版本、預設唯讀工具與寫入權限設計、缺乏稽核／速率限制等治理限制（odoo.com 官方頁本次回傳 403，已用多組獨立 WebSearch 交叉查證，含 Odoo Apps 商店模組列表佐證）"
+    },
+    {
+      "comp": "Odoo",
+      "title": "Odoo MCP Server for Sales",
+      "url": "https://muchconsulting.com/blog/odoo-2/odoo-mcp-server-sales-170",
+      "note": "透過 MCP 以 AI 助理管理業務／CRM 的應用案例說明"
+    },
+    {
+      "comp": "Odoo",
+      "title": "MCP Server (Native) – Odoo Apps Store",
+      "url": "https://apps.odoo.com/apps/modules/19.0/eh_mcp_server",
+      "note": "Odoo 官方應用商店模組列表，佐證原生 MCP server 模組存在"
+    }
+  ]
+}

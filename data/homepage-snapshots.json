@@ -1,48 +1,48 @@
 {
   "_readme": "首頁文案定位快照。與 data/{週次}.json 不同，這個檔案不是週次歸檔，而是持續更新的「最新已知狀態」，供每次執行時比對「這次抓到的首頁文案」跟「上次存的版本」是否不同。排程 agent 每次執行完會覆寫更新這個檔案。只追蹤文字內容（標語、CTA），不追蹤視覺/版面（工具限制）。",
-  "updated": "2026-07-13",
+  "updated": "2026-07-20",
   "snapshots": {
     "Airtable": {
-      "headline": "All your teams, all their workflows—connected in one workspace",
+      "headline": "Build Enterprise-ready AI Workflows, Apps & Agents",
       "cta": "Get started for free / Book demo",
-      "last_checked": "2026-07-13",
-      "last_changed": "2026-07-13",
-      "source_method": "webfetch"
+      "last_checked": "2026-07-20",
+      "last_changed": "2026-07-20",
+      "source_method": "websearch"
     },
     "Notion": {
-      "headline": "Where teams and agents Think together.",
+      "headline": "The AI workspace that works for you.",
       "cta": "Get Notion free / Request a demo",
-      "last_checked": "2026-07-13",
-      "last_changed": "2026-07-13",
-      "source_method": "webfetch"
+      "last_checked": "2026-07-20",
+      "last_changed": "2026-07-20",
+      "source_method": "websearch"
     },
     "monday.com": {
-      "headline": "You lead. Agents act.",
+      "headline": "The AI workspace where people and agents get more done across every department, faster.",
       "cta": "Get Started / Contact sales",
-      "last_checked": "2026-07-13",
-      "last_changed": "2026-07-13",
-      "source_method": "webfetch"
+      "last_checked": "2026-07-20",
+      "last_changed": "2026-07-20",
+      "source_method": "websearch"
     },
     "Smartsheet": {
       "headline": "Intelligent Work Management with AI at its core",
       "cta": "Watch a demo / Try Smartsheet for free",
-      "last_checked": "2026-07-13",
+      "last_checked": "2026-07-20",
       "last_changed": "2026-07-13",
-      "source_method": "webfetch"
+      "source_method": "unavailable"
     },
     "Kintone": {
       "headline": "みんな、つくれる。",
       "cta": "アプリ作成体験 / 30日間無料お試し / 導入相談",
-      "last_checked": "2026-07-13",
+      "last_checked": "2026-07-20",
       "last_changed": "2026-07-13",
-      "source_method": "webfetch"
+      "source_method": "websearch"
     },
     "Odoo": {
       "headline": "All your business on one platform.",
       "cta": "Start now - It's free / Meet an advisor",
-      "last_checked": "2026-07-13",
+      "last_checked": "2026-07-20",
       "last_changed": "2026-07-13",
-      "source_method": "webfetch"
+      "source_method": "unavailable"
     }
   }
 }
