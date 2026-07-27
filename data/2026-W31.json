@@ -1,0 +1,177 @@
+{
+  "week": "2026-W31",
+  "range": "2026/07/21–2026/07/27",
+  "markets": "Global / TW",
+  "competitors": ["Airtable", "Notion", "monday.com", "Smartsheet", "Kintone", "Odoo", "LLM"],
+  "conclusion": {
+    "title": "本周市場結論：monday.com 以組織重組宣示 AI 優先，其餘競品訊號零星而分散",
+    "body": "本期（2026/07/21–2026/07/27）最值得注意的不是產品發布，而是 monday.com 於 2026/07/22 公布的組織重組——裁減約兩成員工（約620–630人）並直接把此舉與『聚焦 AI Work Platform』的策略方向掛鉤，是本輪追蹤以來對『全公司押注 AI』表態最激進的一次動作；同期並確認其 Sidekick AI 助理已如期於 2026/07/27 轉為 credit 計費。兩者合起來看，monday.com 這週同時從『組織』與『商業模式』兩端把賭注押在 AI 上，但媒體亦提及消息後股價明顯下挫，顯示市場對這種押注方式的執行風險存疑。\n\n其餘競品本期訊號零星：Notion 持續打磨 MCP 開發者體驗（token 回應新增身分欄位、notion-fetch 工具新增可用性對照表），屬既有路線的漸進強化，非新戰略動作；Kintone 預告下月（8/9）更新將把『討論串 AI 摘要』擴及 Android 行動端並新增多網域管理畫面，但功能本期尚未實際上線。Airtable、Smartsheet、Odoo 三家本週查無可靠驗證的新訊號；LLM 平台項目連續第三週沒有動作通過『被市場視為 no-code／ERP 威脅』的窄篩選量尺，屬窄篩選下的正常安靜狀態。\n\n需特別說明：本次執行環境的 WebFetch 工具對所有目標網域（含測試用網域）均連線失敗，判定為當次環境性中斷、非個別網站封鎖，本期全面改以 WebSearch 多來源交叉查證作為蒐集與查證手段，查證嚴謹度略低於直接存取原始頁面；定位觀察部分亦因此多項標記為信心不足或無法查證，重大決策前建議自行以其他方式複查來源。"
+  },
+  "kpis": [
+    {
+      "label": "本周主軸",
+      "value": "monday.com AI優先重組 3/5",
+      "note": "本週4筆訊號中有2筆集中在monday.com（組織重組＋Sidekick轉付費），是本期唯一有明確、多角度動作的競品；Notion、Kintone訊號零星漸進，Airtable／Smartsheet／Odoo本週均無可驗證訊號，本期訊號集中度高但跨競品共同主軸不明顯。"
+    },
+    {
+      "label": "定價風向",
+      "value": "monday.com Sidekick 轉為 credit 計費",
+      "note": "monday.com Sidekick AI 助理原免費訊息額度自 2026/07/27 起改為消耗 AI credit 計費，是本週唯一確認的定價動向；其餘六家追蹤競品本週均無新的定價／方案調整訊號。"
+    },
+    {
+      "label": "最高優先訊號",
+      "value": "monday.com 裁員約兩成、直接掛鉤 AI Work Platform 策略重組",
+      "note": "本季追蹤以來對『全公司押注AI』表態最激進的單一動作，多家獨立媒體報導佐證，且與股價明顯反應同步發生，本週威脅度／訊號強度最高"
+    },
+    {
+      "label": "Ragic 應對焦點",
+      "value": "服務品質機會窗口 × AI定價透明化 × MCP開發體驗對標",
+      "note": "留意monday.com組織動盪是否影響其客服／導入品質、藉此凸顯Ragic穩定服務的差異化；同步準備AI功能定價透明化溝通素材因應『免費轉付費』疑慮；持續對標Notion在MCP身分辨識與開發體驗上的漸進強化"
+    }
+  ],
+  "signals": [
+    {
+      "comp": "monday.com",
+      "date": "2026/07/22",
+      "signal": "monday.com 對外公布重組計畫，裁減約 620–630 名員工（約占整體員工兩成），預計產生 4,500萬至5,500萬美元資遣費用，其中約350人集中在特拉維夫總部；CEO Roy Mann 內部信明確將此次重組與『聚焦 AI Work Platform』的策略方向掛鉤，裁減職位多集中在客服、營運與部分中階產品職能，即公司預期未來將由 AI 工具承接的工作範疇。多家獨立媒體（TechCrunch、Haaretz、Fast Company 等）並提及消息公布後股價明顯重挫。",
+      "theme": "AI優先・組織重組",
+      "read": "monday.com 選擇用組織重組而非單純產品發布來宣示 AI 優先策略，顯示其對 AI Work Platform 路線的投入已從產品層面延伸到人力結構層面，是本輪追蹤以來對『全公司押注AI』表態最激進的一次動作；但股價重挫也顯示市場對這種押注的執行風險與短期營運衝擊存疑。",
+      "impact": "這則訊號不直接對應 Ragic no-code 產品差異化戰場，但反映 monday.com 短期內可能因組織動盪影響其客服與導入支援品質，對 Ragic 而言可能是短期內在客戶服務體驗上建立差異化的機會窗口；建議業務與行銷團隊留意是否有 monday.com 客戶因服務品質下滑而尋求替代方案的訊號，並持續觀察此次重組是否影響其後續 AI Workflow／Agent Factory 功能交付節奏。",
+      "attention_index": 4
+    },
+    {
+      "comp": "monday.com",
+      "date": "2026/07/27",
+      "signal": "monday.com Sidekick AI 助理原本提供的免費訊息額度（Standard/Pro 方案每席次每日5則、Enterprise 方案為 Sidekick Plus）自 2026/07/27 起改為消耗 AI credit 計費，不再免費。上期報告曾提及此變動預告但無法確認生效日期，本期經多組獨立搜尋結果（含支援文件片段與第三方分析部落格）交叉確認確切生效日與機制，信心中高；官方支援頁面本次因 WebFetch 環境性中斷未能直接存取驗證。",
+      "theme": "AI定價轉換",
+      "read": "延續上期已觀察到、但當時無法確認的定價訊號——monday.com 正式把 Sidekick 從『免費體驗額度』轉為『credit 消耗制』，是 AI agent 商業化的典型路徑：先用免費額度養成使用習慣，再轉為用量計費，與其他 AI SaaS 廠商的變現路線一致。",
+      "impact": "對 Ragic 而言是 AI agent 定價比較基準的更新——monday.com 的 AI 功能已全面轉向 credit 計費，可作為『Ragic AI agent 定價模式』對外溝通時的比較對象；建議 Product/Marketing 團隊更新競品定價比較素材，並評估 Ragic 自身 AI 功能是否需要更透明的用量／定價溝通，避免客戶對『免費轉收費』的轉換感到意外。",
+      "attention_index": 3
+    },
+    {
+      "comp": "Notion",
+      "date": "2026/07 下旬（確切日期待確認，約 07/25 前後）",
+      "signal": "Notion Developers changelog 顯示 MCP 相關 API 兩項調整：(1) 透過 authorization code 換發的 token 回應新增 user_id、workspace_id、email_domain 等頂層欄位，讓 MCP client 不需額外呼叫 API 即可辨識連線對應的使用者／工作區；(2) notion-fetch MCP 工具的『self』回應新增 current_tool_access 對照表，顯示呼叫前哪些工具可用、哪些需要方案升級。WebFetch 本次環境性中斷，以 WebSearch 交叉查證，確切生效日期待確認。",
+      "theme": "MCP開發體驗",
+      "read": "延續 Notion 過去幾週持續投資 MCP 開發者體驗的路線（上期為權杖效期延長），這次是進一步降低 MCP client 整合時的摩擦——讓外部工具更容易辨識連線身分與可用權限範圍，屬於漸進式的基礎設施打磨，非新戰略動作。",
+      "impact": "與 Ragic 核心戰場關聯度低，屬持續觀察項；可留意 Ragic 自身若有 MCP 介接，其 token／權限辨識機制是否具備同等開發者體驗（例如是否需額外 API 呼叫才能取得使用者/工作區資訊）。",
+      "attention_index": 2
+    },
+    {
+      "comp": "Kintone",
+      "date": "2026/07/23（預告發布日，功能本身預計 2026/08/09 上線）",
+      "signal": "Cybozu 預告下一批（8月）kintone 定期更新內容：依組織別篩選的使用狀況儀表板、Android 版新增『Thread Summary AI』（討論串 AI 摘要功能）、Wide 方案入口網站頁面數上限提高、新增可檢視使用中網域清單的多網域管理畫面。功能實際上線日期（08/09）晚於本期回溯範圍，本期僅計入『預告』本身；WebFetch 本次環境性中斷，以 WebSearch 交叉查證，確切官方頁面與逐項細節待可直接存取後再確認。",
+      "theme": "AI摘要・治理預告",
+      "read": "Thread Summary AI 延伸到 Android 行動端，顯示 Cybozu 持續把『AI 摘要』能力當作既有協作功能（討論串）的標準配備逐步鋪開到各平台；新增多網域管理畫面則延續近期治理／稽核路線的擴充，但這批功能本期仍屬預告階段，尚未實際上線。",
+      "impact": "屬既有觀察方向（AI摘要普及化、企業治理工具強化）的漸進延伸，非新戰線；建議留意 2026/08/09 正式上線後 Thread Summary AI 於行動端的實際體驗，以及多網域管理畫面是否對應到 Ragic 若有多環境/多網域管理情境下可借鏡的功能設計。",
+      "attention_index": 2
+    }
+  ],
+  "implications": [
+    {
+      "team": "Marketing / PR",
+      "items": [
+        "<b>服務品質機會窗口：</b>monday.com 大規模裁員涉及客服與營運人力，建議留意其客戶滿意度／support 反應是否出現鬆動訊號，適時在中大型客戶溝通中強調 Ragic 穩定的客戶服務與導入支援作為差異化訴求。",
+        "<b>AI定價透明化素材：</b>monday.com Sidekick 本週正式轉為 credit 計費，建議整理 Ragic AI 功能定價邏輯的對外說明素材，先發準備因應客戶對『AI功能是否會轉為額外收費』的疑問。"
+      ]
+    },
+    {
+      "team": "Product / R&D 提問",
+      "items": [
+        "<b>MCP身分辨識體驗：</b>Notion MCP token 回應新增 user_id/workspace_id/email_domain 欄位，降低 client 端額外查詢負擔，Ragic 若有 MCP 介接，是否也該提供同等的一次性身分/權限資訊？",
+        "<b>討論串 AI 摘要：</b>Kintone 預告8月將把討論串 AI 摘要擴及 Android，Ragic 是否有類似的內部溝通/留言串內容需要 AI 摘要協助梳理的使用情境值得評估？",
+        "<b>多網域管理：</b>Kintone 新增可檢視使用中網域清單的多網域管理畫面，是否對應到 Ragic 若有多環境/多網域佈署情境下可借鏡的管理設計？"
+      ]
+    }
+  ],
+  "deepdives": [
+    {
+      "tag": "DEEP DIVE ▸ 01",
+      "title": "monday.com 用組織重組宣示 AI 優先——本季對『押注 AI』最激進的單一動作",
+      "body": "monday.com 這次裁減約兩成員工並非常規成本削減，而是由 CEO 直接在內部信中把裁員範圍（客服、營運、部分中階產品職能）與『聚焦 AI Work Platform』的策略掛鉤——這些正是公司預期未來由 AI 工具承接的工作類型。這是本輪追蹤以來，六家 no-code／協作平台競品中第一次有廠商把 AI 優先策略延伸到組織結構層級，而非停留在產品功能發布。多家媒體同時提及股價在消息後明顯下挫，顯示資本市場對『大規模裁員換取 AI 轉型速度』這種押注方式的執行風險與短期營運衝擊仍有疑慮，尤其客服與營運人力縮減可能在短期內影響既有客戶的服務體驗與新客戶的導入速度。",
+      "watch": "後續觀察：monday.com 客戶滿意度與 support 回應速度是否出現可觀察的下滑訊號；此次重組是否加速或反而拖慢其 AI Workflow／Agent Factory／MCP Block 等既有功能線的交付節奏；以及是否有其他競品跟進以組織重組方式宣示 AI 優先。"
+    },
+    {
+      "tag": "DEEP DIVE ▸ 02",
+      "title": "monday.com Sidekick 本週轉為 credit 計費——AI agent『先免費、後計量收費』模式的又一案例",
+      "body": "monday.com Sidekick 原本每人每日提供的免費訊息額度，本週（2026/07/27）正式改為消耗 AI credit 計費，延續上期報告已預告但當時無法確認生效日期的定價訊號。這是 AI agent 商業化的典型路徑：先用免費額度讓使用者養成依賴習慣，待採用率提升後再轉為用量計費。值得留意的是，Notion 過去已預告其 Developer Platform（Workers）也將在免費 beta 期滿後轉入 credit 計費（此為既有規劃，非本週新訊號，故未列入本期正式訊號，僅作背景參考），顯示『免費試用期→用量計費』正逐漸成為多家競品 AI agent 功能變現的共同路徑，而非 monday.com 單一案例。",
+      "watch": "後續觀察：monday.com 客戶對此次計費轉換的實際反應與流失率；其他競品（Airtable Hyperagent、Notion Custom Agents／Developer Platform）的 credit 計費方案是否有進一步調整；以及此類定價模式演變是否影響客戶對『AI功能是否該內建於基礎方案』的預期，進而成為 Ragic 定價溝通需要正面回應的議題。"
+    }
+  ],
+  "positioning_watch": [
+    {
+      "comp": "Airtable",
+      "status": "unavailable",
+      "headline": "Build Enterprise-ready AI Workflows, Apps & Agents",
+      "cta": "Get started for free / Book demo",
+      "note": "WebFetch 本次環境性中斷（連測試用網域也無法連線），改以 WebSearch 查證；僅找到一則第三方聚合網站抓取的不同標語版本（「Your fastest way to build AI-powered workflows」），但無法確認擷取時間與正確性，信心不足以判定為變動，故標記為 unavailable，維持上次快照數值待下次重試。"
+    },
+    {
+      "comp": "Notion",
+      "status": "unchanged",
+      "headline": "The AI workspace that works for you.",
+      "cta": "Get Notion free / Request a demo",
+      "note": "本週無變動。WebFetch 本次環境性中斷，改以 WebSearch 查證，搜尋結果頁面標題與上次快照一致，信心中等；CTA 未能獨立重新驗證，暫維持原值。"
+    },
+    {
+      "comp": "monday.com",
+      "status": "changed",
+      "headline": "The AI Work Platform for People & Agents",
+      "cta": "Get Started / Contact sales",
+      "note": "多組獨立搜尋結果一致顯示頁面標題已從『The AI workspace where people and agents get more done across every department, faster.』改為『The AI Work Platform for People & Agents』，方向與本週稍早宣布的組織重組（聚焦 AI Work Platform）呼應；惟本次僅為頁面 <title> 標籤而非直接確認之 H1 內文，且 CTA 未能重新驗證，信心中等。WebFetch 本次環境性中斷，未能直接存取 monday.com 確認。"
+    },
+    {
+      "comp": "Smartsheet",
+      "status": "unavailable",
+      "headline": "Intelligent Work Management with AI at its core",
+      "cta": "Watch a demo / Try Smartsheet for free",
+      "note": "WebFetch 本次環境性中斷；WebSearch 找到的搜尋片段語意與上次快照一致，但仍非直接確認之 H1 內文，信心不足以判定，故維持 unavailable，數值維持上次快照待下次重試。"
+    },
+    {
+      "comp": "Kintone",
+      "status": "unchanged",
+      "headline": "みんな、つくれる。",
+      "cta": "アプリ作成体験 / 30日間無料お試し / 導入相談",
+      "note": "本週無變動。WebFetch 本次環境性中斷，改以 WebSearch 查證，搜尋結果頁面標題與上次快照一致，信心中低；CTA 未能獨立重新驗證，暫維持原值。"
+    },
+    {
+      "comp": "Odoo",
+      "status": "unavailable",
+      "headline": "All your business on one platform.",
+      "cta": "Start now - It's free / Meet an advisor",
+      "note": "WebFetch 本次環境性中斷，第三方鏡像頁面與網頁存檔亦均無法存取，完全無法交叉查證，故標記為 unavailable，維持上次快照數值待下次重試。"
+    }
+  ],
+  "sources": [
+    {
+      "comp": "monday.com",
+      "title": "monday.com lays off hundreds to focus on AI",
+      "url": "https://techcrunch.com/2026/07/22/monday-com-lays-off-hundreds-to-focuses-on-ai/",
+      "note": "monday.com 2026/07/22 裁員約620–630人、聚焦AI Work Platform重組的主要報導來源"
+    },
+    {
+      "comp": "monday.com",
+      "title": "Israeli tech firm monday.com to lay off fifth of workers as shares dip",
+      "url": "https://www.haaretz.com/israel-news/tech-news/2026-07-22/ty-article/.premium/israeli-tech-firm-monday-com-to-lay-off-fifth-of-workers-as-shares-dip-by-50/0000019f-8934-d460-abff-cf7cb8f90000",
+      "note": "補充報導：裁員規模、特拉維夫總部占比、股價反應"
+    },
+    {
+      "comp": "monday.com",
+      "title": "monday AI Credits Pricing",
+      "url": "https://till-freitag.com/en/blog/monday-ai-credits-pricing-en",
+      "note": "Sidekick 自2026/07/27起轉為credit計費之機制說明（官方support頁面本次WebFetch無法直接存取，以此與support文件搜尋片段交叉查證）"
+    },
+    {
+      "comp": "Notion",
+      "title": "Notion API Changelog",
+      "url": "https://developers.notion.com/page/changelog",
+      "note": "MCP token回應新增身分欄位、notion-fetch工具新增current_tool_access對照表"
+    },
+    {
+      "comp": "Kintone",
+      "title": "kintoneアップデート情報",
+      "url": "https://jp.kintone.help/k/ja/update/main",
+      "note": "8月更新預告（討論串AI摘要擴及Android等），WebFetch本次環境性中斷，以WebSearch查證，確切子頁面待官方頁面可直接存取後再確認"
+    }
+  ]
+}
