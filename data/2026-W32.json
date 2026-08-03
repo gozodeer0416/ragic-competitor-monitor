@@ -1,0 +1,162 @@
+{
+  "week": "2026-W32",
+  "range": "2026/07/28–2026/08/03",
+  "markets": "Global / TW",
+  "competitors": ["Airtable", "Notion", "monday.com", "Smartsheet", "Kintone", "Odoo", "LLM"],
+  "conclusion": {
+    "title": "本周市場結論：整體平靜，唯獨 Notion 一週內三次補強 AI Agent 用量治理機制",
+    "body": "本期（2026/07/28–2026/08/03）是近幾期以來訊號最集中在單一競品的一週：三筆確認訊號全部來自 Notion，且主題高度一致——圍繞『AI agent 的用量與成本治理』。Notion 先於 2026/07/31 讓 Custom Agent 可由『AI 會議記錄完成摘要』自動觸發，免去人工每次啟動的步驟；緊接著 2026/08/01 在 agent 設定新增『Effort（推理強度）』分級，讓使用者可控制單次執行的 token 消耗；最後於 2026/08/03 正式對 Business／Enterprise 方案的 Notion AI 導入雙軌（6小時滾動＋月帳單週期）使用量上限機制。三則訊號合看是一組完整的因果鏈：agent 自主觸發的範圍擴大 → 用量與成本風險升高 → 廠商補上分級控制與正式配額管理，顯示 Notion AI 的整體用量規模可能已到需要精細治理的門檻。\n\n其餘六家追蹤對象——Airtable、monday.com、Smartsheet、Kintone、Odoo，以及 LLM 平台項目——本週均查無可驗證的新訊號。monday.com 上期的裁員重組與 Sidekick 轉付費兩則重大動作本週沒有後續發展（第二季法說會與股東常會皆排在本週窗口之後的 08/06、08/10）；Kintone 預告的 8 月更新（討論串 AI 摘要擴及 Android 等）仍在 08/09 正式上線前的等待期，內容與上期一致；LLM 平台項目本週檢視多項候選動作（如 ChatGPT 帳號登入功能擴展至 Airtable／Notion 等合作夥伴網站），但性質屬合作而非取代，均未通過『市場明確視為 no-code／ERP 威脅』的窄篩選量尺，屬窄篩選下的正常安靜狀態。\n\n需特別說明：本次執行環境的 WebFetch 工具對七家競品的所有官方來源網域（含控制組測試網域）均回傳 403／連線失敗，判定為當次環境性中斷、非個別網站封鎖，本期全面改以 WebSearch 多來源交叉查證作為蒐集與查證手段；本期採用的三則 Notion 訊號均以兩組以上獨立搜尋結果（含 Notion 官方說明頁摘要與第三方 changelog 追蹤網站）交叉確認後才收錄，但查證嚴謹度仍略低於直接存取原始頁面，定位觀察部分亦有多項因此標記為信心不足或無法查證，重大決策前建議自行以其他方式複查來源。"
+  },
+  "kpis": [
+    {
+      "label": "本周主軸",
+      "value": "Notion AI用量治理三連發 3/5",
+      "note": "本週3筆訊號全數來自Notion，圍繞『AI agent用量與成本治理』主題（自動觸發、Effort分級、正式用量上限），其餘六家競品（Airtable、monday.com、Smartsheet、Kintone、Odoo、LLM平台）本週均查無可驗證新訊號，訊號集中度高但市場整體動作稀少。"
+    },
+    {
+      "label": "定價風向",
+      "value": "Notion AI用量上限上路（Business/Enterprise，雙軌配額）",
+      "note": "Notion本週起對Business/Enterprise方案的AI使用導入『6小時滾動＋月帳單週期』雙軌用量上限機制，是本週唯一定價/用量相關動向；其餘六家競品本週均無新的定價或方案調整訊號。"
+    },
+    {
+      "label": "最高優先訊號",
+      "value": "Notion AI用量上限機制正式上路（8/3生效，Business/Enterprise方案）",
+      "note": "與同週另兩則Notion訊號（Effort分級、會議記錄自動觸發agent）構成完整因果鏈，是本期唯一具備完整脈絡與明確生效日期的確認訊號，本期優先度最高。"
+    },
+    {
+      "label": "Ragic 應對焦點",
+      "value": "AI用量透明化溝通 × Agent自主觸發治理 × 平靜週例行掃描",
+      "note": "呼應本期Notion訊號：準備Ragic自身AI用量與定價透明化溝通素材、檢視agent自主觸發情境下的護欄設計是否已對外清楚溝通；其餘競品本週無新動作，維持例行觀察並盤點既有比較素材。"
+    }
+  ],
+  "signals": [
+    {
+      "comp": "Notion",
+      "date": "2026/07/31",
+      "signal": "Notion 新增 Custom Agent 觸發器類型：當一則 AI Meeting Note 被標記為『已完成摘要』時，可自動啟動指定的 Custom Agent 執行後續動作（例如更新追蹤表、發送摘要、把回饋轉為工單），不需要使用者手動啟動，也不需要排程掃描新筆記。本次因 WebFetch 環境性中斷，以第三方 Notion 更新追蹤網站與 WebSearch 交叉查證，確切官方頁面待可直接存取後再確認。",
+      "theme": "Agent自動觸發",
+      "read": "延續 Notion 近期讓 Custom Agent 逐步脫離『手動啟動』模式的路線，這次把觸發條件綁定在既有的會議記錄功能上，讓 agent 更像『背景常駐的工作流程』而非『每次要人主動呼叫的助理』；但觸發範圍仍侷限在單一事件類型（會議摘要完成），尚未看到 Notion 提供通用的資料表事件觸發框架。",
+      "impact": "對照 Ragic『零部署、一人配置全公司受益』的差異化——Notion 這步是朝『免人工介入』方向邁進，但仍是針對單一功能（會議記錄）綁定，非通用資料庫層級的觸發器；建議 Product 團隊持續留意 Notion 是否會把這類事件觸發機制擴展到更多物件類型，若擴展到通用資料表層級才會真正貼近 Ragic 的 workflow 自動化戰場。",
+      "attention_index": 3
+    },
+    {
+      "comp": "Notion",
+      "date": "2026/08/01",
+      "signal": "Notion Custom Agent 設定介面新增『Effort（推理強度）』選項，位於 Advanced 設定、模型選擇旁，分 Low／Medium／High／Max 四級；推理強度越高，消耗的 token（即 credit）越多，官方特別提醒由觸發器自動啟動的 agent 需謹慎設定，避免用量失控。本次以 WebSearch 交叉查證（第三方 changelog 追蹤網站），WebFetch 因環境性中斷未能直接驗證官方頁面。",
+      "theme": "Agent成本治理",
+      "read": "這是 Notion 把『AI 用量成本』的控制權明確交還給使用者的一步，尤其因為前一則訊號顯示 agent 觸發正逐漸自動化（無需人工每次啟動）——一旦 agent 大量自動觸發，成本失控風險隨之提高，Effort 設定可視為對應這個風險的配套治理機制。",
+      "impact": "呼應 Ragic『內建護欄』的差異化重點——競品也開始意識到『agent 自主觸發＋用量計費』組合需要治理工具；建議 Ragic 對外溝通時可強調自身治理機制（權限、workflow、可執行範圍）是設定的一部分、非額外付費模組，作為與 Notion 這類『另外開一個成本旋鈕』做法的對比。",
+      "attention_index": 2
+    },
+    {
+      "comp": "Notion",
+      "date": "2026/08/03",
+      "signal": "Notion 於 2026/08/03 起對 Business／Enterprise 方案的 Notion AI 使用導入『使用量上限』機制，同時追蹤『過去6小時滾動窗口』與『每月帳單週期』兩種額度；6小時額度用完後隨時間自動恢復，月額度用完則需等下一帳單週期重置，或依工作區設定消耗 Notion credit 繼續使用。使用者可於 Settings → Notion AI → Usage 檢視用量。以 Notion 官方說明頁摘要與日文媒體報導交叉查證，WebFetch 因環境性中斷未能直接存取原文全文。",
+      "theme": "AI用量上限",
+      "read": "這是 Notion AI 從『（近乎）無上限使用』走向『量化配額管理』的正式分水嶺，與前兩則 Custom Agent 訊號（自動觸發、Effort 分級）合看，構成同一週內對『AI 使用治理』的三重補強，通常是廠商在 AI 使用成本壓力上升、或用量規模已大到需要正式管控時才會推出的機制。",
+      "impact": "對 Ragic 而言，這是 AI agent／AI 功能『定價與用量治理』的直接比較基準更新；建議 Product/Marketing 團隊更新競品定價與用量限制比較素材，並評估 Ragic 自身 AI 功能是否也需要類似的透明用量儀表板，讓客戶能自行預測與管理 AI 用量成本，而非被動收到用量已達上限的通知。",
+      "attention_index": 3
+    }
+  ],
+  "implications": [
+    {
+      "team": "Marketing / PR",
+      "items": [
+        "<b>AI用量透明化素材：</b>Notion本週起對AI用量祭出雙軌上限機制，建議準備Ragic AI功能用量與定價機制的對外說明素材，先發因應客戶對『用量是否有上限』的疑問，並視情況凸顯Ragic現行方案的相對優勢。",
+        "<b>平靜週素材盤點：</b>本週除Notion外六家競品均無新動作，可趁此空檔盤點既有競品比較素材（尤其monday.com裁員後續、Kintone 8/9更新）是否需要更新，為後續可能出現的新訊號預作準備。"
+      ]
+    },
+    {
+      "team": "Product / R&D 提問",
+      "items": [
+        "<b>Agent用量治理設計：</b>Notion把『6小時滾動＋月配額』雙軌用量上限與Effort推理強度分級做成agent設定的一部分，Ragic的AI agent若走向『一人配置、全公司24/7共用』，是否也需要對應的用量／成本監控與分級控制，避免單一agent無限制觸發拖垮成本？",
+        "<b>事件觸發式agent：</b>Notion讓Custom Agent可由『會議記錄完成摘要』等既有功能事件自動觸發，Ragic資料庫層級的workflow若要往類似方向強化，是否可評估開放更多物件事件（如記錄新增、欄位變更）作為agent觸發條件？",
+        "<b>持續追蹤Kintone 8/9更新：</b>Kintone討論串AI摘要擴及Android、多網域管理畫面預計08/09上線，下期應優先查證是否如期上線及實際功能細節。"
+      ]
+    }
+  ],
+  "deepdives": [
+    {
+      "tag": "DEEP DIVE ▸ 01",
+      "title": "Notion 一週三步棋：agent自主觸發、成本分級、正式用量上限，同一因果鏈的三個環節",
+      "body": "把本週三則Notion訊號按時間排開會看到清楚的因果順序：07/31先讓Custom Agent能被『會議記錄完成摘要』這類既有事件自動觸發，免去人工每次呼叫；08/01隨即在agent設定新增Effort推理強度分級，官方特別註明這是為了讓『由觸發器自動啟動的agent』能被謹慎設定、避免用量失控；08/03則是把這股用量壓力正式收斂成對Business/Enterprise方案的雙軌配額上限（6小時滾動＋月帳單週期）。三者合看不是三個獨立功能更新，而是同一個底層問題——『agent自主觸發範圍擴大後，用量與成本如何被控制』——在一週內從『開放自動化』到『提供成本旋鈕』再到『正式訂出天花板』的完整治理鏈，顯示Notion AI的整體用量規模可能已經到了需要制度化管理的門檻。",
+      "watch": "後續觀察：Notion是否會把事件觸發範圍從『會議記錄』擴大到更多物件類型（如資料庫記錄異動、表單提交）；用量上限正式上路後客戶端的反彈或用量調適情況；Effort設定的預設值是否依方案高低而不同，形成變相的付費升級誘因。"
+    },
+    {
+      "tag": "DEEP DIVE ▸ 02",
+      "title": "monday.com credit計費 vs. Notion配額上限——AI agent兩種『用量治理』路線的比較",
+      "body": "上期報告記錄了monday.com Sidekick於2026/07/27起把原本免費的訊息額度改為credit消耗計費，本期Notion則是選擇另一條路：不直接把用量換算成額外收費，而是先設定『6小時滾動＋月帳單週期』的雙軌使用上限，用完就暫停或才需視工作區設定另外消耗credit。前者是『用量即成本』的直接計費模式，後者則更接近『先設天花板、超量才轉為付費選配』的緩衝式治理——兩者都反映同一個產業現象：AI agent的免費／近乎無限額度期已經進入收斂階段，各家開始各自摸索『既控制成本、又不過度打擊採用率』的用量治理模式。",
+      "watch": "後續觀察：兩種模式各自的客戶接受度與流失率是否有落差；是否有更多競品（如Airtable Hyperagent／Field Agents）跟進推出正式用量上限或分級成本控制機制；以及此類用量治理演變是否讓『AI功能該不該內建於基礎方案、用量上限該如何設計』成為Ragic定價溝通需要正面回應的共同議題。"
+    }
+  ],
+  "positioning_watch": [
+    {
+      "comp": "Airtable",
+      "status": "unchanged",
+      "headline": "Build Enterprise-ready AI Workflows, Apps & Agents",
+      "cta": "Get started for free / Book demo",
+      "note": "本週無變動。WebFetch本次環境性中斷，改以WebSearch查證，搜尋引擎索引之頁面標題與上次快照一致，信心中等；CTA未能獨立重新驗證，暫維持原值。"
+    },
+    {
+      "comp": "Notion",
+      "status": "unavailable",
+      "headline": "The AI workspace that works for you.",
+      "cta": "Get Notion free / Request a demo",
+      "note": "WebFetch本次環境性中斷；WebSearch未能找到可直接引用、確認目前首頁文案的來源（僅間接推論可能未變），信心不足以判定為相同或不同，故標記為unavailable，維持上次快照數值待下次重試。"
+    },
+    {
+      "comp": "monday.com",
+      "status": "unchanged",
+      "headline": "The AI Work Platform for People & Agents",
+      "cta": "Get Started / Contact sales",
+      "note": "本週無變動。WebFetch本次環境性中斷；WebSearch找到的頁面標題與CTA（\"Get Started\"，副標\"No credit card needed / Unlimited time on Free plan\"）與上次快照一致，信心中等，仍未取得直接渲染後的H1原文確認。"
+    },
+    {
+      "comp": "Smartsheet",
+      "status": "unavailable",
+      "headline": "Intelligent Work Management with AI at its core",
+      "cta": "Watch a demo / Try Smartsheet for free",
+      "note": "WebFetch本次環境性中斷（連 community、狀態頁等網域也回傳403）；WebSearch僅取得SEO meta title（\"Intelligent Work Management Platform | Smartsheet\"）與基準H1文字不完全一致，但無法確認是否代表實際標語變更或僅為meta層級差異，信心不足以判定，故標記為unavailable，維持上次快照數值待下次重試。"
+    },
+    {
+      "comp": "Kintone",
+      "status": "unavailable",
+      "headline": "みんな、つくれる。",
+      "cta": "アプリ作成体験 / 30日間無料お試し / 導入相談",
+      "note": "WebFetch本次環境性中斷；WebSearch本次未能找到含逐字引用、可信度足夠的最新標題/CTA快照，資料缺口，故標記為unavailable，維持上次快照數值待下次重試。"
+    },
+    {
+      "comp": "Odoo",
+      "status": "unchanged",
+      "headline": "All your business on one platform.",
+      "cta": "Start now - It's free / Meet an advisor",
+      "note": "本週無變動。WebFetch本次環境性中斷（含對照測試網域亦回傳403，判定為環境性中斷）；WebSearch交叉比對多筆近期（2026年6–8月）快照，CTA文字（\"Start now - It's free\" / \"Meet an advisor\"）與標語仍與基準一致，信心中低。"
+    }
+  ],
+  "sources": [
+    {
+      "comp": "Notion",
+      "title": "Manage your usage allowance for Notion AI – Notion Help Center",
+      "url": "https://www.notion.com/help/manage-your-usage-allowance-for-notion-ai",
+      "note": "Notion AI 用量上限機制官方說明頁（8/3生效，雙軌配額），WebFetch本次環境性中斷，以頁面摘要與交叉查證方式採用"
+    },
+    {
+      "comp": "Notion",
+      "title": "Usage limits for Notion AI starting August 3rd - note.com (JP)",
+      "url": "https://note.com/ai_aibo/n/n5d88d2e29265",
+      "note": "日文媒體對Notion AI用量上限機制的獨立報導，作為官方說明頁之外的第二來源交叉查證"
+    },
+    {
+      "comp": "Notion",
+      "title": "Notion Updates & New Features - Matthias Frank",
+      "url": "https://matthiasfrank.de/en/notion-updates/",
+      "note": "第三方Notion更新追蹤網站，記錄07/31會議記錄自動觸發agent、08/01 Effort推理強度設定兩則更新，作為官方changelog（WebFetch本次無法存取）之外的交叉查證來源"
+    },
+    {
+      "comp": "Notion",
+      "title": "Notion Release Notes - Releasebot",
+      "url": "https://releasebot.io/updates/notion",
+      "note": "第三方 Notion release notes 追蹤網站，用於交叉確認Effort設定與自動觸發agent兩則訊號的日期與內容"
+    }
+  ]
+}
