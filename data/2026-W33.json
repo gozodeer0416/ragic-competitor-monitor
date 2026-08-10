@@ -1,0 +1,259 @@
+{
+  "week": "2026-W33",
+  "range": "2026/08/04–2026/08/10",
+  "markets": "Global / TW",
+  "competitors": ["Airtable", "Notion", "monday.com", "Smartsheet", "Kintone", "Odoo", "LLM"],
+  "conclusion": {
+    "title": "本周市場結論：Airtable遭收購、AI agent業務切割保留，no-code／work OS賽道估值進入資本市場檢驗期",
+    "body": "本期（2026/08/04–2026/08/10）最重大的事件來自Airtable：義大利科技控股集團Bending Spoons以企業價值約12.85億美元（股權價值約22.5億美元）簽署最終協議收購Airtable，換算下來僅約其2021年巔峰估值（117億美元）的十分之一、約當ARR的2.7倍。更值得注意的是，Airtable在簽約前先把AI agent產品線Hyperagent（前身Superagent／Omni）整體切割到創辦人與既有投資人保留的獨立新公司，Bending Spoons收購的只是成長趨緩的傳統資料庫本業。同一週，monday.com公布Q2財報雖優於市場共識，但同步下修的2026全年營收成長展望（自24%降至18–19%）被媒體解讀為調降長期成長目標。兩則訊號合看，指向同一個跨競品主軸：資本市場對no-code／work OS賽道過去兩年『AI敘事撐高估值』的說法，正進入更嚴格的驗證期，而『AI agent』與『傳統no-code資料庫本業』在資本操作上開始被市場分開定價。\n\n次要訊號集中在治理與協議層的補強：monday.com在AI Workflows新增『依人工核准路由』的區塊類型，把人工把關正式收編為AI流程的標準積木；Notion於開發者平台發布一批MCP（Model Context Protocol）安全性與相容性更新，其中資料庫工具新增STATUS欄位類型支援，顯示外部AI代理透過MCP能操作的資料庫schema範圍持續補齊；Kintone預告已久的8月更新於08/09如期上線，範圍較預告更廣（討論串AI摘要擴及Android、新增依組織別的用量儀表板、Portal頁面上限由3頁提高至10頁），同週Cybozu亦發布沖繩電力集團（約3,800名員工）的大型企業導入案例，量化效益包括年省約6萬份紙本文件與1.5萬工時。\n\nSmartsheet與Odoo本週均查無可驗證的新訊號（Odoo在台灣有一場定位為『AI自動化』的實體推廣活動，但確切日期僅單一來源、未能交叉查證，故未列入本期訊號）；LLM平台項目本週檢視多項候選動作（Anthropic高階人事任命、GPT-5.6模型家族、ChatGPT教育功能、Claude Cowork等），均未通過『市場明確視為no-code／ERP威脅』的窄篩選量尺，屬正常安靜狀態。\n\n需特別說明：本次執行環境的WebFetch工具對七家競品官方來源網域（含monday.com投資人關係頁、web.archive.org等對照網域）均回傳連線層級的環境性阻擋，判定為本次環境性中斷、非個別網站封鎖，本期全面改以WebSearch多來源交叉查證作為蒐集與查證手段。Airtable收購案與monday.com財報兩則核心訊號均取得3組以上獨立媒體／官方來源交叉確認，查證嚴謹度較高；但monday.com『人工核准區塊』與Notion『MCP更新』兩則訊號僅取得單一或間接來源佐證，定位觀察部分亦有Odoo標題文字與基準不一致但無法確認是否為實質改版，重大決策前建議自行以其他方式複查來源。"
+  },
+  "kpis": [
+    {
+      "label": "本周主軸",
+      "value": "no-code賽道估值降溫 5/5",
+      "note": "Airtable以遠低於巔峰期估值遭Bending Spoons收購、AI agent業務Hyperagent切割保留，加上monday.com Q2全年成長展望明顯下修，兩則訊號共同指向資本市場對『AI敘事撐估值』的no-code／work OS賽道進入更嚴格檢驗期，是本期最集中的跨競品主軸。"
+    },
+    {
+      "label": "定價風向",
+      "value": "本週無明顯定價動向",
+      "note": "七家追蹤對象本週均無實際定價異動；市場臆測Bending Spoons完成Airtable收購後可能比照其過往收購案例（Evernote、WeTransfer等）調漲售價或緊縮方案，但屬臆測而非已宣布動作，列為後續觀察重點而非本期定價訊號。"
+    },
+    {
+      "label": "最高優先訊號",
+      "value": "Bending Spoons以12.85億美元收購Airtable，AI agent業務Hyperagent切割保留",
+      "note": "本期唯一具備完整資本操作脈絡、多來源交叉確認、且對整個no-code賽道估值敘事有指標意義的訊號，優先度最高。"
+    },
+    {
+      "label": "Ragic 應對焦點",
+      "value": "Airtable客戶轉換窗口 × 估值敘事因應 × 簽核／治理案例強化",
+      "note": "呼應本期訊號：評估針對Airtable既有客戶的轉換方案溝通、準備因應『no-code賽道是否還值得投資』疑問的穩健成長敘事、並強化Ragic原生簽核與治理機制的量化案例素材以對比monday.com、Kintone本週的治理功能補強。"
+    }
+  ],
+  "signals": [
+    {
+      "comp": "Airtable",
+      "date": "2026/08/04",
+      "signal": "Bending Spoons（義大利科技控股集團，2026年7月剛在Nasdaq掛牌）與Airtable簽署最終協議，將以全現金方式收購Airtable，企業價值約12.85億美元（換算股權價值約22.5億美元），為Bending Spoons上市後首宗收購案。Airtable截至2026年6月的ARR約4.8億美元，年增逾20%，服務逾50萬家組織與80%的財星100大企業；交易待完成慣例成交條件與監管核准，預計2026年稍後完成。多家媒體指出，此估值僅約2021年巔峰估值（117億美元）的十分之一，約當ARR的2.7倍。",
+      "theme": "併購・估值重挫",
+      "read": "這是本週跨競品最重大的單一事件——Airtable作為no-code資料庫的代表性品牌，最終以遠低於巔峰期的估值賣給一家專長於『收購成熟軟體資產、壓縮成本、榨取現金流』的義大利科技控股集團（過往操作案例包括Evernote、WeTransfer、Meetup，收購後普遍出現漲價與縮編）。市場解讀普遍認為這代表Airtable過去幾年『AI-native轉型』的故事未能說服資本市場支撐原本估值，也反映no-code資料庫這個賽道本身的獨立估值溢價正在收斂。",
+      "impact": "對Ragic而言，這既是警訊也是機會：警訊在於，此案可能讓客戶與市場對『no-code資料庫』這個品類本身的長期價值產生疑慮，行銷溝通上可能需要正面處理『這個賽道還值得投資嗎』的疑問；機會在於，Bending Spoons過往收購案例常伴隨漲價、縮編、產品支援品質下降，是搶奪Airtable既有客戶（尤其對服務穩定性敏感的中小企業客戶）的窗口，建議Marketing/Sales盤點是否啟動針對性的『Airtable轉換方案』溝通。",
+      "attention_index": 5
+    },
+    {
+      "comp": "Airtable",
+      "date": "2026/08/04",
+      "signal": "在與Bending Spoons簽署收購協議之前，Airtable先完成一項公司重組：將旗下AI agent產品線Hyperagent（前身為Superagent、更早期為Omni）整體轉移至新成立的獨立公司『Hyperagent Inc.』，由創辦人Howie Liu與既有投資人保留。Bending Spoons此次收購僅涵蓋Airtable原有的資料庫／工作流程本業（約4.8億美元ARR），AI agent產品線的未來成長潛力被切割出去、不在交易範圍內。",
+      "theme": "AI業務切割",
+      "read": "這個動作透露創辦人與既有投資人判斷『AI agent』才是真正有未來增值空間的資產，選擇把它留在自己手上，只把成長趨緩、估值已大幅折價的傳統no-code資料庫本業賣掉。換言之，市場（至少是Airtable內部人）用實際資本操作表態：no-code資料庫核心業務的獨立價值有限，真正的籌碼在AI agent層。",
+      "impact": "呼應Ragic『AI agent功能與定價』及『AI agent部署模式與治理』兩大戰場——被切割出去的Hyperagent Inc.接下來可能更專注、更激進地投入AI agent產品開發（不再受母公司整體獲利壓力牽制），建議Product團隊將Hyperagent Inc.列為需要獨立、更高頻追蹤的觀察對象，留意其是否符合Ragic『原生資料庫整合／零部署／一人配置全公司用／內建護欄』四項差異化重點，或走向需安裝、個人助理型的不同路線。",
+      "attention_index": 4
+    },
+    {
+      "comp": "monday.com",
+      "date": "2026/08/10",
+      "signal": "monday.com公布2026年第二季財報：營收與每股盈餘均優於市場共識（營收約3.55億美元區間，略高於約3.555億美元的共識預期），但同時釋出的2026全年營收成長展望降至18–19%（較第一季財報時的24%展望明顯放緩），被媒體解讀為調降或撤回先前的長期成長目標。",
+      "theme": "成長放緩",
+      "read": "monday.com過去一年高調押注AI變現（Sidekick、Vibe、Agent Factory陸續轉為credit計費），本季雖仍優於共識，但全年展望的明顯下修顯示『AI功能能否撐起原本的高成長敘事』開始受到市場檢驗——這與Airtable被低價收購的故事合看，構成本週一個隱約的共同主軸：資本市場對no-code／work OS類平台過去兩年的高估值敘事，正進入更嚴格的驗證期。",
+      "impact": "建議Marketing/PR團隊留意這個『賽道降溫』氛圍對Ragic對外溝通的影響——一方面可強調Ragic穩健、非燒錢式的成長路徑作為差異化，另一方面也要預期客戶對『競品AI功能到底能不能兌現效益』的提問增加，Sales/Product可準備對應的實績與案例素材。",
+      "attention_index": 3
+    },
+    {
+      "comp": "monday.com",
+      "date": "2026/08/04",
+      "signal": "monday.com在AI Workflows建構器新增一種區塊類型：『依人工核准路由工作流程』（Route workflows based on human approval），可在AI驅動的流程中插入一個節點，將核准請求送給指定的人，並依核准／拒絕結果分流後續動作。本則訊號目前僅見於monday.com官方changelog，尚未取得第三方獨立來源交叉驗證。",
+      "theme": "AI workflow・人工核准",
+      "read": "這是monday.com把『人工核准』正式收編為AI workflow的標準積木之一，顯示競品也開始正視『AI自動化流程若完全無人把關，企業不敢放心用在關鍵流程上』這個問題，路線上與傳統簽核鏈的治理邏輯開始靠攏。",
+      "impact": "這正好貼近Ragic原本就深耕的『簽核、客製列印報表等單據整合』核心戰場與『內建護欄』差異化重點——建議Product/Marketing在溝通上凸顯：Ragic的簽核與工作流程治理機制是資料庫層級原生設計、非近期才補上的AI功能點綴，可作為與monday.com這類『後補人工核准節點』的差異化對比素材。",
+      "attention_index": 3
+    },
+    {
+      "comp": "Notion",
+      "date": "2026/08/05",
+      "signal": "Notion於開發者平台changelog發布一批MCP（Model Context Protocol）相關更新：OAuth安全性收緊（公開授權碼用戶端強制要求S256 PKCE、成功導向回傳新增iss參數）、Streamable HTTP端點升級支援2026-07-28版協議、權杖交換回應新增user_id／workspace_id／email_domain欄位、存取權杖有效期延長至約8小時、fetch工具新增可讀取notion://docs/*規格文件、資料庫工具（notion-create-database／notion-update-data-source）新增支援STATUS欄位類型，另有一項工具狀態命名調整（limited_free_trial更名為available_with_limit，僅為文字調整非額度變動）。",
+      "theme": "MCP整合強化",
+      "read": "這批更新屬於開發者/API層的安全性與相容性強化，非消費端的重大功能發布，但MCP資料庫工具新增STATUS欄位支援這點值得留意——顯示Notion持續把資料庫schema操作能力往MCP協議上補齊，讓外部AI代理（如Claude、ChatGPT）透過MCP能做的資料庫操作範圍逐步接近Notion原生介面本身能做的事。",
+      "impact": "呼應Ragic『MCP整合與分發』戰場——建議Product團隊比對Ragic自身MCP工具目前能支援的資料庫操作範圍（欄位類型、schema異動）是否已涵蓋Notion這次補上的能力，避免在『外部AI代理透過MCP能操作到多細緻的資料庫結構』這個維度上落後。",
+      "attention_index": 2
+    },
+    {
+      "comp": "Kintone",
+      "date": "2026/08/09",
+      "signal": "Kintone預告已久的8月定期更新於08/09如期上線，實際內容較先前預告更廣：（1）討論串AI摘要功能擴及Android版App（先前僅支援部分平台）；（2）新增『使用者資訊』畫面，可依使用者檢視其被指派的所有網域與啟用狀態（Wide方案）；（3）新增可依組織別篩選檢視的用量儀表板（先前預告未提及）；（4）Portal頁面數量上限由3頁提高至10頁（Wide方案，先前預告未提及）。",
+      "theme": "多網域治理・用量透明化",
+      "read": "四項更新中有兩項是先前預告過的既定項目，另外兩項（依組織別的用量儀表板、Portal頁面上限提高）屬於臨時加碼，方向都指向『多網域／多組織企業客戶的治理與用量可視性』，顯示Kintone持續把大型、多事業體企業客戶的管理需求作為近期產品優先級。",
+      "impact": "與本期Kintone另一則案例（沖繩電力集團導入）合看，反映Kintone在日本大型企業市場的治理功能持續深化；建議Ragic留意台灣市場多分公司/多事業群客戶對『依組織別用量視覺化』的需求是否也逐漸浮現，評估是否為Ragic現有管理後台補上類似的分組用量檢視功能。",
+      "attention_index": 2
+    },
+    {
+      "comp": "Kintone",
+      "date": "2026/08/04",
+      "signal": "Cybozu發布沖繩電力集團（約3,800名員工）導入kintone作為全公司資訊共享平台的案例新聞稿，宣稱結合集中式IT治理與現場人員自建應用（citizen development），成效包括每年減少約6萬份紙本簽核文件、節省約1.5萬工時，另在外部承包商協調（電線桿更換工程）方面每年再節省約300工時。",
+      "theme": "大型企業案例",
+      "read": "這是典型的Kintone企業端公關案例操作——用具體、可量化的效率數字（紙本減量、工時節省）強化『大型企業也能靠citizen development自建應用』的敘事，是Kintone在日本大型企業／公用事業市場持續深耕的訊號，也再次印證Kintone把『集中治理＋現場自建』作為核心賣點在對外溝通。",
+      "impact": "這類案例素材與Ragic『簽核、客製列印報表等單據整合』的既有優勢高度可比——建議Marketing團隊留意是否有對應規模、對應產業（公用事業／製造）的Ragic客戶案例可整理成類似量化敘事的素材，用於直接對比溝通。",
+      "attention_index": 2
+    }
+  ],
+  "implications": [
+    {
+      "team": "Marketing / PR",
+      "items": [
+        "<b>Airtable收購衝擊素材：</b>準備因應客戶對『no-code賽道還值得投資嗎』的疑慮，並評估是否啟動針對Airtable既有客戶的轉換方案溝通——Bending Spoons過往收購案例常見漲價與縮編，是爭取轉換的窗口期。",
+        "<b>治理／簽核案例強化：</b>monday.com新增人工核准區塊、Kintone沖繩電力案例均凸顯『治理與核准機制』的市場需求，建議整理Ragic對應的量化案例素材（工時節省、紙本減量等）強化差異化溝通。",
+        "<b>成長放緩氛圍因應：</b>monday.com Q2財報全年展望下修，建議準備穩健成長路徑的對外敘事，因應客戶對『競品AI效益能否兌現』的提問增加。"
+      ]
+    },
+    {
+      "team": "Product / R&D 提問",
+      "items": [
+        "<b>Hyperagent Inc.獨立後的產品路線：</b>建議列為高頻追蹤對象，檢視其是否走向Ragic『零部署、一人配置全公司用』路線，或維持個人助理型／需安裝的不同路線。",
+        "<b>MCP資料庫操作深度：</b>Notion本週為MCP資料庫工具新增STATUS欄位類型支援，Ragic現有MCP工具對資料庫schema操作的涵蓋範圍是否需要對齊或補強？",
+        "<b>依組織別用量視覺化：</b>Kintone本週新增依組織別篩選的用量儀表板，Ragic管理後台是否也該提供類似的分組治理視圖，因應台灣多分公司/多事業群客戶需求？"
+      ]
+    }
+  ],
+  "deepdives": [
+    {
+      "tag": "DEEP DIVE ▸ 01",
+      "title": "Airtable被收購前先切割Hyperagent：把『會漲估值的資產』和『在跌價的資產』拆開賣",
+      "body": "把本週Airtable的兩則訊號按順序排開會看到清楚的資本操作邏輯：Airtable先在簽約前完成公司重組，把AI agent產品線Hyperagent（前身Superagent／Omni）整體轉移到創辦人與既有投資人保留的獨立新公司『Hyperagent Inc.』，接著才與Bending Spoons簽署收購協議——後者買到的只是成長趨緩、估值已從2021年117億美元巔峰跌到約12.85億美元企業價值的傳統資料庫本業。這不是單純的併購，而是一次『資產分層定價』：創辦人與投資人判斷AI agent才是還有想像空間的資產，選擇留給自己；傳統no-code資料庫本業則在成長放緩、AI敘事無法支撐溢價的情況下，以顯著折價出售給以『收購成熟軟體、壓縮成本』見長的Bending Spoons。",
+      "watch": "後續觀察：Hyperagent Inc.獨立後是否會有新一輪募資、是否加速產品發布節奏；Bending Spoons接手Airtable本業後，是否比照Evernote、WeTransfer等過往案例出現漲價、縮編、客服品質下降，形成客戶轉換的窗口；交易完成後，Airtable原有的no-code資料庫核心開發資源是否會被縮減，進而影響其產品競爭力。"
+    },
+    {
+      "tag": "DEEP DIVE ▸ 02",
+      "title": "Airtable估值重挫 vs. monday.com展望下修——no-code／work OS賽道的同一場資本市場檢驗",
+      "body": "本週兩則獨立訊號其實指向同一個現象：Airtable以遠低於巔峰期的估值被收購，monday.com則是Q2財報雖優於共識、卻同步把全年成長展望從24%下修至18–19%。兩者的共同點是，過去兩年支撐這類no-code／work OS平台高估值的核心敘事——『AI功能將帶來下一輪爆發性成長』——正在被資本市場更嚴格地檢驗。差別在於路徑：Airtable選擇把AI agent資產切割保留、把本業低價出售；monday.com則是繼續把Sidekick、Vibe、Agent Factory等AI功能陸續轉為credit計費，賭AI變現能撐住成長曲線，但本季的展望下修顯示這個賭注短期內尚未完全兌現。",
+      "watch": "後續觀察：monday.com下一季財報AI相關營收貢獻占比是否持續提升、能否扭轉展望下修的疑慮；是否有更多同類型平台（Smartsheet、Asana等work OS類競品）出現類似的估值或成長展望修正；這波『賽道降溫』是否會反映在客戶對Ragic等替代方案的詢問量或轉換意願上。"
+    },
+    {
+      "tag": "DEEP DIVE ▸ 03",
+      "title": "Kintone一週雙訊號：多網域治理補強＋大型企業案例，同步強化『集中治理＋現場自建』敘事",
+      "body": "Kintone本週的兩則訊號看似獨立（08/09產品更新、08/04企業案例新聞稿），但合看是同一套市場敘事的兩個面向：產品端補上依組織別的用量儀表板與Portal頁面上限提高，直接服務多網域、多事業體的大型企業治理需求；公關端同步推出沖繩電力集團（約3,800人）的量化導入成效（年省6萬份紙本、1.5萬工時）。兩者一起強化Kintone在日本大型企業／公用事業市場『集中IT治理＋現場人員citizen development自建應用』的定位，是一套產品與行銷同步推進的組合打法。",
+      "watch": "後續觀察：Kintone是否會把類似的多網域治理與用量透明化功能複製到台灣市場的行銷素材與客戶案例中；9月2日台北場kintone Day是否會發布新的台灣本地化功能或定價動作，屆時應優先查證。"
+    }
+  ],
+  "positioning_watch": [
+    {
+      "comp": "Airtable",
+      "status": "unchanged",
+      "headline": "Build Enterprise-ready AI Workflows, Apps & Agents",
+      "cta": "Get started for free / Book demo",
+      "note": "本週無變動。WebFetch本次環境性中斷，改以WebSearch查證，標語經第三方頁面快照與搜尋引擎索引之頁面標題兩組獨立來源交叉確認一致，信心中高；主要CTA『Get started for free』有搜尋結果佐證，次要CTA『Book demo』本次未能獨立重新驗證，暫維持原值。"
+    },
+    {
+      "comp": "Notion",
+      "status": "unchanged",
+      "headline": "The AI workspace that works for you.",
+      "cta": "Get Notion free / Request a demo",
+      "note": "本週無變動。WebFetch本次環境性中斷，改以WebSearch查證，標語與CTA均與搜尋引擎索引之頁面標題／片段一致，信心中等（屬索引快取而非即時渲染頁面確認）。"
+    },
+    {
+      "comp": "monday.com",
+      "status": "unchanged",
+      "headline": "The AI Work Platform for People & Agents",
+      "cta": "Get Started / Contact sales",
+      "note": "本週無變動。WebFetch本次環境性中斷；標語經搜尋引擎索引頁面標題確認與基準一致，信心中高。CTA文字本次未能獨立重新驗證（僅無變更跡象），暫維持原值。"
+    },
+    {
+      "comp": "Smartsheet",
+      "status": "unchanged",
+      "headline": "Intelligent Work Management with AI at its core",
+      "cta": "Watch a demo / Try Smartsheet for free",
+      "note": "本週無變動。WebFetch本次環境性中斷；標語與CTA配對經多筆搜尋索引片段交叉確認與基準一致，信心中等，但無法排除近期改版尚未被搜尋引擎收錄的殘餘風險。"
+    },
+    {
+      "comp": "Kintone",
+      "status": "unchanged",
+      "headline": "みんな、つくれる。",
+      "cta": "アプリ作成体験 / 30日間無料お試し / 導入相談",
+      "note": "本週無變動。WebFetch本次環境性中斷；標語經搜尋引擎索引頁面標題確認一致，CTA中『30日間無料お試し』與『導入相談』兩項有現存頁面連結佐證，『アプリ作成体験』本次未能逐字重新確認，整體信心中等。"
+    },
+    {
+      "comp": "Odoo",
+      "status": "unavailable",
+      "headline": "All your business on one platform.",
+      "cta": "Start now - It's free / Meet an advisor",
+      "note": "WebFetch本次環境性中斷（含jina.ai讀取代理對照測試亦遭阻擋）；WebSearch僅取得搜尋引擎索引之HTML title標籤『Open Source ERP and CRM | Odoo』，與基準首頁主標語文字不同但無法確認是否代表實際首頁H1標語改版（title標籤與頁面主標語本非同一元素），信心不足以判定為相同或不同，故標記為unavailable，維持上次快照數值待下次重試直接渲染確認。"
+    }
+  ],
+  "sources": [
+    {
+      "comp": "Airtable",
+      "title": "Bending Spoons Agrees to Acquire Airtable",
+      "url": "https://investors.bendingspoons.com/newsroom/bending-spoons-agrees-to-acquire-airtable",
+      "note": "Bending Spoons官方投資人新聞稿，收購案交易條件（企業價值12.85億美元）之主要來源"
+    },
+    {
+      "comp": "Airtable",
+      "title": "Bending Spoons to Buy Software Firm Airtable for $2.3 Billion",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-04/bending-spoons-to-buy-software-firm-airtable-for-2-3-billion",
+      "note": "Bloomberg對收購案的獨立報導，交叉確認交易日期與金額"
+    },
+    {
+      "comp": "Airtable",
+      "title": "Bending Spoons to Buy Airtable for $1.28B",
+      "url": "https://techcrunch.com/2026/08/04/bending-spoons-to-buy-airtable-for-1-28b/",
+      "note": "TechCrunch獨立報導，交叉確認收購案細節與Airtable財務數據（ARR約4.8億美元）"
+    },
+    {
+      "comp": "Airtable",
+      "title": "Airtable Spins Out Hyperagent Before Bending Spoons Acquisition",
+      "url": "https://app.dealroom.co/news/note/airtable-spins-out-hyperagent-before-bending-spoons-acquisition",
+      "note": "Hyperagent切割保留為獨立公司之報導來源"
+    },
+    {
+      "comp": "Airtable",
+      "title": "Bending Spoons Acquires Airtable After Hyperagent Spinout",
+      "url": "https://digg.com/tech/0erfz3p9",
+      "note": "第二獨立來源，交叉確認Hyperagent切割時序與收購案關係"
+    },
+    {
+      "comp": "monday.com",
+      "title": "monday.com Earnings Beat, Revenue Topped Estimates",
+      "url": "https://www.investing.com/news/earnings/mondaycom-earnings-beat-by-020-revenue-topped-estimates-4675907",
+      "note": "monday.com Q2 2026財報數字（優於共識）之來源"
+    },
+    {
+      "comp": "monday.com",
+      "title": "monday.com Issued 2026 Revenue Guidance Below Its Own Prior Outlook",
+      "url": "https://www.nasdaq.com/press-release/mondaycom-issued-2026-revenue-guidance-billions-below-its-own-prior-outlook-while",
+      "note": "monday.com全年營收成長展望下修（24%→18–19%）之來源"
+    },
+    {
+      "comp": "monday.com",
+      "title": "What's New at monday.com",
+      "url": "https://monday.com/whats-new",
+      "note": "AI Workflows新增『依人工核准路由』區塊類型之官方changelog來源（單一來源，未取得第三方獨立佐證）"
+    },
+    {
+      "comp": "Notion",
+      "title": "Notion Developer Changelog",
+      "url": "https://developers.notion.com/page/changelog",
+      "note": "Notion MCP相關更新（OAuth收緊、協議版本升級、資料庫工具STATUS欄位支援等）之官方來源"
+    },
+    {
+      "comp": "Notion",
+      "title": "Notion Release Notes - Releasebot",
+      "url": "https://releasebot.io/updates/notion",
+      "note": "第三方Notion更新追蹤網站，交叉確認08/05 MCP更新叢集之日期與內容"
+    },
+    {
+      "comp": "Kintone",
+      "title": "kintoneアップデート情報 2026年8月",
+      "url": "https://jp.kintone.help/k/ja/update/main/2026/08",
+      "note": "Kintone 8月定期更新（討論串AI摘要擴及Android、多網域用戶資訊畫面、依組織別用量儀表板、Portal頁面上限提高）之官方更新頁面"
+    },
+    {
+      "comp": "Kintone",
+      "title": "沖縄電力グループ、kintoneを全社の情報共有基盤として導入",
+      "url": "https://topics.cybozu.co.jp/news/2026/08/04-19489.html",
+      "note": "沖繩電力集團導入案例新聞稿，Cybozu官方來源"
+    },
+    {
+      "comp": "Kintone",
+      "title": "沖縄電力グループの導入事例（PR TIMES）",
+      "url": "https://prtimes.jp/main/html/rd/p/000000353.000027677.html",
+      "note": "PR TIMES發布之同一則案例新聞稿，作為第二獨立來源交叉確認"
+    }
+  ]
+}
