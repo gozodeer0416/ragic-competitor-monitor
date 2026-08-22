@@ -1,6 +1,6 @@
 {
   "week": "2026-W34",
-  "range": "2026/08/11–2026/08/17",
+  "range": "2026/08/11–2026/08/22",
   "markets": "Global / TW",
   "competitors": [
     "Airtable",
@@ -13,7 +13,7 @@
   ],
   "conclusion": {
     "title": "本周市場結論：Google Sheets canvas與Airtable MCP＋技能庫同步瞄準「AI一句話建系統」，no-code建構方式本身面臨新一輪替代性壓力",
-    "body": "本期（2026/08/11–2026/08/17）最值得跨競品合看的主軸，是兩則分屬不同陣營、卻指向同一件事的訊號：Google於08/13推出Gemini驅動的『Sheets canvas』，讓使用者用自然語言直接把既有試算表資料轉換成互動式迷你應用（儀表板、看板、自訂版面），且多家媒體直接以『Live Airtable-Style Apps』為題，明確點名這使Google『與Airtable、Notion正面競爭』；幾乎同一週，Airtable自己也在08/10–08/14的『Summer Camp』發布週第一天推出官方MCP伺服器與『技能庫』，讓Claude、ChatGPT等外部AI代理透過MCP載入技能包，一句提示詞即可生成一套可運作的base／介面／自動化系統。兩者路徑不同——Google從使用者已開著的試算表切入，Airtable從強化自身作為可被外部AI代理呼叫的建構層切入——但共同指向Ragic核心戰場中『AI建立系統／App』這個battleground正從『觀察中的趨勢』變成本週有具體產品落地與市場論述的『進行式』，優先級不低於AI agent操作類訊號，值得列為本期最高關注主軸。\n\nAirtable同一波發布週的第四天，另釋出聚焦AI agent操作稽核紀錄與帳號治理的功能（細節因查證來源與較舊資料混雜，確切新增範圍待確認），方向上呼應Ragic『內建護欄』差異化主張——顯示即使是主打『一句話建系統』的競品，也同步意識到治理與可稽核性是企業客戶採用AI agent的關鍵門檻，而非單純比拼功能多寡。\n\n次要訊號集中在Notion：一是MCP開發平台持續補齊查詢工具與篩選類型（延續上週08/05批次之後的新一輪更新），二是原本免費的Workers代理工具託管環境轉為信用點計費（確切生效日期因官方頁面說法不一，待下次複查）——兩者都是漸進式、非重大轉折的動作，但共同顯示Notion在MCP協議深度與AI基礎設施計費模式上持續投入。\n\nmonday.com、Smartsheet、Kintone三家本週均查無可獨立驗證的新訊號（Smartsheet已連續第二週市場平靜；monday.com本週唯一討論度較高的Q2財報與AGM治理事項均屬上週已報導或早於本期窗口的舊聞；Kintone亦無新更新，9月2日台北kintone Day活動報名頁面早於本期窗口即已開放，暫無新進展）。Odoo方面，先前提及、僅單一來源佐證而未列入訊號的台灣『AI自動化』實體推廣活動，本次雖多找到一則第二方來源（Facebook社群貼文）交叉印證台中、高雄兩場活動確實存在，但活動具體日期與『是否為本期新發布』仍無法確認，判斷應與先前已知的同一波活動系列有關，故本期仍不列為正式訊號。LLM平台項目本週僅Gemini的Sheets canvas通過窄篩選量尺，Claude與ChatGPT本週均查無符合『市場明確視為no-code／ERP威脅』標準的應用層動作，屬正常安靜狀態。\n\n需特別說明：本次執行環境對七家競品官方來源網域（含以en.wikipedia.org作為對照測試的無關網域）均回傳連線層級的環境性阻擋，經交叉測試判定為本次環境性中斷、非個別網站封鎖，本期全面改以WebSearch多來源交叉查證作為蒐集與查證手段。Gemini Sheets canvas訊號取得官方部落格與至少兩家獨立科技媒體交叉確認，查證嚴謹度較高；Airtable Summer Camp兩則訊號僅取得Airtable自家社群／影片管道佐證，未見第三方獨立媒體報導，且第四天治理功能細節與較舊資料來源混雜、待確認；Notion Workers計費生效日期因官方頁面說法不一而有出入；定位觀察部分六家有homepage來源的競品本週均無法直接渲染頁面比對，改以搜尋引擎索引之頁面標題／片段作為間接佐證，其中Odoo因索引僅顯示與首頁主標語不同性質的title標籤，持續無法判定是否變動，維持unavailable標記。重大決策前建議自行以其他方式複查上述查證信心中等或較低之訊號。"
+    "body": "本期（2026/08/11–2026/08/17）最值得跨競品合看的主軸，是兩則分屬不同陣營、卻指向同一件事的訊號：Google於08/13推出Gemini驅動的『Sheets canvas』，讓使用者用自然語言直接把既有試算表資料轉換成互動式迷你應用（儀表板、看板、自訂版面），且多家媒體直接以『Live Airtable-Style Apps』為題，明確點名這使Google『與Airtable、Notion正面競爭』；幾乎同一週，Airtable自己也在08/10–08/14的『Summer Camp』發布週第一天推出官方MCP伺服器與『技能庫』，讓Claude、ChatGPT等外部AI代理透過MCP載入技能包，一句提示詞即可生成一套可運作的base／介面／自動化系統。兩者路徑不同——Google從使用者已開著的試算表切入，Airtable從強化自身作為可被外部AI代理呼叫的建構層切入——但共同指向Ragic核心戰場中『AI建立系統／App』這個battleground正從『觀察中的趨勢』變成本週有具體產品落地與市場論述的『進行式』，優先級不低於AI agent操作類訊號，值得列為本期最高關注主軸。\n\nAirtable同一波發布週的第四天，另釋出聚焦AI agent操作稽核紀錄與帳號治理的功能（細節因查證來源與較舊資料混雜，確切新增範圍待確認），方向上呼應Ragic『內建護欄』差異化主張——顯示即使是主打『一句話建系統』的競品，也同步意識到治理與可稽核性是企業客戶採用AI agent的關鍵門檻，而非單純比拼功能多寡。\n\n次要訊號集中在Notion：一是MCP開發平台持續補齊查詢工具與篩選類型（延續上週08/05批次之後的新一輪更新），二是原本免費的Workers代理工具託管環境轉為信用點計費（確切生效日期因官方頁面說法不一，待下次複查）——兩者都是漸進式、非重大轉折的動作，但共同顯示Notion在MCP協議深度與AI基礎設施計費模式上持續投入。\n\nmonday.com、Smartsheet、Kintone三家本週均查無可獨立驗證的新訊號（Smartsheet已連續第二週市場平靜；monday.com本週唯一討論度較高的Q2財報與AGM治理事項均屬上週已報導或早於本期窗口的舊聞；Kintone亦無新更新，9月2日台北kintone Day活動報名頁面早於本期窗口即已開放，暫無新進展）。Odoo方面，先前提及、僅單一來源佐證而未列入訊號的台灣『AI自動化』實體推廣活動，本次雖多找到一則第二方來源（Facebook社群貼文）交叉印證台中、高雄兩場活動確實存在，但活動具體日期與『是否為本期新發布』仍無法確認，判斷應與先前已知的同一波活動系列有關，故本期仍不列為正式訊號。LLM平台項目本週僅Gemini的Sheets canvas通過窄篩選量尺，Claude與ChatGPT本週均查無符合『市場明確視為no-code／ERP威脅』標準的應用層動作，屬正常安靜狀態。\n\n需特別說明：本次執行環境對七家競品官方來源網域（含以en.wikipedia.org作為對照測試的無關網域）均回傳連線層級的環境性阻擋，經交叉測試判定為本次環境性中斷、非個別網站封鎖，本期全面改以WebSearch多來源交叉查證作為蒐集與查證手段。Gemini Sheets canvas訊號取得官方部落格與至少兩家獨立科技媒體交叉確認，查證嚴謹度較高；Airtable Summer Camp兩則訊號僅取得Airtable自家社群／影片管道佐證，未見第三方獨立媒體報導，且第四天治理功能細節與較舊資料來源混雜、待確認；Notion Workers計費生效日期因官方頁面說法不一而有出入；定位觀察部分六家有homepage來源的競品本週均無法直接渲染頁面比對，改以搜尋引擎索引之頁面標題／片段作為間接佐證，其中Odoo因索引僅顯示與首頁主標語不同性質的title標籤，持續無法判定是否變動，維持unavailable標記。重大決策前建議自行以其他方式複查上述查證信心中等或較低之訊號。\n\n【08/22補充複查】本期執行環境對WebFetch仍持續回傳連線層級阻擋（與08/17當次相同），本次補充複查同樣全面改以WebSearch多來源交叉查證。08/17發佈後至今，觀察到兩項次要進展：一是Notion於08/18–08/19再發布一批更新，新增『Custom Agent觸發器』（AI會議記錄完成後可自動觸發指定agent執行後續動作，如更新追蹤表、發送摘要、建立待辦）與『Developer Portal』側邊欄整合（集中管理Workers、連線、個人存取權杖），延續其MCP／agent協作層持續投入的既有主軸，未改變本期整體判讀，故不另外調整KPI卡；二是定位觀察部分，Airtable首頁標語經兩組獨立搜尋結果交叉確認已從『Build Enterprise-ready AI Workflows, Apps & Agents』改為『Airtable lets you build with your whole team — agents included』，用詞從『AI Workflows／Agents』功能羅列，轉向強調『人機協作、agent只是團隊的一部分』，與Airtable本期Summer Camp『技能包驅動一句話建系統』的產品動作合看，是一次呼應性的敘事調整，值得列入定位觀察。Odoo本次另查得多篇第三方顧問部落格提及『Odoo 20將內建原生MCP伺服器（ai_mcp模組）』，惟查無Odoo官方部落格或明確發布日期佐證，且Odoo App Store上已可見類似名稱模組適用於現行19.0版本，無法排除該說法為第三方對既有／預覽功能的重複報導而非本期新訊號，故本次不列入正式訊號，留待下次執行時以官方來源複查。"
   },
   "kpis": [
     {
@@ -82,6 +82,15 @@
       "read": "這是本週唯一與AI／訂閱定價模式直接相關的動作——Notion把原本免費的agent工具託管執行環境，導入與其AI功能相同的『信用點』計費邏輯，顯示Notion正把AI相關基礎設施（不只是聊天／生成功能本身）逐步商業化為用量計費項目，是no-code／work OS平台『AI功能從免費附加轉為量化收費』趨勢的又一案例。",
       "impact": "建議Product／Pricing團隊留意此案例作為『AI基礎設施用量計費』的參考模式，評估Ragic若未來針對agent執行資源另立計費項目時，可參考的定價顆粒度與溝通方式；同時因生效日期尚有出入，下次執行時應優先複查Notion Workers計費是否已正式生效及實際費率。",
       "attention_index": 2
+    },
+    {
+      "comp": "Notion",
+      "date": "2026/08/18",
+      "signal": "Notion於08/18–08/19發布一批更新：新增『Custom Agent觸發器』，可設定在AI會議記錄（Meeting Note）完成後自動觸發指定的custom agent執行後續動作（如更新追蹤表、發送會議摘要、把回饋轉為待辦事項）；同日並開放從『分享』選單直接把文件或資料庫分享給agent使用，免去另外切到agent設定頁的步驟。08/19則在工作區側邊欄新增『Developer Portal』區塊，集中管理Workers、連線與個人存取權杖，並提供已部署Workers與各次執行紀錄（logs）總覽。",
+      "theme": "AI agent自動化・開發者工具",
+      "read": "『會議記錄完成後自動觸發agent』把Notion既有的AI Meeting Note與Custom Agent兩項功能串接成一條自動化鏈，屬於漸進式補強而非全新產品方向；Developer Portal則是把原本分散的agent／MCP開發管理功能集中到側邊欄常駐入口，降低開發者查看Workers執行紀錄與權杖管理的操作成本。兩者延續Notion近幾週MCP協議與agent協作層持續投入的既有主軸，尚未踩中『免部署、一人設定全公司用』或『AI直接生成系統結構』等更貼近Ragic核心戰場的訊號類型。",
+      "impact": "建議Product團隊留意『事件觸發式agent自動化』（如特定AI任務完成後串接下一個agent動作）是否為Ragic workflow引擎可參考的使用者體驗模式；本則訊號本身對Ragic核心戰場重疊度較低，不需列為優先應對項目，僅作為Notion agent協作層持續迭代節奏的觀察紀錄。",
+      "attention_index": 2
     }
   ],
   "implications": [
@@ -125,31 +134,31 @@
   "positioning_watch": [
     {
       "comp": "Airtable",
-      "status": "unchanged",
-      "headline": "Build Enterprise-ready AI Workflows, Apps & Agents",
-      "cta": "Get started for free / Book demo",
-      "note": "本週無變動。WebFetch本次環境性中斷（含對照測試網域一併受阻），改以WebSearch確認搜尋引擎索引之頁面標題與基準一致，信心中等；主要CTA本次未能獨立重新驗證，暫維持原值。"
+      "status": "changed",
+      "headline": "Airtable lets you build with your whole team — agents included",
+      "cta": "Start building for free",
+      "note": "08/22補充複查發現變動：標語從『Build Enterprise-ready AI Workflows, Apps & Agents』改為『Airtable lets you build with your whole team — agents included』，用詞從條列AI Workflows／Apps／Agents功能，轉向強調『人機協作、agent是團隊的一部分』；CTA由雙按鈕『Get started for free / Book demo』簡化為單一『Start building for free』，未見demo預約按鈕。以兩組獨立WebSearch結果交叉確認一致，信心中等偏高（WebFetch本次仍環境性中斷，無法直接渲染頁面做最終確認）。"
     },
     {
       "comp": "Notion",
       "status": "unchanged",
       "headline": "The AI workspace that works for you.",
       "cta": "Get Notion free / Request a demo",
-      "note": "本週無變動。WebFetch本次環境性中斷；標語經搜尋引擎索引確認與基準一致，信心中等，CTA本次未能獨立重新驗證，暫維持原值。"
+      "note": "本週無變動。WebFetch本次環境性中斷；標語經搜尋引擎索引確認與基準一致，信心中等，CTA本次未能獨立重新驗證，暫維持原值。08/22補充複查另見『The happier workspace』『Think it. Make it.』等搜尋片段，惟研判應為行銷活動頁或舊版素材而非目前首頁主標語，信心不足以判定為變動，暫維持unchanged。"
     },
     {
       "comp": "monday.com",
       "status": "unchanged",
       "headline": "The AI Work Platform for People & Agents",
       "cta": "Get Started / Contact sales",
-      "note": "本週無變動。WebFetch本次環境性中斷（含web.archive.org對照網域亦受阻）；標語經搜尋引擎索引頁面標題確認與基準一致，CTA經monday.com子頁面（聯絡業務／諮詢頁）文案交叉確認與基準一致，信心中等。"
+      "note": "本週無變動。WebFetch本次環境性中斷（含web.archive.org對照網域亦受阻）；標語經搜尋引擎索引頁面標題確認與基準一致，CTA經monday.com子頁面（聯絡業務／諮詢頁）文案交叉確認與基準一致，信心中等。08/22補充複查未取得明確衝突結果，維持unchanged。"
     },
     {
       "comp": "Smartsheet",
       "status": "unchanged",
       "headline": "Intelligent Work Management with AI at its core",
       "cta": "Watch a demo / Try Smartsheet for free",
-      "note": "本週無變動。WebFetch本次環境性中斷；本次僅取得搜尋索引殘留片段作為間接佐證（未見明確引用完整標語或CTA字句的搜尋結果），信心偏低，無法完全排除近期改版未被索引收錄的殘餘風險，建議下次執行時優先複查。"
+      "note": "本週無變動。WebFetch本次環境性中斷；本次僅取得搜尋索引殘留片段作為間接佐證（未見明確引用完整標語或CTA字句的搜尋結果），信心偏低，無法完全排除近期改版未被索引收錄的殘餘風險，建議下次執行時優先複查。08/22補充複查另見『Personalize workflows, predict outcomes, and move faster with Smartsheet』一類片段，惟無法確認是否為首頁主標語或關於頁／說明性文案，信心不足以判定為變動，暫維持unchanged。"
     },
     {
       "comp": "Kintone",
@@ -214,6 +223,18 @@
       "title": "Google launches Sheets canvas for Gemini mini-apps",
       "url": "https://www.testingcatalog.com/google-launches-sheets-canvas-for-gemini-mini-apps/",
       "note": "獨立科技媒體報導，交叉確認Sheets canvas功能細節與發布時間"
+    },
+    {
+      "comp": "Notion",
+      "title": "August 19, 2026 – Your Developer Portal, now in the sidebar",
+      "url": "https://www.notion.com/releases/2026-08-19",
+      "note": "官方release notes，Custom Agent觸發器與Developer Portal側邊欄整合之來源"
+    },
+    {
+      "comp": "Airtable",
+      "title": "Airtable",
+      "url": "https://www.airtable.com/",
+      "note": "定位觀察：08/22補充複查取得的最新首頁標語／CTA文字（透過WebSearch索引片段交叉確認，WebFetch本次仍環境性中斷）"
     }
   ]
 }
