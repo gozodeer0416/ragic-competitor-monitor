@@ -1,0 +1,147 @@
+{
+  "week": "2026-W35",
+  "range": "2026/08/18–2026/08/24",
+  "markets": "Global / TW",
+  "competitors": [
+    "Airtable",
+    "Notion",
+    "monday.com",
+    "Smartsheet",
+    "Kintone",
+    "Odoo",
+    "LLM"
+  ],
+  "conclusion": {
+    "title": "本周市場結論：市場整體進入消化期，唯一具判讀價值的訊號來自Smartsheet的MCP治理型AI操作擴充",
+    "body": "本期（2026/08/18–2026/08/24）是本報告設立以來訊號最集中、市場最平靜的一週——七個追蹤項目中，只有Smartsheet釋出一則收錄門檻以上的新訊號，Airtable、Notion、monday.com、Kintone、Odoo與LLM平台項目本週均查無符合標準的新動態。整體呈現『上一輪訊號（08/10–08/22期間的Gemini Sheets canvas、Airtable Summer Camp、Notion agent協作層更新）後的消化與等待期』特徵，而非新一輪主軸的起點。\n\nSmartsheet於08/21釋出一批以MCP（Model Context Protocol）為核心的管理層AI操作擴充：一是具Portfolio Owner／Admin權限者可直接在對話中請Claude、Copilot、Smart Assist等MCP相容AI助手建立、讀取、刪除投資組合（portfolio）與範本（template），並讀取專案，操作範圍首次從『讀寫既有資料列』跨出到『建立／刪除結構性物件』，且官方註明所有操作均限定在使用者既有權限與方案額度內；二是系統管理員可透過MCP相容AI用戶端查詢閒置使用者（如90天以上未活動）、查詢可用席位數，並在AI提出明確確認後升降級使用者座席——此功能目前非預設開通，需由客戶經理另行申請啟用。兩者合看，觸及Ragic『AI建立系統／App』與『AI agent部署模式與治理』兩大核心戰場，但威脅強度中等：Smartsheet走的仍是『開放既有資料/管理層給外部主流AI用戶端』的協作路線，需使用者自行連接並各自設定AI工具，並非Ragic『agent原生活在資料庫裡、一人設定全公司共用』的路線，'明確確認後才執行'的設計則顯示Smartsheet也意識到治理性AI操作需要人工核可環節。\n\n其餘六個項目本週均無新訊號：Airtable在08/10–08/14『Summer Camp』發布週後進入沉澱期，本次查證亦重新確認08/04 Bending Spoons收購案與Hyperagent切割一事已於上期深度報導涵蓋，非本期新訊號；Notion在08/18–08/19已報導的Custom Agent觸發器與Developer Portal整合之後未見進一步更新；monday.com連續第二週市場平靜；Kintone除既有已知的08/09執行August更新批次與9/2台北kintone Day活動外無新進展；Odoo方面，針對上期未收錄、僅第三方顧問部落格提及的『Odoo 20將內建原生MCP伺服器（ai_mcp模組）』傳言本次重新查證，仍未見odoo.com官方部落格或release notes確認，唯一新增的官方相關線索是社群論壇上兩則使用者關於『如何連接Odoo與MCP』的討論串（非官方公告），故本次仍不列為正式訊號，下一個可能的驗證時間點是9月24–26日的Odoo Experience 2026大會。LLM平台項目本週是窄篩選機制設立以來，Claude、ChatGPT、Gemini三家首次『全數掛零』——上週唯一通過量尺的Gemini Sheets canvas本次也未見具備新市場論述的後續進展（僅原有報導的延伸轉載），屬正常安靜狀態。\n\n需特別說明：本次執行環境對所有競品官方來源網域（含以en.wikipedia.org作為對照測試的無關網域）再次回傳連線層級的環境性阻擋，與前兩期（08/17、08/22）情況相同，經交叉測試判定為環境性中斷、非個別網站封鎖，本期全面改以WebSearch多來源交叉查證作為蒐集與查證手段，Smartsheet訊號取得官方release notes頁面、官方AI／MCP changelog頁面與第三方追蹤網站releasebot.io三方交叉確認，查證嚴謹度中等偏高。定位觀察部分六家有homepage來源的競品本週標語／CTA均判定為無變動，惟Smartsheet本次搜尋結果中首頁title標籤顯示為『Intelligent Work Management Platform』，較基準標語簡短，因WebFetch本次仍環境性中斷無法直接渲染首頁確認是否僅為title標籤精簡或實際標語有變，信心不足以判定為變動，暫維持unchanged並建議下次優先複查；Odoo則因本次取得多個官方產品子頁面與合作夥伴鏡像頁面的間接交叉佐證（較前兩期僅有title標籤片段略有改善），但仍非首頁本身的直接渲染確認，故維持標記為unavailable。"
+  },
+  "kpis": [
+    {
+      "label": "本周主軸",
+      "value": "MCP治理型AI操作深化 2/5",
+      "note": "本週唯一具跨競品判讀價值的訊號集中在Smartsheet的MCP治理型AI操作擴充（投資組合／範本建立、對話式席位管理），其餘六個項目（Airtable、Notion、monday.com、Kintone、Odoo、LLM平台）本週均無新訊號，主軸強度中等偏弱，非重大轉折週。"
+    },
+    {
+      "label": "定價風向",
+      "value": "本週無明顯定價動向",
+      "note": "七個追蹤項目本週均無定價相關動作。"
+    },
+    {
+      "label": "最高優先訊號",
+      "value": "Smartsheet MCP擴充：AI直接建立／刪除投資組合與範本、對話式席位管理",
+      "note": "本期唯一收錄之訊號，attention_index 3，觸及Ragic『AI建立系統』與『AI agent部署模式與治理』兩大戰場，但因仍屬外部AI用戶端協作路線、威脅強度中等。"
+    },
+    {
+      "label": "Ragic 應對焦點",
+      "value": "AI治理稽核機制比較 × MCP結構層操作範圍複查 × 持續觀察Odoo ai_mcp傳言與LLM窄篩選後續",
+      "note": "呼應本期訊號：整理Ragic原生護欄與人工核可機制作為對比溝通素材、評估Ragic MCP是否需支援結構層級物件（資料表／表單／workflow）建立，並持續追蹤9月Odoo Experience大會官方公告與LLM平台應用層動作是否重新通過窄篩選量尺。"
+    }
+  ],
+  "signals": [
+    {
+      "comp": "Smartsheet",
+      "date": "2026/08/21",
+      "signal": "Smartsheet於08/21釋出以MCP（Model Context Protocol）為核心的管理層AI操作擴充：(1) 具Portfolio Owner／Admin權限者可直接在與Claude、Copilot、Smart Assist等MCP相容AI助手的對話中，建立、讀取、刪除投資組合（portfolio）與範本（template），並讀取專案，且僅需連接一次即可在既有工作對話中直接管理，所有操作均限定在使用者既有權限與方案額度內；(2) 系統管理員可透過MCP相容AI用戶端查詢閒置使用者（如90天以上無活動）與可用席位數，並在AI提出後經明確確認才升降級使用者座席——此席位管理功能目前並非預設開通，需由客戶經理（CSM／AE／TAM）另行申請啟用。",
+      "theme": "MCP治理操作・AI建系統",
+      "read": "投資組合／範本建立首次讓Smartsheet的MCP操作範圍從『讀寫既有資料列』跨出到『建立／刪除結構性物件』，觸及Ragic核心戰場中的『AI建立系統／App』——雖未達到『一句話生成全新資料庫結構』的層級，但已是明確的進展方向；席位管理則把治理與稽核導向的管理操作開放給AI對話操作，且採用『明確確認後才執行』與『需帳號團隊另行申請開通』的雙重把關設計，顯示Smartsheet也意識到admin類AI操作需要人工核可與分級開通，呼應Ragic『內建護欄：權限、可執行範圍治理機制是設定的一部分』差異化主張的精神。惟Smartsheet走的路線仍是『開放既有資料/管理層給外部主流AI用戶端（Claude、Copilot等）協作』，需使用者自行連接並各自設定所用的AI工具，與Ragic『agent原生活在資料庫裡、一次設定全公司24/7共用同一個agent』的零部署路線本質不同。",
+      "impact": "建議Product團隊持續追蹤Smartsheet MCP開放範圍是否會進一步擴大到『建立全新sheet／view／workflow結構』而非僅管理既有物件類型，若擴大將更貼近『AI建系統』核心戰場；同時可將其『AI操作前明確確認』與『治理類功能需另行申請開通』的設計，作為比較素材，用於溝通Ragic原生護欄機制（權限、需人工核可的操作範圍是設定內建功能、非另行申請）與此類外部MCP＋confirm模式的差異。",
+      "attention_index": 3
+    }
+  ],
+  "implications": [
+    {
+      "team": "Marketing / PR",
+      "items": [
+        "<b>AI治理案例素材：</b>Smartsheet本週釋出『AI操作前需明確確認』與『治理類功能需另行申請開通』的席位管理設計，可整理為Ragic原生護欄機制（權限、可執行範圍是設定內建功能）優於外部MCP＋confirm模式的溝通對比素材。",
+        "<b>LLM平台窄篩選連續掛零：</b>Claude、ChatGPT、Gemini本週均未通過窄篩選量尺，建議利用此空窗期預先準備因應『LLM是否會取代no-code平台』提問的通用溝通口徑，避免真正出現威脅訊號時措手不及。",
+        "<b>Odoo ai_mcp傳言暫不主動回應：</b>第三方顧問部落格持續傳言Odoo 20將內建原生MCP伺服器，但連續兩期查證均無官方來源確認，建議PR團隊暫不主動評論，靜待9月24–26日Odoo Experience 2026官方公布後視情況因應。"
+      ]
+    },
+    {
+      "team": "Product / R&D 提問",
+      "items": [
+        "<b>結構性物件的AI建立範圍：</b>Smartsheet MCP本次讓AI可建立／刪除portfolio、template等結構性物件（非僅資料列），Ragic MCP伺服器目前能否支援AI建立／刪除資料表、表單、workflow等結構層級物件？若尚未支援，是否應列入後續規劃？",
+        "<b>治理型AI操作的確認機制：</b>Smartsheet席位管理功能採用『明確確認後才執行』且需另行申請開通的設計，Ragic現有AI agent在涉及帳號、權限等治理性操作時，是否已有對應的二次確認或分級開通機制？是否需要對外強化溝通此差異？",
+        "<b>定位觀察複查：</b>本次搜尋結果顯示Smartsheet首頁title標籤與基準標語略有出入，但因WebFetch環境性阻擋無法直接渲染確認，建議下次執行時優先以直接渲染方式複查是否為真實標語變動。"
+      ]
+    }
+  ],
+  "deepdives": [
+    {
+      "tag": "DEEP DIVE ▸ 01",
+      "title": "Smartsheet的MCP擴張路徑：從資料操作走向管理層治理動作",
+      "body": "本週的更新延續Smartsheet一貫的MCP開放策略——自其MCP伺服器首次推出後，持續對Claude、Copilot、ChatGPT、Gemini等多家主流外部AI用戶端開放操作介面，範圍逐步從『讀寫資料列』擴大到本次的『建立／刪除結構性物件（portfolio、template）』，再到『帳號與席位治理』。這顯示Smartsheet策略核心是把自己定位成『被動但高度開放』的資料與管理層，讓各家主流AI助理都能成為操作Smartsheet的入口，而非自建封閉的agent生態系。這與Ragic『agent原生活在資料庫裡、一次設定全公司24/7共用』的路線本質不同——Smartsheet模式仍需使用者自備並各自連接外部AI用戶端，不同客戶要用不同AI工具各自設定，且治理類功能還需額外向客戶團隊申請開通，部署與治理成本都高於Ragic的零部署路線。",
+      "watch": "後續觀察：Smartsheet MCP開放範圍是否會進一步擴大到『建立全新sheet／workflow結構』而非僅管理既有物件類型；席位管理等治理類MCP功能開通後的實際採用率與客戶回饋，是否會成為其他競品跟進『MCP治理型操作』的參考案例。"
+    },
+    {
+      "tag": "DEEP DIVE ▸ 02",
+      "title": "LLM平台窄篩選連續掛零、Odoo ai_mcp傳言仍未落地：市場正處於消化期",
+      "body": "本期是窄篩選機制設立以來，Claude、ChatGPT、Gemini三家首次『全數掛零』（上週僅Gemini Sheets canvas通過），且Gemini本身這週也未見具備新市場論述的後續進展，顯示上週『AI建系統』威脅論述聲量目前並未在應用層動作上迅速接力；與此同時，Odoo方面第三方顧問部落格持續傳言Odoo 20將內建原生MCP伺服器（ai_mcp模組），但連續兩期查證均未見odoo.com官方來源確認，最可能的下一個驗證時間點是9月24–26日的Odoo Experience 2026大會。兩者合看，指出本期市場處於『上一波訊號後的消化與等待期』，而非新一輪主軸的起點。",
+      "watch": "後續觀察：Odoo Experience 2026大會官方是否正式發布ai_mcp原生MCP伺服器功能；LLM平台三家近期是否會有新一輪應用層動作重新通過窄篩選量尺，藉以判斷上期Gemini Sheets canvas究竟是單一事件還是趨勢起點。"
+    }
+  ],
+  "positioning_watch": [
+    {
+      "comp": "Airtable",
+      "status": "unchanged",
+      "headline": "Airtable lets you build with your whole team — agents included",
+      "cta": "Start building for free",
+      "note": "本週無變動。WebFetch本次環境性中斷；標語經WebSearch索引結果交叉確認與基準一致。另有一筆搜尋結果顯示頁面&lt;title&gt;標籤為『Airtable: Build Enterprise-ready AI Workflows, Apps & Agents...』，惟title標籤與首頁主視覺標語未必一致，且本次無法直接渲染確認，暫判定為SEO title差異而非首頁標語變動，維持unchanged，建議下次WebFetch可用時複查。"
+    },
+    {
+      "comp": "Notion",
+      "status": "unchanged",
+      "headline": "The AI workspace that works for you.",
+      "cta": "Get Notion free / Request a demo",
+      "note": "本週無變動。WebFetch本次環境性中斷；標語經搜尋結果標題比對與基準一致。CTA本次未能透過WebSearch片段獨立驗證（搜尋引擎通常無法呈現按鈕層級文字），暫維持原值，待WebFetch可用時複查。"
+    },
+    {
+      "comp": "monday.com",
+      "status": "unchanged",
+      "headline": "The AI Work Platform for People & Agents",
+      "cta": "Get Started / Contact sales",
+      "note": "本週無變動。WebFetch本次環境性中斷；標語經搜尋結果頁面標題比對與基準一致，CTA經monday.com站內多頁面文案交叉比對與基準一致，但非首頁直接渲染確認，信心中等。"
+    },
+    {
+      "comp": "Smartsheet",
+      "status": "unchanged",
+      "headline": "Intelligent Work Management with AI at its core",
+      "cta": "Watch a demo / Try Smartsheet for free",
+      "note": "本週無變動。惟本次搜尋結果中首頁&lt;title&gt;標籤顯示為『Intelligent Work Management Platform | Smartsheet』，較基準標語簡短，因WebFetch本次環境性中斷無法直接渲染首頁確認是否僅為title標籤精簡或實際標語有變，信心不足以判定為變動，暫維持unchanged，建議下次優先複查。CTA經站內頁面文案交叉比對與基準一致，但非首頁直接渲染確認。"
+    },
+    {
+      "comp": "Kintone",
+      "status": "unchanged",
+      "headline": "みんな、つくれる。",
+      "cta": "アプリ作成体験 / 30日間無料お試し / 導入相談",
+      "note": "本週無變動。WebFetch本次環境性中斷；標語與三項CTA元素均經搜尋結果與對應頁面URL交叉確認與基準一致，信心中等。"
+    },
+    {
+      "comp": "Odoo",
+      "status": "unavailable",
+      "headline": "All your business on one platform.",
+      "cta": "Start now - It's free / Meet an advisor",
+      "note": "WebFetch本次仍環境性中斷（以en.wikipedia.org作對照測試同樣受阻，確認為環境性中斷）。本次改以Odoo多個官方產品子頁面（Planning、Sign、Helpdesk等）與合作夥伴鏡像頁面交叉比對，文案與基準標語／CTA一致，較前兩期僅有title標籤片段略有改善，但仍非首頁本身的直接引用或渲染確認，信心不足以判定為相同或不同，維持標記為unavailable，沿用基準數值待下次直接渲染確認。"
+    }
+  ],
+  "sources": [
+    {
+      "comp": "Smartsheet",
+      "title": "Product Updates, Release News | Smartsheet",
+      "url": "https://www.smartsheet.com/content-center/product-news/release-notes",
+      "note": "08/21投資組合／範本建立與席位管理MCP功能之官方release notes來源"
+    },
+    {
+      "comp": "Smartsheet",
+      "title": "Smartsheet AI & MCP server changelog",
+      "url": "https://developers.smartsheet.com/ai-mcp/smartsheet/changelog",
+      "note": "官方開發者平台AI／MCP功能changelog，交叉確認投資組合／範本建立與席位管理功能細節"
+    },
+    {
+      "comp": "Smartsheet",
+      "title": "Smartsheet Release Notes - August 2026 Latest Updates - Releasebot",
+      "url": "https://releasebot.io/updates/smartsheet",
+      "note": "第三方Smartsheet更新追蹤網站，交叉確認08/21批次更新之日期與內容"
+    }
+  ]
+}
