@@ -1,0 +1,180 @@
+{
+  "week": "2026-W36",
+  "range": "2026/08/25–2026/08/31",
+  "markets": "Global / TW",
+  "competitors": [
+    "Airtable",
+    "Notion",
+    "monday.com",
+    "Smartsheet",
+    "Kintone",
+    "Odoo",
+    "LLM"
+  ],
+  "conclusion": {
+    "title": "本周市場結論：Odoo與Notion分別在MCP結構化與agent信任機制上邁出審慎的一步，多數競品進入單週消化期",
+    "body": "本期（2026/08/25–2026/08/31）繼上週之後再度是訊號稀薄的一週：七個追蹤項目中，僅Odoo與Notion各釋出一則具收錄門檻以上的動態，Airtable、monday.com、Smartsheet、Kintone與LLM平台項目本週均查無新的合格訊號（Kintone本週查證到的多項更新內容經比對均已於08/09、07/12等前期報告中涵蓋，非本期新訊號）。\n\nOdoo方面，多家獨立的第三方Odoo顧問／技術部落格（Silent Infotech、OBS Solutions、Much Consulting，彼此非轉載關係）本週密集披露Odoo 20 Enterprise版本原生MCP伺服器模組（ai_mcp）的具體技術規格：單一/mcp端點、採JSON-RPC 2.0協定、目前僅支援五項唯讀功能（情境查詢、模型清單、欄位檢視、記錄搜尋、群組分析），並以獨立API金鑰區塊做存取控管，預計隨Odoo 20於9月正式亮相。這是連續第三期追蹤的「Odoo將內建原生MCP」傳言首次出現具體且跨來源一致的技術細節，較前兩期僅有零星論壇討論的階段明顯進展；惟截至本次查證，odoo.com官方部落格與release notes頁面仍未見對應公告，故本則訊號的可信度標示為「多方顧問來源一致但尚待官方確認」，最可能的驗證時間點是9月24–26日的Odoo Experience 2026大會。\n\nNotion於08/28上線「Ask your agent to suggest edits」功能：使用者可要求agent以逐筆「建議」而非直接套用的方式提出修改，再由使用者從頭到尾逐筆核准或駁回，官方定位為適合文字校對等需要逐行把關的情境。此功能觸及Ragic核心戰場中的「AI agent部署模式與治理」——但走的是「每次操作都需人工逐筆核准」的路線，與Ragic「內建護欄：權限、workflow、可執行範圍的治理機制是設定的一部分，不需額外工程投入」的一次性設定模式方向不同，屬於建立使用者信任的過渡性UX設計，而非結構性的治理機制。\n\n另需說明定位觀察：Airtable首頁文案本週經確認已由基準的單句標語「Airtable lets you build with your whole team — agents included」，擴充為包含明確對比修辭的雙層敘事——新增「Other tools let you build with agents.」作為對照句、再接續原有的「whole team — agents included」語句，並新增「Airtable is the system of record for your workflows, data, and agents」作為呼應副標。這是本報告設立以來首次觀察到Airtable首頁標語出現實質文字變動，論述方向從單純強調「全公司協作」升級為明確與「僅支援單一agent建構」的競品做出對比，並加重「system of record（資料系統記錄中心）」的定位語言——這與Ragic「AI Agent的上限，就是它能看到的數據」的核心敘事方向高度相似，值得後續持續追蹤其是否延伸出更具體的產品或行銷動作。\n\n需特別說明：本次執行環境對所有測試網域（含作為對照組的en.wikipedia.org）的WebFetch請求均回傳連線層級的環境性阻擋（EGRESS_BLOCKED），與近三期情況相同，經測試判定為環境性中斷、非個別網站封鎖，本期全面改以WebSearch多來源交叉查證作為蒐集與查證手段。Odoo傳言以三個獨立顧問來源交叉確認；Notion訊號取得官方release notes頁面直接確認；Airtable定位觀察以多組獨立搜尋結果交叉比對確認標語變動內容一致。定位觀察部分，monday.com、Smartsheet、Kintone經WebSearch交叉查證均與基準一致維持unchanged；Odoo本次因取得官方產品子頁面與合作夥伴鏡像頁面兩組獨立來源、文字內容一致的交叉佐證，信心較前兩期（僅有title標籤片段）提升，故由前期的unavailable上修為unchanged。"
+  },
+  "kpis": [
+    {
+      "label": "本周主軸",
+      "value": "訊號分散，共同點薄弱 2/5",
+      "note": "本週僅Odoo（MCP結構細節首度具體化）與Notion（agent建議-核准模式）兩則訊號通過收錄門檻，兩者調性與戰場不同，難以歸納出強共同主軸；惟兩者均隱含競品在開放AI／agent操作權限時，傾向採取審慎、分階段的治理設計，強度中等偏弱。"
+    },
+    {
+      "label": "定價風向",
+      "value": "本週無明顯定價動向",
+      "note": "七個追蹤項目本週均無定價相關新動作。"
+    },
+    {
+      "label": "最高優先訊號",
+      "value": "Odoo 20 ai_mcp原生MCP伺服器技術細節首度具體化（尚待官方確認）",
+      "note": "attention_index 3，多家獨立顧問來源一致披露具體技術規格，觸及Ragic『MCP整合與分發』與『AI建立系統』戰場，但目前僅唯讀功能且未經odoo.com官方證實。"
+    },
+    {
+      "label": "Ragic 應對焦點",
+      "value": "MCP唯讀/寫入分層盤點 × 治理素材整理 × Airtable定位敘事追蹤",
+      "note": "盤點Ragic MCP伺服器現有唯讀與寫入功能的分層權限設計，與Odoo『唯讀優先、逐步擴大』的漸進策略比較；整理Ragic『設定時即決定治理規則』對比Notion『每次操作逐筆核准』的差異化素材；持續追蹤Airtable『system of record』定位語言是否延伸為具體行銷或產品動作，以及9月Odoo Experience大會官方公告。"
+    }
+  ],
+  "signals": [
+    {
+      "comp": "Odoo",
+      "date": "2026/08/25–08/29（多篇獨立顧問報導集中披露；規格描述之Odoo 20本身預計2026年9月正式推出）",
+      "signal": "多家獨立第三方Odoo顧問／技術部落格（Silent Infotech、OBS Solutions、Much Consulting，彼此非轉載關係）本週密集披露Odoo 20 Enterprise版本將內建原生MCP伺服器模組（ai_mcp）的具體技術規格：提供單一/mcp端點、採JSON-RPC 2.0協定與現行MCP規範對接，目前僅開放五項唯讀功能（情境查詢、模型清單、欄位檢視、記錄搜尋、群組分析），存取以獨立API金鑰區塊控管，屬Enterprise授權且會在已啟用AI模組的Odoo 20 Enterprise資料庫自動安裝；三方描述之技術細節彼此一致。惟截至本次查證，odoo.com官方部落格、release notes頁面均未見對應公告或確認，此訊號目前僅達到「多方顧問來源一致、尚待官方證實」的信心層級。",
+      "theme": "MCP結構化・待確認",
+      "read": "若Odoo 20最終如三方報導落地，將是Odoo首次把MCP從『第三方外掛模組』（如社群開發的mcp-server-odoo等）升級為官方原生內建能力，觸及Ragic核心戰場中的『MCP整合與分發』與『AI建立系統／App』；但目前描述的五項功能均為唯讀查詢，尚未觸及Ragic『AI建系統』戰場最在意的『AI直接生成/修改資料庫結構』層級，威脅強度目前中等偏低。三方報導不約而同強調其為Enterprise限定、且需透過獨立API金鑰啟用，顯示Odoo在原生開放MCP存取時也採取相對保守、分階段的權限控管設計，某種程度呼應Ragic『內建護欄』的治理精神，但仍是需另行設定啟用的附加模組，而非Ragic『一次設定、全公司24/7共用同一agent』的內建原生路線。",
+      "impact": "建議Product團隊持續追蹤9月Odoo Experience 2026大會官方是否正式確認ai_mcp模組規格，若確認落地且後續擴大到寫入／結構層級操作，應重新評估其對『MCP整合與分發』戰場的威脅程度；同時可預先盤點Ragic MCP伺服器目前唯讀與寫入功能的分層權限設計，並與此類『唯讀優先、逐步擴大』的漸進式開放策略做比較，作為技術白皮書或業務問答的素材儲備。PR團隊在官方確認前建議暫不主動評論此傳言。",
+      "attention_index": 3
+    },
+    {
+      "comp": "Notion",
+      "date": "2026/08/28",
+      "signal": "Notion於08/28上線「Ask your agent to suggest edits」功能：使用者可指示agent以「建議」模式提出修改，而非直接套用變更，接著可從頭到尾逐筆核准或駁回每一項建議編輯；官方定位此功能適用於需要逐行把關的情境（例如文字校對）。",
+      "theme": "Agent信任機制",
+      "read": "此功能顯示Notion在agent直接操作內容的既有能力之外，額外補上一層「提案-核准」的中介步驟，本質是為了在企業與一般使用者尚未完全信任agent自主編輯前，提供漸進式的信任建立機制；觸及Ragic核心戰場『AI agent部署模式與治理』，但屬於『每次操作都需人工逐筆核准』的UX層級設計，並非治理規則的結構性配置——與Ragic『內建護欄：權限、workflow、可執行範圍的治理機制是設定的一部分，不需額外工程投入』的一次性設定、全公司共用同一套治理規則的路線本質不同，威脅強度中等偏低。",
+      "impact": "建議Marketing團隊可將『Ragic的治理是設定時就決定好的規則，而非每次操作都要人工複核』作為與此類『逐筆核准』模式的差異化溝通素材；Product團隊可評估此類『建議模式』是否可作為Ragic AI Agent在高風險操作（如刪除記錄、修改欄位結構）情境下的過渡性防呆選項，供使用者在信任agent之前先行採用。",
+      "attention_index": 2
+    }
+  ],
+  "implications": [
+    {
+      "team": "Marketing / PR",
+      "items": [
+        "<b>Odoo傳言暫不主動回應：</b>ai_mcp原生MCP伺服器目前僅有三方顧問部落格一致描述，尚未經odoo.com官方確認，建議PR團隊靜待9月Odoo Experience 2026大會官方公布後再視情況因應。",
+        "<b>治理差異化素材：</b>可整理『Ragic治理規則於設定時一次到位、全公司共用』對比Notion『每次操作逐筆核准』與Odoo『唯讀優先、需另行申請開通』的三方比較表，作為AI治理主題內容的素材庫。",
+        "<b>Airtable定位語言追蹤：</b>Airtable首頁新增『system of record』定位語言，與Ragic既有敘事方向重疊，建議持續關注其是否延伸為具體campaign或產品公告，預先準備因應素材。"
+      ]
+    },
+    {
+      "team": "Product / R&D 提問",
+      "items": [
+        "<b>MCP分層權限：</b>Ragic MCP伺服器目前唯讀與寫入功能的分層權限設計為何？是否可對照或優於Odoo ai_mcp『先唯讀、後續才擴大』的漸進式開放策略？",
+        "<b>建議模式可行性：</b>Notion的『提案-核准』模式是否有值得借鏡之處，可否作為Ragic AI Agent在高風險操作（刪除記錄、修改欄位結構等）情境下的選配防呆機制？",
+        "<b>定位觀察複查：</b>Airtable首頁標語本次以WebSearch索引結果確認變動，建議下次WebFetch可用時以直接渲染方式複查完整標語與版面配置，確認是否有更多未被搜尋引擎索引到的變化。"
+      ]
+    }
+  ],
+  "deepdives": [
+    {
+      "tag": "DEEP DIVE ▸ 01",
+      "title": "Odoo ai_mcp傳言三期追蹤首度出現具體規格：讀寫分層與官方確認的距離",
+      "body": "從7月底至今，Odoo即將內建原生MCP伺服器的傳言歷經三個階段——最初僅是社群論壇的猜測與零星提問，上期（W35）查證時仍只有第三方顧問部落格的模糊提及、缺乏具體規格，本期則首次出現三個彼此獨立、非轉載關係的顧問部落格，一致描述出/mcp端點、JSON-RPC 2.0協定、五項唯讀功能、Enterprise限定授權、自動安裝條件等具體技術細節，顯示這些報導背後應有共同的一手資訊來源（例如Odoo R&D團隊釋出的內部或合作夥伴預告），但odoo.com本身尚未正式公告。這種『顧問生態圈先於官方公告披露技術細節』的模式，在Odoo這類仰賴合作夥伴網絡銷售與導入的生態系並不少見。",
+      "watch": "後續觀察：9月24–26日Odoo Experience 2026大會官方是否正式確認ai_mcp模組規格與上線時程；若確認，五項唯讀功能是否會在後續版本擴大到寫入或結構層級操作，這將是評估其對Ragic『AI建立系統』戰場威脅程度的關鍵分水嶺。"
+    },
+    {
+      "tag": "DEEP DIVE ▸ 02",
+      "title": "Notion的「建議模式」與Airtable的「system of record」：兩種建立agent信任感的不同路徑",
+      "body": "本期兩個觀察到的訊號恰好呈現同一個問題的兩種不同解法——『企業與使用者要如何開始信任讓agent自主操作自己的資料／內容？』Notion選擇的是操作層級的漸進式解法：把agent的修改動作拆成『建議』與『核准』兩步驟，讓使用者在每次操作中都保有否決權；而本週同時觀察到的Airtable首頁標語更新，則是敘事層級的解法——不再只強調『我們也有agent』，而是升級為『我們是agent與資料的系統記錄中心（system of record）』，並直接以『其他工具只讓你跟agent一起蓋東西』做對比，暗示純agent工具缺乏資料治理的根基。兩者路徑不同，但都指向同一個市場共識：光是『有agent』已經不夠，如何治理、信任agent才是下一階段的競爭重點——這正是Ragic『內建護欄』與『原生資料庫整合』兩項差異化主張原本就聚焦的戰場。",
+      "watch": "後續觀察：Airtable是否會將『system of record』這個新定位語言延伸到更具體的產品功能公告或行銷campaign；Notion的『建議模式』上線後的實際採用率，是否會成為其他競品（如Airtable、monday.com）跟進agent操作稽核／核准機制的參考案例。"
+    }
+  ],
+  "positioning_watch": [
+    {
+      "comp": "Airtable",
+      "status": "changed",
+      "headline": "Airtable is the system of record for your workflows, data, and agents",
+      "cta": "Start building for free",
+      "note": "標語從基準單句「Airtable lets you build with your whole team — agents included」，擴充為包含對比修辭的雙層敘事：新增對照句「Other tools let you build with agents.」後接原有的「whole team — agents included」語句，並新增以「system of record」為核心的副標語。CTA文字維持不變。WebFetch本次環境性中斷，經多組獨立搜尋結果交叉比對確認新文案內容一致。"
+    },
+    {
+      "comp": "Notion",
+      "status": "unchanged",
+      "headline": "The AI workspace that works for you.",
+      "cta": "Get Notion free / Request a demo",
+      "note": "本週無變動。WebFetch本次環境性中斷；搜尋結果未發現與基準衝突的證據，暫維持不變，惟本次未能取得可直接引用的完整首頁文案片段，建議下次WebFetch可用時複查。"
+    },
+    {
+      "comp": "monday.com",
+      "status": "unchanged",
+      "headline": "The AI Work Platform for People & Agents",
+      "cta": "Get Started / Contact sales",
+      "note": "本週無變動。WebFetch本次環境性中斷；標語與定位論述經多篇獨立報導交叉比對與基準一致。"
+    },
+    {
+      "comp": "Smartsheet",
+      "status": "unchanged",
+      "headline": "Intelligent Work Management with AI at its core",
+      "cta": "Watch a demo / Try Smartsheet for free",
+      "note": "本週無變動。延續前期觀察，搜尋結果中首頁title標籤仍顯示較簡短的「Intelligent Work Management Platform」版本，惟官方文案用字與基準標語一致，判定為title標籤精簡而非首頁標語變動，維持unchanged。WebFetch本次仍環境性中斷。"
+    },
+    {
+      "comp": "Kintone",
+      "status": "unchanged",
+      "headline": "みんな、つくれる。",
+      "cta": "アプリ作成体験 / 30日間無料お試し / 導入相談",
+      "note": "本週無變動。WebFetch本次環境性中斷；標語經搜尋結果與官方頁面標題交叉確認與基準一致。"
+    },
+    {
+      "comp": "Odoo",
+      "status": "unchanged",
+      "headline": "All your business on one platform.",
+      "cta": "Start now - It's free / Meet an advisor",
+      "note": "本週由前兩期的unavailable上修為unchanged：取得odoo.com官方產品子頁面與合作夥伴鏡像頁面兩組獨立來源，文字內容均與基準標語一致，信心較前兩期（僅有title標籤片段）提升；惟WebFetch本次仍環境性中斷，非首頁本身的直接渲染確認，建議下次WebFetch可用時仍優先複查。"
+    }
+  ],
+  "sources": [
+    {
+      "comp": "Odoo",
+      "title": "Odoo 20 Native MCP Server For Manufacturer's",
+      "url": "https://silentinfotech.com/blog/odoo-1/odoo-20-native-mcp-server-625",
+      "note": "獨立顧問來源1，描述ai_mcp模組端點、協定與唯讀功能規格"
+    },
+    {
+      "comp": "Odoo",
+      "title": "Odoo 20: Features, AI & Roadmap 2026 – Full Preview",
+      "url": "https://www.odoo-bs.com/blog/global-5/odoo-20-preview-493",
+      "note": "獨立顧問來源2，交叉確認ai_mcp規格與Odoo 20 AI路線圖"
+    },
+    {
+      "comp": "Odoo",
+      "title": "Odoo 20 MCP Server | Features, Security & Limitations",
+      "url": "https://muchconsulting.com/blog/odoo-2/odoo-20-mcp-server-166",
+      "note": "獨立顧問來源3，交叉確認ai_mcp功能範圍、安全性與限制"
+    },
+    {
+      "comp": "Notion",
+      "title": "August 28, 2026 – Ask your agent to suggest edits",
+      "url": "https://www.notion.com/releases/2026-08-28",
+      "note": "Notion官方release notes，agent建議-核准模式功能公告"
+    },
+    {
+      "comp": "Airtable",
+      "title": "Airtable: Build Enterprise-ready AI Workflows, Apps & Agents",
+      "url": "https://www.airtable.com/",
+      "note": "Airtable官網首頁，經WebSearch索引結果確認新標語文字"
+    },
+    {
+      "comp": "Airtable",
+      "title": "System of Records: The Key Ingredient to AI Agent Success in 2026",
+      "url": "https://www.airtable.com/articles/agent-system-of-record",
+      "note": "Airtable官方文章，佐證『system of record』定位語言為本期新出現之論述方向"
+    },
+    {
+      "comp": "Odoo",
+      "title": "All your business on one platform (合作夥伴鏡像頁面)",
+      "url": "https://www.standupcode.tech/en/partners/odoo",
+      "note": "合作夥伴鏡像頁面，交叉確認Odoo首頁標語文字未變動"
+    }
+  ]
+}
