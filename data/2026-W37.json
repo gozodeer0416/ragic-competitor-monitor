@@ -1,0 +1,182 @@
+{
+  "week": "2026-W37",
+  "range": "2026/09/01–2026/09/07",
+  "markets": "Global / TW",
+  "competitors": [
+    "Airtable",
+    "Notion",
+    "monday.com",
+    "Smartsheet",
+    "Kintone",
+    "Odoo",
+    "LLM"
+  ],
+  "conclusion": {
+    "title": "本周市場結論：Airtable完成易主，Bending Spoons正式接手；產品端則進入低強度技術微調週",
+    "body": "本期（2026/09/01–2026/09/07）最重要的動態不在產品功能面，而在所有權結構：義大利集團Bending Spoons於09/04正式完成收購Airtable，交易企業價值12.85億美元、股權價值約22.5億美元，這是自08/04雙方簽署最終協議以來（已於前期報告涵蓋）的落地結果，本期屬於「協議轉為正式成交」的新進展，非重複報導。除此之外，本週其餘六個追蹤項目多數平靜：Notion與Kintone各有一則屬性偏技術維護的小幅更新，monday.com、Smartsheet、Odoo與LLM平台項目本週均查無符合收錄門檻的新訊號。\n\nBending Spoons完成收購後，雙方均發布聲明：Bending Spoons執行長Luca Ferrari表示「Airtable持續成長是因為客戶重視其一流的靈活性」，公司重心將放在「大力投資Airtable的產品、客戶支援與市場拓展能力」；Airtable共同創辦人Howie Liu則表示對團隊過去成果感到自豪，並對Bending Spoons的資源與長期視角有信心。惟市場對此普遍抱持觀望：Bending Spoons過往收購案例（如Evernote於收購後一年內將Pro方案年費從37美元調漲至250美元）顯示其常見商業模式是收購後大幅調整定價與成本結構，這與Airtable目前逾50萬個組織客戶（含80% Fortune 100企業）的既有信任基礎存在潛在張力。此事件雖未直接觸及Ragic四大AI agent差異化戰場或「AI建立系統」戰場，但作為no-code資料庫核心直接競品的重大所有權變動，對其客戶穩定性、產品路線與定價策略均有中長期不確定性，具備跨戰場的判讀價值。\n\nNotion方面，開發者文件顯示其MCP工具介面本週（約09/02）進行技術性重構：原本單一的notion-search工具拆分為純關鍵字比對的notion-search，與獨立處理自然語言語意查詢、可涵蓋已連結來源（Slack、Mail、Calendar等）的notion-ai-search，舊有參數維持相容但不再對外文件化。這屬於MCP工具介面依查詢意圖分工的漸進優化，觸及Ragic『MCP整合與分發』戰場，但強度輕微，非治理機制或新能力的推出。Kintone則在官方公告的『2026年9月版』更新批次中，宣布iOS版kintone行動應用程式將自09/13起提供『レコード音声入力AI』功能，使用者可整段口述待記錄內容，由AI自動判斷欄位並重新組織內容分別填入，官方定位為適用於外出商談報告、現場巡檢紀錄等情境；此為資料輸入層的AI輔助功能，未觸及agent自主操作或AI建立系統結構等核心戰場。\n\n需特別說明：本次執行環境對所有測試網域（含作為對照組的en.wikipedia.org）的WebFetch請求均回傳連線層級的環境性阻擋，與近期各期情況相同，經測試判定為環境性中斷、非個別網站封鎖，本期全面改以WebSearch多來源交叉查證作為蒐集與查證手段。Bending Spoons完成收購一事以官方投資人新聞稿（investors.bendingspoons.com）與獨立財經媒體stocktitan.net兩組來源交叉確認；Notion MCP工具拆分以開發者文件內容與releasebot.io追蹤紀錄交叉確認；Kintone語音輸入功能以官方更新頁面索引內容與獨立媒體報導交叉確認。定位觀察部分，六家有homepage來源的競品（Airtable、Notion、monday.com、Smartsheet、Kintone、Odoo）本週經WebSearch交叉查證後之標語與CTA文字均與基準一致，判定為unchanged——值得留意的是，Airtable首頁文案於本次收購正式成交後仍未見任何更動，暫未反映所有權變動。"
+  },
+  "kpis": [
+    {
+      "label": "本周主軸",
+      "value": "所有權變動蓋過產品訊號 3/5",
+      "note": "本週唯一具份量的訊號是Bending Spoons完成收購Airtable，其餘項目僅Notion、Kintone各有一則技術性微調，產品面共同主軸薄弱，故強度中等偏弱。"
+    },
+    {
+      "label": "定價風向",
+      "value": "本週無明顯定價動向",
+      "note": "七個追蹤項目本週均無定價相關新動作；惟Bending Spoons過往收購案例（如Evernote）多在成交後調整定價，Airtable後續定價變動風險上升，值得列入後續觀察重點。"
+    },
+    {
+      "label": "最高優先訊號",
+      "value": "Bending Spoons正式完成收購Airtable（09/04成交，企業價值12.85億美元）",
+      "note": "attention_index 4，直接no-code資料庫競品所有權易主，雖未直接觸及AI agent或AI建立系統戰場，但對其客戶穩定性、產品路線與未來定價策略具跨戰場的中長期不確定性。"
+    },
+    {
+      "label": "Ragic 應對焦點",
+      "value": "Airtable客戶轉換窗口觀察 × 收購後定價/服務動向追蹤 × MCP工具分工設計參考",
+      "note": "留意易主過渡期是否出現Airtable客戶對定價或服務品質的疑慮，作為業務與行銷素材儲備；持續追蹤Bending Spoons後續是否對Airtable定價或方案結構出手；同時參考Notion將MCP工具依查詢意圖拆分的介面設計，檢視Ragic MCP伺服器工具職責劃分是否有可精進之處。"
+    }
+  ],
+  "signals": [
+    {
+      "comp": "Airtable",
+      "date": "2026/09/04",
+      "signal": "Bending Spoons S.p.A.（NASDAQ: BSP）於09/04正式完成收購Airtable，交易為全現金交易，企業價值12.85億美元，併計Airtable現有淨現金後股權價值約22.5億美元；此為08/04雙方簽署最終協議（已於前期報告涵蓋）後的正式成交結果，是Bending Spoons自07/01那斯達克掛牌以來的首宗收購案。Bending Spoons執行長Luca Ferrari表示公司重心將放在大力投資Airtable的產品、客戶支援與市場拓展能力；Airtable共同創辦人Howie Liu則表示對團隊成果感到自豪並對新東家有信心。",
+      "theme": "併購成交・所有權變動",
+      "read": "從08/04簽約到09/04成交僅一個月，交易本身進展順利，雙方聲明均強調『持續投資』的正面基調。但市場對Bending Spoons的商業模式存在既定疑慮：其過往收購案例（如Evernote，收購後一年內Pro方案年費由37美元調漲至250美元）顯示常見手法是收購後大幅調整定價與成本結構以提升獲利，這與Airtable目前逾50萬個組織客戶（含80% Fortune 100企業）建立的既有信任與定價預期存在潛在張力。此訊號未直接觸及Ragic『AI agent部署模式與治理』或『AI建立系統』等核心戰場，但作為no-code資料庫核心直接競品的重大所有權變動，其客戶穩定性、產品投資優先順序與未來定價策略均具中長期不確定性，是本週最具跨戰場判讀價值的訊號。",
+      "impact": "建議Marketing／業務團隊留意易主過渡期（未來1–2季）是否出現Airtable既有客戶因定價疑慮或服務品質變化而主動尋求替代方案的訊號，預先準備『穩定所有權、可預期定價路線』的比較素材，作為業務接觸此類客戶的溝通切入點；Product團隊可持續觀察Bending Spoons後續是否對Airtable方案結構或AI功能（Omni、Field Agents、Hyperagent）的資源投入方向做出調整，作為後續評估其競品威脅程度升降的依據。",
+      "attention_index": 4
+    },
+    {
+      "comp": "Notion",
+      "date": "2026/09/02（推估，依第三方追蹤站releasebot.io索引時間點）",
+      "signal": "Notion開發者文件公告，將原本單一的notion-search MCP工具拆分為兩個獨立工具：notion-search維持純關鍵字比對，僅用於Notion內部與已連接應用程式（Slack、Google Drive、Jira等）中精確詞彙的查找；語意/自然語言查詢則獨立為新的notion-ai-search工具，供具備Notion AI搜尋權限的呼叫者以一句自然語言查詢工作區與已連結來源（如Slack、Mail、Calendar）。舊有的content_search_mode參數維持相容但不再對外文件化宣傳。",
+      "theme": "MCP工具分工",
+      "read": "此為MCP工具介面依查詢意圖（精確關鍵字 vs. 語意檢索）拆分為職責分明的兩個工具，方便外部AI用戶端（如Claude、ChatGPT等MCP相容用戶端）依情境選用適當工具，屬於MCP整合品質的漸進式技術優化，觸及Ragic『MCP整合與分發』戰場，但並非新能力或治理機制的推出，威脅強度低。",
+      "impact": "建議Product團隊留意此類『依查詢意圖拆分MCP工具、避免單一工具身兼多責』的介面設計慣例，作為檢視Ragic MCP伺服器現有工具命名與職責劃分是否有可精進之處的參考；本身不構成直接威脅，暫不需採取行動。",
+      "attention_index": 1
+    },
+    {
+      "comp": "Kintone",
+      "date": "公告於2026年9月版更新批次，功能預計09/13上線",
+      "signal": "kintone官方於『2026年9月版』主要アップデート頁面公告，iOS版kintone行動應用程式將自09/13起提供『レコード音声入力AI』功能：使用者可整段口述欲記錄的內容，由AI自動判斷應填入的欄位並依各欄位格式重新組織內容後自動輸入，不需逐一點選欄位；官方舉例適用情境包括外出商談報告、現場巡檢紀錄等。",
+      "theme": "行動語音輸入AI",
+      "read": "此為資料輸入層的AI輔助功能，聚焦在『把口述內容轉換並分派進既有表單欄位』，屬於降低行動場景資料輸入摩擦力的UX改善，未觸及agent自主操作既有資料、或AI直接生成資料庫結構／表單等核心戰場，威脅強度低，但顯示Kintone持續在『現場／行動辦公』情境上以AI強化既有no-code資料庫的易用性。",
+      "impact": "建議Product團隊評估類似『整段語音口述、AI自動分派多欄位』的輸入模式是否適合導入Ragic行動應用程式，作為業務拜訪紀錄、現場巡檢等情境的快速資料輸入選項，屬於低優先度但具體可行的產品借鏡項目。",
+      "attention_index": 2
+    }
+  ],
+  "implications": [
+    {
+      "team": "Marketing / PR",
+      "items": [
+        "<b>Airtable易主觀察素材：</b>Bending Spoons完成收購Airtable後，建議準備『穩定所有權、可預期定價路線』的比較素材，供業務團隊在後續1–2季接觸對Airtable定價或服務穩定性有疑慮的潛在客戶時使用，惟目前尚無具體定價變動證據，暫不宜主動點名比較。",
+        "<b>MCP治理素材持續累積：</b>本週Notion的MCP工具分工調整，可併入既有『Ragic MCP伺服器設計理念』素材庫，作為技術部落格或業務問答的補充案例。"
+      ]
+    },
+    {
+      "team": "Product / R&D 提問",
+      "items": [
+        "<b>Airtable客戶動向：</b>是否有管道或既有客戶回饋顯示Airtable使用者對易主後的定價或服務品質產生疑慮？可否作為業務開發的觀察指標？",
+        "<b>MCP工具職責劃分：</b>Ragic MCP伺服器目前的工具設計是否有『單一工具身兼精確查詢與語意查詢多重職責』的情況，可否參考Notion本週的拆分方式做優化？",
+        "<b>行動語音輸入可行性：</b>Kintone『整段口述、AI自動分派多欄位』的行動輸入模式，是否適合評估導入Ragic行動應用程式，作為現場資料輸入情境的效率改善選項？"
+      ]
+    }
+  ],
+  "deepdives": [
+    {
+      "tag": "DEEP DIVE ▸ 01",
+      "title": "從簽約到成交：Bending Spoons完成收購Airtable，「持續投資」承諾與「收購後調價」歷史紀錄的拉鋸",
+      "body": "08/04簽署最終協議、09/04正式成交，Bending Spoons僅用一個月就完成對Airtable的收購程序，是其自07/01那斯達克掛牌以來的首宗收購案，也讓Airtable加入Eventbrite、AOL、Meetup、Evernote、Vimeo等品牌組成的集團版圖。雙方公開聲明均強調正面基調——Bending Spoons執行長承諾『大力投資產品、客戶支援與市場拓展能力』，Airtable共同創辦人也表態對新東家有信心。然而市場觀察者普遍援引Bending Spoons過往收購案例作為對照：其收購Evernote後，Pro方案年費在一年內從37美元大幅調漲至250美元，顯示這類集團型收購方常見的價值萃取路徑，是先穩定產品線再逐步調整定價與成本結構以提升獲利率。Airtable目前擁有超過50萬個組織客戶、其中80%為Fortune 100企業，這類大型企業客戶對定價穩定性與供應商長期承諾特別敏感，若後續出現類似Evernote的定價調整動作，可能在中小企業與企業客層都造成觀望或轉換的誘因。",
+      "watch": "後續觀察：Bending Spoons是否在未來1–2季內對Airtable既有訂閱方案、AI功能（Omni、Field Agents、Hyperagent）額度或定價結構做出調整；Airtable官網與行銷文案（目前『system of record』定位語言）在新東家主導下是否出現方向性轉變；業界與客戶社群（如Airtable Community）對易主後的服務品質、支援回應速度等面向的即時反饋。"
+    },
+    {
+      "tag": "DEEP DIVE ▸ 02",
+      "title": "Notion與Kintone的維護型更新：MCP工具拆分與行動語音輸入，都是「把既有能力用得更順手」而非戰略轉向",
+      "body": "本週除了Airtable的所有權變動外，Notion與Kintone的動態都屬於同一類型——針對既有AI／MCP能力做細緻化的體驗優化，而非推出全新能力或治理機制。Notion把原本身兼精確查詢與語意查詢雙重職責的單一MCP工具，拆分為notion-search（關鍵字）與notion-ai-search（語意，可涵蓋已連結的Slack、Mail、Calendar等來源）兩個各司其職的工具，讓外部AI用戶端能依查詢意圖選用更精準的工具，本質是MCP介面設計成熟度的提升。Kintone則是把『語音輸入』這個既有的AI輔助能力，延伸到『整段口述、AI自動判斷並分派進多個欄位』的行動情境，降低現場人員逐欄位點選輸入的摩擦力。兩者都顯示競品在確立agent與MCP的大方向之後，進入『把既有功能做得更好用』的精緻化階段，短期內不構成戰略級威脅，但長期而言這類使用體驗上的持續打磨，會逐步墊高整體市場對『AI輔助資料輸入應該多順手』的期待值。",
+      "watch": "後續觀察：Notion後續是否進一步擴大notion-ai-search可涵蓋的已連結來源範圍；Kintone語音輸入功能於09/13正式上線後的實際使用者反饋與後續是否擴大至其他平台（如Android、PC網頁版）。"
+    }
+  ],
+  "positioning_watch": [
+    {
+      "comp": "Airtable",
+      "status": "unchanged",
+      "headline": "Airtable is the system of record for your workflows, data, and agents",
+      "cta": "Start building for free",
+      "note": "本週無變動。值得留意的是，Bending Spoons已於09/04正式完成收購，惟本次查證首頁文案仍與基準一致，尚未反映所有權變動；WebFetch本次環境性中斷，以多組獨立搜尋結果交叉比對確認文案內容一致。"
+    },
+    {
+      "comp": "Notion",
+      "status": "unchanged",
+      "headline": "The AI workspace that works for you.",
+      "cta": "Get Notion free / Request a demo",
+      "note": "本週無變動。WebFetch本次環境性中斷；本次搜尋結果直接命中notion.com首頁標題與基準完全一致，信心較前期（僅有間接佐證）提升。"
+    },
+    {
+      "comp": "monday.com",
+      "status": "unchanged",
+      "headline": "The AI Work Platform for People & Agents",
+      "cta": "Get Started / Contact sales",
+      "note": "本週無變動。WebFetch本次環境性中斷；搜尋結果直接命中monday.com首頁標題與基準完全一致。"
+    },
+    {
+      "comp": "Smartsheet",
+      "status": "unchanged",
+      "headline": "Intelligent Work Management with AI at its core",
+      "cta": "Watch a demo / Try Smartsheet for free",
+      "note": "本週無變動。WebFetch本次環境性中斷；搜尋結果顯示首頁標題為「Intelligent Work Management Platform」，與基準核心用字一致（延續前期已確認之title標籤精簡現象，非實質標語變動）。"
+    },
+    {
+      "comp": "Kintone",
+      "status": "unchanged",
+      "headline": "みんな、つくれる。",
+      "cta": "アプリ作成体験 / 30日間無料お試し / 導入相談",
+      "note": "本週無變動。WebFetch本次環境性中斷；標語經多篇搜尋結果與官方素材交叉確認與基準一致。"
+    },
+    {
+      "comp": "Odoo",
+      "status": "unchanged",
+      "headline": "All your business on one platform.",
+      "cta": "Start now - It's free / Meet an advisor",
+      "note": "本週無變動。WebFetch本次環境性中斷；本次僅取得odoo.com子頁面（如/erp）與合作夥伴鏡像頁面的間接佐證，未直接命中首頁標題，信心程度與前期相近，維持unchanged判定，建議下次WebFetch可用時優先複查首頁本身。"
+    }
+  ],
+  "sources": [
+    {
+      "comp": "Airtable",
+      "title": "Bending Spoons completes the acquisition of Airtable",
+      "url": "https://investors.bendingspoons.com/newsroom/bending-spoons-completes-acquisition-of-airtable",
+      "note": "官方投資人新聞稿，收購正式成交公告與雙方聲明"
+    },
+    {
+      "comp": "Airtable",
+      "title": "Bending Spoons Completes Airtable Acquisition | BSP Stock News",
+      "url": "https://www.stocktitan.net/news/BSP/bending-spoons-completes-the-acquisition-of-s9a0tyer611r.html",
+      "note": "獨立財經媒體交叉確認成交日期與交易金額"
+    },
+    {
+      "comp": "Notion",
+      "title": "Supported tools - Notion Docs",
+      "url": "https://developers.notion.com/guides/mcp/mcp-supported-tools",
+      "note": "Notion開發者文件，MCP工具清單與notion-search／notion-ai-search拆分說明"
+    },
+    {
+      "comp": "Notion",
+      "title": "Notion Release Notes - September 2026 Latest Updates - Releasebot",
+      "url": "https://releasebot.io/updates/notion",
+      "note": "第三方更新追蹤站，交叉確認MCP搜尋工具拆分之時間點"
+    },
+    {
+      "comp": "Kintone",
+      "title": "2026年9月版 主なアップデート | kintone ヘルプ",
+      "url": "https://jp.kintone.help/k/ja/update/main/2026/09",
+      "note": "kintone官方9月版更新頁面，レコード音声入力AI功能公告"
+    },
+    {
+      "comp": "Airtable",
+      "title": "Airtable",
+      "url": "https://www.airtable.com/",
+      "note": "定位觀察：Airtable官網首頁，經WebSearch索引結果確認標語與CTA未變動"
+    }
+  ]
+}
