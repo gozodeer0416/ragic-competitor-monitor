@@ -1,0 +1,194 @@
+{
+  "week": "2026-W38",
+  "range": "2026/09/08–2026/09/14",
+  "markets": "Global / TW",
+  "competitors": [
+    "Airtable",
+    "Notion",
+    "monday.com",
+    "Smartsheet",
+    "Kintone",
+    "Odoo",
+    "LLM"
+  ],
+  "conclusion": {
+    "title": "本周市場結論：訊號量縮小、質偏「治理」與「用自然語言建構」兩條線，Airtable易主後的股權結構也浮現需修正的重要背景",
+    "body": "本期（2026/09/08–2026/09/14）競品動態明顯轉為低強度：七個追蹤項目中，僅Notion、Smartsheet有實質新訊號，Kintone則是上期已預告功能的正式上線；Airtable、monday.com、Odoo、LLM平台項目本週查無符合收錄門檻的新動作。兩則主要訊號恰好落在Ragic核心戰場的兩端——Notion在AI agent的『模型治理』上加了一道控制閥，Smartsheet則讓『用自然語言描述、AI直接建出自動化流程』這件事从Smart Assist延伸到外部MCP用戶端（Claude、ChatGPT）都能觸發，方向更貼近『AI建立系統』戰場，而非僅止於操作既有資料。\n\n需特別註明一項重要背景修正：本期查證上週Bending Spoons完成收購Airtable一事的後續資訊時，發現在雙方08/04簽署最終協議之前，Airtable已先將整個Hyperagent業務線（含Omni、Field Agents演進而來的獨立agent平台）分割至由創辦團隊全資持有的獨立公司Hyperagent Inc.，Bending Spoons實際併購標的僅為Airtable核心資料庫與工作流程平台（約50萬組織客戶、80% Fortune 100、約4.8億美元ARR），不含AI agent編排平台本身。這代表上期報告中『Bending Spoons後續是否對Hyperagent資源投入方向調整』的觀察角度需修正：Hyperagent已不屬於被收購後的Airtable主體，其後續發展與Bending Spoons的商業模式（如收購後調價）已是兩條分開的路徑，需分別追蹤『核心Airtable在Bending Spoons旗下的定價與服務動向』與『Hyperagent Inc.作為獨立公司的AI agent業務走向』。此為本期研究過程中發現、用以修正既有分析架構的背景資訊，非本週新發生事件，故不計入本期訊號清單，但因直接影響對Airtable相關戰場判讀的準確性，於此如實揭露。\n\n本期執行環境對所有測試網域（含對照組en.wikipedia.org）的WebFetch請求仍全數回傳連線層級的環境性阻擋，與近期各期情況相同，判定為環境性中斷、非個別網站封鎖，本期全面改以WebSearch多來源交叉查證。Notion模型治理功能以官方release notes頁面與第三方追蹤站releasebot.io交叉確認；Smartsheet的Smart Assist／MCP對話式建立自動化功能以官方Help Center文件與Smartsheet Community社群討論串交叉確認；Kintone語音輸入AI上線以官方9月版更新頁面確認。定位觀察部分，六家有homepage來源的競品本週經WebSearch交叉查證，標語與CTA核心用字均與既有基準一致，判定為unchanged；惟Airtable首頁的搜尋引擎索引標題文字本期出現用字上的細微差異（由強調『system of record』轉向更凸顯『AI Workflows, Apps & Agents』字眼），因無法排除僅為SEO meta標題調整、非首頁主視覺標語本身變動，本期審慎判定維持unchanged，建議下期WebFetch若恢復可用時優先複查。"
+  },
+  "kpis": [
+    {
+      "label": "本周主軸",
+      "value": "AI治理×自然語言建構並進 3/5",
+      "note": "本週僅兩則實質訊號，但方向清楚落在Ragic核心戰場兩端：Notion補強agent的模型治理閥門，Smartsheet把『描述需求、AI直接建出自動化』的能力經MCP開放給外部AI用戶端；訊號量少但方向性明確，強度中等。"
+    },
+    {
+      "label": "定價風向",
+      "value": "本週無明顯定價動向",
+      "note": "七個追蹤項目本週均無新的定價或方案結構調整；monday.com的AI credit定價（07/20生效）與Notion AI併入Business方案等既有安排均為前期事項，本週無新進展。"
+    },
+    {
+      "label": "最高優先訊號",
+      "value": "Smartsheet開放Smart Assist／外部MCP用戶端以自然語言直接建立自動化流程（09/10）",
+      "note": "attention_index 3，觸及『AI建立系統／App』與『MCP整合與分發』雙戰場——雖僅止於自動化流程而非完整資料庫結構，但『描述需求、AI直接建出可執行邏輯』的路線與Ragic no-code建構定位直接重疊。"
+    },
+    {
+      "label": "Ragic 應對焦點",
+      "value": "MCP對話式建構自動化參考 × AI agent模型治理素材儲備 × Airtable易主背景修正追蹤",
+      "note": "綜合本週訊號，建議Product團隊評估Ragic MCP伺服器是否適合開放『自然語言描述、直接建立workflow』的對話式介面；Marketing可儲備『Ragic原生治理更深入agent操作範圍與權限，非僅模型選擇』的比較素材；同時修正並延續追蹤Airtable核心業務（Bending Spoons旗下）與Hyperagent Inc.（獨立公司）兩條分開的後續發展。"
+    }
+  ],
+  "signals": [
+    {
+      "comp": "Notion",
+      "date": "2026/09/09",
+      "signal": "Notion官方release notes公告新增『模型控制（Model controls）』功能：Business與Enterprise方案的工作區管理者，可分別為Notion Agent與Custom Agents指定允許使用的AI模型範圍，並為Custom Agents設定預設模型，設定路徑為Settings → Notion AI → General → Model controls。官方定位此功能為協助企業維持成本可預期性並符合合規需求。",
+      "theme": "AI agent模型治理",
+      "read": "此為管理者對agent『可用哪些模型』的治理閥門，屬於Ragic『AI agent部署模式與治理』戰場中『內建護欄』的相鄰範疇，但聚焦於模型選擇與成本／合規控制，並未觸及Ragic四大差異點中『權限、workflow、可執行範圍』這類更深層的治理機制（例如agent能存取哪些資料表、能執行哪些操作）。顯示Notion在企業導入agent時，優先补上的是IT／採購最容易關切的『成本與模型合規』缺口，而非操作範圍治理本身。",
+      "impact": "建議Marketing／PR團隊在既有『Ragic原生治理』素材中，明確區分『模型選擇層級的治理』與『資料存取與操作範圍層級的治理』兩種深度，凸顯Ragic的護欄機制（權限、workflow、可執行範圍）是在agent能實際碰到哪些資料與動作上把關，而非僅止於能呼叫哪個模型，作為業務溝通企業客戶治理需求時的區隔切入點；Product團隊可留意此類『模型選擇治理』是否也是中小企業客戶在意的成本可預期性需求，評估是否納入Ragic AI agent設定的既有考量範圍。",
+      "attention_index": 2
+    },
+    {
+      "comp": "Smartsheet",
+      "date": "2026/09/10",
+      "signal": "Smartsheet官方Help Center文件與Community討論串公告，使用者現在可以在Smart Assist內，或透過已連接的外部MCP用戶端（如Claude、ChatGPT等），以純自然語言描述想要的自動化（例如『每當新增一列資料就通知我的團隊送出核准請求』），由AI直接建出完整的自動化流程，不需再透過傳統的規則設定畫面逐步配置。",
+      "theme": "AI建立系統・MCP對話式建構",
+      "read": "此訊號的關鍵不在『AI操作既有資料』，而是『AI直接生成自動化流程本身』，並且刻意把建構介面延伸到外部MCP用戶端（等於讓Claude、ChatGPT也能成為建立Smartsheet自動化的入口），同時觸及Ragic『AI建立系統／App』與『MCP整合與分發』兩個戰場。雖然範圍目前僅限於自動化流程（而非完整資料庫結構、表單本身），但『描述需求、AI直接建出可執行邏輯』的路線方向與Ragic no-code定位的核心主張直接重疊，優先級不應低於一般AI agent操作類訊號。",
+      "impact": "建議Product／R&D團隊評估Ragic MCP伺服器是否適合比照此模式，開放『以自然語言描述、直接由AI生成workflow或表單邏輯』的對話式建構能力，並思考是否也讓外部MCP用戶端（Claude、ChatGPT等）具備同等建構權限，而不只是操作既有資料的權限；Marketing／PR團隊可準備素材，說明Ragic在『AI建立系統』上原本就支援更完整的資料庫結構與表單生成，而非僅止於自動化規則層級，作為與此類訊號比較時的差異化論述基礎。",
+      "attention_index": 3
+    },
+    {
+      "comp": "Kintone",
+      "date": "2026/09/13",
+      "signal": "kintone官方『2026年9月版』更新頁面確認，iOS版kintone行動應用程式的『レコード音声入力AI』功能已於09/13正式提供（此功能已於上期報告涵蓋其09月版更新批次公告，本期為實際上線日，Android版仍待後續提供）。",
+      "theme": "行動語音輸入AI・上線確認",
+      "read": "此為上期已報導訊號的正式上線進度更新，功能本質未變——聚焦資料輸入層的口述轉欄位輔助，未觸及agent自主操作或AI建立系統結構等核心戰場，威脅強度維持低檔，僅作進度確認，不重複計入判讀權重。",
+      "impact": "無新增建議，維持上期判讀：可作為Ragic行動應用程式評估『整段語音口述、AI自動分派多欄位』輸入模式的低優先度、具體可行參考案例。",
+      "attention_index": 1
+    }
+  ],
+  "implications": [
+    {
+      "team": "Marketing / PR",
+      "items": [
+        "<b>治理深度分層論述：</b>本週Notion補上的是『模型選擇』層級的agent治理，建議準備素材明確區隔『模型治理』與『資料存取／操作範圍治理』兩種深度，凸顯Ragic護欄機制直接把關agent能碰到的資料與可執行動作，作為與企業客戶溝通治理需求時的差異化切入點。",
+        "<b>Airtable兩條路徑追蹤素材：</b>本期確認Hyperagent已於併購簽約前分割為創辦團隊獨資的Hyperagent Inc.，建議更新內部競品追蹤素材，將『Bending Spoons旗下核心Airtable』與『獨立公司Hyperagent Inc.』拆分為兩條路徑分別追蹤，避免後續誤將兩者的定價或產品動向混為一談。"
+      ]
+    },
+    {
+      "team": "Product / R&D 提問",
+      "items": [
+        "<b>MCP對話式建構自動化：</b>Ragic MCP伺服器是否適合開放『以自然語言描述、由AI直接生成workflow或表單邏輯』的對話式建構能力，並評估是否讓外部MCP用戶端（Claude、ChatGPT等）具備同等建構權限？",
+        "<b>Agent模型治理需求：</b>中小企業客戶對『AI agent可用哪些模型、成本是否可預期』這類治理需求的重視程度為何，是否值得評估納入Ragic AI agent既有設定介面？",
+        "<b>Airtable後續追蹤範圍調整：</b>既有的Airtable競品追蹤是否需要拆分為『核心資料庫平台（Bending Spoons旗下）』與『Hyperagent Inc.（獨立agent公司）』兩個獨立追蹤對象，以避免後續判讀失準？"
+      ]
+    }
+  ],
+  "deepdives": [
+    {
+      "tag": "DEEP DIVE ▸ 01",
+      "title": "Smartsheet把『建自動化』這件事交給對話——MCP不只是資料存取通道，也開始變成建構入口",
+      "body": "Smartsheet本週把Smart Assist的對話式建構能力延伸到外部MCP用戶端，使用者可以直接在Claude或ChatGPT裡描述『每當新增一列資料就送出核准請求給我的團隊』，由AI直接組出完整的自動化邏輯。這個設計的重點不是自動化本身（規則式自動化早已是各家平台標配），而是『建構介面』的位移——過去MCP在多數平台的角色是讓外部AI『讀寫既有資料、觸發既有流程』，這次Smartsheet讓MCP用戶端也能『生成新的流程邏輯』，等於把一部分No-code建構的工作面向外部AI開放。雖然目前範圍僅限自動化規則，尚未觸及資料庫結構或表單本身的生成，但方向與『AI建立系統／App』戰場高度相關，也呼應近期Odoo在其Studio與『Vibe Coding』方向上，同樣嘗試把『用自然語言直接生成可執行邏輯』的能力，從資料操作層推進到系統建構層的整體趨勢——Odoo原訂於09/24–26在布魯塞爾舉行的Odoo Experience，市場預期將進一步揭露Odoo 20的agentic AI與Skills功能細節，屆時值得併入下一期觀察。",
+      "watch": "後續觀察：Smartsheet是否進一步把對話式建構能力擴大至資料表結構、表單本身而不僅止於自動化規則；MCP用戶端建構自動化的實際採用率與典型使用情境；Odoo Experience布魯塞爾場（09/24–26）對Odoo 20 agentic AI／Skills功能的正式揭露內容，是否觸及Ragic『AI建立系統』戰場核心。"
+    },
+    {
+      "tag": "DEEP DIVE ▸ 02",
+      "title": "Airtable收購案的兩條分岔路：核心資料庫平台歸Bending Spoons，AI agent業務留在創辦團隊手上",
+      "body": "本期查證上週報導的Bending Spoons完成收購Airtable一事時，發現一個先前未被本報告掌握的關鍵背景：在雙方08/04簽署最終協議之前，Airtable已先完成一次公司重組，把整個Hyperagent業務線（由更早的Superagent演進而來，2026年4月公開上線的獨立AI agent平台）轉移至由創辦團隊控股公司全資持有的獨立實體Hyperagent Inc.。這代表Bending Spoons以12.85億美元企業價值買下的，是Airtable『資料庫與工作流程平台』本體（約50萬組織客戶、80% Fortune 100企業、約4.8億美元年經常性收入），而外界原先高度關注、也最貼近Ragic AI agent戰場的Hyperagent，其實已經不在這次交易範圍內，由創辦人Howie Liu另外經營。市場分析普遍認為，此舉讓創辦團隊得以把成長性最高、最具AI敘事價值的業務留在自己手中，同時把成熟但成長趨緩的核心資料庫業務以相對『打折』的估值（有評論指出僅約2.7倍ARR）出售給集團型買家。對Ragic而言，這代表原本『Airtable易主後AI agent功能是否受Bending Spoons定價策略影響』的觀察角度需要修正——核心Airtable未來在AI功能上的資源投入，很可能轉為透過與獨立的Hyperagent Inc.建立合作或授權關係來取得，而非內部自建，兩者的商業邏輯與定價誘因並不相同。",
+      "watch": "後續觀察：核心Airtable（Bending Spoons旗下）與Hyperagent Inc.之間是否建立正式的產品或商業合作關係（例如授權、資料互通）；Bending Spoons是否對核心Airtable既有訂閱方案或客戶服務品質做出調整（如Evernote先例）；Hyperagent Inc.作為獨立公司後的下一輪募資、定價或市場動作。"
+    }
+  ],
+  "positioning_watch": [
+    {
+      "comp": "Airtable",
+      "status": "unchanged",
+      "headline": "Airtable is the system of record for your workflows, data, and agents",
+      "cta": "Start building for free",
+      "note": "本週無變動。WebFetch本次環境性中斷；搜尋結果顯示部分頁面索引標題文字轉向強調「Build Enterprise-ready AI Workflows, Apps & Agents」，但無法排除僅為搜尋引擎meta標題調整、非首頁主視覺標語變動，審慎判定維持unchanged，建議下期WebFetch可用時優先複查首頁本身。"
+    },
+    {
+      "comp": "Notion",
+      "status": "unchanged",
+      "headline": "The AI workspace that works for you.",
+      "cta": "Get Notion free / Request a demo",
+      "note": "本週無變動。WebFetch本次環境性中斷；搜尋結果中另見『Meet the night shift』相關文案，經查證為2026年2月Custom Agents發布時的行銷活動標語，非本期首頁主視覺變動，故維持unchanged判定。"
+    },
+    {
+      "comp": "monday.com",
+      "status": "unchanged",
+      "headline": "The AI Work Platform for People & Agents",
+      "cta": "Get Started / Contact sales",
+      "note": "本週無變動。WebFetch本次環境性中斷；搜尋結果顯示現行定位論述（『people and agents get work done together』）與基準標語核心主張一致。"
+    },
+    {
+      "comp": "Smartsheet",
+      "status": "unchanged",
+      "headline": "Intelligent Work Management with AI at its core",
+      "cta": "Watch a demo / Try Smartsheet for free",
+      "note": "本週無變動。WebFetch本次環境性中斷；搜尋結果核心用字（Intelligent Work Management）與基準一致，延續前期已知的title標籤精簡現象。"
+    },
+    {
+      "comp": "Kintone",
+      "status": "unchanged",
+      "headline": "みんな、つくれる。",
+      "cta": "アプリ作成体験 / 30日間無料お試し / 導入相談",
+      "note": "本週無變動。WebFetch本次環境性中斷；搜尋結果索引標題出現「みんな、つかえる。」等變體用字，研判為SEO meta標題描述而非首頁主視覺標語本身，主標語經多方查證與基準一致。"
+    },
+    {
+      "comp": "Odoo",
+      "status": "unchanged",
+      "headline": "All your business on one platform.",
+      "cta": "Start now - It's free / Meet an advisor",
+      "note": "本週無變動。WebFetch本次環境性中斷；搜尋結果多篇文章與官方頁面延續『all-in-one business platform』核心主張，與基準一致。"
+    }
+  ],
+  "sources": [
+    {
+      "comp": "Notion",
+      "title": "September 9, 2026 – Control which AI models your agents can use",
+      "url": "https://www.notion.com/releases/2026-09-09",
+      "note": "Notion官方release notes，模型治理功能公告原始來源"
+    },
+    {
+      "comp": "Notion",
+      "title": "Notion Release Notes - September 2026 Latest Updates - Releasebot",
+      "url": "https://releasebot.io/updates/notion",
+      "note": "第三方更新追蹤站，交叉確認09/09模型治理功能之發布時間點"
+    },
+    {
+      "comp": "Smartsheet",
+      "title": "Conversational AI: Smart Assist and MCP",
+      "url": "https://help.smartsheet.com/articles/2483721-conversational-ai-smart-assist-and-mcp",
+      "note": "Smartsheet官方Help Center文件，Smart Assist／MCP對話式建立自動化功能說明"
+    },
+    {
+      "comp": "Smartsheet",
+      "title": "Create automations conversationally in Smart Assist or through your connected AI tools via MCP",
+      "url": "https://community.smartsheet.com/en/discussion/148168/create-automations-conversationally-in-smart-assist-or-through-your-connected-ai-tools-via-mcp",
+      "note": "Smartsheet官方社群討論串，交叉確認09/10發布時間點與功能細節"
+    },
+    {
+      "comp": "Kintone",
+      "title": "2026年9月版 主なアップデート | kintone ヘルプ",
+      "url": "https://jp.kintone.help/k/ja/update/main/2026/09",
+      "note": "kintone官方9月版更新頁面，レコード音声入力AI功能上線確認"
+    },
+    {
+      "comp": "Kintone",
+      "title": "kintone（キントーン）- アップデート情報(2026年9月13日)",
+      "url": "https://jp.kintone.help/k/ja/update/all/2026/260913",
+      "note": "kintone官方逐日更新頁面，確認09/13上線日期"
+    },
+    {
+      "comp": "Airtable",
+      "title": "Airtable spins out Hyperagent before Bending Spoons acquisition",
+      "url": "https://app.dealroom.co/news/note/airtable-spins-out-hyperagent-before-bending-spoons-acquisition",
+      "note": "Hyperagent業務線於併購簽約前分割為獨立公司Hyperagent Inc.之背景說明，用以修正上期分析角度（非本期新訊號，不計入本期signals）"
+    },
+    {
+      "comp": "Airtable",
+      "title": "Airtable spun out Hyperagent before Bending Spoons' $1.285 billion acquisition - RuntimeWire",
+      "url": "https://runtimewire.com/article/airtable-carved-out-hyperagent-before-bending-spoons-deal",
+      "note": "獨立媒體交叉確認Hyperagent Inc.分割背景與交易範圍"
+    }
+  ]
+}
