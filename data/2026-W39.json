@@ -1,0 +1,158 @@
+{
+  "week": "2026-W39",
+  "range": "2026/09/15–2026/09/21",
+  "markets": "Global / TW",
+  "competitors": [
+    "Airtable",
+    "Notion",
+    "monday.com",
+    "Smartsheet",
+    "Kintone",
+    "Odoo",
+    "LLM"
+  ],
+  "conclusion": {
+    "title": "本周市場結論：訊號高度集中於單一事件——Notion把agent技能推向「團隊共享＋核准式治理」，其餘六個追蹤項目本週均查無達門檻新動作",
+    "body": "本期（2026/09/15–2026/09/21）競品動態訊號量偏少且高度集中：七個追蹤項目中，僅Notion有一則實質新訊號（09/15上線3.7版），Airtable、monday.com、Smartsheet、Kintone、Odoo、LLM平台項目本週均查無符合收錄門檻的新動作。Notion 3.7同時推出可跨團隊共享、自動同步版本的「Agent技能庫」，以及搭配「連接工具中的變更需使用者核准後才生效」規則的Custom MCP外部連線（beta），方向上分別貼近Ragic『一人配置、全公司受益』與『內建護欄』兩項核心差異點，是本期唯一達到收錄門檻、也是本期最高優先的訊號。\n\nSmartsheet與Kintone本期各自的官方更新頁面雖有零星項目（Smartsheet的列層級更新／核准請求Sentence Builder、時間軸摘要檢視；Kintone全體檢索篩選欄位擴充），但經查證這些項目的實際發布日多落在本期回顧窗口（09/15–09/21）之前，且性質偏向既有功能的介面微調，未觸及Ragic核心戰場，故本期不計入訊號清單。Odoo Experience布魯塞爾場訂於09/24–26舉行，市場預期屆時將正式揭露Odoo 20的agentic AI與Skills功能細節，惟本期回顧窗口截止時活動尚未舉行，相關內容仍屬預告與推測階段，本期審慎不計入訊號，留待下期活動結束後查證。LLM平台項目本週查證Anthropic、OpenAI、Google三家於窗口內的動作（如Claude Code Projects重構、商業agent藍圖、Gemini Enterprise Agent Platform模型更新等），均屬一般能力／API層級更新，市場論述未見明確拿來跟no-code平台或傳統ERP比較視為取代威脅，未通過窄篩選量尺，正常無收錄。\n\n本期執行環境對所有測試網域（含對照組en.wikipedia.org、各競品官方網域）的WebFetch請求仍全數回傳連線層級的環境性阻擋，與近期各期情況相同，判定為環境性中斷、非個別網站封鎖，本期全面改以WebSearch多來源交叉查證：Notion 3.7以官方release notes頁面、Notion官方部落格「A skills library for every agent」、第三方媒體AlternativeTo與Releasebot四方交叉確認發布日期與功能細節。定位觀察部分，六家有homepage來源的競品本週經WebSearch交叉查證，核心標語與CTA用字均與既有基準一致，判定為unchanged；惟Airtable首頁在搜尋引擎索引中連續第二週出現不同於基準標語的用字（本期又出現兩種不同表述：「Build Enterprise-ready AI Workflows, Apps & Agents」與「Build AI-powered workflows that unify data...」），彼此互不一致，研判仍是頁面title標籤或不同區塊文案交錯被索引所致，尚無法確認何者為目前首頁主視覺標語本身，本期維持審慎unchanged判定，建議下期WebFetch若恢復可用時優先複查。"
+  },
+  "kpis": [
+    {
+      "label": "本周主軸",
+      "value": "Agent技能治理・團隊共享 4/5",
+      "note": "本週僅一則實質訊號，但份量集中：Notion 3.7把agent技能從『個人各自設定』推進到『團隊共享、版本自動同步、外部工具動作需核准』的治理化模式，方向直接貼近Ragic『一人配置全公司用』與『內建護欄』兩項核心差異點。"
+    },
+    {
+      "label": "定價風向",
+      "value": "本週無明顯定價動向",
+      "note": "七個追蹤項目本週均無新的定價或方案結構調整；Bending Spoons完成收購Airtable後至今尚未對核心Airtable訂閱方案做出調整，屬既有觀察中的事項，本週無新進展。"
+    },
+    {
+      "label": "最高優先訊號",
+      "value": "Notion 3.7推出團隊共享Agent技能庫與MCP外部工具核准機制（09/15）",
+      "note": "attention_index 4，同時觸及『一人配置全公司用』與『內建護欄』兩項Ragic AI agent差異點，是本期唯一達到收錄門檻的訊號。"
+    },
+    {
+      "label": "Ragic 應對焦點",
+      "value": "Agent操作範圍治理素材更新 × 可共享技能模板評估 × Odoo Experience（09/24–26）後續追蹤",
+      "note": "建議Marketing／PR更新『治理深度分層』素材以涵蓋『動作前核准』這一層次；Product／R&D評估Ragic是否需要可共享、可版本控管的agent操作模板機制；同時預先準備Odoo 20 agentic AI／Skills下期正式揭露後的比較素材。"
+    }
+  ],
+  "signals": [
+    {
+      "comp": "Notion",
+      "date": "2026/09/15",
+      "signal": "Notion官方release notes公告推出3.7版本，新增「Agent技能（Skills）」功能：使用者可將常用的AI agent操作方式（例如生成固定格式的月度業務報告、依主管標準審閱文件）寫成可重複使用的技能，並透過「共享技能庫（Skills Library）」儲存在Notion資料庫中供整個團隊／組織存取，技能更新時會自動標示版本徽章供成員同步至最新版；同時開放「Custom MCP連線」（Business／Enterprise方案beta），可連接GitHub、Amplitude等外部工具供agent讀取資訊或執行動作，官方明確設計「確認機制」——連接工具中的任何變更都需使用者核准後才會生效；此外Custom Agents新增可委派給其他Custom Agents執行子任務的「子agent」架構，並推出Notion Agents iOS App。",
+      "theme": "Agent技能共享・核准式治理",
+      "read": "此訊號同時踩中Ragic兩項AI agent差異點：技能庫的設計邏輯是『一次設定、全team共用並自動同步至最新版本』，而非個人助理式各自摸索與各自維護，方向上更貼近Ragic『一人配置、全公司受益』的部署模式；而Custom MCP連線搭配『核准後才生效』的確認機制，則是在agent操作外部工具的範圍上加了一層治理閥門，比上期報告Notion補上的『模型選擇治理』更進一步觸及『agent能執行哪些動作』這個層次，屬於『內建護欄』差異點的實質延伸。不過此次功能仍聚焦在『如何組織與治理既有agent的操作方式』本身，並未觸及用AI直接生成資料庫結構或表單，尚未跨入『AI建立系統』戰場，優先級仍略低於後者類型的訊號。",
+      "impact": "建議Marketing／PR團隊更新既有『治理深度分層』素材：Notion本次的核准機制已從『模型選擇層級』推進到『連接工具執行動作前需人工核准』，建議準備更精確的比較點，說明Ragic的護欄機制是在設定階段即定義好權限、workflow與可執行範圍的『系統性治理』，而非逐次動作觸發式核准，兩者在稽核可預期性與管理負擔上有本質差異；Product／R&D團隊可評估Ragic是否需要『可共享、可版本控管的agent操作模板／技能』機制，讓一次設定完成的AI操作邏輯能在全公司同仁間直接複用與自動同步更新，作為強化『一人配置、全公司受益』既有優勢的具體功能方向。",
+      "attention_index": 4
+    }
+  ],
+  "implications": [
+    {
+      "team": "Marketing / PR",
+      "items": [
+        "<b>治理素材再升級：</b>Notion本次把agent治理從『模型選擇』推進到『外部工具動作前核准』，建議更新既有治理比較素材，凸顯Ragic在設定階段即完成的權限、workflow、可執行範圍治理，與逐次核准式治理在管理負擔與稽核可預期性上的本質差異。",
+        "<b>Odoo Experience觀察預告：</b>Odoo Experience布魯塞爾場將於09/24–26登場，Odoo 20 agentic AI／Skills功能屆時才會正式公開，建議提前準備『no-code資料庫核心建構 vs. ERP模組內建AI技能』的比較素材，供下期訊號出爐後快速對應。"
+      ]
+    },
+    {
+      "team": "Product / R&D 提問",
+      "items": [
+        "<b>可共享agent操作模板：</b>Ragic是否適合評估推出可跨使用者共享、具版本紀錄的AI agent操作模板／技能機制，讓已驗證好的自然語言設定能在全公司同仁間直接複用？",
+        "<b>核准式治理補充層：</b>是否需要在Ragic AI agent執行涉及外部系統或較高風險的操作時，額外提供使用者可設定的『動作前核准』選項，作為既有權限治理架構之外的補充層？",
+        "<b>Odoo 20 Skills觀察：</b>下期需追蹤Odoo Experience正式公開的Odoo 20 agentic AI／Skills細節，評估其是否觸及『AI直接生成資料庫結構／表單』的『AI建立系統』戰場核心。"
+      ]
+    }
+  ],
+  "deepdives": [
+    {
+      "tag": "DEEP DIVE ▸ 01",
+      "title": "Notion把agent技能變成「團隊資產」——從個人助理到可共享、可稽核的組織能力",
+      "body": "Notion 3.7的Agent技能庫，本質上是把『agent要怎麼做事』這件事從『每個使用者各自對AI下指令、各自累積經驗』，變成『組織集中維護、全員共享、版本自動同步』的資產管理模式：技能以SKILL.md檔案形式儲存在Notion資料庫中，管理者可控制哪些技能發給哪些使用者，並透過使用量分析追蹤採用情況。這個設計方向與Ragic『一人配置、全公司受益』的核心主張高度呼應——差別在於Notion目前做的是『技能（agent怎麼做事的指令）的共享與版本控管』，而非『系統本身（資料庫結構、表單、workflow）的一次性配置全公司共用』，兩者的抽象層次不同：前者仍需使用者在共用的技能之上各自操作既有的Notion頁面與資料庫，後者則是Ragic既有的、agent直接活在資料庫裡跑workflow的模式。同時搭配的Custom MCP『核准後才生效』機制，也代表市場開始把『agent能不能連外部工具』與『連了之後動作要不要人工把關』分開處理，這正是Ragic『內建護欄』一路強調的治理顆粒度，值得作為後續比較論述的重要參照案例。",
+      "watch": "後續觀察：Notion技能庫的實際採用率與典型技能類型（是否逐漸擴及資料操作、workflow觸發等更深層動作）；Custom MCP連線由beta轉正式後，適用方案與治理選項是否擴大；是否有其他競品跟進『agent技能可共享版本控管』這個模式。"
+    },
+    {
+      "tag": "DEEP DIVE ▸ 02",
+      "title": "Odoo Experience 09/24–26倒數：agentic AI能否跨過『操作既有資料』推進到『AI建立系統』",
+      "body": "延續上期報告的觀察，Odoo Experience布魯塞爾場即將於09/24–26登場，市場預期這將是Odoo 20 agentic AI與Skills功能的正式發布場合：目前預告內容顯示Odoo的AI助理將從『被動協助』轉向『主動執行資料庫內的實際動作』（如大量重新指派CRM名單、依客戶PDF規格直接建構專案結構、月結前預先稽核帳務分錄），並且AI Agent將可加掛『Skills』（涵蓋圖像生成、網頁搜尋、記錄更新與建立等）。其中『依PDF規格直接建構專案結構』若在正式發布中被證實為『AI直接生成資料庫結構／表單本身』而非僅操作既有記錄，將直接觸及Ragic『AI建立系統／App』戰場核心，優先級應不低於一般AI agent操作類訊號；但截至本期回顧窗口截止，這些內容仍屬會前預告與市場推測，尚未經官方正式發布或第三方於活動現場的查證確認，故本期不計入訊號，僅作為下期優先查證項目預告。",
+      "watch": "後續觀察：Odoo Experience（09/24–26）正式發布內容是否證實『AI直接生成資料庫結構／表單』的能力，或僅止於操作既有記錄與流程；Odoo 20 Skills功能的實際開放範圍（Community版／Enterprise版是否有差異）；活動現場市場與媒體反應，是否有分析師將其與no-code資料庫平台直接比較。"
+    }
+  ],
+  "positioning_watch": [
+    {
+      "comp": "Airtable",
+      "status": "unchanged",
+      "headline": "Airtable is the system of record for your workflows, data, and agents",
+      "cta": "Start building for free",
+      "note": "本週無變動。WebFetch本次環境性中斷；搜尋結果連續第二週出現不同於基準標語的用字，且本期兩次查證彼此又互不一致（\"Build Enterprise-ready AI Workflows, Apps & Agents\" vs. \"Build AI-powered workflows that unify data, maximize collaboration...\"），研判是頁面title標籤或不同區塊文案交錯被索引所致，無法確認何者為目前首頁主視覺標語本身，審慎維持unchanged，建議下期WebFetch可用時優先複查首頁原始內容。"
+    },
+    {
+      "comp": "Notion",
+      "status": "unchanged",
+      "headline": "The AI workspace that works for you.",
+      "cta": "Get Notion free / Request a demo",
+      "note": "本週無變動。WebFetch本次環境性中斷；搜尋結果多方來源（含Notion官方首頁索引）均與基準標語一致，未見主視覺文案變動跡象。"
+    },
+    {
+      "comp": "monday.com",
+      "status": "unchanged",
+      "headline": "The AI Work Platform for People & Agents",
+      "cta": "Get Started / Contact sales",
+      "note": "本週無變動。WebFetch本次環境性中斷；搜尋結果（含monday.com官方首頁索引）與基準標語一致。"
+    },
+    {
+      "comp": "Smartsheet",
+      "status": "unchanged",
+      "headline": "Intelligent Work Management with AI at its core",
+      "cta": "Watch a demo / Try Smartsheet for free",
+      "note": "本週無變動。WebFetch本次環境性中斷；搜尋結果核心用字（Intelligent Work Management）與基準一致，官方頁面延續相同定位論述。"
+    },
+    {
+      "comp": "Kintone",
+      "status": "unchanged",
+      "headline": "みんな、つくれる。",
+      "cta": "アプリ作成体験 / 30日間無料お試し / 導入相談",
+      "note": "本週無變動。WebFetch本次環境性中斷；搜尋結果索引標題出現「みんな、つかえる。」等變體用字，與前期已知現象一致，研判為SEO meta描述而非首頁主視覺標語本身，主標語經多方查證與基準一致。"
+    },
+    {
+      "comp": "Odoo",
+      "status": "unchanged",
+      "headline": "All your business on one platform.",
+      "cta": "Start now - It's free / Meet an advisor",
+      "note": "本週無變動。WebFetch本次環境性中斷；搜尋結果未見明確反例，官方頁面延續『all-in-one business platform』核心主張，與基準一致。"
+    }
+  ],
+  "sources": [
+    {
+      "comp": "Notion",
+      "title": "September 15, 2026 – Notion 3.7: Agent skills for your whole team",
+      "url": "https://www.notion.com/releases/2026-09-15",
+      "note": "Notion官方release notes，3.7版Agent技能庫、Custom MCP連線、子agent架構功能公告原始來源"
+    },
+    {
+      "comp": "Notion",
+      "title": "A skills library for every agent",
+      "url": "https://www.notion.com/blog/a-skills-library-for-every-agent",
+      "note": "Notion官方部落格，技能庫共享、版本同步、權限治理機制之詳細說明"
+    },
+    {
+      "comp": "Notion",
+      "title": "Notion rolls out v3.7 with team-wide AI agent skills, nested agent calls & Agents iOS app",
+      "url": "https://alternativeto.net/news/2026/9/notion-rolls-out-v3-7-with-team-wide-ai-agent-skills-nested-agent-calls-and-agents-ios-app/",
+      "note": "第三方媒體報導，交叉確認3.7版發布日期與功能範圍"
+    },
+    {
+      "comp": "Notion",
+      "title": "Notion Release Notes - September 2026 Latest Updates - Releasebot",
+      "url": "https://releasebot.io/updates/notion",
+      "note": "第三方更新追蹤站，交叉確認09/15發布時間點"
+    },
+    {
+      "comp": "Odoo",
+      "title": "Odoo 20 Preview: Agentic AI, Read Replica Database, and What It Means for Your Business",
+      "url": "https://www.odooskillz.com/blog/odoo-skillz-insights-1/odoo-20-preview-agentic-ai-read-replica-database-and-what-it-means-for-your-business-288",
+      "note": "Odoo Experience（09/24–26）會前預告與市場預期內容，作為下期查證項目背景（非本期新訊號，不計入本期signals）"
+    }
+  ]
+}
