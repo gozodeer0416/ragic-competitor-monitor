@@ -1,0 +1,194 @@
+{
+  "week": "2026-W40",
+  "range": "2026/09/22–2026/09/28",
+  "markets": "Global / TW",
+  "competitors": [
+    "Airtable",
+    "Notion",
+    "monday.com",
+    "Smartsheet",
+    "Kintone",
+    "Odoo",
+    "LLM"
+  ],
+  "conclusion": {
+    "title": "本周市場結論：Odoo Experience正式引爆——Odoo 20把Studio AI推進到「一句話生成資料庫結構」，直接踩進Ragic核心戰場",
+    "body": "本期（2026/09/22–2026/09/28）訊號高度集中：延續上期報告的預告觀察，Odoo Experience 2026於09/24–26在布魯塞爾登場，Odoo 20於09/24開幕主題演講正式發表，是本期唯一達到收錄門檻、也是近期以來對Ragic最直接的訊號。Odoo Studio AI從『操作既有資料』跨進『AI直接生成資料庫結構、表單、views本身』——使用者只需描述想要的App或Model，AI就會生成models、fields、menus與relations，並可產生Form／List／Kanban／Pivot／Gantt等多種views、儀表板卡片與PDF報表版型，完整命中`ragic_context.battlegrounds`裡『AI建立系統／App』這一項，優先級為本期最高。同時Odoo AI Agent架構全面重整（模組改名ai_agentic，Agent具備Instructions／Skills／Sources／Triggers四分頁，可讀取PDF等上傳檔案自動建立資料庫記錄與專案結構，並原生內建MCP Server），定價面則轉向由Odoo自有代理計費的IAP credit制、不開放自帶金鑰（BYOK），且Custom方案調漲20–31%，是本期唯一有實質定價動向的競品。\n\nAirtable、monday.com、Smartsheet、Kintone本期經官方來源與WebSearch交叉查證，均查無落在本期回顧窗口（09/22–09/28）內、且達到收錄門檻的新動作——Airtable本週僅有一則產品團隊自我介紹性質的社群貼文（未涉及具體功能，故不計入訊號）；monday.com、Kintone本週查證到的項目（monday.com人力調整、Kintone行動裝置語音輸入等）發布日期均早於本期窗口，屬於既有觀察範圍，不重複列入。Notion本期有一則次要訊號：09/22起關閉獨立Notion Mail應用，官方說明因超過半數用戶已透過Agent處理email、不再依賴獨立收件匣，故將資源轉向Gmail／新推出Outlook AI Connector與email自動化Agent；此舉延續Notion『收斂功能進Agent與Connector』的策略方向，但操作對象是外部email服務而非Notion自身資料庫，尚未直接觸及no-code資料庫核心戰場，優先級低於本期Odoo訊號。LLM平台項目本週查證Anthropic（Claude Opus 5.5／Sonnet 5模型發布）、OpenAI（GPT-6 Sol／Luna、ChatGPT Ads擴展）、Google（Build with Gemini系列活動）三家於窗口內的動作，均屬模型能力、API或廣告業務層級更新，市場論述未見明確將其拿來跟no-code平台或傳統ERP比較視為取代威脅，未通過窄篩選量尺，正常無收錄。\n\n本期執行環境對所有測試網域（含對照組en.wikipedia.org）的WebFetch請求仍全數回傳連線層級的環境性阻擋，與近期各期情況相同，判定為環境性中斷、非個別網站封鎖，本期全面改以WebSearch多來源交叉查證：Odoo 20相關內容以官方release notes頁面、Odoo Experience 2026活動報導、第三方技術解讀（Octura Solutions、OBS Solutions、OdooSkillz）四方以上交叉確認功能細節與發布時間點；Notion Mail停用以官方Help Center公告、Android Authority、heise.de三方交叉確認。定位觀察部分，六家有homepage來源的競品本週經WebSearch交叉查證，核心標語與CTA用字均與既有基準一致，判定為unchanged；惟Airtable首頁在搜尋引擎索引中連續第三週出現彼此不一致的多種不同用字（本期又出現「Five tools to one system of record」「Airtable lets you build with your whole team — agents included」「Build enterprise-ready AI workflows, apps & agents」三種互異表述），研判仍是頁面title標籤、A/B測試或不同區塊文案交錯被索引所致，尚無法確認何者為目前首頁主視覺標語本身，本期維持審慎unchanged判定，建議下期WebFetch若恢復可用時優先複查原始首頁內容；Odoo首頁標語截至本期查證仍維持既有基準用字，尚未反映Odoo 20的發表內容，研判與其正式GA（預計10–11月）尚未上線有關，建議下期持續複查。"
+  },
+  "kpis": [
+    {
+      "label": "本周主軸",
+      "value": "AI建立系統・Odoo正面攻入 5/5",
+      "note": "Odoo 20 Studio AI把『AI生成資料庫結構、表單、views』做成正式功能，是本期唯一達到收錄門檻的實質訊號，也是目前所有追蹤競品中對Ragic no-code建構方式最直接的挑戰。"
+    },
+    {
+      "label": "定價風向",
+      "value": "Odoo轉向IAP credit制，Custom方案漲價20–31%",
+      "note": "Odoo將所有AI功能改為透過官方代理計費的IAP credit制、不開放自帶金鑰（BYOK），並把『Agentic AI』與Odoo Studio並列為Custom方案功能，同步調漲Custom方案20–31%；其餘競品本週無新的定價動向。"
+    },
+    {
+      "label": "最高優先訊號",
+      "value": "Odoo 20 Studio AI一句話生成資料庫結構、表單與views（09/24）",
+      "note": "attention_index 5，直接命中Ragic『AI建立系統／App』戰場核心，是本期最需優先因應的訊號。"
+    },
+    {
+      "label": "Ragic 應對焦點",
+      "value": "AI生成建構能力差異化論述 × 表單/子表雛形生成能力評估 × IAP credit定價比較素材",
+      "note": "建議Marketing／PR準備『AI生成schema速度 vs. Ragic企業級深度應用』與『IAP credit制 vs. Ragic定價彈性』兩組比較素材；Product／R&D評估在既有拖拉式建構流程上補強自然語言生成表單/子表雛形的能力，並持續追蹤Odoo Agent是否走向多人共用模式。"
+    }
+  ],
+  "signals": [
+    {
+      "comp": "Odoo",
+      "date": "2026/09/24",
+      "signal": "Odoo Experience 2026（09/24–26，布魯塞爾）開幕主題演講正式發表Odoo 20，官方release notes確認Odoo Studio新增AI生成功能：使用者只需用自然語言描述想要的App或資料模型，AI就會自動生成models、fields、menus與relations（並可自動建立相關子模型），支援即時預覽、可編輯確認後才建立，新模型/欄位/views/選單建立後立即生效；同時可用自然語言生成Form、List、Kanban、Search、Pivot、Graph、Calendar、Activity、Gantt等多種views、完整儀表板或個別卡片（Graph／Pivot／List／Battery／KPI），以及QWeb PDF報表版型（含內外部版面、頁首頁尾）；並支援用自然語言撰寫Server Action／Automated Action邏輯（AI轉譯為Python）與篩選條件（AI轉譯為Odoo domain expression）。",
+      "theme": "AI建立系統・自然語言生成資料庫",
+      "read": "這是本期質變最大的訊號：Odoo Studio AI已經不是『AI協助操作既有資料』，而是『AI直接生成資料庫結構、表單、views、workflow本身』，完整踩中Ragic『AI建立系統／App』戰場核心——競品用AI取代的正是Ragic目前仍以拖拉式no-code介面為主的手動建構流程本身。值得注意的是，此功能設計上保留『即時預覽、可編輯確認後才建立』的步驟，一定程度降低了『生成即定案、失控風險高』的疑慮，顯示市場正在往『AI生成＋人工把關』的組合模式收斂，這也是Ragic未來若要跟進同類能力時可參考的治理設計方向。此訊號的優先級不低於AI agent操作類訊號，應為本期最高。",
+      "impact": "建議Marketing／PR優先準備『AI生成資料庫結構 vs. Ragic no-code深度應用』差異化論述，強調Ragic的no-code建構方式已內建簽核流程、子表格、客製列印報表等企業級單據整合情境，這些是單純schema生成速度無法涵蓋的深度價值，避免論述只停留在『誰生成得快』的維度上被拉平；Product／R&D應評估是否需要在既有拖拉式建構工具上，補強『自然語言直接生成完整表單/子表格/基礎workflow雛形，並保留人工預覽與編輯確認』的能力，作為縮小與Odoo Studio AI在建構速度上差距的具體方向。",
+      "attention_index": 5
+    },
+    {
+      "comp": "Odoo",
+      "date": "2026/09/24",
+      "signal": "Odoo 20同步整併AI Agent架構為單一模組ai_agentic：每個Agent具備Instructions（Markdown撰寫）、Skills、Sources、Triggers四個設定分頁，可讀取上傳檔案（如客戶PDF規格書）自動在資料庫內建立／更新記錄，並可由排程或事件（Automation Rule）觸發執行；Odoo 20 Enterprise原生內建MCP Server，提供專屬端點供外部AI助理直接存取Odoo資料（目前支援情境查詢、模型列表、欄位檢視、記錄搜尋、群組分析等5個唯讀功能，另需API金鑰授權）；官方展示案例包括依客戶PDF規格自動建立完整專案結構（任務、里程碑、階段、初始團隊指派）、大量重新指派CRM名單、月結前預先稽核帳務分錄等。定價面：Odoo將所有AI功能改為透過官方代理計費的IAP credit制，不提供自帶金鑰（BYOK）選項；官方定價頁將『Agentic AI』與Odoo Studio並列為Custom方案功能，同時Custom方案價格調漲20–31%。",
+      "theme": "AI Agent架構重整・IAP credit定價",
+      "read": "Agent架構已具備『原生資料庫整合』（Agent直接活在PostgreSQL ORM裡讀寫記錄、跑workflow）與初步的『動作前確認』治理雛形，方向上貼近Ragic兩項AI Agent差異點；『依PDF規格自動建立完整專案結構』一案例，其實已介於『操作既有資料』與『AI建立系統』之間——建立的是專案的任務/里程碑/階段結構本身，而非僅填寫既有欄位。但目前官方展示的仍是『針對單一情境個別設定一個Agent』的模式，尚未看到『一次設定、全公司多角色24/7共用同一Agent』的論述，是否真正走向Ragic『一人配置全公司用』的深度尚待下期觀察正式文件與客戶案例。定價面轉向IAP credit制且不開放BYOK，是繼monday.com、Airtable之後，AI定價走向『平台方統一計價、綁定官方模型代理』的又一案例，中小企業客戶的實際AI使用成本與彈性值得持續追蹤。",
+      "impact": "建議Marketing／PR準備『IAP credit制、不可自帶金鑰』與Ragic現行AI功能定價彈性的對比素材，供業務端回應潛在客戶比價疑問；Product／R&D持續追蹤Odoo AI Agent正式文件與客戶案例，確認其是否發展出多人共用、可稽核的治理模式，作為與Ragic『一人配置全公司用』『內建護欄』差異化論述的校準依據。",
+      "attention_index": 4
+    },
+    {
+      "comp": "Notion",
+      "date": "2026/09/22",
+      "signal": "Notion官方Help Center公告，自2026/09/22起關閉獨立Notion Mail應用（web、desktop、iOS全平台下線）。官方說明：超過半數Notion Mail使用者早已透過Agent處理email、不再直接打開獨立收件匣，因此決定將資源從維護獨立mail client轉向強化既有Gmail AI Connector與新推出的Outlook AI Connector，以及可讀取、草擬、寄送email的自動化Agent；使用者的實際email仍安全保留在Gmail帳號中，僅Notion Mail疊加的專屬功能（草稿、排程寄送、片語、自動標籤規則等）需於停用前自行匯出，未受影響。",
+      "theme": "功能收斂進Agent・Connector化",
+      "read": "此舉延續Notion近期『把獨立功能收斂進Agent與Connector』的策略方向——與其維護一個功能完整的獨立App，不如讓Agent直接讀寫既有外部服務（Gmail／Outlook）作為資料來源與執行對象。方向上呼應『讓Agent直接操作既有資料』的邏輯，但操作對象是外部email服務而非Notion自身資料庫，與Ragic『Agent直接活在資料庫裡讀寫記錄』的核心整合深度屬不同賽道，尚未直接觸及no-code資料庫核心戰場，優先級明顯低於本期Odoo訊號，屬於觀察性質的次要訊號。",
+      "impact": "屬觀察性訊號，暫不需要立即行動；建議Product／R&D留意Notion後續是否把『收斂獨立功能進Agent＋Connector』的邏輯，進一步延伸到其資料庫／Wiki核心功能本身，若有跡象應提高關注等級。",
+      "attention_index": 2
+    }
+  ],
+  "implications": [
+    {
+      "team": "Marketing / PR",
+      "items": [
+        "<b>AI建構能力差異化論述：</b>Odoo Studio AI已能一句話生成資料庫結構、表單與views，建議準備『AI生成schema速度 vs. Ragic企業級深度應用（簽核流程、子表格、客製列印報表等）』的比較素材，避免論述被拉到純粹比生成速度的維度。",
+        "<b>AI定價模式對比：</b>Odoo改採IAP credit制、不開放BYOK，且Custom方案調漲20–31%，可準備Ragic現行AI功能定價彈性的對比素材，作為業務端回應客戶比價疑問的具體材料。"
+      ]
+    },
+    {
+      "team": "Product / R&D 提問",
+      "items": [
+        "<b>自然語言生成表單/子表雛形：</b>Ragic是否需要在既有拖拉式建構流程上，補強『一句話生成完整表單、子表格與基礎workflow雛形，並保留即時預覽與人工編輯確認』的能力，縮小與Odoo Studio AI在建構速度上的差距？",
+        "<b>Odoo Agent多人共用模式追蹤：</b>下期需持續追蹤Odoo AI Agent正式文件與客戶實際案例，確認其是否發展出『一次設定、全公司多角色共用』的治理模式，或仍停留在『個別情境個別設定Agent』階段，作為與Ragic『一人配置全公司用』差異化論述的持續校準依據。",
+        "<b>Notion Agent-Connector化延伸觀察：</b>持續觀察Notion是否把『收斂功能進Agent＋Connector』的邏輯，延伸到其資料庫核心功能本身，評估對Ragic的長期影響。"
+      ]
+    }
+  ],
+  "deepdives": [
+    {
+      "tag": "DEEP DIVE ▸ 01",
+      "title": "Odoo Studio AI跨過門檻——從『操作既有資料』到『AI直接生成資料庫結構本身』",
+      "body": "延續上期報告對Odoo Experience 2026的預告觀察，Odoo 20已在09/24正式發表，官方release notes證實Studio AI的能力範圍：使用者只需描述想要的App或Model，AI就會生成models、fields、menus與relations（並自動建立相關子模型），且可進一步生成Form／List／Kanban／Search／Pivot／Graph／Calendar／Activity／Gantt等多種views、完整儀表板或個別卡片、QWeb PDF報表版型，甚至用自然語言撰寫Server Action邏輯與篩選條件。這是目前所有追蹤競品中，第一個把『AI直接生成資料庫結構、表單、workflow本身』做成正式功能（而非仍在預告或beta階段）的案例，完整命中`ragic_context.battlegrounds`裡『AI建立系統／App』這一項，對Ragic no-code建構方式的核心價值主張構成直接、具體的比較壓力。值得留意的正面訊號是：此功能設計上保留『即時預覽、可編輯確認後才建立』的步驟，並非生成即無法修改的黑盒流程，顯示市場正朝『AI生成＋人工把關』的組合模式收斂——這也是Ragic評估是否跟進同類能力時，可直接參考的治理設計基準。",
+      "watch": "後續觀察：Odoo Studio AI正式GA（預計10–11月）後的實際生成品質、企業客戶採用情況與具體案例；AI生成的資料模型複雜度上限（是否能處理多層關聯、跨App workflow）；台灣代理商網絡是否將此功能作為在地銷售的主打賣點。"
+    },
+    {
+      "tag": "DEEP DIVE ▸ 02",
+      "title": "Odoo 20 Agent架構重整＋IAP credit定價——治理雛形與商業模式雙重轉向",
+      "body": "Odoo 20同步將AI Agent模組重整為ai_agentic，每個Agent具備Instructions／Skills／Sources／Triggers四個設定分頁，可讀取上傳檔案（如客戶PDF規格書）自動建立／更新資料庫記錄與專案結構，並原生內建MCP Server供外部AI助理直接存取資料庫。其中『依客戶PDF規格自動建立完整專案結構（任務、里程碑、階段、初始團隊指派）』的展示案例，已從單純『操作既有資料』的Agent操作類訊號，部分跨入『AI建立系統』的範疇——雖然建立的是專案結構而非完整資料庫schema，但邏輯上與Studio AI生成資料模型的方向一致，都是用AI取代原本需要人工規劃的結構性工作。與此同時，Odoo將所有AI功能定價改為透過官方代理計費的IAP credit制、不開放自帶金鑰（BYOK），並把『Agentic AI』與Odoo Studio並列為Custom方案功能，搭配20–31%的Custom方案漲價，是繼monday.com、Airtable走向『平台方統一計價、綁定官方AI代理』模式後，又一個中大型no-code／ERP競品採用類似商業模式的案例。",
+      "watch": "後續觀察：Odoo AI Agent是否發展出『一次設定、全公司多角色共用』的治理模式（目前官方展示案例仍偏『個別情境個別設定』）；IAP credit的實際費率結構與中小企業客戶的成本反應；MCP Server從Enterprise版目前的5個唯讀功能是否擴增至可寫入的操作範圍。"
+    }
+  ],
+  "positioning_watch": [
+    {
+      "comp": "Airtable",
+      "status": "unchanged",
+      "headline": "Airtable is the system of record for your workflows, data, and agents",
+      "cta": "Start building for free",
+      "note": "本週無變動（審慎判定）。WebFetch本次環境性中斷；搜尋結果連續第三週出現彼此互不一致的多種標語變體（本期為「Five tools to one system of record」「Airtable lets you build with your whole team — agents included」「Build enterprise-ready AI workflows, apps & agents」），研判仍是頁面title標籤、A/B測試或不同區塊文案交錯被索引所致，無法確認何者為目前首頁主視覺標語本身，維持審慎unchanged，強烈建議下期WebFetch若恢復可用時優先複查首頁原始內容以釐清真實現況。"
+    },
+    {
+      "comp": "Notion",
+      "status": "unchanged",
+      "headline": "The AI workspace that works for you.",
+      "cta": "Get Notion free / Request a demo",
+      "note": "本週無變動。WebFetch本次環境性中斷；搜尋結果多方來源與基準標語一致，未見主視覺文案變動跡象（Mail停用為產品功能異動，非首頁定位文案變動）。"
+    },
+    {
+      "comp": "monday.com",
+      "status": "unchanged",
+      "headline": "The AI Work Platform for People & Agents",
+      "cta": "Get Started / Contact sales",
+      "note": "本週無變動。WebFetch本次環境性中斷；搜尋結果確認此標語延續自05/06「AI Work Platform」品牌重塑，與基準一致。"
+    },
+    {
+      "comp": "Smartsheet",
+      "status": "unchanged",
+      "headline": "Intelligent Work Management with AI at its core",
+      "cta": "Watch a demo / Try Smartsheet for free",
+      "note": "本週無變動。WebFetch本次環境性中斷；搜尋結果核心用字「Intelligent Work Management」定位語彙與基準一致，惟本期搜尋到的完整句型（強調unites people, data and AI）與基準精確字句略有出入，研判為子頁面或行銷文案交錯索引所致，核心標語判定維持unchanged。"
+    },
+    {
+      "comp": "Kintone",
+      "status": "unchanged",
+      "headline": "みんな、つくれる。",
+      "cta": "アプリ作成体験 / 30日間無料お試し / 導入相談",
+      "note": "本週無變動。WebFetch本次環境性中斷；搜尋結果本期未見明確反例或更新版本首頁擷取，僅查得2023年電視CM「ノーコードで業務アプリをつくろう」等既有品牌語彙，未見足以推翻基準標語的新證據，維持unchanged。"
+    },
+    {
+      "comp": "Odoo",
+      "status": "unchanged",
+      "headline": "All your business on one platform.",
+      "cta": "Start now - It's free / Meet an advisor",
+      "note": "本週無變動。WebFetch本次環境性中斷；搜尋結果確認首頁標語與CTA仍與基準一致，儘管本期Odoo 20已於Odoo Experience正式發表，但首頁主視覺文案尚未反映新版本內容，研判與Odoo 20正式GA（預計10–11月）尚未上線有關，建議下期持續複查是否隨GA上線而更新。"
+    }
+  ],
+  "sources": [
+    {
+      "comp": "Odoo",
+      "title": "Odoo 20 Release Notes",
+      "url": "https://www.odoo.com/odoo-20-release-notes",
+      "note": "Odoo官方release notes，Studio AI生成資料庫結構、Agent架構重整、IAP credit定價變動之原始來源"
+    },
+    {
+      "comp": "Odoo",
+      "title": "Odoo 20 AI Agents: Skills, Sources, Triggers | Octura Solutions",
+      "url": "https://octurasolutions.com/resources/odoo-20-ai-agents-skills-triggers-and-ai-in-every-app",
+      "note": "第三方技術解讀，Agent架構Instructions／Skills／Sources／Triggers四分頁設定細節之交叉確認"
+    },
+    {
+      "comp": "Odoo",
+      "title": "Odoo 20: Features, AI & Roadmap 2026 – Full Preview | OBS Solutions",
+      "url": "https://www.odoo-bs.com/blog/global-5/odoo-20-preview-493",
+      "note": "第三方整理Odoo 20 Studio AI生成models/fields/menus/views功能細節之交叉確認"
+    },
+    {
+      "comp": "Odoo",
+      "title": "Odoo Experience 2026 in Brussels: programme, tickets and the Odoo 20 launch",
+      "url": "https://macopedia.com/en/blog/news/odoo-experience-2026-brussels",
+      "note": "Odoo Experience 2026活動報導，Odoo 20於09/24開幕主題演講正式發表之時間點交叉確認"
+    },
+    {
+      "comp": "Odoo",
+      "title": "Odoo 20 Release Date, Features & AI: What You Need to Know (2026)",
+      "url": "https://www.odooskillz.com/blog/odoo-skillz-insights-1/odoo-20-preview-agentic-ai-read-replica-database-and-what-it-means-for-your-business-288",
+      "note": "PDF規格書自動建立專案結構案例細節、IAP credit定價與Custom方案漲價幅度之交叉確認"
+    },
+    {
+      "comp": "Notion",
+      "title": "Notion Mail inbox is going away: next steps",
+      "url": "https://www.notion.com/en-gb/help/notion-mail-inbox-is-going-away-what-to-do-next",
+      "note": "Notion官方Help Center公告，Mail應用09/22停用之原始來源與說明"
+    },
+    {
+      "comp": "Notion",
+      "title": "Notion Mail is shutting down, but your Gmail inbox isn't going anywhere",
+      "url": "https://www.androidauthority.com/notion-mail-is-shutting-down-3681674/",
+      "note": "第三方媒體報導，交叉確認停用原因（Agent處理email比例過半）與影響範圍"
+    },
+    {
+      "comp": "Notion",
+      "title": "Notion Mail is shutting down: What users need to do now",
+      "url": "https://www.heise.de/en/news/Notion-Mail-is-shutting-down-What-users-need-to-do-now-11345988.html",
+      "note": "第三方媒體報導，交叉確認停用日期與資料保存方式細節"
+    }
+  ]
+}
