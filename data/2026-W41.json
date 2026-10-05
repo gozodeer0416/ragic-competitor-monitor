@@ -1,0 +1,173 @@
+{
+  "week": "2026-W41",
+  "range": "2026/09/29–2026/10/05",
+  "markets": "Global / TW",
+  "competitors": [
+    "Airtable",
+    "Notion",
+    "monday.com",
+    "Smartsheet",
+    "Kintone",
+    "Odoo",
+    "LLM"
+  ],
+  "conclusion": {
+    "title": "本周市場結論：延續上期Odoo 20的大動作後，本期市場明顯降溫，僅Smartsheet／Notion各有一則「把自己變成外部AI平台可呼叫的資料來源」的分發型小動作",
+    "body": "本期（2026/09/29–2026/10/05）訊號量明顯低於上期：上期Odoo 20於Odoo Experience正式發表「AI生成資料庫結構」等重磅訊號後，本期經官方來源與WebSearch交叉查證，Odoo本身在本期窗口內查無新進展（後續報導多為上期發表內容的延伸整理與社群反應，非新事實，故不重複列入）。Airtable、Kintone本期經多輪查證（含官方release notes、社群公告、日文來源）均查無落在本期窗口內、且達到收錄門檻的新動作；Airtable近期社群討論仍圍繞8月初公告、9月4日已完成的Bending Spoons收購案後續整合，但本期窗口內無新的官方聲明或產品變動可查證，Kintone下一批「主な更新」預計10/11發布、落在本期窗口之後，故本期兩者均無收錄訊號。monday.com本期唯一查到的動態是09/29發布的Elevate '26（10/28–29紐約）活動預告新聞稿，主打「每位參加者都能現場建出一個可用的AI agent」，屬未來活動的行銷性質預告，尚非實際功能或定價異動，本期暫不列入正式訊號，僅在此如實記錄作為市場敘事觀察。\n\n本期唯二通過收錄門檻的訊號，恰好都指向同一條軸線——不是『自己做更強的agent』，而是『讓自己的資料／技能可以被外部AI平台直接呼叫』：Smartsheet於10/01推出Microsoft Copilot Cowork專用plugin，讓使用者在Copilot Cowork裡把多步驟工作委派出去，由plugin代為讀寫Smartsheet的列、表單與報表，並內建「逐筆核准」的暫停機制；Notion則於09/29透過SDK v5.27.0將09/17公告的「Skills API」程式化開放，讓Notion資料庫裡累積的團隊技能可以被匯出、餵給Claude、ChatGPT等外部agent使用，而不只是Notion自家Agent內部可用。兩者都呼應各自『MCP／AI入口分發策略』的既定路線（Smartsheet是本次config收錄的參考案例；Notion則是把既有Skills Library從內部功能延伸為跨平台資產），但都是既有策略的漸進延伸，而非質變。\n\n本期執行環境對所有測試網域（含對照組en.wikipedia.org與各競品官方網域）的WebFetch請求仍全數回傳連線層級的環境性阻擋，與近期各期情況相同，判定為環境性中斷、非個別網站封鎖，本期全面改以WebSearch多來源交叉查證：Smartsheet訊號以官方release notes頁面、dxable.com（DXable日文代理商報導）、m365copilotconnection電子報三方交叉確認；Notion訊號以官方GitHub SDK release notes、Notion官方Skills API部落格、technobezz第三方報導三方交叉確認。查證過程中另發現部分AI摘要工具對來源日期判讀不穩定（例如誤將Notion 2026年2月24日的Custom Agents發布內容標示為「10月新品」、誤將Airtable或OpenAI的舊公告標示為近期日期），本期均以第三方報導的發布時間戳或可回溯的獨立日期證據（如GitHub release時間、新聞稿發布站台的日期metadata）交叉校正後才採用，未校正通過的候選訊號（包含一則疑似「Notion Night Shift」新品的社群討論，查證後確認其實際對應2026年2月24日已發表的Custom Agents／External Agents功能，非本期新訊號）均不予收錄。LLM平台項目本週查證Anthropic（Claude Code mods、Claude for Government GA、Frontier Academy投資）、OpenAI（ChatGPT購物／財務／信用分數等消費端功能、DevDay後續報導）、Google（Gemini Skills功能、Workspace學生中心）三家於窗口內的動作，均屬消費端功能、政府/企業銷售或教育場景更新，市場論述未見明確將其拿來跟no-code平台或傳統ERP比較視為取代威脅，未通過窄篩選量尺，正常無收錄。定位觀察部分，六家有homepage來源的競品本週經WebSearch交叉查證，核心標語與CTA用字均與既有基準一致，判定為unchanged；過程中對monday.com、Notion兩家搜尋到與基準不同的候選標語（monday.com「People and agents working as one team」、Notion「Meet the night shift」），經查證後確認分別對應2026年5月、2月的較舊公告內容（非本期新變動，且無法確認是否為目前首頁主視覺用字本身），故維持審慎unchanged判定，與上期對Airtable標語的處理原則一致。"
+  },
+  "kpis": [
+    {
+      "label": "本周主軸",
+      "value": "外部AI平台分發導向 2/5",
+      "note": "本期僅兩則通過收錄門檻的訊號，方向恰好一致：都是把自己的資料（Smartsheet）或技能（Notion）開放給外部AI平台（Microsoft Copilot Cowork、Claude／ChatGPT）呼叫，而非自建更強的原生agent；強度偏低，屬既有分發策略的漸進延伸，非重大轉向。"
+    },
+    {
+      "label": "定價風向",
+      "value": "本週無明顯定價動向",
+      "note": "本期兩則訊號（Smartsheet Copilot Cowork plugin、Notion Skills API）均不涉及定價異動，其餘競品本週亦無新的定價訊號。"
+    },
+    {
+      "label": "最高優先訊號",
+      "value": "Smartsheet推出Microsoft Copilot Cowork專用plugin，支援多步驟委派＋逐筆核准（10/01）",
+      "note": "attention_index 3，本期唯二訊號中與Ragic『MCP整合與分發』『內建護欄』兩項battleground重疊度較高者。"
+    },
+    {
+      "label": "Ragic 應對焦點",
+      "value": "原生整合深度論述 × MCP／外部AI平台分發佈局評估 × 持續追蹤Odoo 20後續GA與monday.com Elevate '26動態",
+      "note": "建議Marketing／PR準備『被動當資料來源 vs. Agent原生活在資料庫裡』的差異化論述；Product／R&D評估Ragic是否也該佈局對接Microsoft Copilot Cowork、Claude／ChatGPT等外部AI入口的MCP分發管道；同時留意Odoo 20正式GA（預計10–11月）與monday.com Elevate '26（10/28–29）屆時是否有新的實質功能或定價訊號。"
+    }
+  ],
+  "signals": [
+    {
+      "comp": "Smartsheet",
+      "date": "2026/10/01",
+      "signal": "Smartsheet官方release notes公告推出Microsoft Copilot Cowork專用plugin：使用者可在Copilot Cowork介面內，把涵蓋多個步驟的工作（例如會議前資料彙整）委派出去，由該plugin代為讀取並更新Smartsheet的列（rows）、表單（sheets）與報表（reports）；plugin內建「暫停（pause）」機制，重大資料變更需等待使用者逐筆核准後，自動化流程才會繼續往下執行。此為Smartsheet於2026年6月推出MCP版Microsoft Copilot連接器（當時僅支援在Teams／Outlook／Word／Copilot聊天內查詢與更新資料）之後，將整合深度進一步延伸到Copilot Cowork多步驟委派情境的後續動作。",
+      "theme": "MCP分發・護欄機制",
+      "read": "此訊號延續Smartsheet『表格型工作平台，MCP／AI入口分發策略的參考案例』的既定定位——比起自建更強的原生agent，Smartsheet選擇優先把自己做成外部AI平台（這裡是Microsoft Copilot Cowork）可以直接委派任務、讀寫資料的標準化節點。對照`ai_agent_differentiators`，這個模式明確走的是『由外部agent平台操作既有資料』的路線，而非Ragic主張的『Agent原生活在資料庫裡』；但其內建的『逐筆核准才繼續執行』機制，方向上呼應『內建護欄』這項差異點，顯示市場上已有愈來愈多競品在AI agent操作既有資料時，主動加入人工把關步驟作為標準配置，而不只是Ragic或少數競品的特色。",
+      "impact": "建議Marketing／PR準備『資料來源被動串接 vs. Agent原生活在資料庫、直接讀寫記錄與跑workflow』的差異化論述，說明Ragic的優勢不只是『也能被外部AI呼叫』，而是agent本身就在資料庫內運作、不需透過外部平台中介；建議Product／R&D評估Ragic是否需要佈局對接Microsoft Copilot Cowork、Claude、ChatGPT等外部AI入口的MCP分發管道，作為『原生整合』之外的第二條觸及客戶路徑，並參考此案例『重大變更需逐筆核准』的護欄設計方式。",
+      "attention_index": 3
+    },
+    {
+      "comp": "Notion",
+      "date": "2026/09/29",
+      "signal": "Notion開發者SDK（notion-sdk-js）發布v5.27.0版本，程式化開放09/17官方部落格公告的「Skills API」：新增client.skills.retrieve、client.plugins等方法，可取得技能的簽署封存檔URL。此API讓團隊存放在Notion資料庫裡、原本供Notion自家Agent／Custom Agent內部共用的「技能（Skills，可重複使用的AI操作指令，如固定格式月報生成）」，得以透過標準化介面匯出，供Claude、ChatGPT等外部AI agent或工具載入使用——官方與第三方報導均確認，同一份技能庫可同時餵給Notion自家agent與外部平台，不再侷限於Notion內部使用。",
+      "theme": "技能分發・跨平台API",
+      "read": "與上期（09/15，3.7版）report過的『Skills Library＋Custom MCP連線』相比，當時報的是Notion agent『對外連接』其他工具讀取資訊（方向是外部→Notion），本期這則API開放則是反方向——Notion把自己資料庫裡累積的技能『對外輸出』，讓Claude、ChatGPT等外部agent可以直接載入使用。這呼應Notion近期『功能收斂進Agent與Connector』的策略延伸：與其把技能鎖在自家agent生態圈，不如讓Notion資料庫本身成為跨平台AI agent共用的『技能供應來源』，是一種分發／生態卡位邏輯，而非直接操作既有資料或建立系統的訊號，與Ragic核心戰場重疊度相對較低，優先級低於本期Smartsheet訊號。",
+      "impact": "屬觀察性質訊號，暫不需要立即行動；建議Product／R&D留意Notion『技能可跨平台輸出』的生態卡位邏輯是否延伸到資料庫schema或workflow層級（若演變為『資料庫結構／workflow設定本身可匯出給外部agent使用』，才會明顯逼近Ragic核心戰場，屆時應提高關注等級）。",
+      "attention_index": 2
+    }
+  ],
+  "implications": [
+    {
+      "team": "Marketing / PR",
+      "items": [
+        "<b>原生整合深度論述：</b>本期Smartsheet、Notion的動作都是『讓自己被外部AI平台呼叫』的分發策略，建議準備『被動資料來源 vs. Agent原生活在資料庫裡、直接讀寫記錄與跑workflow』的對比素材，強調Ragic不需要透過外部AI平台中介，就能一次設定、全公司24/7共用同一Agent的差異化價值。",
+        "<b>護欄機制成為標準配置的論述調整：</b>Smartsheet此次Copilot Cowork plugin也內建『逐筆核准』機制，顯示治理／護欄功能正快速成為市場標準配置而非Ragic獨有特色，建議論述重點從『有沒有護欄』調整為『護欄機制是否原生內建於資料庫層、而非外部平台疊加的補丁』。"
+      ]
+    },
+    {
+      "team": "Product / R&D 提問",
+      "items": [
+        "<b>MCP／外部AI入口分發佈局評估：</b>Ragic是否需要評估對接Microsoft Copilot Cowork、Claude、ChatGPT等外部AI入口的MCP分發管道，作為『原生整合』主張之外，觸及已習慣在外部AI平台內操作工具的客群的第二條路徑？",
+        "<b>Notion技能跨平台輸出的延伸觀察：</b>持續追蹤Notion『技能可匯出給外部agent』的邏輯是否進一步擴展到資料庫結構或workflow設定本身，評估其對Ragic no-code核心戰場的長期影響。",
+        "<b>Odoo 20 GA與monday.com Elevate '26後續追蹤：</b>Odoo 20正式GA預計10–11月上線、monday.com Elevate '26將於10/28–29登場並可能發表新功能，下期需優先查證兩者是否帶來新的實質產品或定價訊號。"
+      ]
+    }
+  ],
+  "deepdives": [
+    {
+      "tag": "DEEP DIVE ▸ 01",
+      "title": "Smartsheet把「護欄」做進Copilot Cowork plugin——AI agent治理正在變成市場標準配置",
+      "body": "Smartsheet這次Copilot Cowork plugin的重點，不只是『又多一個外部AI平台可以呼叫Smartsheet』，而是它把『重大資料變更需逐筆核准才繼續執行』的暫停機制做成plugin的內建設計，而非事後補救的額外設定。這與Odoo 20 Studio AI『即時預覽、可編輯確認後才建立』的設計邏輯方向一致——兩家原本賽道不同的競品（work management平台、ERP），在本期與上期分別不約而同把『人工把關』做進AI操作既有資料／建立系統的標準流程裡。對Ragic而言，這代表『內建護欄』已經不是獨有的差異化賣點，而是逐漸變成整個市場的基本門檻；真正能拉開差距的，會是『護欄機制是原生於資料庫層、權限與workflow設定的一部分』，還是『外部平台疊加上去的補丁』。",
+      "watch": "後續觀察：Smartsheet Copilot Cowork plugin的實際核准機制顆粒度（逐筆／逐批／可否設定自動核准門檻）；是否有更多work management／no-code競品跟進把治理機制做進外部AI平台整合層；Ragic若評估佈局類似外部AI入口整合，護欄機制應如何與既有原生權限架構整合而非另起一套。"
+      },
+    {
+      "tag": "DEEP DIVE ▸ 02",
+      "title": "Notion Skills API——從『內部技能庫』到『跨平台技能供應來源』的生態卡位",
+      "body": "09/17公告、09/29透過SDK正式開放程式化存取的Notion Skills API，讓Notion資料庫裡累積的團隊技能可以被Claude、ChatGPT等外部agent直接載入使用。這與上期（09/15）report過的『Custom MCP連線』方向正好相反：上次是Notion agent『對外連接』其他工具取得資訊，這次是Notion把自己的內容『對外輸出』供其他平台的agent使用。短期內這屬於開發者／生態層級的動作，對一般使用者的資料庫操作行為影響有限；但如果這個邏輯未來延伸到『資料庫schema、workflow設定本身也可以匯出給外部agent使用／複製』，就會從目前相對邊緣的『技能可攜性』議題，直接逼近Ragic『AI建立系統／App』與『no-code資料庫核心』兩項戰場核心，屆時優先級應大幅提高。",
+      "watch": "後續觀察：Notion Skills API的實際採用狀況（有多少外部agent生態／第三方工具實際整合使用）；Notion是否進一步把『資料庫結構／workflow設定』本身納入可匯出的範疇；是否有其他no-code競品跟進推出類似的跨平台技能／資產輸出機制。"
+    }
+  ],
+  "positioning_watch": [
+    {
+      "comp": "Airtable",
+      "status": "unchanged",
+      "headline": "Airtable is the system of record for your workflows, data, and agents",
+      "cta": "Start building for free",
+      "note": "本週無變動（審慎判定）。WebFetch本次環境性中斷；搜尋結果本期又出現「Build with AI that means business」「From idea to app in an instant」等互異表述，與過去數期情況一致，研判仍是頁面title標籤、A/B測試或行銷文案交錯被索引所致，尚無法確認何者為目前首頁主視覺標語本身，維持審慎unchanged，建議下期WebFetch若恢復可用時優先複查原始首頁內容以釐清真實現況。"
+    },
+    {
+      "comp": "Notion",
+      "status": "unchanged",
+      "headline": "The AI workspace that works for you.",
+      "cta": "Get Notion free / Request a demo",
+      "note": "本週無變動。WebFetch本次環境性中斷；搜尋結果出現「Meet the night shift」等候選標語，經查證該用語實際對應2026年2月24日已發表的Custom Agents／External Agents相關內容（非本期新公告），且無法確認是否為目前首頁主視覺用字本身，故不計入本期變動，維持unchanged。"
+    },
+    {
+      "comp": "monday.com",
+      "status": "unchanged",
+      "headline": "The AI Work Platform for People & Agents",
+      "cta": "Get Started / Contact sales",
+      "note": "本週無變動。WebFetch本次環境性中斷；搜尋結果出現「People and agents working as one team」等候選標語，經查證主要對應2026年5月『monday.com Goes All In on AI』新聞稿用語（早於基準最後確認時間07/27），無法確認是否為本期首頁主視覺更新，故不計入本期變動，維持unchanged。"
+    },
+    {
+      "comp": "Smartsheet",
+      "status": "unchanged",
+      "headline": "Intelligent Work Management with AI at its core",
+      "cta": "Watch a demo / Try Smartsheet for free",
+      "note": "本週無變動。WebFetch本次環境性中斷；搜尋結果核心用字「Intelligent Work Management with AI at its core」與基準一致，本期雖有Copilot Cowork plugin產品動作，但首頁主視覺標語未見變動證據。"
+    },
+    {
+      "comp": "Kintone",
+      "status": "unchanged",
+      "headline": "みんな、つくれる。",
+      "cta": "アプリ作成体験 / 30日間無料お試し / 導入相談",
+      "note": "本週無變動。WebFetch本次環境性中斷；搜尋結果確認「みんな、つくれる。」與「AIとノーコードで現場の業務にフィットする業務アプリをつくり」等既有定位語彙仍為現行用字，未見足以推翻基準標語的新證據，維持unchanged。"
+    },
+    {
+      "comp": "Odoo",
+      "status": "unchanged",
+      "headline": "All your business on one platform.",
+      "cta": "Start now - It's free / Meet an advisor",
+      "note": "本週無變動。WebFetch本次環境性中斷；搜尋結果確認首頁標語與CTA仍與基準一致，儘管Odoo 20已於上期發表，但首頁主視覺文案尚未反映新版本內容，研判與其正式GA（預計10–11月）尚未上線有關，建議下期持續複查是否隨GA上線而更新。"
+    }
+  ],
+  "sources": [
+    {
+      "comp": "Smartsheet",
+      "title": "Product Updates, Release News",
+      "url": "https://www.smartsheet.com/content-center/product-news/release-notes",
+      "note": "Smartsheet官方release notes，10/01 Microsoft Copilot Cowork plugin公告原始來源"
+    },
+    {
+      "comp": "Smartsheet",
+      "title": "Smartsheet（スマートシート）がユーザー管理画面の統合、SIEMデータストリーミング、Copilot Cowork連携機能を追加",
+      "url": "https://news.dxable.com/smartsheet-updates-consolidated-user-management-siem-streaming-and-microsoft-copilot-cowork-integration/",
+      "note": "DXable日文代理商報導，Copilot Cowork plugin功能細節與發布時間點之交叉確認"
+    },
+    {
+      "comp": "Smartsheet",
+      "title": "Copilot's biggest October 2026 updates, and when they land",
+      "url": "https://m365copilotconnection.substack.com/p/copilots-biggest-october-2026-updates",
+      "note": "第三方Microsoft Copilot動態電子報，Smartsheet plugin多步驟委派與暫停核准機制之交叉確認"
+    },
+    {
+      "comp": "Notion",
+      "title": "Release v5.27.0 · makenotion/notion-sdk-js",
+      "url": "https://github.com/makenotion/notion-sdk-js/releases/tag/v5.27.0",
+      "note": "Notion官方SDK GitHub release notes，09/29發布，Skills API程式化存取方法（client.skills等）之原始來源"
+    },
+    {
+      "comp": "Notion",
+      "title": "A skills library for every agent",
+      "url": "https://www.notion.com/blog/a-skills-library-for-every-agent",
+      "note": "Notion官方部落格，09/17公告Skills API概念與跨平台（Claude／ChatGPT等）使用情境之原始說明"
+    },
+    {
+      "comp": "Notion",
+      "title": "Notion Launches Skills API to Load Team Skills Into Agents",
+      "url": "https://www.technobezz.com/news/notion-skills-api-agent-library",
+      "note": "第三方媒體報導，交叉確認Skills API可供外部agent載入使用之功能範圍"
+    }
+  ]
+}
