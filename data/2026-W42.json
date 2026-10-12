@@ -1,0 +1,154 @@
+{
+  "week": "2026-W42",
+  "range": "2026/10/06–2026/10/12",
+  "markets": "Global / TW",
+  "competitors": [
+    "Airtable",
+    "Notion",
+    "monday.com",
+    "Smartsheet",
+    "Kintone",
+    "Odoo",
+    "LLM"
+  ],
+  "conclusion": {
+    "title": "本周市場結論：七個追蹤項目本期全數查無通過收錄門檻的新訊號，市場處於Odoo 20、Elevate '26等近期催化事件之間的空窗期",
+    "body": "本期（2026/10/06–2026/10/12）經官方來源與WebSearch多輪交叉查證，Airtable、Notion、monday.com、Smartsheet、Kintone、Odoo六家競品與LLM平台項目，均查無落在本期窗口內、且達到收錄門檻的新訊號——這是本報告設立以來第一次七個項目同期全數掛零。\n\n逐一說明：Airtable本期無新的官方公告，社群討論仍圍繞8月初公告、9月4日已完成的Bending Spoons收購案後續整合，查無新進展。Notion本期查無新發布，官方release notes頁面最新項目仍為8月；一則經快取檢索到的「Work faster with your AI team」首頁文案，查證後研判為2月Custom Agents發表前的舊版快取（頁面仍列「Custom Agents即將推出」字樣），非本期變動，故不計入。monday.com本期唯一相關資訊是09/29已發布、10/28–29於紐約Javits Center登場的Elevate '26完整議程（Ryan Reynolds與Lindsey Vonn擔任主講、新設Done Awards），屬上期已記錄之未來活動行銷性質預告的延伸細節，非本期新產品或定價訊號。Smartsheet本期僅查到TLS 1.2舊版加密套件淘汰（技術性維運通知，非功能或定價訊號）；Smart Hub／Smart Agents等去年11月ENGAGE大會預告項目，本期仍查無正式上線公告。Kintone於10/11執行例行維護，為JavaScript API新增表格欄位「新增／刪除列」按鈕的顯示/隱藏切換功能，屬細瑣API調整，未達收錄門檻。Odoo方面，多個第三方部落格預測Odoo 20正式GA（對應9月24–26日Odoo Experience發表後的首個穩定版）落在10–11月之間，但本期查無odoo.com官方release notes或部落格確認GA已發生，故暫不列入，待官方確認後補列。\n\nLLM平台項目本期經窄篩選量尺判讀後亦無收錄：Google於10/08在Gemini at Work 2026活動發布「universal agent for work」，強調單一prompt box涵蓋知識工作、問答、內容生成與coding，並可串接企業內部系統與BigQuery、Databricks、Postgres、Snowflake等資料庫，同時提供面向一般商業使用者的無程式碼「Agent Designer」。這則訊號在表面特徵上與`battlegrounds`的「AI agent部署模式與治理」「AI建立系統／App」頗為接近，但本期以多組關鍵字交叉查證（含analyst／媒體反應、G2等比較平台），均未找到媒體、社群或分析師明確將此動作拿來跟Notion、Airtable或傳統ERP比較、視為取代威脅的論述——現有報導（CBS News、CNBC、TechCrunch、9to5Google）均將其框定為「對標OpenAI、Microsoft」的企業雲端agent平台競賽敘事，Airtable本身甚至已是其資料來源connector之一（偏合作而非取代關係）。依量尺規則，此動作本期不收錄，但其「無程式碼Agent Designer」路線值得在後續幾期持續追蹤，一旦市場論述轉向「取代no-code平台」，應立即提高關注。Anthropic、OpenAI本期則主要是IPO時程報導與既有企業功能的延伸轉載，均非應用層對no-code／ERP的直接動作，正常無收錄。\n\n本期執行環境對所有測試網域（含對照組en.wikipedia.org與各競品官方網域）的WebFetch請求仍全數回傳DNS層級的環境性阻擋（getaddrinfo ENOTFOUND），與近期各期情況相同，判定為環境性中斷、非個別網站封鎖，本期全面改以WebSearch多來源交叉查證，單一候選訊號均以至少兩個獨立搜尋結果比對後才下判讀。定位觀察部分，六家有homepage來源的競品本週經WebSearch交叉查證，均維持unchanged：Airtable頁面`<title>`標籤文字「Airtable: Build Enterprise-ready AI Workflows, Apps & Agents」與既有基準標語不同，但延續過去數期的審慎判定——無法確認此為首頁主視覺H1標語本身而非SEO title，故不計入變動；Notion的「Work faster with your AI team」快取頁面經查證對應Custom Agents發表（2026年2月）之前的舊版本，非本期新變動。"
+  },
+  "kpis": [
+    {
+      "label": "本周主軸",
+      "value": "全數掛零，無新主軸",
+      "note": "七個追蹤項目（Airtable、Notion、monday.com、Smartsheet、Kintone、Odoo、LLM平台）本期經多輪查證均無通過收錄門檻的新訊號，為本報告設立以來首次全數掛零的一週，判定為Odoo 20 GA、monday.com Elevate '26等近期催化事件之間的空窗期，非趨勢轉向。"
+    },
+    {
+      "label": "定價風向",
+      "value": "本週無明顯定價動向",
+      "note": "七個追蹤項目本週均無定價相關動作或公告。"
+    },
+    {
+      "label": "最高優先訊號",
+      "value": "無（本期無收錄訊號）；最值得留意的未收錄動態為Google「Gemini universal agent for work」(10/08)",
+      "note": "此動態因未見市場論述明確將其視為取代Notion／Airtable／ERP的威脅，依窄篩選量尺本期不收錄；其無程式碼Agent Designer路線建議後續持續追蹤，見本期deep dive。"
+    },
+    {
+      "label": "Ragic 應對焦點",
+      "value": "維持現有差異化論述儲備 × 持續追蹤Odoo 20 GA與monday.com Elevate '26(10/28–29) × 複查Gemini Agent Designer是否轉向no-code取代敘事",
+      "note": "本期無新訊號需要即時應對，建議Marketing／PR利用空窗期整理既有素材（原生整合、零部署、內建護欄等差異化論述）；Product／R&D持續追蹤下期可能出現新訊號的幾個催化點：Odoo 20正式GA官方確認、monday.com Elevate '26大會實質產品／定價公告、Gemini Enterprise無程式碼Agent Designer後續市場定位論述。"
+    }
+  ],
+  "signals": [],
+  "implications": [
+    {
+      "team": "Marketing / PR",
+      "items": [
+        "<b>空窗期素材整理：</b>本期無新競品動作需要即時回應，建議利用這段時間整理並更新既有差異化論述素材（原生資料庫整合、零部署、一人設定全公司用、內建護欄），為monday.com Elevate '26（10/28–29）與Odoo 20 GA等近期可能出現新訊號的事件預做準備。",
+        "<b>Gemini Enterprise敘事預先備案：</b>Google Gemini universal agent目前市場論述聚焦於對標OpenAI／Microsoft的企業雲端agent平台競賽，尚未被拿來跟no-code平台比較，但其面向一般商業使用者的無程式碼Agent Designer值得預先準備一套「被動資料來源 vs. Agent原生活在資料庫裡」的論述草稿，一旦市場敘事轉向即可快速使用。"
+      ]
+    },
+    {
+      "team": "Product / R&D 提問",
+      "items": [
+        "<b>Odoo 20 GA追蹤：</b>多個第三方預測Odoo 20正式GA落在10–11月，下期需優先查證odoo.com官方release notes是否已確認GA，並複查其AI生成資料庫結構功能是否隨GA有進一步落地。",
+        "<b>monday.com Elevate '26後續追蹤：</b>大會將於10/28–29登場，屆時是否發表新的agent建置或定價功能，須優先查證並評估對Ragic核心戰場的重疊度。",
+        "<b>Gemini Enterprise無程式碼Agent Designer觀察：</b>持續追蹤其連接BigQuery、Databricks、Postgres、Snowflake等資料庫的no-code agent建置功能，是否在後續幾期被市場明確拿來跟no-code平台或傳統ERP比較、視為取代威脅——若轉向，應依`battlegrounds`『AI建立系統／App』項目大幅提高關注等級。"
+      ]
+    }
+  ],
+  "deepdives": [
+    {
+      "tag": "DEEP DIVE ▸ 01",
+      "title": "Google「Gemini universal agent for work」為何本期未收錄——窄篩選量尺的一次實際應用",
+      "body": "10/08 Google在Gemini at Work 2026發表的「universal agent for work」，表面特徵頗為吸睛：單一prompt box處理知識工作、問答、內容生成與coding，可串接企業內部系統與BigQuery、Databricks、Postgres、Snowflake等資料庫，並提供面向一般商業使用者（非工程師）的無程式碼「Agent Designer」，依座位數計費。這些特徵單獨看，確實踩中`battlegrounds`裡「AI建立系統／App」與「AI agent部署模式與治理」兩項。但依config設定的窄篩選量尺——市場（媒體、社群、分析師評論）是否明確把這個動作拿來跟Notion、Airtable或傳統ERP比較、視為取代威脅——本期多輪查證（CBS News、CNBC、TechCrunch、9to5Google、G2比較頁）均將其框定為『對標OpenAI、Microsoft的企業雲端agent平台競賽』敘事，而非『取代no-code資料庫／ERP』敘事；甚至Airtable本身已是Gemini Enterprise的資料來源connector之一，兩者目前呈現合作而非取代關係。這是一次量尺的實際應用案例：功能本身重大，但未通過『市場論述』這一關，依規則本期不收錄。",
+      "watch": "後續觀察：Gemini Enterprise的無程式碼Agent Designer若開始被第三方顧問、分析師（Gartner、Forrester等）或媒體直接拿來跟Notion、Airtable的no-code建構能力相比，或Google主動在行銷語言中強調『取代傳統資料庫應用開發』，應視為敘事轉向訊號，下期起大幅提高關注等級並正式收錄。"
+    },
+    {
+      "tag": "DEEP DIVE ▸ 02",
+      "title": "七項全數掛零的空窗期：近期大型催化事件之間的正常消化階段",
+      "body": "本期是本報告設立以來第一次七個追蹤項目同期全數查無收錄訊號，但這並非市場降溫或Ragic可以鬆懈的訊號，而更接近『兩個催化事件之間的空窗期』：上一輪催化事件（Odoo Experience大會發表Odoo 20、Airtable完成Bending Spoons收購整合、monday.com公告Elevate '26議程）多落在9月，其後續官方確認動作（Odoo 20 GA、Elevate '26實際產品公告）則要等到10月下旬至11月才會陸續發生。中間這段時間，各競品多處於內部整合或行銷鋪墊階段，本週查到的動態（Kintone例行API維護、Smartsheet TLS淘汰通知、monday.com Elevate議程細節）性質上都是維運性或行銷鋪墊性，而非實質產品或定價變動。",
+      "watch": "後續觀察：下兩期（10月下旬至11月上旬）預期會集中出現本期空窗期累積的催化事件結果——Odoo 20正式GA公告、monday.com Elevate '26(10/28–29)大會實質內容、以及Gemini Enterprise no-code Agent Designer的市場定位是否轉向——建議優先排序查證順序，避免遺漏窗口內的關鍵訊號。"
+    }
+  ],
+  "positioning_watch": [
+    {
+      "comp": "Airtable",
+      "status": "unchanged",
+      "headline": "Airtable is the system of record for your workflows, data, and agents",
+      "cta": "Start building for free",
+      "note": "本週無變動（審慎判定）。WebFetch本次環境性中斷；搜尋結果本期查到airtable.com頁面`<title>`標籤文字為「Airtable: Build Enterprise-ready AI Workflows, Apps & Agents」，與既有基準標語不同，但延續過去數期的處理原則，無法確認此為首頁主視覺H1標語本身而非SEO title／行銷文案交錯索引所致，維持審慎unchanged，建議WebFetch恢復可用時優先複查。"
+    },
+    {
+      "comp": "Notion",
+      "status": "unchanged",
+      "headline": "The AI workspace that works for you.",
+      "cta": "Get Notion free / Request a demo",
+      "note": "本週無變動。WebFetch本次環境性中斷；搜尋結果出現「Work faster with your AI team」快取頁面，但該頁同時列出「Custom Agents即將推出」字樣，查證後研判為2026年2月Custom Agents正式發表之前的舊版快取，非本期新變動，不計入。"
+    },
+    {
+      "comp": "monday.com",
+      "status": "unchanged",
+      "headline": "The AI Work Platform for People & Agents",
+      "cta": "Get Started / Contact sales",
+      "note": "本週無變動。WebFetch本次環境性中斷；搜尋結果確認「AI Work Platform」定位語彙（源自5月官方重新定位）與相關「people and agents」用語仍為現行品牌敘事，未見足以推翻基準標語的新證據。"
+    },
+    {
+      "comp": "Smartsheet",
+      "status": "unchanged",
+      "headline": "Intelligent Work Management with AI at its core",
+      "cta": "Watch a demo / Try Smartsheet for free",
+      "note": "本週無變動。WebFetch本次環境性中斷；搜尋結果直接命中smartsheet.com首頁同一標語「Intelligent Work Management with AI at its core」，確認與基準一致。"
+    },
+    {
+      "comp": "Kintone",
+      "status": "unchanged",
+      "headline": "みんな、つくれる。",
+      "cta": "アプリ作成体験 / 30日間無料お試し / 導入相談",
+      "note": "本週無變動。WebFetch本次環境性中斷；本期搜尋未直接命中kintone.cybozu.co.jp首頁內容，但亦未發現任何足以推翻基準標語的新證據，維持unchanged，建議下期WebFetch恢復時優先複查。"
+    },
+    {
+      "comp": "Odoo",
+      "status": "unchanged",
+      "headline": "All your business on one platform.",
+      "cta": "Start now - It's free / Meet an advisor",
+      "note": "本週無變動。WebFetch本次環境性中斷；搜尋結果（含快取頁面）確認標語「All your business on one platform. Simple, efficient, yet affordable!」與CTA仍與基準一致，Odoo 20尚未正式GA，首頁主視覺文案尚未反映新版本內容。"
+    }
+  ],
+  "sources": [
+    {
+      "comp": "LLM",
+      "title": "Google Cloud introduces the Gemini agent",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-at-work/",
+      "note": "Google官方10/08部落格公告，universal agent for work功能內容（prompt box、資料庫連接器、無程式碼Agent Designer）之原始來源，供窄篩選量尺判讀依據"
+    },
+    {
+      "comp": "LLM",
+      "title": "Google brings agentic AI to Gemini, starting with businesses",
+      "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
+      "note": "TechCrunch報導，確認本次發布之市場敘事框定為對標OpenAI／Microsoft的企業agent競賽，未見明確拿來跟Notion／Airtable／ERP比較視為取代威脅"
+    },
+    {
+      "comp": "LLM",
+      "title": "Google Cloud introduces Gemini agent for work as AI race heats up",
+      "url": "https://www.cnbc.com/2026/10/08/google-cloud-introduces-gemini-agent-for-work-as-ai-race-heats-up.html",
+      "note": "CNBC報導，交叉確認同一敘事框定，未通過窄篩選量尺之依據"
+    },
+    {
+      "comp": "Kintone",
+      "title": "2026年10月11日 kintone APIアップデート情報",
+      "url": "https://cybozu.dev/ja/kintone/news/api-updates/2026-10/",
+      "note": "cybozu.dev官方公告，確認10/11維護內容為表格欄位新增/刪除列按鈕顯示切換功能，屬細瑣API調整，未達收錄門檻"
+    },
+    {
+      "comp": "monday.com",
+      "title": "monday.com Elevate '26 Puts AI Agents to Work: Every Attendee Gets to Build an Agent",
+      "url": "https://ir.monday.com/news-and-events/news-releases/news-details/2026/monday-com-Elevate-26-Puts-AI-Agents-to-Work-Every-Attendee-Gets-to-Build-an-Agent/default.aspx",
+      "note": "monday.com官方IR新聞稿（09/29發布），確認Elevate '26大會時間（10/28–29紐約）與議程細節，屬既有預告之延伸背景資訊，非本期新產品訊號"
+    },
+    {
+      "comp": "Odoo",
+      "title": "What to Expect from Odoo 20: The September 2026 Release Explained for SMBs",
+      "url": "https://silentinfotech.com/blog/odoo-1/odoo-20-what-to-expect-373",
+      "note": "第三方顧問部落格，預測Odoo 20正式GA落在10–11月（Odoo Experience大會後2–4週），本期官方尚未確認GA，列為後續追蹤依據"
+    }
+  ]
+}
