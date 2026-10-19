@@ -1,0 +1,156 @@
+{
+  "week": "2026-W43",
+  "range": "2026/10/13–2026/10/19",
+  "markets": "Global / TW",
+  "competitors": ["Airtable", "Notion", "monday.com", "Smartsheet", "Kintone", "Odoo", "LLM"],
+  "conclusion": {
+    "title": "本周市場結論：Airtable易主後首次大規模裁員與組織精簡，其餘六個追蹤項目持續空窗",
+    "body": "本期（2026/10/13–2026/10/19）六個常規追蹤項目（Notion、monday.com、Smartsheet、Kintone、Odoo）與LLM平台窄篩選項目經多輪WebSearch交叉查證，均查無落在本期窗口內、且達到收錄門檻的新訊號，延續上期以來的空窗格局；唯一例外是Airtable——這也是其今年8月簽署、9月4日完成Bending Spoons收購案後，第一次把『易主後會發生什麼』具體攤在陽光下的事件。\n\n10/12，新上任（9月起）的產品負責人Alessandro Savarese在Airtable官方社群發布更新，宣布公司決定以更精簡的團隊往下走，多名收購前既有員工本週內離職；同日，Bending Spoons產品負責人Federico Simionato於X發文公告此次裁員，語氣引發外部輿論不滿（被Fast Company形容為『自我宣傳、缺乏同理心』），但內容也揭露了未來投入方向：新設Core團隊每月出貨客戶高頻需求、升級Omni與Airtable Canvas、強化MCP、新設Performance與Infra團隊。SF Chronicle、Newsweek等多家外媒將此次裁員形容為『多數員工』／『大部分團隊』規模，Channel Futures估計規模逾250人，但Airtable與Bending Spoons官方均未揭露確切人數，應視為待確認的外部推估。Airtable同時公開表示：現有客戶的方案、定價與服務內容不受影響。\n\n這則訊號本身不是產品功能或定價動作，但對Ragic仍有兩層判讀價值。第一層是純粹的『供應商風險』敘事——InformationWeek已直接以『vendor risk』框架報導此事，易主整合期的組織動盪，是中小企業客戶在選型時會納入考量的穩定性風險，給Ragic『長期自主經營、無收購整併風險』的論述一個現成的時機切入點。第二層是Simionato列出的投入方向中，『更強的MCP』與『升級Omni』恰好點名了Ragic的核心戰場（MCP整合與分發、AI agent部署模式），雖然目前僅是方向性宣示、沒有時程與細節，仍值得列入下期優先查證清單。\n\n其餘項目：Odoo 20原預期在9/24–26 Odoo Experience發表後2–4週內GA，但本期多方查證（含第三方部落格）仍未見官方release notes確認GA已發生，甚至有部落格文章稱Odoo 19仍為『目前最新版本』，判定Odoo 20 GA時程持續延後或尚未正式公告；monday.com Elevate '26（10/28–29紐約）尚未登場，暫無新產品訊號；Notion、Smartsheet、Kintone本期均查無符合收錄門檻的新動作，LLM平台項目三家本期亦無通過窄篩選量尺的動作。\n\n定位觀察部分，六家有homepage來源的競品本週經WebSearch交叉查證，標語與CTA均與既有基準一致，判定為unchanged；Notion首頁搜尋索引本期再次出現『Work faster with your AI team』、且同頁仍列『Custom Agents即將推出』字樣——與其2026年2月已正式發表Custom Agents的事實矛盾，延續前兩期判讀，視為搜尋引擎快取的舊版本，非本期實際變動。本期執行環境對所有測試網域（含對照組en.wikipedia.org）的WebFetch請求仍回傳DNS層級的環境性阻擋（getaddrinfo ENOTFOUND），與近期各期情況相同，判定為環境性中斷、非個別網站封鎖，本期全面改以WebSearch多來源交叉查證，Airtable裁員訊號已取得5組以上獨立媒體與官方來源交叉確認，查證嚴謹度高。"
+  },
+  "kpis": [
+    {
+      "label": "本周主軸",
+      "value": "Airtable收購後裁員整頓 4/5",
+      "note": "Airtable在Bending Spoons完成收購後首度進行大規模組織精簡與裁員，為本期唯一達收錄門檻的訊號；其餘六個追蹤項目（Notion、monday.com、Smartsheet、Kintone、Odoo、LLM平台）本週均查無新訊號。"
+    },
+    {
+      "label": "定價風向",
+      "value": "本週無明顯定價動向",
+      "note": "Airtable明確表示現有客戶方案、定價與服務內容不受此次組織調整影響；其餘六個追蹤項目本週均無定價相關動作或公告。"
+    },
+    {
+      "label": "最高優先訊號",
+      "value": "Airtable收購後大規模裁員，Bending Spoons公開未來投入方向聚焦Core、Omni、Canvas、MCP",
+      "note": "本期唯一收錄訊號，也是本次收購案簽約以來首次具體攤開『易主後會發生什麼』的事件，attention_index 4。"
+    },
+    {
+      "label": "Ragic 應對焦點",
+      "value": "借勢供應商穩定性論述 × 複查Hyperagent／MCP投入落地進度 × 緊盯Odoo 20 GA與monday Elevate'26(10/28–29)",
+      "note": "本期無新產品／定價訊號需即時應對，建議Marketing利用Airtable組織動盪時機強化『長期自主經營、無收購整併風險』論述；Product／R&D持續追蹤Simionato提到的MCP與Omni投入是否開始具體落地，以及Odoo 20正式GA、monday Elevate '26大會的後續動態。"
+    }
+  ],
+  "signals": [
+    {
+      "comp": "Airtable",
+      "date": "2026/10/12",
+      "signal": "10/12，Airtable新任產品負責人Alessandro Savarese於官方社群發布更新，宣布公司決定以更精簡的團隊營運，多名收購前既有員工本週內離職；同日Bending Spoons產品負責人Federico Simionato於X發文證實裁員，SF Chronicle、Newsweek等外媒形容規模達『多數員工』／『大部分團隊』，Channel Futures估計逾250人（官方未揭露確切數字，待確認）。Simionato同時公開未來投入方向：新設Core團隊每月出貨客戶高頻需求、升級Omni與Airtable Canvas、強化MCP、新設Performance與Infra團隊；公司並表示現有客戶的方案、定價與服務內容不受此次調整影響。此為Bending Spoons今年8月簽約、9月4日完成收購後首次大規模組織調整。",
+      "theme": "裁員整頓・供應商風險",
+      "read": "這是資本收購『先切割高成長資產（Hyperagent已於收購簽約前獨立出去）、再精簡壓縮剩餘核心資產成本』劇本的具體落地——Bending Spoons過去收購WeTransfer、Evernote等案例均以裁員精簡、後續調價見長，外界已開始以『vendor risk』框架解讀此次事件，顯示市場將易主整合期的組織動盪視為中小企業選型時需納入考量的風險因子，而非單純的內部人事新聞。Simionato列出的投入方向（Core、Omni、Canvas、MCP、Performance/Infra）顯示Bending Spoons仍打算把資源集中在核心資料庫與AI應用層、MCP分發，而非放棄AI敘事。",
+      "impact": "對Ragic有兩層具體動作建議：(1) Marketing／業務可利用此時機主動對Airtable既有客戶（尤其對供應鏈穩定性敏感的中小企業客群）傳達Ragic『長期自主經營、無收購整併風險』的穩定性論述，作為比較素材的切入點；(2) Product／R&D應將Simionato提到的『強化MCP』『升級Omni』列入下期優先查證清單——若後續具體落地且方向貼近『免部署、多人共用、內建護欄』，才會真正貼近Ragic核心戰場，目前僅屬方向性宣示、優先級暫不須拉高，但不宜忽略。",
+      "attention_index": 4
+    }
+  ],
+  "implications": [
+    {
+      "team": "Marketing / PR",
+      "items": [
+        "<b>借勢「所有權穩定」論述：</b>Airtable易主後大規模裁員、服務團隊精簡，InformationWeek已以「vendor risk」框定此事；建議業務與Marketing主動接觸對供應鏈穩定性敏感的潛在客戶，強調Ragic長期自主經營、無收購整併風險的穩定性，作為此時機點的差異化訴求。",
+        "<b>監測客戶流失訊號：</b>密切關注Airtable Community、Reddit等社群是否出現既有客戶因此次裁員與整頓而主動尋求替代方案的討論，作為業務開發切入時機的依據。"
+      ]
+    },
+    {
+      "team": "Product / R&D 提問",
+      "items": [
+        "<b>Hyperagent／Omni／MCP投入方向待確認：</b>Bending Spoons產品負責人公開列出「更強MCP、升級Omni與Canvas」等投入方向，但未提供時程；下期應優先查證這些投入是否開始有具體功能落地，尤其MCP強化是否進一步踩中Ragic的MCP整合與分發戰場。",
+        "<b>Odoo 20 GA狀態複查：</b>本期查證結果顯示Odoo官方仍未正式確認Odoo 20 GA（第三方部落格僅稱「預期10月」，甚至仍稱Odoo 19為最新版本），與上期判讀一致；下期需持續追蹤官方release notes。",
+        "<b>monday Elevate '26後續追蹤：</b>大會將於10/28–29於紐約登場，屆時是否發表新的agent建置或定價功能，須優先查證並評估對Ragic核心戰場的重疊度。"
+      ]
+    }
+  ],
+  "deepdives": [
+    {
+      "tag": "DEEP DIVE ▸ 01",
+      "title": "Airtable裁員事件：從『vendor risk』角度看，這對中小企業選型意味著什麼",
+      "body": "10/12的裁員公告是Airtable今年8月簽約、9月4日完成Bending Spoons收購後，第一次把『易主後會發生什麼』具體攤在陽光下。多家外媒（SF Chronicle、Newsweek、InformationWeek）不是把這則新聞當成單純人事新聞處理，而是直接框定為『供應商風險』——對中小企業客戶而言，核心業務系統供應商的所有權變動、團隊大規模精簡，本身就是選型時需要納入考量的風險因子，無論最終服務品質是否真的下滑。Bending Spoons本身的過去紀錄（WeTransfer、Evernote等收購案後續多伴隨裁員與調價）也讓這種擔憂有前例可循，即便Airtable公開承諾現有客戶方案與定價不受影響。這給了Ragic一個現成的行銷切入點：『長期自主經營、無收購整併風險』本身就是一種穩定性資產，在此時機主動對外溝通，成本低、時效性高。",
+      "watch": "後續觀察：Airtable Community、G2、Reddit等社群是否出現既有客戶因此次整頓而公開表達疑慮或尋求替代方案的討論；Bending Spoons後續1–2季是否對Airtable訂閱方案或AI功能額度做出調整，驗證『先精簡成本、後續再調價』的收購劇本是否成立。"
+      },
+    {
+      "tag": "DEEP DIVE ▸ 02",
+      "title": "裁員公告裡藏的產品路線圖：Core、Omni、Canvas、MCP、Performance/Infra",
+      "body": "Simionato在公告裁員的同一篇X發文中，也列出了Bending Spoons接下來打算投入的方向：新設Core團隊、每月出貨客戶高頻需求；升級Omni（AI app builder）與Airtable Canvas；強化MCP；新設Performance與Infra團隊。這份清單值得留意的是，它沒有放棄AI與MCP敘事——換言之，裁員精簡的是人力規模，不是AI/no-code路線本身。其中『強化MCP』與『升級Omni』兩項，分別對應到Ragic battlegrounds裡的『MCP整合與分發』與『AI agent部署模式』，若後續幾週內看到具體功能發布（而不只是方向性宣示），需要重新評估其對Ragic的威脅程度；但目前完全沒有時程與細節，暫不提高關注等級。",
+      "watch": "後續觀察：下期起優先查證airtable.com changelog與社群公告，確認Core團隊的『每月出貨』節奏是否開始出現具體項目，以及MCP與Omni升級的實際內容是否踩中『免部署、多人共用、內建護欄』等Ragic核心差異點。"
+    }
+  ],
+  "positioning_watch": [
+    {
+      "comp": "Airtable",
+      "status": "unchanged",
+      "headline": "Airtable is the system of record for your workflows, data, and agents",
+      "cta": "Start building for free",
+      "note": "本週無變動。WebFetch本次環境性中斷；搜尋結果未發現足以推翻既有基準標語的新證據，延續過去數期的審慎判定，維持unchanged。"
+    },
+    {
+      "comp": "Notion",
+      "status": "unchanged",
+      "headline": "The AI workspace that works for you.",
+      "cta": "Get Notion free / Request a demo",
+      "note": "本週無變動。WebFetch本次環境性中斷；搜尋結果再次出現『Work faster with your AI team』頁面，但同頁仍列『Custom Agents即將推出』字樣，與2026年2月已正式發表Custom Agents的事實矛盾，延續前兩期判讀，研判為搜尋引擎快取的舊版本，非本期實際變動，不計入。"
+    },
+    {
+      "comp": "monday.com",
+      "status": "unchanged",
+      "headline": "The AI Work Platform for People & Agents",
+      "cta": "Get Started / Contact sales",
+      "note": "本週無變動。WebFetch本次環境性中斷；搜尋結果確認「AI Work Platform」定位語彙（源自2026年5月官方重新定位）仍為現行品牌敘事，未見足以推翻基準標語的新證據。"
+    },
+    {
+      "comp": "Smartsheet",
+      "status": "unchanged",
+      "headline": "Intelligent Work Management with AI at its core",
+      "cta": "Watch a demo / Try Smartsheet for free",
+      "note": "本週無變動。WebFetch本次環境性中斷；搜尋結果確認「Intelligent Work Management」用語仍為smartsheet.com現行核心定位語彙，與基準一致。"
+    },
+    {
+      "comp": "Kintone",
+      "status": "unchanged",
+      "headline": "みんな、つくれる。",
+      "cta": "アプリ作成体験 / 30日間無料お試し / 導入相談",
+      "note": "本週無變動。WebFetch本次環境性中斷；本期搜尋未直接命中kintone.cybozu.co.jp首頁內容，但亦未發現任何足以推翻基準標語的新證據，維持unchanged，建議下期WebFetch恢復時優先複查。"
+    },
+    {
+      "comp": "Odoo",
+      "status": "unchanged",
+      "headline": "All your business on one platform.",
+      "cta": "Start now - It's free / Meet an advisor",
+      "note": "本週無變動。WebFetch本次環境性中斷；搜尋結果確認odoo.com仍沿用「All your business on one platform」標語，Odoo 20尚未正式GA，首頁主視覺文案尚未反映新版本內容。"
+    }
+  ],
+  "sources": [
+    {
+      "comp": "Airtable",
+      "title": "An update on Airtable's team and what we're building next",
+      "url": "https://community.airtable.com/announcements-6/an-update-on-airtable-s-team-and-what-we-re-building-next-48813",
+      "note": "Airtable官方社群公告原始來源，產品負責人Alessandro Savarese 10/12發布，說明裁員決定與2027產品方向"
+    },
+    {
+      "comp": "Airtable",
+      "title": "San Francisco's Airtable lays off most staff after $1.3B acquisition",
+      "url": "https://www.sfchronicle.com/tech/article/airtable-layoffs-bending-spoons-acquisition-22475599.php",
+      "note": "SF Chronicle報導，確認裁員規模達『多數員工』，交叉驗證裁員事件"
+    },
+    {
+      "comp": "Airtable",
+      "title": "Bending Spoons product lead sparks fury with X post on Airtable layoffs",
+      "url": "https://www.fastcompany.com/91622894/bending-spoons-product-lead-sparks-fury-with-x-post-on-airtable-layoffs",
+      "note": "Fast Company報導，提供Federico Simionato公告原文內容，含Core團隊、Omni、Canvas、MCP、Performance/Infra等投入方向細節"
+    },
+    {
+      "comp": "Airtable",
+      "title": "Airtable's post-acquisition layoffs put vendor risk in focus",
+      "url": "https://www.informationweek.com/it-strategy/airtable-s-post-acquisition-layoffs-put-vendor-risk-in-focus",
+      "note": "InformationWeek報導，以『vendor risk』角度框定此次裁員事件，支持本期impact／deep dive判讀"
+    },
+    {
+      "comp": "Airtable",
+      "title": "Airtable Layoffs Hit More than 250 Employees, Company to Operate More Cautiously",
+      "url": "https://channelfutures.com/business-models/airtable-layoffs-hit-more-than-250-employees-company-to-operate-more-cautiously",
+      "note": "Channel Futures報導，提供逾250人的規模估計（官方未證實，列為待確認數字）"
+    },
+    {
+      "comp": "Odoo",
+      "title": "Latest Odoo Version",
+      "url": "https://ecosire.com/blog/latest-odoo-version",
+      "note": "第三方部落格，本期查證Odoo 20 GA狀態時的參考來源，稱Odoo 19仍為目前最新版本、Odoo 20預期10月發布但尚未確認"
+    }
+  ]
+}
