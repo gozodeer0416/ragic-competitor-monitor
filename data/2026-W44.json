@@ -1,0 +1,150 @@
+{
+  "week": "2026-W44",
+  "range": "2026/10/20–2026/10/26",
+  "markets": "Global / TW",
+  "competitors": ["Airtable", "Notion", "monday.com", "Smartsheet", "Kintone", "Odoo", "LLM"],
+  "conclusion": {
+    "title": "本周市場結論：Airtable「Fall Release」正面命中Ragic兩大核心戰場，Omni 2.0從雜亂檔案直接生成資料庫結構",
+    "body": "本期（2026/10/20–2026/10/26）經WebSearch多輪交叉查證，唯一達收錄門檻的訊號來自Airtable：10/21於倫敦Airspace London發表「Fall Release」。這恰好是上期裁員公告中Bending Spoons產品負責人Federico Simionato所列投入方向（強化MCP、升級Omni）的具體落地，距上期裁員公告僅9天。其餘五個常規追蹤項目（Notion、monday.com、Smartsheet、Kintone、Odoo）與LLM平台窄篩選項目本期均查無新進展，延續近期多數項目的空窗格局。\n\nFall Release內容：(1) Omni 2.0已於全方案（含免費方案）正式開放——除既有的自然語言建表、自動化設定外，新增可一次上傳最多10個檔案（CSV、Excel、TSV、JSON、PDF、Word、PowerPoint、Google Docs/Slides、Markdown、圖片，單檔上限10MB），Omni會自行判讀資料結構並建立對應的表格與欄位，使用者不需手動設計schema；(2) Airtable Canvas（在即時資料上建立自訂App與儀表板）開放beta測試；(3) MCP全面升級，連接對象擴大到Claude、ChatGPT、Gemini、Cursor（Copilot、Muse預計後續支援），全方案可用，權限依角色區分（編輯者可管理MCP存取，唯讀/留言角色僅能讀取）；(4) 新增Agent稽核日誌，提供agent在base上活動的完整可視性；(5) Agent permissions（控制agent可讀寫範圍）與Bring-your-own-agent/key則列為「即將推出」，本期尚未正式上線。\n\n判讀：對照Ragic battlegrounds，此次發布同時命中兩個核心戰場。第一，Omni 2.0「上傳雜亂檔案→自動生成表格與欄位結構」正是方法論中優先級不低於AI agent操作類訊號的「AI建立系統／App」威脅——這是AI直接取代no-code手動建構資料庫結構的動作本身，而非僅操作既有資料的agent。第二，新增的Agent稽核日誌，以及即將上線的Agent permissions，是朝「治理／稽核機制」靠攏的訊號，貼近Ragic「內建護欄」差異點所強調的戰場；不過目前稽核日誌多數報導指向Enterprise方案為主，權限控制仍在「即將推出」階段，尚未全面到位。同時須留意：Omni仍以使用者主動呼叫的個人助理模式為主要互動方式（符合其現有使用權限），與Ragic「一人配置、全公司24/7共用同一Agent」的部署模式仍有本質差異，只是Omni建立的自動化一旦啟用即可持續運作，這條界線值得下期持續觀察是否進一步模糊化。整體而言，這是收購整頓後Airtable資源仍押注AI-native路線、而非收縮敘事的具體證據，關注指數應給到本期最高。\n\n其餘項目：Notion、Smartsheet、Kintone本期查無新訊號；monday.com Elevate '26將於10/28–29於紐約Javits Center登場（尚未開展，無新訊號可報，但預告每位參加者都會動手建置一個agent，並設立首個客戶獎項The Done Awards，值得下期優先查證是否有新產品或定價動作）；Odoo 20 GA狀態本期仍不明朗——多篇第三方部落格（如ecosire.com、silentinfotech.com）稱Odoo 20已於9月發布並列出AI agent可透過MCP建立/更新記錄等功能，但缺乏odoo.com官方release notes頁面內容佐證，且上期另一來源仍稱Odoo 19為最新版本，資訊彼此矛盾，暫不視為已查證的新進展，列入下期優先複查；LLM平台項目（Claude／ChatGPT／Gemini）三家本期均無通過窄篩選量尺的應用層動作。\n\n定位觀察部分，六家有homepage來源的競品本週經WebSearch交叉查證，標語與CTA均與既有基準一致，判定為unchanged。本期執行環境對外部網域（含對照組en.wikipedia.org）的WebFetch請求仍回傳DNS層級的環境性阻擋（getaddrinfo ENOTFOUND），與近期各期情況相同，判定為環境性中斷、非個別網站封鎖，本期全面改以WebSearch多來源交叉查證，Airtable Fall Release已取得官方社群公告、官方文章、官方活動頁面與第三方科技媒體等5組來源交叉確認，查證嚴謹度高。"
+  },
+  "kpis": [
+    {
+      "label": "本周主軸",
+      "value": "AI建庫＋Agent治理雙線強化 5/5",
+      "note": "Airtable Fall Release同時推進「AI直接生成資料庫結構」（Omni 2.0讀雜亂檔案建表）與「Agent治理／稽核」（新增稽核日誌、權限控制即將上線）兩條路線，為本期唯一達收錄門檻的訊號；其餘六個追蹤項目本週均查無新訊號。"
+    },
+    {
+      "label": "定價風向",
+      "value": "本週無明顯定價動向",
+      "note": "Fall Release未附帶新的定價方案異動，Omni 2.0維持既有方案即可使用；其餘六個追蹤項目本週均無定價相關動作或公告。"
+    },
+    {
+      "label": "最高優先訊號",
+      "value": "Airtable Fall Release：Omni 2.0雜亂檔案建表＋MCP／稽核日誌強化",
+      "note": "本期唯一收錄訊號，同時命中Ragic「AI建立系統／App」與「Agent部署治理」兩大核心戰場，attention_index 5。"
+    },
+    {
+      "label": "Ragic 應對焦點",
+      "value": "強化「建庫後仍需治理」論述 × 複查Omni 2.0實測效果與Agent Permissions上線進度 × 緊盯monday Elevate'26(10/28–29)與Odoo 20 GA狀態",
+      "note": "本期無定價訊號需即時應對，建議Marketing利用Omni 2.0上線時機強調Ragic原生治理與一人配置全公司共用的落差；Product／R&D持續追蹤Agent Permissions與BYO Agent何時正式上線、Omni 2.0實際建表品質，以及monday Elevate '26、Odoo 20 GA的後續動態。"
+    }
+  ],
+  "signals": [
+    {
+      "comp": "Airtable",
+      "date": "2026/10/21",
+      "signal": "10/21，Airtable於倫敦Airspace London活動發表「Fall Release」：Omni 2.0於全方案（含免費方案）正式開放，新增可一次上傳最多10個檔案（CSV、Excel、TSV、JSON、PDF、Word、PowerPoint、Google Docs/Slides、Markdown、圖片，單檔上限10MB），由Omni自動判讀資料結構並建立對應表格與欄位；Airtable Canvas（在即時資料上建立自訂App與儀表板）開放beta測試；MCP連接對象擴大到Claude、ChatGPT、Gemini、Cursor（Copilot、Muse預計後續支援），全方案可用並依角色分權；新增Agent稽核日誌，提供agent活動完整可視性；Agent permissions（控制agent可讀寫範圍）與Bring-your-own-agent/key則列為「即將推出」，本期尚未正式上線。此為Bending Spoons收購後，產品負責人Federico Simionato上期裁員公告中列出投入方向（強化MCP、升級Omni）的首次具體落地，距裁員公告僅9天。",
+      "theme": "AI建庫・治理強化",
+      "read": "這份發布顯示Bending Spoons收購整頓後並未收縮AI-native路線，而是加速推進——Omni 2.0讓Omni從單純「操作既有資料的agent」升級為「讀懂一堆雜亂檔案後自己生成資料庫結構」的建構者，直接命中Ragic方法論中優先級最高的「AI建立系統／App」戰場；同時新增稽核日誌、預告權限控制，顯示Airtable也在往「agent治理」方向補強，貼近Ragic「內建護欄」差異點所強調的戰場。但Omni目前仍以使用者主動呼叫的個人助理模式運作，尚未明確做到「一人設定、全公司24/7共用同一agent」，且權限控制仍在「即將推出」、稽核日誌多數報導指向Enterprise方案為主，與Ragic內建、不分方案的治理機制仍有落差，是可操作的論述切入點。",
+      "impact": "對Ragic有三層具體動作建議：(1) Product／R&D應實測Omni 2.0上傳雜亂檔案建表的實際品質（結構合理性、可編輯性、後續維運成本），評估這項能力對Ragic no-code建構流程的替代性威脅是否被誇大或確有可取之處；(2) 待Agent Permissions與BYO Agent正式上線後，應逐一核對是否已達到「免部署、多人共用、內建護欄」門檻，若達到則需重新拉高關注等級；(3) Marketing／業務可在Omni 2.0話題熱度期，主打Ragic「建庫同時原生內建治理，不需等待權限功能補上、不分方案都有稽核機制」的論述，作為與Airtable比較時的具體差異素材。",
+      "attention_index": 5
+    }
+  ],
+  "implications": [
+    {
+      "team": "Marketing / PR",
+      "items": [
+        "<b>搶占「建庫即治理」論述：</b>Airtable的Agent稽核日誌與權限控制仍分階段上線（稽核日誌先行、權限控制待補），且稽核功能多指向Enterprise方案；建議在Omni 2.0話題熱度期，主動傳達Ragic「不分方案、建庫當下即內建權限與稽核護欄」的一致性優勢，作為中小企業客群的具體比較素材。",
+        "<b>監測Omni 2.0實際使用評價：</b>密切關注Airtable Community、Reddit、G2等社群對Omni 2.0「上傳檔案自動建表」功能的真實使用回饋（準確度、後續手動修正成本），作為後續內容行銷或業務對話的素材來源。"
+      ]
+    },
+    {
+      "team": "Product / R&D 提問",
+      "items": [
+        "<b>Omni 2.0實測評估：</b>下期應實際測試或蒐集第三方對Omni 2.0讀取雜亂檔案後自動生成表格／欄位結構的品質評價，確認這項「AI建庫」能力對Ragic核心戰場的實質威脅程度，而非僅依發布稿面判讀。",
+        "<b>Agent Permissions／BYO Agent上線追蹤：</b>Fall Release中「即將推出」的Agent permissions與Bring-your-own-agent/key是本次發布最關鍵的治理缺口，下期應優先查證是否已正式上線，以及其治理範圍是否達到「免部署、多人共用、內建護欄」門檻。",
+        "<b>Odoo 20 GA狀態複查：</b>本期多篇第三方部落格稱Odoo 20已於9月發布，但缺乏官方release notes佐證且與另一來源矛盾，下期需直接查證odoo.com官方release notes頁面以確認真實GA狀態。"
+      ]
+    }
+  ],
+  "deepdives": [
+    {
+      "tag": "DEEP DIVE ▸ 01",
+      "title": "從「操作資料的agent」到「自己生成資料庫的agent」：Omni 2.0踩中Ragic最該在意的戰場",
+      "body": "Omni 2.0最值得留意的能力，不是又一個更聰明的聊天助理，而是「上傳一堆雜亂檔案（CSV、PDF、Word、截圖皆可），由AI自己判讀出資料結構、建立對應表格與欄位」——這正是Ragic方法論裡特別點名、優先級不低於AI agent操作類訊號的「AI建立系統／App」威脅：用AI直接取代手動設計資料庫結構這個動作本身，而不只是在既有資料庫裡跑workflow。目前這項功能剛全面開放（含免費方案），實際品質（結構是否合理、後續是否仍需大量人工修正）尚待市場回饋驗證，但方向已很清楚：Airtable正在把「建庫」這件事本身，從使用者的工作，轉移成AI的工作。",
+      "watch": "後續觀察：下期起追蹤社群與第三方評測對Omni 2.0建表品質的具體回饋（而非僅官方宣傳用語），評估這是否只是「堪用的草稿產生器」還是真正能取代手動建模的工具；同時留意Airtable是否進一步把這項能力延伸到更複雜的多表關聯與workflow自動生成。"
+    },
+    {
+      "tag": "DEEP DIVE ▸ 02",
+      "title": "稽核日誌先行、權限控制在後：Airtable補治理功能的順序，透露了什麼",
+      "body": "Fall Release把「Agent稽核日誌」做成立即可用的功能，卻把更關鍵的「Agent permissions（控制agent可讀寫範圍）」列為即將推出——換言之，Airtable先給了『看得到agent做了什麼』的能力，但『限制agent能做什麼』的能力還沒到位。這個順序本身是一個訊號：治理機制通常是『先補可視性（成本低、見效快），再補管控（設計複雜、影響面廣）』，顯示Airtable的agent治理仍在建設中，而非一次到位的完整方案。對Ragic而言，這正是「內建護欄」差異點可以主打的時間窗——Ragic的權限、workflow、可執行範圍治理機制從agent設定當下就是必要的一部分，不是事後逐步補齊的功能清單。",
+      "watch": "後續觀察：下期追蹤Agent permissions與Bring-your-own-agent/key是否正式上線，以及上線後的治理顆粒度（是否能做到欄位層級、是否分方案提供）；若全面到位且不限方案，則Ragic的治理差異化優勢會被明顯壓縮，需重新評估論述與產品優先級。"
+    }
+  ],
+  "positioning_watch": [
+    {
+      "comp": "Airtable",
+      "status": "unchanged",
+      "headline": "Airtable is the system of record for your workflows, data, and agents",
+      "cta": "Start building for free",
+      "note": "本週無變動。WebFetch本次環境性中斷；搜尋結果確認首頁仍沿用「system of record for your workflows, data, and agents」定位語彙，與Fall Release的agent導向敘事一致，維持unchanged。"
+    },
+    {
+      "comp": "Notion",
+      "status": "unchanged",
+      "headline": "The AI workspace that works for you.",
+      "cta": "Get Notion free / Request a demo",
+      "note": "本週無變動。WebFetch本次環境性中斷；搜尋結果未發現足以推翻既有基準標語的新證據，延續過去數期判定，維持unchanged。"
+    },
+    {
+      "comp": "monday.com",
+      "status": "unchanged",
+      "headline": "The AI Work Platform for People & Agents",
+      "cta": "Get Started / Contact sales",
+      "note": "本週無變動。WebFetch本次環境性中斷；搜尋結果確認「AI Work Platform」定位語彙仍為現行品牌敘事，Elevate '26（10/28–29）尚未開展，暫無首頁文案異動證據。"
+    },
+    {
+      "comp": "Smartsheet",
+      "status": "unchanged",
+      "headline": "Intelligent Work Management with AI at its core",
+      "cta": "Watch a demo / Try Smartsheet for free",
+      "note": "本週無變動。WebFetch本次環境性中斷；搜尋結果確認「Intelligent Work Management」用語仍為現行核心定位語彙，與基準一致。"
+    },
+    {
+      "comp": "Kintone",
+      "status": "unchanged",
+      "headline": "みんな、つくれる。",
+      "cta": "アプリ作成体験 / 30日間無料お試し / 導入相談",
+      "note": "本週無變動。WebFetch本次環境性中斷；本期搜尋未直接命中kintone.cybozu.co.jp首頁內容，但亦未發現任何足以推翻基準標語的新證據，維持unchanged，建議下期WebFetch恢復時優先複查。"
+    },
+    {
+      "comp": "Odoo",
+      "status": "unchanged",
+      "headline": "All your business on one platform.",
+      "cta": "Start now - It's free / Meet an advisor",
+      "note": "本週無變動。WebFetch本次環境性中斷；搜尋結果確認odoo.com仍沿用「All your business on one platform」標語，Odoo 20 GA狀態本期仍有矛盾說法，首頁主視覺文案是否已反映新版本內容無法確認。"
+    }
+  ],
+  "sources": [
+    {
+      "comp": "Airtable",
+      "title": "Fall Release: Omni 2.0, Airtable Canvas, a bigger MCP, Agent audit logs, and upcoming Agent permissions",
+      "url": "https://community.airtable.com/announcements-6/fall-release-omni-2-0-airtable-canvas-a-bigger-mcp-agent-audit-logs-and-upcoming-agent-permissions-48850",
+      "note": "Airtable官方社群公告，Fall Release完整功能清單原始來源"
+    },
+    {
+      "comp": "Airtable",
+      "title": "Airtable Fall 2026 Release: Omni 2.0, Canvas, Agent MCP, Permissions & Audit Logs",
+      "url": "https://www.airtable.com/articles/fall-release",
+      "note": "Airtable官方文章，確認各功能GA／coming soon狀態"
+    },
+    {
+      "comp": "Airtable",
+      "title": "New: A major upgrade to Omni",
+      "url": "https://community.airtable.com/announcements-6/new-a-major-upgrade-to-omni-48793",
+      "note": "官方社群公告，說明Omni 2.0可從上傳的雜亂檔案（CSV/Excel/PDF等）自動判讀結構並建立表格與欄位"
+    },
+    {
+      "comp": "Airtable",
+      "title": "Airspace London",
+      "url": "https://www.airtable.com/events-webinars/airspace-london",
+      "note": "官方活動頁面，確認Fall Release發表於10/21倫敦Airspace London活動"
+    },
+    {
+      "comp": "Airtable",
+      "title": "Airtable's Omni 2.0 now builds your base from messy files",
+      "url": "https://runitonai.com/newsletter/033-airtable-s-omni-2-0-now-builds-your-base-from-messy-files/",
+      "note": "第三方科技媒體報導，交叉驗證Omni 2.0 GA狀態與建表功能細節"
+    }
+  ]
+}
