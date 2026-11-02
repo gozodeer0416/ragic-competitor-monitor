@@ -1,0 +1,156 @@
+{
+  "week": "2026-W45",
+  "range": "2026/10/27–2026/11/02",
+  "markets": "Global / TW",
+  "competitors": ["Airtable", "Notion", "monday.com", "Smartsheet", "Kintone", "Odoo", "LLM"],
+  "conclusion": {
+    "title": "本周市場結論：monday.com以Elevate '26將AI敘事從「功能」轉向「服務與客戶證明」，其餘項目本期均查無新訊號",
+    "body": "本期（2026/10/27–2026/11/02）經WebSearch多輪交叉查證，唯一達收錄門檻的訊號來自monday.com：10/28–29於紐約Javits Center舉辦年度旗艦會議「Elevate '26」。會議本身雖於上期已預告，但本期才實際登場並產出具體內容，故列為本期新訊號。其餘五個常規追蹤項目（Airtable、Notion、Smartsheet、Kintone、Odoo）與LLM平台窄篩選項目本期均查無通過收錄門檻的新進展。\n\nmonday.com Elevate '26內容：(1) 推出「monday Frontier」——結合管理服務與「前線部署工程師（Forward Deployed Engineer）」的新服務線，協助中大型企業客戶規劃、部署並落地AI應用，顯示monday.com內部同步出現招募FDE的人力擴編（第三方觀察指出10月開出的職缺中約三分之一為此類角色）；(2) 首屆「The Done Awards」客戶獎項，於主舞台公布七個獎項類別得獎案例，其中保險業客戶Clearwater以monday Agents搭建的「20-agent Project Intelligence Network」奪獎，官方與客戶雙方說法稱其上線兩個月內已執行508個專案、逾3,071次agent動作，估計每年可節省逾萬工時（此數字未經第三方獨立稽核）；(3) 會中再度強調monday Vibe（自然語言生成App）延續既有「繼承企業現有權限與治理設定」的定位論述，但本期未見對Vibe本身的功能升級。\n\n判讀：這次發布的重心與上期Airtable Fall Release不同——不是「AI直接取代建構動作本身」的能力升級（AI建立系統/App戰場並無新進展，Vibe論述維持原狀），而是monday.com把「企業如何真正把AI落地」包裝成服務與客戶證明。其中最值得留意的訊號反而是monday Frontier背後透露的落差：monday.com需要靠外部派駐的工程師團隊，一對一協助客戶完成AI部署與導入，這與Ragic「零部署、一人設定、全公司24/7共用同一Agent」的核心差異點恰成對照——換言之，monday.com的AI能力愈強，愈需要額外的人力與服務成本才能落地，這正是Ragic可主打的具體反差論述素材。Done Awards的Clearwater案例則顯示monday Agents在大型企業多agent協同情境下已有實際運作案例，雖規模與數據來自官方與客戶自述、尚未獨立驗證，但作為市場敘事仍具參考價值，建議後續留意是否有更多獲獎案例細節公開。\n\n其餘項目：Airtable、Notion、Smartsheet本期查無新訊號（Airtable上期Fall Release後暫無後續進展，Notion、Smartsheet官方release notes頁本期均未更新）；Kintone本期僅有cybozu.dev公告11/8的定期維護將新增流程管理狀態說明欄位API與「kintone全體搜尋」API正式釋出（原API Lab測試功能），屬技術性小幅調整，未達收錄門檻；Odoo 20 GA狀態本期仍未能自官方頁面查證——多篇第三方部落格（含本期新出現的boyangcs.com）稱Odoo已於9/24在布魯塞爾發表Odoo 20，並同步導入新計價模式與「Light User」授權方案，但說法與上期另一批來源（稱9月發布、無確切日期）仍有出入，且全部缺乏odoo.com官方release notes頁面佐證，暫不視為已查證的新進展，持續列入下期優先複查；LLM平台項目（Claude／ChatGPT／Gemini）三家本期均無通過窄篩選量尺的應用層動作（本期查到的Anthropic IPO申請、OpenAI ChatGPT Business功能更新、Google Gemini Enterprise等多為10/8–10/26間的既有動態或非應用層/非no-code比較議題，不計入本期新訊號）。\n\n定位觀察部分，六家有homepage來源的競品本週經WebSearch交叉查證，標語與CTA均與既有基準一致，判定為unchanged；惟Notion部分第三方摘要出現「Your AI workspace with built-in agents」等與基準字句不完全一致的描述，但缺乏對當前首頁的直接截取佐證，暫維持unchanged，列入下期優先複查。本期執行環境對外部網域（含對照組en.wikipedia.org）的WebFetch請求仍回傳DNS層級的環境性阻擋（getaddrinfo ENOTFOUND），與近期各期情況相同，判定為環境性中斷、非個別網站封鎖，本期全面改以WebSearch多來源交叉查證，monday.com Elevate '26相關細節已取得官方新聞稿、官方活動頁面、社群公告與第三方科技媒體（UC Today）等4組以上來源交叉確認。"
+  },
+  "kpis": [
+    {
+      "label": "本周主軸",
+      "value": "AI導入服務化＋客戶實證造勢 3/5",
+      "note": "monday.com Elevate '26把敘事重心從「AI功能升級」轉向「企業怎麼把AI落地」——推出結合專業服務與前線部署工程師的monday Frontier，並以首屆Done Awards客戶案例（Clearwater 20-agent協同網絡）做實證造勢；其餘六個追蹤項目本週均查無新訊號。"
+    },
+    {
+      "label": "定價風向",
+      "value": "本週無明顯定價動向",
+      "note": "monday Frontier與Done Awards均未附帶定價資訊；其餘六個追蹤項目本週均無定價相關動作或公告。Odoo傳聞中的新計價模式與Light User授權方案因缺乏官方佐證，暫不計入本期定價動向。"
+    },
+    {
+      "label": "最高優先訊號",
+      "value": "monday.com Elevate '26：monday Frontier服務化＋Done Awards客戶實證＋Vibe論述延續",
+      "note": "本期唯一收錄訊號，雖非直接命中Ragic核心戰場的能力升級，但monday Frontier透露的「AI落地仍需外部工程師進駐」落差，是可操作的對照論述素材，attention_index 3。"
+    },
+    {
+      "label": "Ragic 應對焦點",
+      "value": "強化「零部署、免FDE進駐」對照論述 × 追蹤Done Awards更多獲獎案例是否公開細節 × 複查Odoo 20 GA與計價模式官方狀態",
+      "note": "本期無定價訊號需即時應對，建議Marketing利用monday Frontier話題，主打Ragic「不需派駐工程師、一人設定即可全公司共用」的落地效率差異；Product／R&D持續追蹤Done Awards後續案例公開程度與Odoo 20官方release notes何時上線。"
+    }
+  ],
+  "signals": [
+    {
+      "comp": "monday.com",
+      "date": "2026/10/28–10/29",
+      "signal": "10/28–29，monday.com於紐約Javits Center舉辦年度旗艦會議「Elevate '26」。會中發布：(1)「monday Frontier」——結合管理服務與前線部署工程師（Forward Deployed Engineer）的新服務線，協助中大型企業規劃、部署並落地AI應用，官方未公開定價；(2)首屆「The Done Awards」客戶獎項，於主舞台公布得獎案例，其中保險業客戶Clearwater以monday Agents搭建「20-agent Project Intelligence Network」獲獎，官方與客戶自述稱上線兩個月內執行508個專案、逾3,071次agent動作，估計每年節省逾萬工時（數字未經獨立稽核）；(3)重申monday Vibe自然語言生成App、延續既有App「繼承企業現有權限與治理設定」的定位論述，本期未見功能本身升級。第三方觀察並指出monday.com 10月開出的職缺中約三分之一為Forward Deployed Engineer，顯示內部正加大服務化人力投入。",
+      "theme": "服務化佈局・客戶造勢",
+      "read": "與上期Airtable Fall Release「AI直接生成資料庫結構」的能力升級型訊號不同，monday.com這次的重心是「企業如何真正把AI用起來」的服務與證明，Vibe論述本身並無新進展。最值得留意的是monday Frontier背後透露的反差：monday.com愈往企業級AI agent佈局前進，愈需要仰賴外部派駐工程師一對一協助客戶部署——這與Ragic「零部署、一人設定、全公司24/7共用同一Agent」的核心差異點恰成鏡像對照，顯示部署模式的落差仍是monday.com尚未解決的結構性限制，而非單純功能差距。Done Awards的Clearwater案例則證明monday Agents在大型企業多agent協同場景已有具體運作實例，是其agent平台化敘事的實證素材，但獎項細節與成效數字來自官方與客戶自述，解讀時需保留一定保留態度。",
+      "impact": "對Ragic有兩層具體動作建議：(1) Marketing／業務可直接利用monday Frontier需要專業服務團隊進駐才能落地AI的事實，主打Ragic「免安裝、免架設、一人設定全公司即可共用同一Agent」的部署效率差異，作為中小企業客群具體比較素材；(2) Product／R&D應持續追蹤Done Awards是否公開更多獲獎案例的具體agent設計與治理機制細節，評估monday Agents在多agent協同場景的實際成熟度，作為Ragic自身multi-agent／workflow協同功能規劃的參考對照。",
+      "attention_index": 3
+    }
+  ],
+  "implications": [
+    {
+      "team": "Marketing / PR",
+      "items": [
+        "<b>主打「零部署、免派駐」落地效率對照：</b>monday Frontier需要前線部署工程師進駐才能協助企業落地AI，這與Ragic免安裝、一人設定全公司共用的模式形成鮮明對照，建議製作具體比較素材（導入時程、所需人力）用於業務對話與內容行銷。",
+        "<b>監測Done Awards後續報導：</b>持續關注Clearwater等得獎案例是否有更詳細的技術揭露或第三方追蹤報導，評估是否需要針對性回應或借題延伸Ragic自身的多agent/workflow協同案例。"
+      ]
+    },
+    {
+      "team": "Product / R&D 提問",
+      "items": [
+        "<b>Odoo 20官方狀態複查：</b>本期第三方部落格再度稱Odoo 20於9/24布魯塞爾發表並導入新計價模式與Light User授權方案，但仍無odoo.com官方release notes佐證，且與上期來源說法有出入，下期應直接查證odoo.com官方頁面以確認真實GA狀態與計價細節。",
+        "<b>monday Agents多agent協同成熟度評估：</b>Clearwater案例若有更多技術細節公開，應評估monday Agents在企業級多agent協同、治理與稽核機制上的實際成熟度，作為Ragic規劃自身對應能力時的參考基準。",
+        "<b>持續追蹤Airtable Agent Permissions上線進度：</b>上期Fall Release中列為「即將推出」的Agent permissions與Bring-your-own-agent/key本期仍未見正式上線訊息，下期應持續查證。"
+      ]
+    }
+  ],
+  "deepdives": [
+    {
+      "tag": "DEEP DIVE ▸ 01",
+      "title": "monday Frontier透露的訊號：AI agent平台化走得越遠，越離不開人力服務",
+      "body": "monday.com推出的「monday Frontier」，本質上是把專業服務（管理服務＋前線部署工程師）正式產品化，專門協助中大型企業規劃、部署並落地AI應用。第三方觀察指出，monday.com近期開出的職缺中約三分之一是Forward Deployed Engineer，顯示這不是一次性的行銷包裝，而是組織資源正在系統性地往「陪企業客戶一對一導入AI」傾斜。這個現象本身就是一個值得留意的訊號：當AI agent的能力與承諾越宏大，企業端真正要用起來，所需的部署、客製與維運成本反而越高，必須靠外部工程團隊補位。這恰好是Ragic「零部署、免安裝、一人設定全公司24/7共用同一Agent」差異化定位最具體的對照案例——monday.com的AI越強，越需要服務團隊進場；Ragic的設計目標則是讓非工程師也能在瀏覽器內獨立完成設定。",
+      "watch": "後續觀察：monday Frontier是否公開具體服務範疇、定價模式與典型導入週期；若monday.com能把這套服務標準化到低於目前客製化專業服務的門檻，部署落差可能會隨時間縮小，需重新評估論述力道。"
+    },
+    {
+      "tag": "DEEP DIVE ▸ 02",
+      "title": "Done Awards：客戶案例造勢背後，agent平台化敘事缺的是什麼",
+      "body": "monday.com首屆「The Done Awards」以Clearwater的「20-agent Project Intelligence Network」作為代表性得獎案例，官方與客戶自述稱其在兩個月內執行508個專案、逾3,071次agent動作，年節省逾萬工時。這類案例的作用是把「agent平台化」從產品宣傳語轉化為具體可引用的客戶實證，對monday.com的AI敘事有正面強化效果。但目前公開資訊停留在成效數字層面，缺少對這20個agent如何被設定、權限如何劃分、是否有稽核與護欄機制等治理細節的揭露——這正是Ragic「內建護欄」差異點可以持續主打的空間：不只是agent數量多寡或自述成效，而是治理機制是否從設定當下就內建、是否不需額外工程投入。",
+      "watch": "後續觀察：monday.com官方或第三方媒體是否就Clearwater案例公開更完整的技術細節（agent間如何協同、權限與稽核機制設計）；同時留意其他六個Done Awards類別得獎案例是否有進一步報導，評估monday Agents企業級協同場景的普遍成熟度。"
+    }
+  ],
+  "positioning_watch": [
+    {
+      "comp": "Airtable",
+      "status": "unchanged",
+      "headline": "Airtable is the system of record for your workflows, data, and agents",
+      "cta": "Start building for free",
+      "note": "本週無變動。WebFetch本次環境性中斷；搜尋結果未發現足以推翻既有基準標語的新證據，維持unchanged。"
+    },
+    {
+      "comp": "Notion",
+      "status": "unchanged",
+      "headline": "The AI workspace that works for you.",
+      "cta": "Get Notion free / Request a demo",
+      "note": "本週無變動。WebFetch本次環境性中斷；搜尋結果出現「Your AI workspace with built-in agents」等與基準字句不完全一致的第三方摘要，但缺乏對當前首頁的直接截取佐證，暫維持unchanged，列入下期優先複查確認是否已改版。"
+    },
+    {
+      "comp": "monday.com",
+      "status": "unchanged",
+      "headline": "The AI Work Platform for People & Agents",
+      "cta": "Get Started / Contact sales",
+      "note": "本週無變動。WebFetch本次環境性中斷；搜尋結果確認「AI Work Platform」定位語彙仍為現行品牌敘事，與本期Elevate '26敘事一致，官方亦預告2027年上半年將進行品牌重塑（新logo），但本期首頁文案尚未反映此變動。"
+    },
+    {
+      "comp": "Smartsheet",
+      "status": "unchanged",
+      "headline": "Intelligent Work Management with AI at its core",
+      "cta": "Watch a demo / Try Smartsheet for free",
+      "note": "本週無變動。WebFetch本次環境性中斷；搜尋結果確認「Intelligent Work Management」用語仍為現行核心定位語彙，與基準一致。"
+    },
+    {
+      "comp": "Kintone",
+      "status": "unchanged",
+      "headline": "みんな、つくれる。",
+      "cta": "アプリ作成体験 / 30日間無料お試し / 導入相談",
+      "note": "本週無變動。WebFetch本次環境性中斷；本期搜尋未直接命中kintone.cybozu.co.jp首頁內容，但亦未發現任何足以推翻基準標語的新證據，維持unchanged，建議下期WebFetch恢復時優先複查。"
+    },
+    {
+      "comp": "Odoo",
+      "status": "unchanged",
+      "headline": "All your business on one platform.",
+      "cta": "Start now - It's free / Meet an advisor",
+      "note": "本週無變動。WebFetch本次環境性中斷；搜尋結果確認odoo.com仍沿用「All your business on one platform」標語，Odoo 20 GA狀態與計價模式本期仍有第三方說法出入，首頁主視覺文案是否已反映新版本內容無法確認。"
+    }
+  ],
+  "sources": [
+    {
+      "comp": "monday.com",
+      "title": "monday.com Elevate '26 Puts AI Agents to Work: Every Attendee Gets to Build an Agent",
+      "url": "https://ir.monday.com/news-and-events/news-releases/news-details/2026/monday-com-Elevate-26-Puts-AI-Agents-to-Work-Every-Attendee-Gets-to-Build-an-Agent/default.aspx",
+      "note": "monday.com官方投資人新聞稿，確認Elevate '26於10/28–29在紐約Javits Center舉行，每位參加者皆可動手建置agent"
+    },
+    {
+      "comp": "monday.com",
+      "title": "Introducing The Done Awards: Recognizing those who built something exceptional",
+      "url": "https://monday.com/elevate/introducing-the-done-awards/",
+      "note": "monday.com官方Elevate活動頁面，說明Done Awards獎項設計、七個類別與評審標準"
+    },
+    {
+      "comp": "monday.com",
+      "title": "Work Management News: October's AI Giants Have to Show Their Work",
+      "url": "https://uctoday.com/work-management-news-octobers-ai-giants-have-to-show-their-work",
+      "note": "UC Today報導，確認Clearwater以20-agent Project Intelligence Network獲Done Awards，並提供508個專案、逾3,071次agent動作等成效數字"
+    },
+    {
+      "comp": "monday.com",
+      "title": "monday Frontier",
+      "url": "https://monday.com/monday-frontier",
+      "note": "monday.com官方Frontier服務頁面，說明結合前線部署工程師與專業服務團隊協助企業落地AI的定位"
+    },
+    {
+      "comp": "monday.com",
+      "title": "The last mile: Inside monday.com's shift to embedded AI engineering",
+      "url": "https://blogs.timesofisrael.com/the-last-mile-inside-monday-coms-shift-to-embedded-ai-engineering/",
+      "note": "第三方分析部落格，交叉驗證monday.com近期Forward Deployed Engineer職缺擴編比例與組織資源轉向"
+    },
+    {
+      "comp": "monday.com",
+      "title": "Enterprise vibe coding",
+      "url": "https://monday.com/blog/vibe-coding/enterprise-vibe-coding/",
+      "note": "monday.com官方部落格，說明monday Vibe生成的App如何繼承企業現有權限與治理控制"
+    }
+  ]
+}
