@@ -1,0 +1,146 @@
+{
+  "week": "2026-W46",
+  "range": "2026/11/03–2026/11/09",
+  "markets": "Global / TW",
+  "competitors": ["Airtable", "Notion", "monday.com", "Smartsheet", "Kintone", "Odoo", "LLM"],
+  "conclusion": {
+    "title": "本周市場結論：七個追蹤項目本期均查無通過收錄門檻的新訊號，是近期最平靜的一期",
+    "body": "本期（2026/11/03–2026/11/09）執行環境對外部網域的WebFetch請求仍全面回傳DNS層級的環境性阻擋（含對照組en.wikipedia.org），與近幾期情況相同，判定為環境性中斷、非個別網站封鎖。本期全面改以WebSearch多輪交叉查證，每則候選訊號均嘗試以至少兩個獨立來源核對日期與內容後才決定採用或排除；逐一查核七個追蹤項目後，本期沒有任何一則新進展達到收錄門檻，是近期最平靜的一期。\n\n各項目查核結果：\n\n- <b>Airtable</b>：上期（W44）已報導的Fall Release（Omni 2.0全方案開放、Airtable Canvas beta、MCP擴大）本期查無後續升級；Airtable支援頁顯示Canvas狀態仍停留在「全付費方案開放beta」，11/6社群回覆僅提及既有限制（尚不能把canvas加進interface），屬已知狀態延續，非新訊號。Bending Spoons收購案已於9/4完成交割，為舊聞。本期查無「the airtable effect」11月號ICYMI彙整，官方newsroom與社群本期亦無新公告。\n- <b>Notion</b>：notion.com/releases本期查無新條目，搜尋結果最新的確認訊息仍停留在今年較早期（Developer Platform、Custom Agents等），均為已報導過的舊進展。有第三方摘要再度出現「Your AI workspace with built-in agents」字句，與上期相同狀況一樣缺乏對官方首頁的直接佐證，持續列入下期優先複查。\n- <b>monday.com</b>：第三季財報電話會議排定於本期執行時間之後（11/9美東8:30am，台北時間約晚間），本期查無財報內容可用於判讀，故不收錄任何財務數字；官方「What's new」與開發者changelog本期查無新功能條目，上期已報導的Elevate '26（monday Frontier／Done Awards）本期無後續細節公開。\n- <b>Smartsheet</b>：官方release notes最新條目仍為10/1的Microsoft Copilot Cowork整合（已超出本期lookback範圍），社群product announcements分類本期查無新貼文。\n- <b>Kintone</b>：cybozu.dev於11/8的例行維護（流程管理狀態說明欄位API、「kintone全體搜尋」API正式釋出）已於上期（W45）報導為未達門檻的技術性小幅調整，本期查無進一步新內容，故不重複收錄。blog.kintone.com月次アップデート本期尚無11月號。\n- <b>Odoo</b>：Odoo 20於9/24布魯塞爾Odoo Experience發表、新計價模式與Light User授權方案等資訊，本期仍只能找到第三方部落格佐證，odoo.com官方release notes頁本期搜尋仍未能直接命中，GA狀態與計價細節持續無法以官方頁面查證，與前幾期狀況相同，持續列入下期優先複查。\n- <b>LLM平台（Claude／ChatGPT／Gemini）</b>：本期查到的動態（ChatGPT Excel／Google Sheets外掛擴大開放、Notion agents建置資料庫的第三方轉述等）均為一般功能擴散或缺乏官方佐證的二次轉述，市場論述上也未見把這些動作明確拿來跟no-code平台或傳統ERP比較視為取代威脅，故依窄篩選量尺本期三家均不收錄，屬正常情況。\n\n判讀：本期的平靜與10月下旬monday Elevate '26、Airtable Fall Release等密集發布潮形成對照，顯示主要競品在10月密集造勢後進入消化期，近兩期（W45、W46）合計僅一則訊號達標。對Ragic而言，這是一個適合盤點、而非追熱點的窗口——建議把資源放在複查累積的待確認事項（Odoo 20官方GA狀態、Notion首頁文案爭議、monday Q3財報中AI ARR占比等後續公開數字），而非為了湊訊號數量而收錄未達門檻的小幅更新。\n\n定位觀察部分，六家有homepage來源的競品本週經WebSearch交叉查證，標語與CTA均與既有基準一致，判定為unchanged；Notion部分因第三方摘要用語與基準不完全一致但缺乏官方首頁直接佐證，與上期相同，持續列入下期優先複查。"
+  },
+  "kpis": [
+    {
+      "label": "本周主軸",
+      "value": "訊號真空・七項皆無新進展",
+      "note": "七個追蹤項目（Airtable、Notion、monday.com、Smartsheet、Kintone、Odoo、LLM平台窄篩選項目）本期經WebSearch多輪交叉查證均查無通過收錄門檻的新進展，是近期最平靜的一期，與10月下旬的密集發布潮（monday Elevate '26、Airtable Fall Release）形成對照。"
+    },
+    {
+      "label": "定價風向",
+      "value": "本週無明顯定價動向",
+      "note": "七個追蹤項目本週均無新定價相關動作或公告；Odoo 20傳聞中的新計價模式與Light User授權方案因缺乏官方odoo.com頁面佐證，持續不計入本期定價動向，列入下期優先複查。"
+    },
+    {
+      "label": "最高優先訊號",
+      "value": "本週無收錄訊號",
+      "note": "本期沒有任何訊號達到收錄門檻，故無attention_index可排序。下期優先複查項目：Odoo 20官方GA狀態與計價細節、Notion首頁文案爭議、monday.com Q3 2026財報中AI ARR占比與Elevate後續案例公開情況。"
+    },
+    {
+      "label": "Ragic 應對焦點",
+      "value": "盤點累積待確認事項 × 暫緩熱點追逐",
+      "note": "本期無新訊號需即時應對，建議Product／R&D把本週資源用於複查已累積多期的待確認事項（Odoo 20官方頁面、Notion首頁文案），Marketing／PR則可利用市場相對平靜的窗口，整理10月monday Elevate '26與Airtable Fall Release累積的對照論述素材，準備下一輪競品動作出現時能快速應對。"
+    }
+  ],
+  "signals": [],
+  "implications": [
+    {
+      "team": "Marketing / PR",
+      "items": [
+        "<b>整理累積對照論述素材：</b>本期無新熱點，建議利用空檔整理monday Frontier（服務化落地）與Airtable Fall Release（Omni 2.0／Canvas）累積的對照論述草稿，聚焦Ragic零部署、一人設定全公司共用的差異化訊息，為下一輪競品動作預先備好素材。",
+        "<b>持續監測Done Awards後續報導：</b>上期monday.com Done Awards得獎案例（Clearwater 20-agent網絡）本期無新細節公開，建議持續留意是否有第三方媒體或得獎企業公開更多技術與治理細節。"
+      ]
+    },
+    {
+      "team": "Product / R&D 提問",
+      "items": [
+        "<b>Odoo 20官方狀態複查（累積多期待確認）：</b>Odoo 20的GA狀態、計價模式調整與Light User授權方案，連續多期僅能取得第三方部落格佐證，odoo.com官方release notes與pricing頁面本期搜尋仍未直接命中，下期應優先確認。",
+        "<b>Notion首頁文案爭議複查：</b>第三方摘要連續兩期出現與既有基準不符的「Your AI workspace with built-in agents」字句，但缺乏官方首頁直接佐證，下期應優先確認是否已正式改版。",
+        "<b>monday.com Q3 2026財報後續追蹤：</b>本期財報電話會議排定於執行時間之後，下期應補充財報中AI ARR占比、客戶數等數字，評估monday.com AI變現進度是否加速。"
+      ]
+    }
+  ],
+  "deepdives": [
+    {
+      "tag": "DEEP DIVE ▸ 01",
+      "title": "10月發布潮後的消化期：為什麼本期七項追蹤全數查無新訊號",
+      "body": "本期是近期罕見的「全面平靜」週——不只monday.com、Airtable等核心競品本週沒有新動作，連LLM平台窄篩選項目、Kintone與Smartsheet的常態性小幅更新都查無新內容。對照10月下旬的密集發布：Airtable於10/21 Airspace London發表Fall Release、monday.com於10/28–29 Elevate '26登場、Odoo於9/24 Odoo Experience發表Odoo 20——這些活動在短短一個月內集中釋出大量訊息，隨後進入預期中的消化期：產品團隊處理beta回饋、市場端消化訊息，官方管道（release notes、changelog、社群公告）進入相對沉寂的空窗。這類「活動後空窗」模式值得建立成觀測基準，未來可用於預判訊號密度的週期性起伏，避免在空窗期為了湊訊號數量而收錄未達門檻的瑣碎更新。",
+      "watch": "後續觀察：下一輪訊號高峰可能落在年末／年初的新一波公告（多家競品過去習慣在Q4末或新年初發布年度回顧與下一年度roadmap），建議持續監測Airtable「roadmap 2026」頁面動態與monday.com Q3財報後的下一步AI產品線規劃。"
+    },
+    {
+      "tag": "DEEP DIVE ▸ 02",
+      "title": "Odoo 20 GA狀態連續多期無法以官方頁面查證，本身就是一個值得留意的現象",
+      "body": "Odoo 20自9月下旬傳出於Odoo Experience Brussels發表以來，已連續多期（本期為第三期）無法透過odoo.com官方release notes或pricing頁面直接查證GA狀態、新計價模式（Custom plan調漲、Light User授權方案）等關鍵細節，所有資訊來源始終停留在第三方部落格的二次轉述，且部分細節（Light User確切單價、Custom plan調幅）在不同第三方來源間互有出入。這種「官方沉默、第三方熱議」的落差本身提供了一個判讀視角：可能代表Odoo官方release notes頁面的改版或發布節奏，與市場對新版本的關注熱度之間存在時間差，也可能反映Odoo刻意放緩官方公告以觀察市場反應。無論原因為何，在官方頁面查證之前，任何關於Odoo 20計價模式的對外論述都應保留「待確認」標示。",
+      "watch": "後續觀察：持續嘗試直接查證odoo.com/odoo-20-release-notes與pricing頁面內容；若官方頁面持續未更新超過一定週期，可考慮在下期報告中將此列為獨立的「資料缺口」項目持續追蹤，而非每期重複以相同未確認狀態帶過。"
+    }
+  ],
+  "positioning_watch": [
+    {
+      "comp": "Airtable",
+      "status": "unchanged",
+      "headline": "Airtable is the system of record for your workflows, data, and agents",
+      "cta": "Start building for free",
+      "note": "本週無變動。WebFetch本次環境性中斷；搜尋結果未發現足以推翻既有基準標語的新證據，維持unchanged。"
+    },
+    {
+      "comp": "Notion",
+      "status": "unchanged",
+      "headline": "The AI workspace that works for you.",
+      "cta": "Get Notion free / Request a demo",
+      "note": "本週無變動。WebFetch本次環境性中斷；第三方摘要再度出現「Your AI workspace with built-in agents」等與基準字句不完全一致的描述（與上期相同狀況），但仍缺乏對當前首頁的直接截取佐證，暫維持unchanged，連續第二期列入下期優先複查。"
+    },
+    {
+      "comp": "monday.com",
+      "status": "unchanged",
+      "headline": "The AI Work Platform for People & Agents",
+      "cta": "Get Started / Contact sales",
+      "note": "本週無變動。WebFetch本次環境性中斷；搜尋結果確認「AI Work Platform」定位語彙仍為現行品牌敘事，與本期查無新公告的狀況一致。"
+    },
+    {
+      "comp": "Smartsheet",
+      "status": "unchanged",
+      "headline": "Intelligent Work Management with AI at its core",
+      "cta": "Watch a demo / Try Smartsheet for free",
+      "note": "本週無變動。WebFetch本次環境性中斷；搜尋結果確認「Intelligent Work Management」用語仍為現行核心定位語彙，與基準一致。"
+    },
+    {
+      "comp": "Kintone",
+      "status": "unchanged",
+      "headline": "みんな、つくれる。",
+      "cta": "アプリ作成体験 / 30日間無料お試し / 導入相談",
+      "note": "本週無變動。WebFetch本次環境性中斷；本期搜尋未直接命中kintone.cybozu.co.jp首頁內容，但亦未發現任何足以推翻基準標語的新證據，維持unchanged，建議下期WebFetch恢復時優先複查。"
+    },
+    {
+      "comp": "Odoo",
+      "status": "unchanged",
+      "headline": "All your business on one platform.",
+      "cta": "Start now - It's free / Meet an advisor",
+      "note": "本週無變動。WebFetch本次環境性中斷；搜尋結果確認odoo.com仍沿用「All your business on one platform」標語與「Simple, efficient, yet affordable!」副標，Odoo 20 GA狀態與計價模式仍未能以官方頁面查證，首頁主視覺文案是否已反映新版本內容無法確認。"
+    }
+  ],
+  "sources": [
+    {
+      "comp": "Airtable",
+      "title": "Airtable Canvas overview",
+      "url": "https://support.airtable.com/articles/2050824898-airtable-canvas-overview",
+      "note": "確認Airtable Canvas截至10/27仍為全付費方案開放beta狀態，與上期（W44）報導的Fall Release狀態一致，本期無進一步變化"
+    },
+    {
+      "comp": "Airtable",
+      "title": "Bending Spoons completes the acquisition of Airtable",
+      "url": "https://www.01net.it/bending-spoons-completes-the-acquisition-of-airtable/",
+      "note": "確認Bending Spoons收購Airtable已於9/4完成交割，為舊聞，本期無新進展"
+    },
+    {
+      "comp": "monday.com",
+      "title": "monday.com to Announce Third Quarter 2026 Financial Results on Monday, November 9, 2026",
+      "url": "https://ir.monday.com/news-and-events/news-releases/news-details/2026/monday-com-to-Announce-Third-Quarter-2026-Financial-Results-on-Monday-November-9-2026/default.aspx",
+      "note": "確認monday.com第三季財報電話會議排定於本期執行時間之後，本期無法取得財報內容"
+    },
+    {
+      "comp": "Smartsheet",
+      "title": "Smartsheet Release Notes",
+      "url": "https://www.smartsheet.com/content-center/product-news/release-notes/smartsheet-default",
+      "note": "確認最新release notes條目仍為10/1 Microsoft Copilot Cowork整合，本期查無11月新條目"
+    },
+    {
+      "comp": "Kintone",
+      "title": "2026年11月8日 kintone API アップデート情報",
+      "url": "https://cybozu.dev/ja/kintone/news/api-updates/2026-11/",
+      "note": "確認11/8例行維護內容與上期（W45）報導的內容一致，本期無新增項目"
+    },
+    {
+      "comp": "Odoo",
+      "title": "Odoo 20: Expected Features, Release Date, and What Businesses Can Anticipate in 2026",
+      "url": "https://www.ksolves.com/blog/odoo/odoo-20-expected-features-release-insights",
+      "note": "第三方部落格對Odoo 20 GA狀態與計價模式的轉述，官方odoo.com頁面本期仍未能直接查證"
+    }
+  ]
+}
